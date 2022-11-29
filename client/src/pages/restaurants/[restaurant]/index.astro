@@ -1,0 +1,216 @@
+---
+import places from "../../../../data/places.json";
+import type { ObjectInterface } from "../../../helpers/commonInterfaces";
+import { getItemFiles } from "../../../helpers/commonUtils";
+import Layout from "../../../layouts/Layout.astro";
+import { Icon } from "astro-icon";
+
+export function getStaticPaths() {
+  return getItemFiles(places.data).map((place) => {
+    return {
+      params: { restaurant: place.slug },
+      props: { place },
+    };
+  });
+}
+interface Props {
+  place: ObjectInterface;
+}
+
+const { place } = Astro.props as Props;
+---
+
+<Layout>
+  <div class="flex mx-auto container">
+    <!-- Left Side (Showcase) -->
+    <div class="w-3/4">
+      <!-- Restaurant Picture -->
+      <section class="bg-yellow-50 py-32 relative">
+        <div class="absolute inset-0">
+          <img
+            class="h-full w-full object-cover"
+            src={place.files[0]?.url ?? "/"}
+            alt={place.name}
+          />
+        </div>
+      </section>
+
+      <!-- List of Foods -->
+      <section>
+        <!-- Item -->
+        <div class="space-y-16 pt-10 lg:pt-16">
+          <div class="flex lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="lg:col-span-3">
+              <div
+                class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
+              >
+                <img
+                  src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
+                  alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
+                  class="object-cover object-center"
+                />
+              </div>
+            </div>
+            <div class="mt-6 lg:col-span-3 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="lg:col-span-3">
+              <div
+                class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
+              >
+                <img
+                  src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
+                  alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
+                  class="object-cover object-center"
+                />
+              </div>
+            </div>
+            <div class="mt-6 lg:col-span-3 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="space-y-16 pt-10 lg:pt-16">
+          <div class="flex lg:grid lg:grid-cols-12 lg:gap-x-8">
+            <div class="lg:col-span-3">
+              <div
+                class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
+              >
+                <img
+                  src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
+                  alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
+                  class="object-cover object-center"
+                />
+              </div>
+            </div>
+            <div class="mt-6 lg:col-span-3 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+            <div class="lg:col-span-3">
+              <div
+                class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
+              >
+                <img
+                  src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
+                  alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
+                  class="object-cover object-center"
+                />
+              </div>
+            </div>
+            <div class="mt-6 lg:col-span-3 lg:mt-0">
+              <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
+              <p class="mt-2 text-sm text-gray-500">
+                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <!-- More Dishes -->
+        <div class="pt-10">
+          <h3 class="text-3xl">More Dishes</h3>
+          <!-- List of Dishes -->
+          <div class="grid grid-cols-4 p-4 gap-8">
+            <!-- Item -->
+            <div class="rounded-xl">
+              <img src="/" alt="photo" class="h-32 border" />
+              <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
+                Name of the Dish
+              </h4>
+            </div>
+            <div class="rounded-xl">
+              <img src="/" alt="photo" class="h-32 border" />
+              <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
+                Name of the Dish
+              </h4>
+            </div>
+            <div class="rounded-xl">
+              <img src="/" alt="photo" class="h-32 border" />
+              <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
+                Name of the Dish
+              </h4>
+            </div>
+            <div class="rounded-xl">
+              <img src="/" alt="photo" class="h-32 border" />
+              <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
+                Name of the Dish
+              </h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right Side (Details) -->
+    <div class="w-1/4 p-4">
+      <h3 class="text-3xl uppercase">{place.name}</h3>
+      <p class="mt-2 leading-tight tracking-tight text-sm text-neutral-600">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est
+        modi, cumque praesentium amet obcaecati esse dignissimos tempore
+        voluptas suscipit quia doloribus quae porro dicta in consectetur
+        quisquam itaque autem.
+      </p>
+      <div class="pt-2">
+        <h4 class="inline">Tags</h4>
+        <Icon name="ic:round-tag" />
+        <p
+          class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 capitalize"
+        >
+          {place.tags.join(", ")}
+        </p>
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Contacts</h4>
+        <Icon name="mdi:telephone" />
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          {place.phone.length ? place.phone : "Not Available"}
+        </p>
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Location</h4>
+        <Icon name="ic:baseline-mode-of-travel" />
+        {
+          place.address.length ? (
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURI(
+                place.address
+              )}`}
+              target="_blank"
+              class="block underline text-blue-400 ml-3 leading-tight tracking-tight text-sm"
+            >
+              {place.address.length ? place.address : "Not Available"}
+            </a>
+          ) : (
+            <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+              {place.address.length ? place.address : "Not Available"}
+            </p>
+          )
+        }
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Comments</h4>
+        <Icon name="ic:baseline-comment" />
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  [astro-icon] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+</style>

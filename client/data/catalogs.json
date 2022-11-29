@@ -1,0 +1,40 @@
+{
+  "data": [
+    {
+      "name": "restaurants",
+      "details": "Details Details Details Details Details",
+      "slug": "restaurants",
+      "icon": "ic:baseline-restaurant"
+    },
+    {
+      "name": "Tourist Spot",
+      "details": "Tourism Spot in davao are so nice!",
+      "slug": "tourist-spot",
+      "icon": "ic:baseline-mode-of-travel"
+    },
+    {
+      "name": "Hotels",
+      "details": "Details Details Details Details Details",
+      "slug": "hotels",
+      "icon": "ic:baseline-hotel"
+    },
+    {
+      "name": "Shopping",
+      "details": "Details Details Details Details Details",
+      "slug": "shopping",
+      "icon": "ic:baseline-shopping-basket"
+    },
+    {
+      "name": "Entertainment",
+      "details": "Details Details Details Details Details",
+      "slug": "entertainment",
+      "icon": "ic:baseline-wine-bar"
+    },
+    {
+      "name": "Rent",
+      "details": "Details Details Details Details Details",
+      "slug": "rent",
+      "icon": "ic:baseline-bedroom-parent"
+    }
+  ]
+}

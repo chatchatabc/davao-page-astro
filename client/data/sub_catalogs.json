@@ -1,0 +1,44 @@
+{
+  "data": [
+    {
+      "name": "Chinese Foods",
+      "slug": "chinese-foods",
+      "catalog": "restaurants"
+    },
+    {
+      "name": "Seafoods",
+      "slug": "seafoods",
+      "catalog": "restaurants"
+    },
+    {
+      "name": "Western Foods",
+      "slug": "western-foods",
+      "catalog": "restaurants"
+    },
+    {
+      "name": "Local Foods",
+      "slug": "local-foods",
+      "catalog": "restaurants"
+    },
+    {
+      "name": "Bar",
+      "slug": "bar",
+      "catalog": "entertainment"
+    },
+    {
+      "name": "Golf",
+      "slug": "golf",
+      "catalog": "entertainment"
+    },
+    {
+      "name": "Massage",
+      "slug": "massage",
+      "catalog": "entertainment"
+    },
+    {
+      "name": "Shooting",
+      "slug": "shooting",
+      "catalog": "entertainment"
+    }
+  ]
+}

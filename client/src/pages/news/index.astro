@@ -1,0 +1,31 @@
+---
+import Section from "../../components/sections/Section.astro";
+import Layout from "../../layouts/Layout.astro";
+
+const newsList = await Astro.glob("./*.md");
+---
+
+<Layout>
+  <Section>
+    <h1 class="text-3xl mb-2">News</h1>
+    {
+      newsList.map((news) => (
+        <article class="border p-2 shadow-lg rounded-lg hover:ring-2 group">
+          <h3 class="font-bold text-xl">
+            {news.frontmatter.title ?? "No Title"}
+          </h3>
+          <p class="text-neutral-800">
+            {news.frontmatter.description ?? "No Description"}
+          </p>
+          <a
+            class="block w-fit py-1 px-2 border rounded-lg my-2 duration-300 
+            group-hover:bg-blue-200 group-hover:scale-105 hover:border-blue-900"
+            href={news.url}
+          >
+            Read more &gt;&gt;
+          </a>
+        </article>
+      ))
+    }
+  </Section>
+</Layout>

@@ -1,0 +1,34 @@
+---
+const { pathname } = Astro.url;
+const pathList = pathname.split("/");
+const pathListObj = pathList.map((name, index) => {
+  const newPathList = [...pathList];
+  newPathList.length = index + 1;
+  if (index)
+    return { path: newPathList.join("/"), name: name.replace("-", " ") };
+  else return { path: "/", name: "home" };
+});
+---
+
+<div class="flex gap-2 capitalize mb-2">
+  {
+    pathListObj.map((object, index) => {
+      if (index === pathListObj.length - 1)
+        return <p class="items text-neutral-600">{object.name}</p>;
+      else
+        return (
+          <a class="items hover:text-gray-500" href={object.path}>
+            {object.name}
+          </a>
+        );
+    })
+  }
+</div>
+
+<style>
+  .items + .items:before {
+    padding: 8px;
+    color: black;
+    content: "/\00a0";
+  }
+</style>

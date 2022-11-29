@@ -1,0 +1,114 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import data_sub_catalogs from "../../../data/sub_catalogs.json";
+import data_places from "../../../data/places.json";
+import data_links from "../../../data/links.json";
+import {
+  getItemsByCatalog,
+  getItemsByParent,
+  getItemsBySubCatalog,
+} from "../../helpers/commonUtils";
+import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
+import type { ObjectInterface } from "../../helpers/commonInterfaces";
+
+const sub_catalogs = getItemsByCatalog(
+  "entertainment",
+  data_sub_catalogs.data
+).map((sub_catalog) => {
+  sub_catalog.places = getItemsBySubCatalog(sub_catalog.slug, data_places.data);
+  sub_catalog.places.map((place: ObjectInterface) => {
+    place.links = getItemsByParent(place.slug, data_links.data);
+    return place;
+  });
+  return sub_catalog;
+});
+---
+
+<Layout>
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl py-12 px-4 sm:px-6 lg:px-8 lg:py-24">
+      <div class="space-y-12 lg:grid lg:grid-cols-3 lg:gap-8 lg:space-y-0">
+        <div
+          class="space-y-5 sm:space-y-4 flex flex-col h-full relative p-2 rounded-lg overflow-hidden"
+        >
+          <div class="relative">
+            <h2 class="text-3xl font-bold tracking-tight sm:text-5xl">
+              Entertainment
+            </h2>
+            <p class="text-xl text-gray-500">
+              Nulla quam felis, enim faucibus proin velit, ornare id pretium.
+              Augue ultrices sed arcu condimentum vestibulum suspendisse.
+              Volutpat eu faucibus vivamus eget bibendum cras.
+            </p>
+          </div>
+          <img src="/images/drinks.png" class="absolute bottom-0 left-0" />
+          <!-- <div class="flex-1 flex flex-col -space-y-7 items-center pb-10 relative">
+            <div class="flex w-full justify-center flex-nowrap gap-1">
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+            </div>
+            <div class="flex w-full justify-center flex-nowrap gap-1">
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+            </div>
+            <div class="flex w-full justify-center flex-nowrap gap-1">
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+              <img class="w-1/3 clip-path aspect-1" src="/images/bar.jpg" />
+            </div>
+          </div> -->
+        </div>
+        <div class="lg:col-span-2">
+          <ul
+            role="list"
+            class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
+          >
+            {
+              sub_catalogs.map((sub_catalog) => {
+                return (
+                  <li class="space-y-4">
+                    <a href={`#${sub_catalog.slug}`}>
+                      <div class="rounded-lg shadow-lg relative overflow-hidden aspect-w-3 aspect-h-2">
+                        <img
+                          class="object-cover h-full w-full"
+                          src={sub_catalog.files[0]?.url ?? "/"}
+                          alt={sub_catalog.name}
+                        />
+                        <div class="absolute inset-0 bg-gray-800 opacity-50" />
+                        <h3 class="absolute text-5xl font-bold text-center text-white top-1/3">
+                          {sub_catalog.name}
+                        </h3>
+                      </div>
+                    </a>
+                  </li>
+                );
+              })
+            }
+
+            <!-- More people... -->
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {
+    sub_catalogs.map((sub_catalog) => {
+      return <FeaturedPoi sub_catalog={sub_catalog} external_link={true} />;
+    })
+  }
+</Layout>
+
+<style>
+  html {
+    scroll-behavior: smooth;
+  }
+  .clip-path {
+    clip-path: polygon(50% 0, 100% 25%, 100% 75%, 50% 100%, 0 75%, 0 25%);
+  }
+  .clip-path-left {
+    clip-path: polygon(0% 0%, 75% 0%, 100% 50%, 75% 100%, 0% 100%);
+  }
+  .clip-path-right {
+    clip-path: polygon(100% 0, 100% 50%, 100% 100%, 0% 100%, 25% 50%, 0% 0%);
+  }
+</style>

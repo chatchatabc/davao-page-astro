@@ -1,0 +1,30 @@
+---
+interface PlaceDataInterface {
+  id: string;
+  name: string;
+  telephone: string;
+  address: string;
+  catalog: string;
+  slug: string;
+  image: string;
+  order: number;
+}
+export interface Props {
+  place: PlaceDataInterface;
+}
+const { name, address, telephone } = Astro.props.place;
+---
+
+<div
+  class="shadow-lg hover:ring-2 duration-300 p-4 pb-6 rounded-xl relative group"
+>
+  <h3 class="text-lg font-bold capitalize">{name}</h3>
+  <p>{address}</p>
+  <p>{telephone}</p>
+  <a
+    id="link"
+    class="duration-300 p-2 rounded-xl cursor-pointer absolute top-0 right-[1rem] 
+    translate-y-full group-hover:ring-2 group-hover:bg-blue-400 group-hover:scale-110"
+    >View More &gt;&gt;</a
+  >
+</div>

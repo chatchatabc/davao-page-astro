@@ -1,0 +1,96 @@
+---
+import type { ObjectInterface } from "../../helpers/commonInterfaces";
+
+interface Props {
+  sub_catalog: ObjectInterface;
+  css?: string;
+  external_link?: boolean;
+}
+const { sub_catalog, css, external_link } = Astro.props as Props;
+const { name, slug, files, places } = sub_catalog;
+const { pathname } = Astro.url;
+---
+
+<section id={slug} class="bg-white">
+  <!-- Header -->
+  <div class="relative bg-gray-800 pb-16">
+    <div class="absolute inset-0">
+      <img
+        class="h-full w-full object-cover"
+        src={files[0]?.url ?? "/"}
+        alt=""
+      />
+      <div
+        class="absolute inset-0 bg-gray-800 mix-blend-multiply"
+        aria-hidden="true"
+      >
+      </div>
+    </div>
+    <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+      <h1
+        class={`text-4xl pt-5 font-bold tracking-tight text-white md:text-5xl lg:text-6xl ${css}`}
+      >
+        {name}
+      </h1>
+    </div>
+  </div>
+  <!-- Overlapping cards -->
+  <div
+    class="relative z-10 mx-auto -mt-10 max-w-7xl px-4 pb-32 sm:px-6 lg:px-8"
+    aria-labelledby="contact-heading"
+  >
+    <h2 class="sr-only" id="contact-heading">{name}</h2>
+    <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+      {
+        places.length ? (
+          places.splice(0, 3).map((place: ObjectInterface) => {
+            return (
+              <div class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80">
+                <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
+                  <img
+                    src={place.files[0]?.url ?? "/"}
+                    class="absolute inset-0 object-cover w-full h-full"
+                    alt={`${place.name} place`}
+                  />
+                </div>
+                <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+                  <a
+                    target={external_link ? "_blank" : "_self"}
+                    href={
+                      external_link
+                        ? place.links[0]?.url ?? "#"
+                        : `${pathname}/${place.slug}`
+                    }
+                    class="text-base font-medium text-indigo-700 hover:text-indigo-600 capitalize"
+                  >
+                    {place.name}
+                    <span aria-hidden="true"> &rarr;</span>
+                  </a>
+                </div>
+              </div>
+            );
+          })
+        ) : (
+          <div class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80">
+            <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
+              <img
+                src={"/"}
+                class="absolute inset-0 object-cover w-full h-full"
+                alt={`No place`}
+              />
+            </div>
+            <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+              <a
+                href="/restaurants/eskina"
+                class="text-base font-medium text-indigo-700 hover:text-indigo-600 capitalize"
+              >
+                No Place
+                <span aria-hidden="true"> &rarr;</span>
+              </a>
+            </div>
+          </div>
+        )
+      }
+    </div>
+  </div>
+</section>

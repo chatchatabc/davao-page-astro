@@ -1,0 +1,70 @@
+---
+export interface Props {
+  title?: string;
+  description?: string;
+}
+const { title, description } = Astro.props;
+---
+
+<section class="bg-white">
+  <!-- Hero card -->
+  <div class="relative">
+    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+      <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
+        <div class="absolute inset-0">
+          <img
+            class="h-full w-full object-cover"
+            src="/images/background2.jpg"
+            alt="People working on laptops"
+          />
+          <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+        </div>
+        <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-10 lg:px-8">
+          <h1
+            class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
+          >
+            <span class="block text-white">Welcome to Davao,</span>
+            <span class="block text-indigo-200">Explore and Enjoy!</span>
+          </h1>
+          <p
+            class="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl"
+          >
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
+            aspernatur voluptate temporibus impedit veniam corrupti, minus quis
+            iure quibusdam officiis dolor praesentium, inventore eaque rem odio
+            optio, fuga enim dignissimos.
+          </p>
+          <div
+            class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center"
+          >
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <section id="hero" class="h-[40vh]">
+  <div
+    class="text-white text-center flex flex-col justify-center items-center h-full"
+  >
+    <h1 class="text-3xl font-bold">
+      {title}
+    </h1>
+    <p class="w-1/2 text-center">{description}</p>
+  </div>
+</section>
+
+<style>
+  #hero {
+    background-image: linear-gradient(
+        0deg,
+        rgba(0, 0, 0, 0.5),
+        rgba(0, 0, 0, 0.5)
+      ),
+      url("../../assets/images/sample.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 50%;
+  }
+</style> -->
