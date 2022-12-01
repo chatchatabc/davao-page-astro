@@ -1,5 +1,6 @@
 import type { ObjectInterface } from "./commonInterfaces";
 import data_files from "../../data/files.json";
+import data_links from "../../data/links.json";
 
 export const getItemsByParent = (
   parent: string,
@@ -15,6 +16,9 @@ export const getItemsByParent = (
           }
         })
         .sort((a, b) => a.order - b.order);
+      item.links = [...data_links.data].filter(
+        (link: ObjectInterface) => link.parent === item.slug
+      );
       return item;
     }
   });
@@ -34,6 +38,9 @@ export const getItemsBySubCatalog = (
           }
         })
         .sort((a, b) => a.order - b.order);
+      item.links = [...data_links.data].filter(
+        (link: ObjectInterface) => link.parent === item.slug
+      );
       return item;
     }
   });
@@ -53,6 +60,9 @@ export const getItemsByCatalog = (
           }
         })
         .sort((a, b) => a.order - b.order);
+      item.links = [...data_links.data].filter(
+        (link: ObjectInterface) => link.parent === item.slug
+      );
       return item;
     }
   });

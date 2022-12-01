@@ -62,6 +62,7 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
       >
         {
           places.splice(0, 3).map((place) => {
+            const {links = []} = place;
             return (
               <div class="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-w-4 sm:aspect-h-5 sm:h-auto">
                 <div>
@@ -84,7 +85,9 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                         Read More
                       </p>
                       <h3 class="mt-1 font-semibold text-white">
-                        <a href="#">
+                        <a href={links.length ? links[0].url : "#"} 
+                        target={links.length ? "_blank": "_self"} 
+                        class="uppercase">
                           <span class="absolute inset-0" />
                           {place.name}
                         </a>
@@ -104,6 +107,7 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
   <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     {
       places.map((place) => {
+        const {links = []} = place;
         return <div
           class="bg-white my-10 mx-auto max-w-xs overflow-hidden rounded-lg shadow-lg lg:flex lg:max-w-none"
         >
@@ -189,7 +193,9 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                   <p class="ml-3 text-sm text-gray-700">{place.phone}</p>
                 </li>
                 <li class="flex items-start lg:col-span-1">
-                  <a href="/" class="inline-flex items-center rounded border border-transparent 
+                  <a href={links.length ? links[0].url : "#"} 
+                  target={links.length ? "_blank" : "_self"} 
+                  class="inline-flex items-center rounded border border-transparent 
                   bg-indigo-600 px-2.5 py-1.5 text-xs font-medium text-white shadow-sm 
                   hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 
                   focus:ring-offset-2">Read More</a>

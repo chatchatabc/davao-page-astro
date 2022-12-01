@@ -74,6 +74,71 @@
       "name": "website",
       "url": "http://www.alphashoot.ee/",
       "parent": "target-alpha-shooting-range"
+    },
+    {
+      "name": "website",
+      "url": "https://www.edennaturepark.com.ph/",
+      "parent": "eden-park"
+    },
+    {
+      "name": "website",
+      "url": "https://malagoschocolate.com/",
+      "parent": "malagos-garden-resort-and-chocolate-museum"
+    },
+    {
+      "name": "website",
+      "url": "http://www.pearlfarmresort.com/",
+      "parent": "pearl-farm-beach-resort"
+    },
+    {
+      "name": "website",
+      "url": "https://www.philippineeaglefoundation.org/",
+      "parent": "eagle-park"
+    },
+    {
+      "name": "website",
+      "url": "https://www.puntadelsol.com.ph",
+      "parent": "samal-island"
+    },
+    {
+      "name": "website",
+      "url": "http://www.crocodilepark.ph/",
+      "parent": "crocodile-park"
+    },
+    {
+      "name": "website",
+      "url": "https://www.facebook.com/waterworlddavao/",
+      "parent": "waterworld-beach-resort"
+    },
+    {
+      "name": "website",
+      "url": "https://www.dusit.com/dusitthani-residencedavao/",
+      "parent": "dusit-thani-residence-davao"
+    },
+    {
+      "name": "website",
+      "url": "https://www.waterfronthotels.com.ph/",
+      "parent": "waterfront-insular-hotel-davao"
+    },
+    {
+      "name": "facebook",
+      "url": "https://m.facebook.com/people/Anavada-Apartment-Inn-Davao/100063832599425/",
+      "parent": "anavada-apartment-inn-davao"
+    },
+    {
+      "name": "facebook",
+      "url": "https://abreeza.sedahotels.com/",
+      "parent": "seda-abreeza"
+    },
+    {
+      "name": "facebook",
+      "url": "http://thegrandregalhotel.com/",
+      "parent": "grand-regal-hotel"
+    },
+    {
+      "name": "facebook",
+      "url": "http://www.marcopolohotels.com/",
+      "parent": "marco-polo-davao"
     }
   ]
 }

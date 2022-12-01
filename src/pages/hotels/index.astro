@@ -62,6 +62,7 @@ const places = getItemsByCatalog("hotels", data_places.data);
       >
         {
           places.splice(0, 3).map((place) => {
+            const { links } = place;
             return (
               <div class="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-w-4 sm:aspect-h-5 sm:h-auto">
                 <div>
@@ -84,7 +85,11 @@ const places = getItemsByCatalog("hotels", data_places.data);
                         Read More
                       </p>
                       <h3 class="mt-1 font-semibold text-white">
-                        <a href="#">
+                        <a
+                          href={links.length ? links[0].url : "#"}
+                          target={links.length ? "_blank" : "_self"}
+                          class="uppercase"
+                        >
                           <span class="absolute inset-0" />
                           {place.name}
                         </a>
@@ -117,6 +122,7 @@ const places = getItemsByCatalog("hotels", data_places.data);
       >
         {
           places.splice(0, 3).map((place) => {
+            const { links } = place;
             return (
               <div class="group relative">
                 <div class="h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80">
@@ -127,7 +133,10 @@ const places = getItemsByCatalog("hotels", data_places.data);
                   />
                 </div>
                 <h3 class="mt-4 text-sm text-gray-700">
-                  <a href="#">
+                  <a
+                    href={links.length ? links[0].url : "#"}
+                    target={links.length ? "_blank" : "_self"}
+                  >
                     <span class="absolute inset-0" />
                     {place.name}
                   </a>

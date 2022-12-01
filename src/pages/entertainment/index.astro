@@ -2,24 +2,17 @@
 import Layout from "../../layouts/Layout.astro";
 import data_sub_catalogs from "../../../data/sub_catalogs.json";
 import data_places from "../../../data/places.json";
-import data_links from "../../../data/links.json";
 import {
   getItemsByCatalog,
-  getItemsByParent,
   getItemsBySubCatalog,
 } from "../../helpers/commonUtils";
 import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
-import type { ObjectInterface } from "../../helpers/commonInterfaces";
 
 const sub_catalogs = getItemsByCatalog(
   "entertainment",
   data_sub_catalogs.data
 ).map((sub_catalog) => {
   sub_catalog.places = getItemsBySubCatalog(sub_catalog.slug, data_places.data);
-  sub_catalog.places.map((place: ObjectInterface) => {
-    place.links = getItemsByParent(place.slug, data_links.data);
-    return place;
-  });
   return sub_catalog;
 });
 ---
