@@ -150,7 +150,11 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                         clip-rule="evenodd"></path>
                     </svg>
                   </div>
-                  <p class="ml-3 text-sm text-gray-700">{place.address}</p>
+                  <a href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURI(
+                    place.address)}`} class="ml-3 text-sm underline text-blue-400 
+                    cursor-pointer hover:text-blue-500" target="_blank">
+                    {place.address}
+                  </a>
                 </li>
 
                 <li class="flex items-start lg:col-span-1">
