@@ -126,19 +126,54 @@
       "parent": "anavada-apartment-inn-davao"
     },
     {
-      "name": "facebook",
+      "name": "website",
       "url": "https://abreeza.sedahotels.com/",
       "parent": "seda-abreeza"
     },
     {
-      "name": "facebook",
+      "name": "website",
       "url": "http://thegrandregalhotel.com/",
       "parent": "grand-regal-hotel"
     },
     {
-      "name": "facebook",
+      "name": "website",
       "url": "http://www.marcopolohotels.com/",
       "parent": "marco-polo-davao"
+    },
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/robinsonsabreezamall/",
+      "parent": "abreeza-mall"
+    },
+    {
+      "name": "website",
+      "url": "http://www.smsupermalls.com/",
+      "parent": "sm-lanang-premier"
+    },
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/profile.php?id=100067936883337",
+      "parent": "gaisano-grand-citimall-illustre"
+    },
+    {
+      "name": "website",
+      "url": "http://www.nccc.com.ph/",
+      "parent": "nccc-mall-vp"
+    },
+    {
+      "name": "website",
+      "url": "http://www.gaisanograndmalls.com/",
+      "parent": "gaisano-grand-citygate-mall-davao"
+    },
+    {
+      "name": "website",
+      "url": "http://robinsonsmalls.com",
+      "parent": "robinsons-cybergate-davao"
+    },
+    {
+      "name": "facebook",
+      "url": "https://www.facebook.com/felcriscentraledavao/",
+      "parent": "felcris-centrale-mall"
     }
   ]
 }

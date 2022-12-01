@@ -152,7 +152,9 @@ const { place } = Astro.props as Props;
 
     <!-- Right Side (Details) -->
     <div class="w-1/4 p-4">
-      <h3 class="text-3xl uppercase">{place.name}</h3>
+      <h3 id="title" class="text-3xl uppercase font-bold">
+        {place.name}
+      </h3>
       <p class="mt-2 leading-tight tracking-tight text-sm text-neutral-600">
         Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est
         modi, cumque praesentium amet obcaecati esse dignissimos tempore
@@ -212,5 +214,8 @@ const { place } = Astro.props as Props;
     height: 1em;
     width: 1em;
     display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
   }
 </style>
