@@ -18,17 +18,17 @@ const { pathname } = Astro.url;
       <img
         class="h-full w-full object-cover"
         src={files[0]?.url ?? "/"}
-        alt=""
+        alt="background"
       />
       <div
-        class="absolute inset-0 bg-gray-800 mix-blend-multiply"
+        class="absolute inset-0 bg-gray-800 mix-blend-multiply opacity-50"
         aria-hidden="true"
       >
       </div>
     </div>
     <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
       <h1
-        class={`text-4xl pt-5 font-bold tracking-tight text-white md:text-5xl lg:text-6xl ${css}`}
+        class={`text-4xl pt-5 font-bold tracking-tight text-white md:text-5xl lg:text-6xl`}
       >
         {name}
       </h1>
