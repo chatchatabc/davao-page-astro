@@ -6,7 +6,7 @@
       "order": 1000
     },
     {
-      "url": "/images/entertainment.jpg",
+      "url": "/images/entertainment1.jpg",
       "parent": "entertainment",
       "order": 1000
     },
@@ -286,7 +286,7 @@
       "order": 1000
     },
     {
-      "url": "/images/rent.jpg",
+      "url": "/images/rent1.jpg",
       "parent": "rent",
       "order": 1000
     },
