@@ -1,24 +1,19 @@
 ---
-interface catalogDataInterface {
-  name: string;
-  slug?: string;
-}
+import type { ObjectInterface } from "../helpers/commonInterfaces";
+
 export interface Props {
-  catalog?: catalogDataInterface;
+  catalog: ObjectInterface;
 }
-const { catalog = { name: "No Catalog Name", slug: "" } } = Astro.props;
-const { name, slug } = catalog;
+const { catalog } = Astro.props as Props;
+const { name, slug, files } = catalog;
+console.log(catalog);
 ---
 
 <li
   class="col-span-1 flex flex-col divide-y divide-gray-200 rounded-lg bg-white text-center shadow overflow-hidden"
 >
   <div class="flex flex-1 flex-col">
-    <img
-      src="/images/chinese restaurant.jpg"
-      alt="place"
-      class="h-60 object-cover"
-    />
+    <img src={files[0]?.url ?? "/"} alt={slug} class="h-60 object-cover" />
   </div>
   <div>
     <div class="-mt-px flex divide-x divide-gray-200">
@@ -27,7 +22,7 @@ const { name, slug } = catalog;
           href={`/${slug}`}
           class="relative -mr-px inline-flex w-0 flex-1 items-center justify-center rounded-bl-lg border border-transparent py-4 text-sm font-medium text-gray-700 hover:text-gray-500"
         >
-          <span class="ml-3 text-xl">{name}</span>
+          <span class="ml-3 text-xl capitalize">{name}</span>
         </a>
       </div>
     </div>

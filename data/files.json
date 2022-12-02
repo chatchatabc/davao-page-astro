@@ -1,6 +1,31 @@
 {
   "data": [
     {
+      "url": "/images/restaurants.jpg",
+      "parent": "restaurants",
+      "order": 1000
+    },
+    {
+      "url": "/images/entertainment.jpg",
+      "parent": "entertainment",
+      "order": 1000
+    },
+    {
+      "url": "/images/hotels.jpg",
+      "parent": "hotels",
+      "order": 1000
+    },
+    {
+      "url": "/images/tourist spot.jpg",
+      "parent": "tourist-spot",
+      "order": 1000
+    },
+    {
+      "url": "/images/shopping.jpg",
+      "parent": "shopping",
+      "order": 1000
+    },
+    {
       "url": "/images/chinese foods.jpg",
       "parent": "chinese-foods",
       "order": 1000
