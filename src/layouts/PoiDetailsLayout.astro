@@ -87,22 +87,28 @@ const { files, links } = place;
       </div>
       <div class="pt-2">
         <h4 class="inline">External Links</h4>
-        <Icon name="ic:baseline-comment" />
+        <Icon name="ic:outline-link" />
         {
-          links.map((link: ObjectInterface) => {
-            return (
-              <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-                <span class="capitalize">{link.name}:</span>{" "}
-                <a
-                  target="_blank"
-                  class="text-blue-500 underline hover:text-blue-600"
-                  href={link.url}
-                >
-                  {link.url}
-                </a>
-              </p>
-            );
-          })
+          links.length ? (
+            links.map((link: ObjectInterface) => {
+              return (
+                <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+                  <span class="capitalize">{link.name}:</span>{" "}
+                  <a
+                    target="_blank"
+                    class="text-blue-500 underline hover:text-blue-600"
+                    href={link.url}
+                  >
+                    {link.url}
+                  </a>
+                </p>
+              );
+            })
+          ) : (
+            <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+              No External Links
+            </p>
+          )
         }
       </div>
     </div>
