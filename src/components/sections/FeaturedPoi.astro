@@ -45,7 +45,7 @@ const { pathname } = Astro.url;
       {
         places.length ? (
           places.splice(0, 3).map((place: ObjectInterface) => {
-            return <PoiCard data={place} url={pathname} />;
+            return <PoiCard data={place} pathname={pathname} />;
           })
         ) : (
           <div class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80">

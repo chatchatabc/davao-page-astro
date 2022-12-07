@@ -3,12 +3,15 @@ import type { ObjectInterface } from "../helpers/commonInterfaces";
 
 interface Props {
   data: ObjectInterface;
-  url: string;
+  pathname?: string;
 }
-const { url, data } = Astro.props as Props;
+const { pathname, data } = Astro.props as Props;
 ---
 
-<a href={`${url}/${data.slug}`} class="hover:scale-105 duration-300">
+<a
+  href={`${pathname ? `${pathname}/` : ""}${data.slug}`}
+  class="hover:scale-105 duration-300"
+>
   <div
     class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80"
   >
