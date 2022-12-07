@@ -118,7 +118,9 @@ const { place, pathname } = Astro.props as Props;
                 clip-rule="evenodd"></path>
             </svg>
           </div>
-          <p class="ml-3 text-sm text-gray-700">Price Range: {place.price ?? "N/A"}</p>
+          <p class="ml-3 text-sm text-gray-700">
+            Price Range: {place.price ?? "N/A"}
+          </p>
         </li>
       </ul>
     </div>

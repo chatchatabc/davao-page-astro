@@ -2,11 +2,13 @@
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 import Layout from "./Layout.astro";
 import { Icon } from "astro-icon";
+import type { log } from "astro/dist/core/logger/core";
 
 interface Props {
   place: ObjectInterface;
 }
 const { place } = Astro.props as Props;
+const { files, links } = place;
 ---
 
 <Layout>
@@ -18,7 +20,7 @@ const { place } = Astro.props as Props;
         <div class="absolute inset-0">
           <img
             class="h-full w-full object-cover"
-            src={place.files[0]?.url ?? "/"}
+            src={files[0]?.url ?? "/"}
             alt={place.name}
           />
         </div>
@@ -86,15 +88,18 @@ const { place } = Astro.props as Props;
       <div class="pt-2">
         <h4 class="inline">External Links</h4>
         <Icon name="ic:baseline-comment" />
-        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-          facebook
-        </p>
-        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-          facebook
-        </p>
-        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-          facebook
-        </p>
+        {
+          links.map((link: ObjectInterface) => {
+            return (
+              <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+                <span class="capitalize">{link.name}:</span>{" "}
+                <a class="text-blue-500 underline hover:text-blue-600" href={link.url}>
+                  {link.url}
+                </a>
+              </p>
+            );
+          })
+        }
       </div>
     </div>
   </div>
