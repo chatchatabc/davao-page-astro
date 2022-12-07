@@ -17,8 +17,30 @@ interface Props {
 }
 
 const { place } = Astro.props as Props;
+const { files } = place;
 ---
 
 <PoiDetailsLayout place={place}>
-  <section class="text-center py-10">No Content</section>
+  <section>
+    {
+      files.length > 0 && (
+        <>
+          <h3 class="pt-4 text-2xl font-bold capitalize">More Photos</h3>
+          <div class="flex gap-5">
+            {files.map((file: ObjectInterface, index: number) => {
+              return (
+                <div class="rounded-lg shadow-xl overflow-hidden">
+                  <img
+                    class="h-full w-full"
+                    src={file.url ?? "/"}
+                    alt={place.name}
+                  />
+                </div>
+              );
+            })}
+          </div>
+        </>
+      )
+    }
+  </section>
 </PoiDetailsLayout>

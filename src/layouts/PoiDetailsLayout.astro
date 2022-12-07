@@ -9,6 +9,7 @@ interface Props {
 }
 const { place } = Astro.props as Props;
 const { files, links } = place;
+const featuredFile = files.length ? files.splice(0, 1) : [];
 ---
 
 <Layout>
@@ -20,7 +21,7 @@ const { files, links } = place;
         <div class="absolute inset-0">
           <img
             class="h-full w-full object-cover"
-            src={files[0]?.url ?? "/"}
+            src={featuredFile[0]?.url ?? "/"}
             alt={place.name}
           />
         </div>
@@ -47,7 +48,7 @@ const { files, links } = place;
         <p
           class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 capitalize"
         >
-          {place.tags.join(", ")}
+          {place.tags.length ? place.tags.join(", ") : "N/A"}
         </p>
       </div>
       <div class="pt-2">
