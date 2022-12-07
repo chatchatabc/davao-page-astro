@@ -1,0 +1,112 @@
+---
+import type { ObjectInterface } from "../helpers/commonInterfaces";
+import Layout from "./Layout.astro";
+import { Icon } from "astro-icon";
+
+interface Props {
+  place: ObjectInterface;
+}
+const { place } = Astro.props as Props;
+---
+
+<Layout>
+  <div class="flex mx-auto container">
+    <!-- Left Side (Showcase) -->
+    <div class="w-3/4">
+      <!-- Restaurant Picture -->
+      <section class="bg-yellow-50 py-32 relative">
+        <div class="absolute inset-0">
+          <img
+            class="h-full w-full object-cover"
+            src={place.files[0]?.url ?? "/"}
+            alt={place.name}
+          />
+        </div>
+      </section>
+
+      <!-- Contents Here -->
+      <slot />
+    </div>
+
+    <!-- Right Side (Details) -->
+    <div class="w-1/4 p-4">
+      <h3 id="title" class="text-3xl uppercase font-bold">
+        {place.name}
+      </h3>
+      <p class="mt-2 leading-tight tracking-tight text-sm text-neutral-600">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis est
+        modi, cumque praesentium amet obcaecati esse dignissimos tempore
+        voluptas suscipit quia doloribus quae porro dicta in consectetur
+        quisquam itaque autem.
+      </p>
+      <div class="pt-2">
+        <h4 class="inline">Tags</h4>
+        <Icon name="ic:round-tag" />
+        <p
+          class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 capitalize"
+        >
+          {place.tags.join(", ")}
+        </p>
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Contacts</h4>
+        <Icon name="mdi:telephone" />
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          {place.phone.length ? place.phone : "Not Available"}
+        </p>
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Location</h4>
+        <Icon name="ic:baseline-mode-of-travel" />
+        {
+          place.address.length ? (
+            <a
+              href={`https://www.google.com/maps/dir/?api=1&destination=${encodeURI(
+                place.address
+              )}`}
+              target="_blank"
+              class="block underline text-blue-400 ml-3 leading-tight tracking-tight text-sm"
+            >
+              {place.address.length ? place.address : "Not Available"}
+            </a>
+          ) : (
+            <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+              {place.address.length ? place.address : "Not Available"}
+            </p>
+          )
+        }
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">Comments</h4>
+        <Icon name="ic:baseline-comment" />
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+        </p>
+      </div>
+      <div class="pt-2">
+        <h4 class="inline">External Links</h4>
+        <Icon name="ic:baseline-comment" />
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          facebook
+        </p>
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          facebook
+        </p>
+        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
+          facebook
+        </p>
+      </div>
+    </div>
+  </div>
+</Layout>
+
+<style>
+  [astro-icon] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
+  }
+</style>
