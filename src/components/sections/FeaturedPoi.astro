@@ -45,29 +45,31 @@ const { pathname } = Astro.url;
         places.length ? (
           places.splice(0, 3).map((place: ObjectInterface) => {
             return (
-              <div class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80">
-                <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
-                  <img
-                    src={place.files[0]?.url ?? "/"}
-                    class="absolute inset-0 object-cover w-full h-full"
-                    alt={`${place.name} place`}
-                  />
+              <a
+                target={external_link ? "_blank" : "_self"}
+                href={
+                  external_link
+                    ? place.links[0]?.url ?? "#"
+                    : `${pathname}/${place.slug}`
+                }
+                class="hover:scale-105 duration-300"
+              >
+                <div class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80">
+                  <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
+                    <img
+                      src={place.files[0]?.url ?? "/"}
+                      class="absolute inset-0 object-cover w-full h-full"
+                      alt={`${place.name} place`}
+                    />
+                  </div>
+                  <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
+                    <p class="text-base font-medium text-indigo-700 hover:text-indigo-600 capitalize">
+                      {place.name}
+                      <span aria-hidden="true"> &rarr;</span>
+                    </p>
+                  </div>
                 </div>
-                <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
-                  <a
-                    target={external_link ? "_blank" : "_self"}
-                    href={
-                      external_link
-                        ? place.links[0]?.url ?? "#"
-                        : `${pathname}/${place.slug}`
-                    }
-                    class="text-base font-medium text-indigo-700 hover:text-indigo-600 capitalize"
-                  >
-                    {place.name}
-                    <span aria-hidden="true"> &rarr;</span>
-                  </a>
-                </div>
-              </div>
+              </a>
             );
           })
         ) : (

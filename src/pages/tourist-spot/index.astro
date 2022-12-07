@@ -81,9 +81,6 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                   </div>
                   <div class="absolute inset-0 flex items-end rounded-lg p-6">
                     <div>
-                      <p aria-hidden="true" class="text-sm text-white">
-                        Read More
-                      </p>
                       <h3 class="mt-1 font-semibold text-white">
                         <a href={links.length ? links[0].url : "#"} 
                         target={links.length ? "_blank": "_self"} 
@@ -92,6 +89,10 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                           {place.name}
                         </a>
                       </h3>
+                      <p class="text-sm text-white">Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
+                        Odit repudiandae cupiditate ipsam, mollitia molestias cum modi nisi aut sit dolor quaerat 
+                        eum deserunt, sapiente quo iste accusamus impedit corrupti facere.
+                      </p>
                     </div>
                   </div>
                 </div>
@@ -202,7 +203,7 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                   class="inline-flex items-center rounded border border-transparent 
                   bg-indigo-600 px-2.5 py-1.5 text-xs font-medium text-white shadow-sm 
                   hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 
-                  focus:ring-offset-2">Read More</a>
+                  focus:ring-offset-2">Website</a>
                 </li>
               </ul>
             </div>
