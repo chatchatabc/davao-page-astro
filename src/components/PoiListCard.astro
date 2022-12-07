@@ -143,5 +143,7 @@ const { place, pathname } = Astro.props as Props;
       </div>
     </div>
   </div>
-  <a href={`${pathname ?? ""}/${place.slug}`} class="absolute inset-0"></a>
+  <a
+    href={`${pathname ?? ""}/${place.slug}`.replace(/([^:]\/)\/+/g, "$1")}
+    class="absolute inset-0"></a>
 </div>
