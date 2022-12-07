@@ -93,7 +93,11 @@ const { files, links } = place;
             return (
               <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
                 <span class="capitalize">{link.name}:</span>{" "}
-                <a class="text-blue-500 underline hover:text-blue-600" href={link.url}>
+                <a
+                  target="_blank"
+                  class="text-blue-500 underline hover:text-blue-600"
+                  href={link.url}
+                >
                   {link.url}
                 </a>
               </p>
