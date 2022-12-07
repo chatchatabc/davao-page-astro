@@ -1,12 +1,11 @@
 ---
 import dataPlaces from "../../../../data/places.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
-import { getItemFiles } from "../../../helpers/commonUtils";
-import { Icon } from "astro-icon";
+import { getItemsByCatalog } from "../../../helpers/commonUtils";
 import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
 
 export function getStaticPaths() {
-  return getItemFiles(dataPlaces.data).map((place) => {
+  return getItemsByCatalog("restaurants", dataPlaces.data).map((place) => {
     return {
       params: { restaurant: place.slug },
       props: { place },

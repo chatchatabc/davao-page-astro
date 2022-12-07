@@ -4,6 +4,7 @@ import data_places from "../../../data/places.json";
 import { getItemsByCatalog } from "../../helpers/commonUtils";
 
 const places = getItemsByCatalog("tourist-spot", data_places.data);
+const {pathname} = Astro.url;
 ---
 
 <Layout>
@@ -62,7 +63,6 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
       >
         {
           places.splice(0, 3).map((place) => {
-            const {links = []} = place;
             return (
               <div class="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-w-4 sm:aspect-h-5 sm:h-auto">
                 <div>
@@ -82,8 +82,7 @@ const places = getItemsByCatalog("tourist-spot", data_places.data);
                   <div class="absolute inset-0 flex items-end rounded-lg p-6">
                     <div>
                       <h3 class="mt-1 font-semibold text-white">
-                        <a href={links.length ? links[0].url : "#"} 
-                        target={links.length ? "_blank": "_self"} 
+                        <a href={`${pathname}/${place.slug}`} 
                         class="uppercase">
                           <span class="absolute inset-0" />
                           {place.name}

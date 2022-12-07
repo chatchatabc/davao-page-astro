@@ -1,0 +1,24 @@
+---
+import dataPlaces from "../../../../data/places.json";
+import type { ObjectInterface } from "../../../helpers/commonInterfaces";
+import { getItemsByCatalog } from "../../../helpers/commonUtils";
+import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
+
+export function getStaticPaths() {
+  return getItemsByCatalog("shopping", dataPlaces.data).map((place) => {
+    return {
+      params: { place: place.slug },
+      props: { place },
+    };
+  });
+}
+interface Props {
+  place: ObjectInterface;
+}
+
+const { place } = Astro.props as Props;
+---
+
+<PoiDetailsLayout place={place}>
+  <section class="text-center py-10">No Content</section>
+</PoiDetailsLayout>
