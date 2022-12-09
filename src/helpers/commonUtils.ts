@@ -76,3 +76,7 @@ export const getItemFiles = (items: ObjectInterface[]) => {
     return item;
   });
 };
+
+export const fixUrl = (badUrl: string) => {
+  return badUrl.replace(/([^:]\/)\/+/g, "$1");
+};
