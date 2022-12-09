@@ -1,0 +1,89 @@
+---
+import dataPlaces from "../../../../../data/places.json";
+import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
+import { getItemsByCatalog } from "../../../../helpers/commonUtils";
+import Layout from "../../../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return getItemsByCatalog("shopping", dataPlaces.data).map((place) => {
+    return {
+      params: { boat: place.slug },
+      props: { place },
+    };
+  });
+}
+interface Props {
+  place: ObjectInterface;
+}
+
+const { place } = Astro.props as Props;
+const { files } = place;
+---
+
+<Layout>
+  <!-- Introduction -->
+  <section>
+    <div class="container px-10 mx-auto grid grid-cols-2 gap-5">
+      <div class="aspect-h-1 aspect-w-2">
+        <img
+          class="w-full h-full"
+          alt="boat"
+          src={place.files[0]?.url ?? "/"}
+        />
+      </div>
+      <div class="py-5">
+        <h3 class="text-2xl font-bold">Information</h3>
+        <div class="grid grid-cols-3 gap-3">
+          <p class="text-lg">Test</p>
+          <p class="col-span-2">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Photos -->
+  <section class="pt-5  pb-10">
+    <div class="container px-10 mx-auto grid grid-cols-4 gap-5">
+      {
+        files.map((file: ObjectInterface) => {
+          return (
+            <div class="aspect-h-1 aspect-w-2 overflow-hidden shadow-xl rounded-lg">
+              <img src={file.url ?? "/"} alt="boat" class="w-full h-full" />;
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+
+  <!-- Pricing -->
+  <section class="bg-blue-100">
+    <div class="container mx-auto px-10 py-10 grid grid-cols-2">
+      <div>
+        <h2 class="text-2xl font-bold">Pricing</h2>
+        <div class="flex">
+          <p><span class="font-bold">Captain:</span> 100Php</p>
+        </div>
+        <div class="flex">
+          <p><span class="font-bold">Captain:</span> 100Php</p>
+        </div>
+        <div class="flex">
+          <p><span class="font-bold">Captain:</span> 100Php</p>
+        </div>
+      </div>
+
+      <div>
+        <h2 class="text-2xl font-bold">Table</h2>
+        <div class="grid grid-cols-4 border-l border-t border-black">
+          {
+            [...Array(8)].map((_, index) => {
+              return <div class="border-r border-b border-black">test</div>;
+            })
+          }
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
