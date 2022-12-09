@@ -2,7 +2,7 @@
 import dataPlaces from "../../../../data/places.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
 import { getItemsByCatalog } from "../../../helpers/commonUtils";
-import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
+import Layout from "../../../layouts/Layout.astro";
 
 export function getStaticPaths() {
   return getItemsByCatalog("shopping", dataPlaces.data).map((place) => {
@@ -20,27 +20,90 @@ const { place } = Astro.props as Props;
 const { files } = place;
 ---
 
-<PoiDetailsLayout place={place}>
+<Layout>
   <section>
-    {
-      files.length > 0 && (
-        <>
-          <h3 class="pt-4 text-2xl font-bold capitalize">More Photos</h3>
-          <div class="flex gap-5">
-            {files.map((file: ObjectInterface, index: number) => {
-              return (
-                <div class="rounded-lg shadow-xl overflow-hidden">
-                  <img
-                    class="h-full w-full"
-                    src={file.url ?? "/"}
-                    alt={place.name}
-                  />
-                </div>
-              );
-            })}
-          </div>
-        </>
-      )
-    }
+    <div
+      class="container mx-auto px-5 pt-10 pb-20 relative overflow-hidden lg:rounded-md"
+    >
+      <div class="absolute inset-0">
+        <img class="object-cover w-full h-full" src={files[0]?.url ?? "/"} />
+      </div>
+      <div class="absolute inset-0 mix-blend-multiply bg-gray-400"></div>
+      <div class="relative">
+        <h2
+          class="p-5 text-3xl font-bold text-white text-center w-fit mx-auto bg-black bg-opacity-50 capitalize sm:px-52"
+        >
+          {place.name}
+        </h2>
+        <p class="py-10 text-white text-center md:w-2/3 mx-auto">
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
+          magnam ducimus, unde voluptas sapiente nobis minima tempora at.
+        </p>
+      </div>
+      <div
+        class="flex flex-col-reverse gap-6 relative justify-around text-center text-white"
+      >
+        <div>
+          <p>Contacts</p>
+          <p>09123456789</p>
+        </div>
+        <div class="mx-auto lg:max-w-[50%]">
+          <p>Address</p>
+          <p>{place.address ?? "N/A"}</p>
+        </div>
+      </div>
+    </div>
   </section>
-</PoiDetailsLayout>
+  <!-- <section class="-mt-14 z-10 relative">
+    <div class="container mx-auto px-10 flex justify-around gap-2 flex-wrap">
+      <div
+        class="bg-white shadow-lg flex-1 rounded-lg overflow-hidden"
+      >
+        <img class="w-full" src={files[0].url} alt="mall" />
+        <p class="p-5 text-xl font-semibold text-center">
+          {place.name}
+        </p>
+      </div>
+      <div
+        class="bg-white shadow-lg flex-1 rounded-lg overflow-hidden"
+      >
+        <img class="w-full" src={files[0].url} alt="mall" />
+        <p class="p-5 text-xl font-semibold text-center">
+          {place.name}
+        </p>
+      </div><div
+        class="bg-white shadow-lg flex-1 rounded-lg overflow-hidden"
+      >
+        <img class="w-full" src={files[0].url} alt="mall" />
+        <p class="p-5 text-xl font-semibold text-center">
+          {place.name}
+        </p>
+      </div>
+    </div>
+  </section> -->
+  <section class="relative">
+    <div class="container mx-auto px-10">
+      {
+        files.length > 0 && (
+          <>
+            <h3 class="pt-4 text-2xl font-bold capitalize">More Photos</h3>
+            <div class="flex gap-5">
+              {files.map((file: ObjectInterface, index: number) => {
+                return (
+                  <div class="rounded-lg shadow-xl overflow-hidden">
+                    <img
+                      class="h-full w-full"
+                      src={file.url ?? "/"}
+                      alt={place.name}
+                    />
+                  </div>
+                );
+              })}
+            </div>
+          </>
+        )
+      }
+    </div>
+    
+  </section>
+</Layout>
