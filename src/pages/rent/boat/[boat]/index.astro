@@ -2,6 +2,7 @@
 import dataPlaces from "../../../../../data/places.json";
 import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
 import { getItemsByCatalog } from "../../../../helpers/commonUtils";
+import { Icon } from "astro-icon";
 import Layout from "../../../../layouts/Layout.astro";
 
 export function getStaticPaths() {
@@ -22,7 +23,7 @@ const { files } = place;
 
 <Layout>
   <!-- Introduction -->
-  <section>
+  <section class="pb-10">
     <div class="container px-10 mx-auto grid md:grid-cols-2 gap-5">
       <div class="carousel">
         {
@@ -79,74 +80,98 @@ const { files } = place;
           possimus quasi, nesciunt doloribus omnis minima reprehenderit repellat
           consequatur autem quibusdam animi.
         </p>
-        <div class="mt-auto p-2 flex items-center">
+
+        <!-- Boat Package -->
+        <h3 class="text-xl py-1 font-semibold mt-auto">Boat Price Package</h3>
+        <div class="overflow-hidden rounded-lg border">
+          <table class="min-w-full divide-y divide-gray-300">
+            <thead class="bg-gray-50">
+              <tr class="divide-x divide-gray-200">
+                <th
+                  scope="col"
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                  >1 day</th
+                >
+                <th
+                  scope="col"
+                  class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
+                  >2 days</th
+                >
+                <th
+                  scope="col"
+                  class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
+                  >3 days</th
+                >
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+              <tr class="divide-x divide-gray-200">
+                <td class="whitespace-nowrap p-4 text-sm">₱2,500</td>
+                <td class="whitespace-nowrap p-4 text-sm">₱5,000</td>
+                <td class="whitespace-nowrap p-4 text-sm">₱6,500</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="p-2 flex items-center">
           <div class="flex-1">
             <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
             <p class="font-extralight">
-              <span class="text-xl font-bold">₱9,999</span> / hour
+              <span class="text-xl font-bold">₱500</span> / hour
             </p>
           </div>
-          <a class="p-2 px-5 bg-blue-500 rounded-md text-white">Rent Now</a>
+          <a class="p-2 px-5 bg-blue-500 rounded-md text-white"> Inquire Now</a>
         </div>
       </div>
     </div>
   </section>
 
-  <!-- Photos -->
-  <section class="py-10">
-    <div class="container mx-auto">
-      <h2 class="text-3xl font-bold">Photos</h2>
-      <div class="carousel">
-        {
-          files.map((file: ObjectInterface) => {
-            return (
-              <div id={file.url} class="carousel-item">
-                <img class="max-w-[400px]" src={file.url} class="rounded-box" />
-              </div>
-            );
-          })
-        }
-      </div>
-      <div class="flex justify-center w-full py-2 gap-2">
-        {
-          files.map((file: ObjectInterface, index: number) => {
-            return (
-              <a href={`#${file.url}`} class="btn btn-xs">
-                {index + 1}
-              </a>
-            );
-          })
-        }
-      </div>
-    </div>
-  </section>
-
-  <!-- Pricing -->
-  <section class="bg-blue-100">
-    <div class="container mx-auto px-10 py-10 grid grid-cols-2">
-      <div>
-        <h2 class="text-2xl font-bold">Pricing</h2>
-        <div class="flex">
-          <p><span class="font-bold">Captain:</span> 100Php</p>
+  <!-- Features -->
+  <section>
+    <div class="container flex justify-around mx-auto flex-wrap md:flex-nowrap">
+      <div class="flex-1 flex justify-center gap-10">
+        <div class="w-full max-w-[200px]">
+          <h3 class="text-xl w-max font-bold">Need a Captain?</h3>
+          <h4>₱8,000</h4>
+          <p class="text-xs text-gray-600 leading-4">*Optional*</p>
         </div>
-        <div class="flex">
-          <p><span class="font-bold">Captain:</span> 100Php</p>
-        </div>
-        <div class="flex">
-          <p><span class="font-bold">Captain:</span> 100Php</p>
+        <div class="self-center">
+          <Icon name="ic:baseline-directions-boat" />
         </div>
       </div>
-
-      <div>
-        <h2 class="text-2xl font-bold">Table</h2>
-        <div class="grid grid-cols-4 border-l border-t border-black">
-          {
-            [...Array(8)].map((_, index) => {
-              return <div class="border-r border-b border-black">test</div>;
-            })
-          }
+      <div class="flex-1 flex justify-center gap-10">
+        <div class="w-full max-w-[200px]">
+          <h3 class="text-xl w-max font-bold">Max Capacity</h3>
+          <h4>8 PAX</h4>
+          <p class="text-xs text-gray-600 leading-4">
+            Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+          </p>
+        </div>
+        <div class="self-center">
+          <Icon name="ic:baseline-people-alt" />
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center gap-10">
+        <div class="w-full max-w-[200px]">
+          <h3 class="text-xl w-max font-bold">Powerboat</h3>
+          <h4>Powerboats, Pontoons, & RIBs</h4>
+        </div>
+        <div class="self-center">
+          <Icon name="ic:baseline-speed" />
         </div>
       </div>
     </div>
   </section>
+
+  <style>
+    [astro-icon] {
+      height: 3em;
+      width: 3em;
+      display: inline-block;
+    }
+    #title {
+      text-shadow: 2px 2px aqua;
+    }
+  </style>
 </Layout>
