@@ -1,10 +1,9 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
-import dataPlaces from "../../../../data/places.json";
-import { getItemsByCatalog } from "../../../helpers/commonUtils";
-import PoiListCard from "../../../components/PoiListCard.astro";
+import dataBoats from "../../../../data/boats.json";
+import { getItemFiles } from "../../../helpers/commonUtils";
 
-const places = getItemsByCatalog("shopping", dataPlaces.data);
+const boats = getItemFiles(dataBoats.data);
 const { pathname } = Astro.url;
 ---
 
@@ -23,19 +22,20 @@ const { pathname } = Astro.url;
     <h2 class="text-5xl font-extrabold text-center">Our Boats</h2>
     <div class="container mx-auto px-10">
       {
-        places.map((place) => {
+        boats.map((boat) => {
           return (
             <div class="grid grid-cols-2 py-5 gap-5">
               <div class="overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
-                <img class="w-full h-full" src={place.files[0]?.url ?? "/"} />
+                <img class="w-full h-full" src={boat.files[0]?.url ?? "/"} />
               </div>
               <div class="flex flex-col py-10">
-                <h3 class="text-3xl font-bold">{place.name}</h3>
+                <h3 class="text-3xl font-bold">{boat.name}</h3>
                 <p>
-                  <span class="font-bold">Length:</span> asdad asdda
+                  <span class="font-bold">Capacity:</span> {boat.capacity}{" "}
+                  passengers
                 </p>
                 <a
-                  href={`${pathname ? `${pathname}/` : ""}${place.slug}`}
+                  href={`${pathname ? `${pathname}/` : ""}${boat.slug}`}
                   class="mt-auto ml-auto px-5 py-2 border border-blue-500 rounded-lg block w-fit group"
                 >
                   View More &gt;&gt;

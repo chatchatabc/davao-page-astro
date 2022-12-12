@@ -344,6 +344,56 @@
       "url": "/images/red dot sports house.jpg",
       "parent": "red-dot-sports-house",
       "order": 1000
+    },
+    {
+      "url": "/images/pontoon.avif",
+      "parent": "pontoon",
+      "order": 1000
+    },
+    {
+      "url": "/images/pontoon.jpg",
+      "parent": "pontoon",
+      "order": 1000
+    },
+    {
+      "url": "/images/pontoon1.jpg",
+      "parent": "pontoon",
+      "order": 1000
+    },
+    {
+      "url": "/images/pontoon2.jpg",
+      "parent": "pontoon",
+      "order": 1000
+    },
+    {
+      "url": "/images/jet ski.jpg",
+      "parent": "jet-ski",
+      "order": 1000
+    },
+    {
+      "url": "/images/jet ski1.jpg",
+      "parent": "jet-ski",
+      "order": 1000
+    },
+    {
+      "url": "/images/jet ski2.jpg",
+      "parent": "jet-ski",
+      "order": 1000
+    },
+    {
+      "url": "/images/bowrider.jpg",
+      "parent": "bowrider",
+      "order": 1000
+    },
+    {
+      "url": "/images/bowrider1.jpg",
+      "parent": "bowrider",
+      "order": 1000
+    },
+    {
+      "url": "/images/bowrider.png",
+      "parent": "bowrider",
+      "order": 1000
     }
   ]
 }

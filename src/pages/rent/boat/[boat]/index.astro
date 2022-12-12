@@ -1,24 +1,24 @@
 ---
-import dataPlaces from "../../../../../data/places.json";
+import dataBoats from "../../../../../data/boats.json";
 import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
-import { getItemsByCatalog } from "../../../../helpers/commonUtils";
+import { getItemFiles } from "../../../../helpers/commonUtils";
 import { Icon } from "astro-icon";
 import Layout from "../../../../layouts/Layout.astro";
 
 export function getStaticPaths() {
-  return getItemsByCatalog("shopping", dataPlaces.data).map((place) => {
+  return getItemFiles(dataBoats.data).map((boat) => {
     return {
-      params: { boat: place.slug },
-      props: { place },
+      params: { boat: boat.slug },
+      props: { boat },
     };
   });
 }
 interface Props {
-  place: ObjectInterface;
+  boat: ObjectInterface;
 }
 
-const { place } = Astro.props as Props;
-const { files } = place;
+const { boat } = Astro.props as Props;
+const { files } = boat;
 ---
 
 <Layout>
@@ -63,7 +63,7 @@ const { files } = place;
           <img
             class="w-full h-full"
             alt="boat"
-            src={place.files[0]?.url ?? "/"}
+            src={boat.files[0]?.url ?? "/"}
           />
           <div
             class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
@@ -74,41 +74,44 @@ const { files } = place;
         </div>
       </div>
       <div class="flex flex-col">
-        <h3 class="text-2xl font-bold">Boat Name</h3>
+        <h3 class="text-2xl font-bold">{boat.name}</h3>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem magni,
-          possimus quasi, nesciunt doloribus omnis minima reprehenderit repellat
-          consequatur autem quibusdam animi.
+          {boat.details}
         </p>
 
         <!-- Boat Package -->
-        <h3 class="text-xl py-1 font-semibold mt-auto">Boat Price Package</h3>
+        <h3 class="text-xl py-1 font-semibold mt-auto">
+          {boat.name} Price Package
+        </h3>
         <div class="overflow-hidden rounded-lg border">
           <table class="min-w-full divide-y divide-gray-300">
             <thead class="bg-gray-50">
               <tr class="divide-x divide-gray-200">
-                <th
-                  scope="col"
-                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
-                  >1 day</th
-                >
-                <th
-                  scope="col"
-                  class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
-                  >2 days</th
-                >
-                <th
-                  scope="col"
-                  class="px-4 py-3.5 text-left text-sm font-semibold text-gray-900"
-                  >3 days</th
-                >
+                {
+                  boat.pricePackages.map((pricePackage: ObjectInterface) => {
+                    return (
+                      <th
+                        scope="col"
+                        class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                      >
+                        {pricePackage.totalTime} {pricePackage.time}
+                      </th>
+                    );
+                  })
+                }
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-200 bg-white">
               <tr class="divide-x divide-gray-200">
-                <td class="whitespace-nowrap p-4 text-sm">₱2,500</td>
-                <td class="whitespace-nowrap p-4 text-sm">₱5,000</td>
-                <td class="whitespace-nowrap p-4 text-sm">₱6,500</td>
+                {
+                  boat.pricePackages.map((pricePackage: ObjectInterface) => {
+                    return (
+                      <td class="whitespace-nowrap p-4 text-sm">
+                        ₱{pricePackage.price}
+                      </td>
+                    );
+                  })
+                }
               </tr>
             </tbody>
           </table>
@@ -118,10 +121,12 @@ const { files } = place;
           <div class="flex-1">
             <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
             <p class="font-extralight">
-              <span class="text-xl font-bold">₱500</span> / hour
+              <span class="text-xl font-bold">₱{boat.price.price}</span> / {
+                boat.price.time
+              }
             </p>
           </div>
-          <a class="p-2 px-5 bg-blue-500 rounded-md text-white"> Inquire Now</a>
+          <a class="p-2 px-5 bg-blue-500 rounded-md text-white">Inquire Now</a>
         </div>
       </div>
     </div>
@@ -133,7 +138,7 @@ const { files } = place;
       <div class="flex-1 flex justify-center gap-10">
         <div class="w-full max-w-[200px]">
           <h3 class="text-xl w-max font-bold">Need a Captain?</h3>
-          <h4>₱8,000</h4>
+          <h4>Additional ₱{boat.captain_price}</h4>
           <p class="text-xs text-gray-600 leading-4">*Optional*</p>
         </div>
         <div class="self-center">
@@ -143,7 +148,7 @@ const { files } = place;
       <div class="flex-1 flex justify-center gap-10">
         <div class="w-full max-w-[200px]">
           <h3 class="text-xl w-max font-bold">Max Capacity</h3>
-          <h4>8 PAX</h4>
+          <h4>{boat.capacity} passengers</h4>
           <p class="text-xs text-gray-600 leading-4">
             Lorem ipsum dolor sit, amet consectetur adipisicing elit.
           </p>
@@ -154,7 +159,7 @@ const { files } = place;
       </div>
       <div class="flex-1 flex justify-center gap-10">
         <div class="w-full max-w-[200px]">
-          <h3 class="text-xl w-max font-bold">Powerboat</h3>
+          <h3 class="text-xl w-max font-bold capitalize">{boat.type}</h3>
           <h4>Powerboats, Pontoons, & RIBs</h4>
         </div>
         <div class="self-center">
