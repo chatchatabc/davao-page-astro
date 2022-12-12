@@ -24,7 +24,7 @@ const { pathname } = Astro.url;
         >
           Shopping Malls Davao
         </h2>
-        <p class="mt-4 text-xl text-neutral-200">
+        <p class="mt-4 text-xl text-gray-200">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit sunt
           nulla facilis eos minima veniam veritatis rem temporibus a esse optio
           ratione repellendus magnam voluptate fugit nisi, totam autem tempora!
@@ -38,7 +38,7 @@ const { pathname } = Astro.url;
       <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-28">
         {
           places.map((place) => {
-            return <PoiListCard place={place} pathname={pathname} />
+            return <PoiListCard place={place} pathname={pathname} />;
           })
         }
       </div>
