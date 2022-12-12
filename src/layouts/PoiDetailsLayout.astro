@@ -94,13 +94,15 @@ const featuredFile = files.length ? files.splice(0, 1) : [];
             links.map((link: ObjectInterface) => {
               return (
                 <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-                  <span class="capitalize">{link.name}:</span>{" "}
                   <a
                     target="_blank"
                     class="text-blue-500 underline hover:text-blue-600"
                     href={link.url}
                   >
-                    {link.url}
+                    {link.name === "facebook" && (
+                      <Icon name="ic:baseline-facebook" />
+                    )}
+                    {link.name === "website" && <Icon name="mdi:web" />}
                   </a>
                 </p>
               );
@@ -121,6 +123,14 @@ const featuredFile = files.length ? files.splice(0, 1) : [];
     height: 1em;
     width: 1em;
     display: inline-block;
+  }
+  [astro-icon="ic:baseline-facebook"] {
+    height: 2em;
+    width: 2em;
+  }
+  [astro-icon="mdi:web"] {
+    height: 2em;
+    width: 2em;
   }
   #title {
     text-shadow: 2px 2px aqua;
