@@ -9,7 +9,7 @@ interface Props {
 }
 const { place } = Astro.props as Props;
 const { files, links } = place;
-const featuredFile = files.length ? files.splice(0, 1) : [];
+const featuredFile = files.length ? files : [];
 ---
 
 <Layout>

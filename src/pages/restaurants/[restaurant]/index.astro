@@ -1,135 +1,57 @@
 ---
-import dataPlaces from "../../../../data/places.json";
+import dataRestaurants from "../../../../data/restaurants.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
 import { getItemsByCatalog } from "../../../helpers/commonUtils";
 import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
 
 export function getStaticPaths() {
-  return getItemsByCatalog("restaurants", dataPlaces.data).map((place) => {
-    return {
-      params: { restaurant: place.slug },
-      props: { place },
-    };
-  });
+  return getItemsByCatalog("restaurants", dataRestaurants.data).map(
+    (restaurant) => {
+      return {
+        params: { restaurant: restaurant.slug },
+        props: { restaurant },
+      };
+    }
+  );
 }
 interface Props {
-  place: ObjectInterface;
+  restaurant: ObjectInterface;
 }
 
-const { place } = Astro.props as Props;
+const { restaurant } = Astro.props as Props;
 ---
 
-<PoiDetailsLayout place={place}>
+<PoiDetailsLayout place={restaurant}>
   <section>
-    <!-- Item -->
-    <div class="space-y-16 pt-10 lg:pt-16">
-      <div class="flex lg:grid lg:grid-cols-12 lg:gap-x-8">
-        <div class="lg:col-span-3">
-          <div
-            class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
-          >
-            <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
-              alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
-              class="object-cover object-center"
-            />
-          </div>
-        </div>
-        <div class="mt-6 lg:col-span-3 lg:mt-0">
-          <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="lg:col-span-3">
-          <div
-            class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
-          >
-            <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
-              alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
-              class="object-cover object-center"
-            />
-          </div>
-        </div>
-        <div class="mt-6 lg:col-span-3 lg:mt-0">
-          <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-      </div>
-    </div>
-    <div class="space-y-16 pt-10 lg:pt-16">
-      <div class="flex lg:grid lg:grid-cols-12 lg:gap-x-8">
-        <div class="lg:col-span-3">
-          <div
-            class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
-          >
-            <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
-              alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
-              class="object-cover object-center"
-            />
-          </div>
-        </div>
-        <div class="mt-6 lg:col-span-3 lg:mt-0">
-          <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-        <div class="lg:col-span-3">
-          <div
-            class="aspect-w-2 aspect-h-1 overflow-hidden rounded-lg bg-gray-100 sm:aspect-w-5 sm:aspect-h-2"
-          >
-            <img
-              src="https://tailwindui.com/img/ecommerce-images/product-feature-06-detail-01.jpg"
-              alt="Maple organizer base with slots, supporting white polycarbonate trays of various sizes."
-              class="object-cover object-center"
-            />
-          </div>
-        </div>
-        <div class="mt-6 lg:col-span-3 lg:mt-0">
-          <h3 class="text-lg font-medium text-gray-900">Pecking Duck</h3>
-          <p class="mt-2 text-sm text-gray-500">
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-          </p>
-        </div>
-      </div>
-    </div>
-
-    <!-- More Dishes -->
-    <div class="pt-10">
-      <h3 class="text-3xl">More Dishes</h3>
-      <!-- List of Dishes -->
-      <div class="grid grid-cols-4 p-4 gap-8">
-        <!-- Item -->
-        <div class="rounded-xl">
-          <img src="/" alt="photo" class="h-32 border" />
-          <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
-            Name of the Dish
-          </h4>
-        </div>
-        <div class="rounded-xl">
-          <img src="/" alt="photo" class="h-32 border" />
-          <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
-            Name of the Dish
-          </h4>
-        </div>
-        <div class="rounded-xl">
-          <img src="/" alt="photo" class="h-32 border" />
-          <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
-            Name of the Dish
-          </h4>
-        </div>
-        <div class="rounded-xl">
-          <img src="/" alt="photo" class="h-32 border" />
-          <h4 class="py-2 text-xl leading-tight tracking-tight font-medium">
-            Name of the Dish
-          </h4>
-        </div>
-      </div>
+    <h2 class="text-2xl font-bold pt-5">Featured Foods</h2>
+    <div class="py-2 grid grid-cols-2 gap-x-2">
+      {
+        restaurant.products.map((product: ObjectInterface) => {
+          return (
+            <div class="grid grid-cols-2 items-center">
+              <div class="border aspect-w-6 aspect-h-3 relative overflow-hidden">
+                <img
+                  class="absolute inset-0"
+                  src={product.images[0].url}
+                  alt={product.images[0].url}
+                />
+              </div>
+              <div class="p-2">
+                <h4 class="text-lg leading-5">{product.name}</h4>
+                <div class="text-sm text-gray-500">
+                  <p>
+                    Food type:{" "}
+                    <span class="font-bold">
+                      {product.description.length ? product.description : "N/A"}
+                    </span>
+                  </p>
+                  <p>{product.price.length ? product.price : "₱₱"}</p>
+                </div>
+              </div>
+            </div>
+          );
+        })
+      }
     </div>
   </section>
 </PoiDetailsLayout>

@@ -2,8 +2,9 @@
 import Layout from "../../layouts/Layout.astro";
 import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
 import data_sub_catalogs from "../../../data/sub_catalogs.json";
-import data_places from "../../../data/places.json";
+import dataRestaurants from "../../../data/restaurants.json";
 import {
+  getItemFiles,
   getItemsByCatalog,
   getItemsBySubCatalog,
 } from "../../helpers/commonUtils";
@@ -12,10 +13,13 @@ const sub_catalogs = getItemsByCatalog(
   "restaurants",
   data_sub_catalogs.data
 ).map((sub_catalog) => {
-  sub_catalog.places = getItemsBySubCatalog(sub_catalog.slug, data_places.data);
+  sub_catalog.places = getItemsBySubCatalog(
+    sub_catalog.slug,
+    dataRestaurants.data
+  );
   return sub_catalog;
 });
-const featured_places = getItemsByCatalog("restaurants", data_places.data);
+const featured_places = getItemFiles(dataRestaurants.data);
 ---
 
 <Layout>
