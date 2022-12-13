@@ -2,6 +2,7 @@
 import Layout from "../../../layouts/Layout.astro";
 import dataCars from "../../../../data/cars.json";
 import { getItemFiles } from "../../../helpers/commonUtils";
+import { Icon } from "astro-icon";
 
 const cars = getItemFiles(dataCars.data);
 const { pathname } = Astro.url;
@@ -12,7 +13,7 @@ const { pathname } = Astro.url;
   <section class="py-10 relative h-96">
     <div class="absolute inset-0">
       <img
-        src="/images/boat rental.jpg"
+        src="/images/car rental.jpg"
         alt="boat rental"
         class="w-full h-full object-cover"
       />
@@ -20,29 +21,36 @@ const { pathname } = Astro.url;
   </section>
   <section class="bg-blue-100 py-10">
     <h2 class="text-5xl font-extrabold text-center">Our Cars</h2>
-    <div class="container mx-auto px-10 space-y-5 py-5">
+    <div class="container mx-auto px-10 gap-4 py-5 grid grid-cols-3">
       {
         cars.map((car) => {
           return (
-            <div class="grid grid-cols-2 gap-5 relative hover:bg-blue-50 rounded-xl">
+            <div class="gap-5 relative hover:bg-blue-50 rounded-xl shadow-lg bg-white">
               <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
-                <img class="w-full h-full" src={car.files[0]?.url ?? "/"} />
+                <img
+                  class="w-full h-full object-cover"
+                  src={car.files[0]?.url ?? "/"}
+                />
               </div>
-              <div class="relative flex flex-col py-10">
-                <h3 class="text-3xl font-bold">{car.name}</h3>
-                <p class="capitalize">
-                  <span class="font-bold">Seats:</span> {car.seats}
-                </p>
-                <p class="capitalize">
-                  <span class="font-bold">Doors:</span> {car.doors}
-                </p>
-                <p class="capitalize">
-                  <span class="font-bold">Transmission:</span>{" "}
-                  {car.transmission}
-                </p>
+              <div class="relative flex flex-col px-3 pb-3">
+                <h3 class="text-3xl font-bold py-2">{car.name}</h3>
+                <div>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-seat" />
+                    {car.seats} seats
+                  </p>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-door" />
+                    {car.doors} doors
+                  </p>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-shift-pattern" />
+                    <b>{car.transmission}</b> transmission
+                  </p>
+                </div>
                 <a
                   href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
-                  class="mt-auto ml-auto mr-5 px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10"
+                  class="mt-5 ml-auto mr-5 px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10"
                 >
                   View More &gt;&gt;
                   <div class="border border-black bg-black scale-x-0 transition-all group-hover:scale-x-100" />
@@ -50,7 +58,7 @@ const { pathname } = Astro.url;
               </div>
               <a
                 href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
-                class=" inset-0 absolute"
+                class="inset-0 absolute"
               />
             </div>
           );
@@ -59,3 +67,14 @@ const { pathname } = Astro.url;
     </div>
   </section>
 </Layout>
+
+<style>
+  [astro-icon] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
+  }
+</style>

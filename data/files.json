@@ -409,6 +409,36 @@
       "url": "/images/sedan1.jpg",
       "parent": "sedan",
       "order": 1000
+    },
+    {
+      "url": "/images/truck.webp",
+      "parent": "truck",
+      "order": 1000
+    },
+    {
+      "url": "/images/truck1.jpg",
+      "parent": "truck",
+      "order": 1000
+    },
+    {
+      "url": "/images/suv.jpg",
+      "parent": "suv",
+      "order": 1000
+    },
+    {
+      "url": "/images/suv1.jpg",
+      "parent": "suv",
+      "order": 1000
+    },
+    {
+      "url": "/images/suv.avif",
+      "parent": "suv",
+      "order": 1000
+    },
+    {
+      "url": "/images/van.jpg",
+      "parent": "van",
+      "order": 1000
     }
   ]
 }
