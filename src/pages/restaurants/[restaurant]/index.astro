@@ -28,8 +28,8 @@ const { restaurant } = Astro.props as Props;
       {
         restaurant.products.map((product: ObjectInterface) => {
           return (
-            <div>
-              <div class="border border-black aspect-w-1 aspect-h-1 relative rounded-lg overflow-hidden">
+            <div class="shadow-lg rounded-lg overflow-hidden">
+              <div class="aspect-w-1 aspect-h-1 relative">
                 <img
                   class="absolute inset-0 object-cover"
                   src={product.images[0].url}
