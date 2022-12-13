@@ -354,9 +354,27 @@
       "products": [
         {
           "name": "Crab and Shrimps Bilao",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
-          "description": ""
+          "images": [{ "url": "/images/rd crab and shrimp.png", "order": 1000 }],
+          "price": "1499.00Php",
+          "description": "Seafood"
+        },
+        {
+          "name": "Crispy Pata",
+          "images": [{ "url": "/images/rd crispy pata.jpg", "order": 1000 }],
+          "price": "599.00Php",
+          "description": "Pork"
+        },
+        {
+          "name": "Buttered Chicken",
+          "images": [{ "url": "/images/rd buttered chicken.jpg", "order": 1000 }],
+          "price": "450.00Php",
+          "description": "Chicken"
+        },
+        {
+          "name": "Chopsuey",
+          "images": [{ "url": "/images/rd chopsuey.jpg", "order": 1000 }],
+          "price": "350.00Php",
+          "description": "Vegetables"
         }
       ],
       "tags": ["seafood", "Philippines Restaurant"]
