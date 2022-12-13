@@ -14,10 +14,36 @@
       "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "PHP ",
-          "description": ""
+          "name": "Pork Sisig",
+          "images": [
+            { "url": "/images/jacks ridge pork sisig.webp", "order": 1000 }
+          ],
+          "price": "PHP 240.00",
+          "description": "Sizzlers"
+        },
+        {
+          "name": "Adobong Pusit",
+          "images": [
+            { "url": "/images/jacks ridge adobong pusit.jpg", "order": 1000 }
+          ],
+          "price": "PHP 226.00",
+          "description": "Traditional Specialties"
+        },
+        {
+          "name": "Tinolang Imbao",
+          "images": [
+            { "url": "/images/jacks ridge tinolang imbao.webp", "order": 1000 }
+          ],
+          "price": "PHP 80.00",
+          "description": "Soup"
+        },
+        {
+          "name": "Leche Flan",
+          "images": [
+            { "url": "/images/jacks ridge leche flan.jpg", "order": 1000 }
+          ],
+          "price": "PHP 240.00",
+          "description": "Dessert"
         }
       ],
       "tags": ["quiet", "rural area", "night view"]
