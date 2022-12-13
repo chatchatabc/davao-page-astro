@@ -37,14 +37,14 @@ const { restaurant } = Astro.props as Props;
                 />
               </div>
               <div class="p-2">
-                <h4 class="text-lg leading-5">{product.name}</h4>
+                <h4 class="text-lg leading-5 font-medium">{product.name}</h4>
                 <div class="text-sm text-gray-500">
-                  <p>
-                    Food type:{" "}
-                    <span class="font-medium">
-                      {product.description.length ? product.description : "N/A"}
-                    </span>
-                  </p>
+                  {product.description.length ? (
+                    <p>
+                      Food type:{" "}
+                      <span class="font-medium">{product.description}</span>
+                    </p>
+                  ) : null}
                   <p>
                     Price:{" "}
                     <span class="font-medium">

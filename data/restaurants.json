@@ -340,10 +340,10 @@
       "tags": ["seafood"]
     },
     {
-      "name": "Dimsum Dinner",
+      "name": "Dimsum Diner",
       "catalog": "restaurants",
       "sub_catalog": "chinese-foods",
-      "slug": "dimsum-dinner",
+      "slug": "dimsum-diner",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
       "address": "F. Torres street, corner Emilio Jacinto Ext, Davao City, 8000 Davao del Sur",
@@ -352,8 +352,28 @@
       "business_hours": "",
       "products": [
         {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "name": "Rice Toppings",
+          "images": [
+            { "url": "/images/dimsum rice toppings.jpg", "order": 1000 }
+          ],
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Noodles",
+          "images": [{ "url": "/images/dimsum noodles.png", "order": 1000 }],
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Congee",
+          "images": [{ "url": "/images/dimsum congee.png", "order": 1000 }],
+          "price": "",
+          "description": ""
+        },
+        {
+          "name": "Dimsum",
+          "images": [{ "url": "/images/dimsum dimsum.jpg", "order": 1000 }],
           "price": "",
           "description": ""
         }
