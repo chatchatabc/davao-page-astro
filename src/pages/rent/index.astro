@@ -6,15 +6,15 @@ const { pathname } = Astro.url;
 ---
 
 <Layout>
-  <section class="container grid mx-auto md:px-10 md:grid-cols-2">
+  <section class="grid lg:grid-cols-2 min-h-[70vh]">
     <div
-      class="overflow-hidden relative duration-300 shadow-lg group md:hover:shadow-2xl"
+      class="overflow-hidden relative duration-300 shadow-lg group cursor-pointer md:hover:shadow-2xl"
     >
       <div class="absolute inset-0">
         <img
           src="/images/car rental.jpg"
           alt="car"
-          class="w-full h-full object-cover"
+          class="w-full h-full object-cover duration-1000 group-hover:scale-105"
         />
         <div
           class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
@@ -31,20 +31,21 @@ const { pathname } = Astro.url;
         > -->
         <a
           href={fixUrl(`${pathname}/car`)}
-          class="ring-2 p-2 block w-fit duration-300 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500 rounded-sm"
+          class="ring-2 p-2 block w-fit duration-300 rounded-sm relative z-10 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500"
         >
           View More
         </a>
       </div>
+      <a href={fixUrl(`${pathname}/car`)} class="absolute inset-0"></a>
     </div>
     <div
-      class="overflow-hidden relative group duration-300 shadow-lg md:hover:shadow-2xl"
+      class="overflow-hidden relative group duration-300 shadow-lg cursor-pointer md:hover:shadow-2xl"
     >
       <div class="absolute inset-0">
         <img
           src="/images/boat rental.jpg"
           alt="car"
-          class="w-full h-full object-cover"
+          class="w-full h-full duration-1000 object-cover group-hover:scale-105"
         />
         <div
           class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
@@ -55,10 +56,11 @@ const { pathname } = Astro.url;
         <h3 class="text-5xl font-bold py-2">Boat Rental Davao</h3>
         <a
           href={fixUrl(`${pathname}/boat`)}
-          class="ring-2 p-2 block w-fit duration-300 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500 rounded-sm"
+          class="relative ring-2 p-2 block w-fit duration-300 rounded-sm z-10 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500"
           >View More</a
         >
       </div>
+      <a class="absolute inset-0" href={fixUrl(`${pathname}/boat`)}></a>
     </div>
   </section>
 </Layout>
