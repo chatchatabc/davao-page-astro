@@ -59,7 +59,12 @@
       "phone": "+632283534",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        { "url": "/images/vistaview gallery.jpg", "order": 1000 },
+        { "url": "/images/vistaview gallery1.jpg", "order": 1000 },
+        { "url": "/images/vistaview gallery2.jpg", "order": 1000 },
+        { "url": "/images/vistaview gallery3.jpg", "order": 1000 }
+      ],
       "products": [
         {
           "name": "",
