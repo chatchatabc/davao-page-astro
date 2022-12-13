@@ -11,6 +11,7 @@
       "phone": "",
       "email": "jacksridgedavao@yahoo.com.ph",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -32,6 +33,7 @@
       "phone": "+632283534",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -53,6 +55,7 @@
       "phone": "0998 593 3763",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -74,6 +77,7 @@
       "phone": "0927 069 3587",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -95,6 +99,7 @@
       "phone": "0998 531 2492",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -116,6 +121,7 @@
       "phone": "0905 263 2875",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "Ahfat Seafoods Cream Soup",
@@ -161,6 +167,7 @@
       "phone": "0915 667 9184",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -182,6 +189,7 @@
       "phone": "(082) 227 6726",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -203,6 +211,7 @@
       "phone": "0917 888 8312",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -224,6 +233,7 @@
       "phone": "09190642619",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -245,6 +255,7 @@
       "phone": "(082) 224 5552",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -266,6 +277,7 @@
       "phone": "(082) 225 1238",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -287,12 +299,42 @@
       "phone": "(082) 297 8777",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
-          "description": ""
+          "name": "Sinigang na Salmon Head",
+          "images": [
+            {
+              "url": "/images/yellow fin sinigang na salmon head.webp",
+              "order": 1000
+            }
+          ],
+          "price": "158.00Php",
+          "description": "Soup"
+        },
+        {
+          "name": "Tortang Talong",
+          "images": [
+            { "url": "/images/yellow fin tortang talong.webp", "order": 1000 }
+          ],
+          "price": "85.00Php",
+          "description": "Vegetables"
+        },
+        {
+          "name": "Tuna Laing",
+          "images": [
+            { "url": "/images/yellow fin tuna laing.jpg", "order": 1000 }
+          ],
+          "price": "65.00Php",
+          "description": "Fish"
+        },
+        {
+          "name": "Chicken Inasal",
+          "images": [
+            { "url": "/images/yellow fin chicken inasal.jpg", "order": 1000 }
+          ],
+          "price": "135.00Php",
+          "description": "Chicken"
         }
       ],
       "tags": ["seafood"]
@@ -308,9 +350,10 @@
       "phone": "(082) 286 0226",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
-          "name": "",
+          "name": "Crab and Shrimps Bilao",
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
@@ -329,6 +372,7 @@
       "phone": "0977 300 3150",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
@@ -350,6 +394,7 @@
       "phone": "0933 817 0511",
       "email": "",
       "business_hours": "",
+      "gallery": [],
       "products": [
         {
           "name": "Rice Toppings",
@@ -391,6 +436,12 @@
       "phone": "0970 890 0070",
       "email": "",
       "business_hours": "",
+      "gallery": [
+        { "url": "/images/mixed temptation gallery.jpg", "order": 1000 },
+        { "url": "/images/mixed temptation gallery1.jpg", "order": 1000 },
+        { "url": "/images/mixed temptation gallery2.jpg", "order": 1000 },
+        { "url": "/images/mixed temptation lanang.jpg", "order": 1000 }
+      ],
       "products": [
         {
           "name": "",
@@ -412,6 +463,7 @@
       "phone": "0925 714 1434",
       "email": "",
       "business_hours": "",
+      "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
           "name": "",
