@@ -188,10 +188,28 @@
       "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "PHP ",
-          "description": ""
+          "name": "Bulalo",
+          "images": [{ "url": "/images/eskina bulalo.webp", "order": 1000 }],
+          "price": "PHP 720.00", 
+          "description": "Soup"
+        },
+        {
+          "name": "Fried Ice Cream",
+          "images": [{ "url": "/images/eskina fried ice cream.jpg", "order": 1000 }],
+          "price": "PHP 180.00",
+          "description": "Dessert"
+        },
+        {
+          "name": "Spaghetti Bolognese",
+          "images": [{ "url": "/images/eskina spaghetti bolognese.jpg", "order": 1000 }],
+          "price": "PHP 350.00",
+          "description": "Pasta"
+        },
+        {
+          "name": "Beef Skank Kare Kare",
+          "images": [{ "url": "/images/eskina beef skank.jpg", "order": 1000 }],
+          "price": "PHP 610.00",
+          "description": "Beef"
         }
       ],
       "tags": ["Music Restaurant"]
