@@ -16,7 +16,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -38,7 +38,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -65,7 +65,7 @@
               "order": 1000
             }
           ],
-          "price": "2390.00Php",
+          "price": "PHP 2390.00",
           "description": "Pie"
         },
         {
@@ -73,7 +73,7 @@
           "images": [
             { "url": "/images/bondi cheese ensaymada.jpg", "order": 1000 }
           ],
-          "price": "1280.00Php",
+          "price": "PHP 1280.00",
           "description": "Fresh Bake"
         },
         {
@@ -81,7 +81,7 @@
           "images": [
             { "url": "/images/bondi chicken parm.webp", "order": 1000 }
           ],
-          "price": "795.00Php",
+          "price": "PHP 795.00",
           "description": "Aussie Favourites"
         },
         {
@@ -89,7 +89,7 @@
           "images": [
             { "url": "/images/bondi lapu lapu fillet.jpg", "order": 1000 }
           ],
-          "price": "925.00Php",
+          "price": "PHP 925.00",
           "description": "Seafood"
         }
       ],
@@ -113,7 +113,7 @@
           "images": [
             { "url": "/images/red tomato banana berry.jpg", "order": 1000 }
           ],
-          "price": "195.00Php",
+          "price": "PHP 195.00",
           "description": "Crepe"
         },
         {
@@ -121,7 +121,7 @@
           "images": [
             { "url": "/images/red tomato seafood calamari.jpg", "order": 1000 }
           ],
-          "price": "390.00Php",
+          "price": "PHP 390.00",
           "description": "Appetizer"
         },
         {
@@ -129,7 +129,7 @@
           "images": [
             { "url": "/images/red tomato italian pepperoni.jpg", "order": 1000 }
           ],
-          "price": "375.00Php",
+          "price": "PHP 375.00",
           "description": "Pizza"
         },
         {
@@ -137,7 +137,7 @@
           "images": [
             { "url": "/images/red tomato wagyu burger.jpg", "order": 1000 }
           ],
-          "price": "250.00Php",
+          "price": "PHP 250.00",
           "description": "Burger"
         }
       ],
@@ -159,7 +159,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -181,7 +181,7 @@
         {
           "name": "Ahfat Seafoods Cream Soup",
           "images": [{ "url": "/images/ahfat cream soup.webp", "order": 1000 }],
-          "price": "₱₱",
+          "price": "PHP ₱₱",
           "description": "Soup"
         },
         {
@@ -189,7 +189,7 @@
           "images": [
             { "url": "/images/ahfat sauteed beef.jpg", "order": 1000 }
           ],
-          "price": "₱₱",
+          "price": "PHP ₱₱",
           "description": "Beef"
         },
         {
@@ -197,7 +197,7 @@
           "images": [
             { "url": "/images/ahfat sate beef sotanghon.jpg", "order": 1000 }
           ],
-          "price": "₱₱",
+          "price": "PHP ₱₱",
           "description": "Hot Pot"
         },
         {
@@ -205,7 +205,7 @@
           "images": [
             { "url": "/images/ahfat broccoli flower.jpg", "order": 1000 }
           ],
-          "price": "₱₱",
+          "price": "PHP ₱₱",
           "description": "Vegetables"
         }
       ],
@@ -223,7 +223,38 @@
       "email": "",
       "business_hours": "",
       "gallery": [{ "url": "/images/", "order": 1000 }],
-      "products": [],
+      "products": [
+        {
+          "name": "Greek Salad",
+          "images": [
+            { "url": "/images/de bonte greek salad.jpeg", "order": 1000 }
+          ],
+          "price": "PHP 190.00",
+          "description": "Salad"
+        },
+        {
+          "name": "Dutch Stew",
+          "images": [
+            { "url": "/images/de bonte dutch stew.jpg", "order": 1000 }
+          ],
+          "price": "PHP 430.00",
+          "description": "Dutch Table"
+        },
+        {
+          "name": "Mussels (Mosselen)",
+          "images": [{ "url": "/images/de bonte mussels.jpg", "order": 1000 }],
+          "price": "PHP 200.00",
+          "description": "European Delicacies"
+        },
+        {
+          "name": "Pasta Pangritata",
+          "images": [
+            { "url": "/images/de bonte pasta pangritata.jpeg", "order": 1000 }
+          ],
+          "price": "PHP 225.00",
+          "description": "Pasta"
+        }
+      ],
       "tags": ["European Restaurant"]
     },
     {
@@ -242,7 +273,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -264,7 +295,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -286,7 +317,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -308,7 +339,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -330,7 +361,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -357,7 +388,7 @@
               "order": 1000
             }
           ],
-          "price": "158.00Php",
+          "price": "PHP 158.00",
           "description": "Soup"
         },
         {
@@ -365,7 +396,7 @@
           "images": [
             { "url": "/images/yellow fin tortang talong.webp", "order": 1000 }
           ],
-          "price": "85.00Php",
+          "price": "PHP 85.00",
           "description": "Vegetables"
         },
         {
@@ -373,7 +404,7 @@
           "images": [
             { "url": "/images/yellow fin tuna laing.jpg", "order": 1000 }
           ],
-          "price": "65.00Php",
+          "price": "PHP 65.00",
           "description": "Fish"
         },
         {
@@ -381,7 +412,7 @@
           "images": [
             { "url": "/images/yellow fin chicken inasal.jpg", "order": 1000 }
           ],
-          "price": "135.00Php",
+          "price": "PHP 135.00",
           "description": "Chicken"
         }
       ],
@@ -405,13 +436,13 @@
           "images": [
             { "url": "/images/rd crab and shrimp.png", "order": 1000 }
           ],
-          "price": "1499.00Php",
+          "price": "PHP 1499.00",
           "description": "Seafood"
         },
         {
           "name": "Crispy Pata",
           "images": [{ "url": "/images/rd crispy pata.jpg", "order": 1000 }],
-          "price": "599.00Php",
+          "price": "PHP 599.00",
           "description": "Pork"
         },
         {
@@ -419,13 +450,13 @@
           "images": [
             { "url": "/images/rd buttered chicken.jpg", "order": 1000 }
           ],
-          "price": "450.00Php",
+          "price": "PHP 450.00",
           "description": "Chicken"
         },
         {
           "name": "Chopsuey",
           "images": [{ "url": "/images/rd chopsuey.jpg", "order": 1000 }],
-          "price": "350.00Php",
+          "price": "PHP 350.00",
           "description": "Vegetables"
         }
       ],
@@ -452,7 +483,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -476,25 +507,25 @@
           "images": [
             { "url": "/images/dimsum rice toppings.jpg", "order": 1000 }
           ],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         },
         {
           "name": "Noodles",
           "images": [{ "url": "/images/dimsum noodles.png", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         },
         {
           "name": "Congee",
           "images": [{ "url": "/images/dimsum congee.png", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         },
         {
           "name": "Dimsum",
           "images": [{ "url": "/images/dimsum dimsum.jpg", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -521,7 +552,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
@@ -543,7 +574,7 @@
         {
           "name": "",
           "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
+          "price": "PHP ",
           "description": ""
         }
       ],
