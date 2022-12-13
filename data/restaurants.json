@@ -14,7 +14,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -35,7 +35,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -56,7 +56,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -77,7 +77,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -98,7 +98,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -119,15 +119,33 @@
       "products": [
         {
           "name": "Ahfat Seafoods Cream Soup",
-          "images": [{ "url": "", "order": 1000 }],
-          "price": "350",
+          "images": [{ "url": "/images/ahfat cream soup.webp", "order": 1000 }],
+          "price": "₱₱",
           "description": "Soup"
         },
         {
-          "name": "",
-          "images": [{ "url": "", "order": 1000 }],
-          "price": "",
-          "description": ""
+          "name": "Sauteed Beef with Broccoli Flower",
+          "images": [
+            { "url": "/images/ahfat sauteed beef.jpg", "order": 1000 }
+          ],
+          "price": "₱₱",
+          "description": "Beef"
+        },
+        {
+          "name": "Sate Beef Sotanghon",
+          "images": [
+            { "url": "/images/ahfat sate beef sotanghon.jpg", "order": 1000 }
+          ],
+          "price": "₱₱",
+          "description": "Hot Pot"
+        },
+        {
+          "name": "Broccoli Flower with Oyster Sauce",
+          "images": [
+            { "url": "/images/ahfat broccoli flower.jpg", "order": 1000 }
+          ],
+          "price": "₱₱",
+          "description": "Vegetables"
         }
       ],
       "tags": ["Chinese Restaurant"]
@@ -146,7 +164,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -167,7 +185,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -188,7 +206,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -209,7 +227,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -230,7 +248,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -251,7 +269,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -272,7 +290,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -293,7 +311,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -314,7 +332,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -335,7 +353,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -356,7 +374,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
@@ -377,7 +395,7 @@
       "products": [
         {
           "name": "",
-          "images": [{ "url": "", "order": 1000 }],
+          "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
         }
