@@ -58,10 +58,28 @@
       "gallery": [{ "url": "/images/", "order": 1000 }],
       "products": [
         {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
-          "description": ""
+          "name": "Apple and Blueberry Pie 4inch",
+          "images": [{ "url": "/images/bondi apple and blueberry pie.jpg", "order": 1000 }],
+          "price": "2390.00Php",
+          "description": "Pie"
+        },
+        {
+          "name": "Cheese Ensaymada",
+          "images": [{ "url": "/images/bondi cheese ensaymada.jpg", "order": 1000 }],
+          "price": "1280.00Php",
+          "description": "Fresh Bake"
+        },
+        {
+          "name": "Chicken Parm",
+          "images": [{ "url": "/images/bondi chicken parm.webp", "order": 1000 }],
+          "price": "795.00Php",
+          "description": "Aussie Favourites"
+        },
+        {
+          "name": "Lapu-Lapu Fillet",
+          "images": [{ "url": "/images/bondi lapu lapu fillet.jpg", "order": 1000 }],
+          "price": "925.00Php",
+          "description": "Seafood"
         }
       ],
       "tags": ["Aussie"]
@@ -168,14 +186,7 @@
       "email": "",
       "business_hours": "",
       "gallery": [{ "url": "/images/", "order": 1000 }],
-      "products": [
-        {
-          "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
-          "price": "",
-          "description": ""
-        }
-      ],
+      "products": [],
       "tags": ["European Restaurant"]
     },
     {
@@ -354,7 +365,9 @@
       "products": [
         {
           "name": "Crab and Shrimps Bilao",
-          "images": [{ "url": "/images/rd crab and shrimp.png", "order": 1000 }],
+          "images": [
+            { "url": "/images/rd crab and shrimp.png", "order": 1000 }
+          ],
           "price": "1499.00Php",
           "description": "Seafood"
         },
@@ -366,7 +379,9 @@
         },
         {
           "name": "Buttered Chicken",
-          "images": [{ "url": "/images/rd buttered chicken.jpg", "order": 1000 }],
+          "images": [
+            { "url": "/images/rd buttered chicken.jpg", "order": 1000 }
+          ],
           "price": "450.00Php",
           "description": "Chicken"
         },
@@ -390,7 +405,12 @@
       "phone": "0977 300 3150",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        { "url": "/images/shrabs gallery.jpg", "order": 1000 },
+        { "url": "/images/shrabs gallery1.jpg", "order": 1000 },
+        { "url": "/images/shrabs gallery3.jpg", "order": 1000 },
+        { "url": "/images/shrabs gallery2.jpg", "order": 1000 }
+      ],
       "products": [
         {
           "name": "",
