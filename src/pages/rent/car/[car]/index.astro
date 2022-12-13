@@ -1,0 +1,181 @@
+---
+import dataCars from "../../../../../data/cars.json";
+import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
+import { getItemFiles } from "../../../../helpers/commonUtils";
+import { Icon } from "astro-icon";
+import Layout from "../../../../layouts/Layout.astro";
+
+export function getStaticPaths() {
+  return getItemFiles(dataCars.data).map((car) => {
+    return {
+      params: { car: car.slug },
+      props: { car },
+    };
+  });
+}
+interface Props {
+  car: ObjectInterface;
+}
+
+const { car } = Astro.props as Props;
+const { files } = car;
+---
+
+<Layout>
+  <!-- Introduction -->
+  <section class="pb-10">
+    <div class="container px-10 mx-auto grid md:grid-cols-2 gap-5">
+      <div class="carousel">
+        {
+          files.map((file: ObjectInterface, index: number) => {
+            return (
+              <div id={`slide${index}`} class="carousel-item relative w-full">
+                <img
+                  class="w-full h-full"
+                  alt={file.url}
+                  src={file.url ?? "/"}
+                />
+                <div class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2">
+                  <a
+                    href={`#slide${index - 1}`}
+                    class={`btn btn-circle ${
+                      index === 0 ? "opacity-0 pointer-events-none" : ""
+                    }`}
+                  >
+                    ❮
+                  </a>
+                  <a
+                    href={`#slide${index + 1}`}
+                    class={`btn btn-circle ${
+                      index === files.length - 1
+                        ? "opacity-0 pointer-events-none"
+                        : ""
+                    }`}
+                  >
+                    ❯
+                  </a>
+                </div>
+              </div>
+            );
+          })
+        }
+        <div id="slide1" class="carousel-item relative w-full">
+          <img
+            class="w-full h-full"
+            alt="boat"
+            src={car.files[0]?.url ?? "/"}
+          />
+          <div
+            class="absolute flex justify-between transform -translate-y-1/2 left-5 right-5 top-1/2"
+          >
+            <a href="#slide4" class="btn btn-circle">❮</a>
+            <a href="#slide2" class="btn btn-circle">❯</a>
+          </div>
+        </div>
+      </div>
+      <div class="flex flex-col">
+        <h3 class="text-2xl font-bold">{car.name}</h3>
+        <p>
+          {car.details}
+        </p>
+
+        <!-- Boat Package -->
+        <h3 class="text-xl py-1 font-semibold mt-auto">
+          {car.name} Price Package
+        </h3>
+        <div class="overflow-hidden rounded-lg border">
+          <table class="min-w-full divide-y divide-gray-300">
+            <thead class="bg-gray-50">
+              <tr class="divide-x divide-gray-200">
+                {
+                  car.pricePackages.map((pricePackage: ObjectInterface) => {
+                    return (
+                      <th
+                        scope="col"
+                        class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                      >
+                        {pricePackage.totalTime} {pricePackage.time}
+                      </th>
+                    );
+                  })
+                }
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+              <tr class="divide-x divide-gray-200">
+                {
+                  car.pricePackages.map((pricePackage: ObjectInterface) => {
+                    return (
+                      <td class="whitespace-nowrap p-4 text-sm">
+                        ₱{pricePackage.price}
+                      </td>
+                    );
+                  })
+                }
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="p-2 flex items-center">
+          <div class="flex-1">
+            <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
+            <p class="font-extralight">
+              <span class="text-xl font-bold">₱{car.price.price}</span> / {
+                car.price.time
+              }
+            </p>
+          </div>
+          <a class="p-2 px-5 bg-blue-500 rounded-md text-white">Inquire Now</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section>
+    <div class="container flex justify-around mx-auto flex-wrap md:flex-nowrap">
+      <div class="flex-1 flex justify-center gap-10">
+        <div class="w-full max-w-[200px]">
+          <h3 class="text-xl w-max font-bold">Need a Driver?</h3>
+          <h4>Additional ₱{car.driver}</h4>
+          <p class="text-xs text-gray-600 leading-4">*Optional*</p>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:card-account-details-outline" />
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center gap-10">
+        <div class="w-full max-w-[200px] capitalize">
+          <h3 class="text-xl w-max font-bold">Basic Information</h3>
+          <h4>
+            {car.doors} doors, {car.seats} seats
+          </h4>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:car-info" />
+        </div>
+      </div>
+      <div class="flex-1 flex justify-center gap-10 capitalize">
+        <div class="w-full max-w-[200px]">
+          <h3 class="text-xl w-max font-bold capitalize">{car.type}</h3>
+          <h4><b>{car.transmission}</b> transmission</h4>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:car-cog" />
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <style>
+    [astro-icon] {
+      height: 3em;
+      width: 3em;
+      display: inline-block;
+    }
+    #title {
+      text-shadow: 2px 2px aqua;
+    }
+  </style>
+</Layout>

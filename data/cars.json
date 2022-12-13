@@ -1,0 +1,72 @@
+{
+  "data": [
+    {
+      "name": "Sedan",
+      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "price": { "price": "14,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "5",
+      "doors": "4",
+      "driver": "8000",
+      "type": "sedan",
+      "transmission": "automatic",
+      "slug": "sedan",
+      "telephone": ""
+    },
+    {
+      "name": "Truck",
+      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "price": { "price": "14,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "5",
+      "doors": "4",
+      "driver": "8000",
+      "type": "truck",
+      "transmission": "automatic",
+      "slug": "truck",
+      "telephone": ""
+    },
+    {
+      "name": "SUV",
+      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "price": { "price": "14,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "7",
+      "doors": "5",
+      "driver": "8000",
+      "type": "suv",
+      "transmission": "automatic",
+      "slug": "suv",
+      "telephone": ""
+    },
+    {
+      "name": "Van",
+      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "price": { "price": "14,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "15",
+      "doors": "4",
+      "driver": "8000",
+      "type": "van",
+      "transmission": "automatic",
+      "slug": "van",
+      "telephone": ""
+    }
+  ]
+}

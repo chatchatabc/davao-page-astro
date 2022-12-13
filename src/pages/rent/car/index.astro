@@ -1,0 +1,61 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import dataCars from "../../../../data/cars.json";
+import { getItemFiles } from "../../../helpers/commonUtils";
+
+const cars = getItemFiles(dataCars.data);
+const { pathname } = Astro.url;
+---
+
+<Layout>
+  <!-- Hero Section -->
+  <section class="py-10 relative h-96">
+    <div class="absolute inset-0">
+      <img
+        src="/images/boat rental.jpg"
+        alt="boat rental"
+        class="w-full h-full object-cover"
+      />
+    </div>
+  </section>
+  <section class="bg-blue-100 py-10">
+    <h2 class="text-5xl font-extrabold text-center">Our Cars</h2>
+    <div class="container mx-auto px-10 space-y-5 py-5">
+      {
+        cars.map((car) => {
+          return (
+            <div class="grid grid-cols-2 gap-5 relative hover:bg-blue-50 rounded-xl">
+              <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
+                <img class="w-full h-full" src={car.files[0]?.url ?? "/"} />
+              </div>
+              <div class="relative flex flex-col py-10">
+                <h3 class="text-3xl font-bold">{car.name}</h3>
+                <p class="capitalize">
+                  <span class="font-bold">Seats:</span> {car.seats}
+                </p>
+                <p class="capitalize">
+                  <span class="font-bold">Doors:</span> {car.doors}
+                </p>
+                <p class="capitalize">
+                  <span class="font-bold">Transmission:</span>{" "}
+                  {car.transmission}
+                </p>
+                <a
+                  href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
+                  class="mt-auto ml-auto mr-5 px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10"
+                >
+                  View More &gt;&gt;
+                  <div class="border border-black bg-black scale-x-0 transition-all group-hover:scale-x-100" />
+                </a>
+              </div>
+              <a
+                href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
+                class=" inset-0 absolute"
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>

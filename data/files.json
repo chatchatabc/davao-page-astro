@@ -394,6 +394,21 @@
       "url": "/images/bowrider.png",
       "parent": "bowrider",
       "order": 1000
+    },
+    {
+      "url": "/images/sedan.png",
+      "parent": "sedan",
+      "order": 1000
+    },
+    {
+      "url": "/images/sedan.jpg",
+      "parent": "sedan",
+      "order": 1000
+    },
+    {
+      "url": "/images/sedan1.jpg",
+      "parent": "sedan",
+      "order": 1000
     }
   ]
 }

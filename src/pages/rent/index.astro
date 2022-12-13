@@ -23,12 +23,18 @@ const { pathname } = Astro.url;
       </div>
       <div class="relative px-4 pt-52 pb-10 text-white">
         <h3 class="text-5xl font-bold py-2">Car Rental Davao</h3>
-        <a
+        <!-- <a
           href="https://carrentaldavao.com"
           target="_blank"
           class="ring-2 p-2 block w-fit duration-300 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500 rounded-sm"
           >View More</a
+        > -->
+        <a
+          href={fixUrl(`${pathname}/car`)}
+          class="ring-2 p-2 block w-fit duration-300 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500 rounded-sm"
         >
+          View More
+        </a>
       </div>
     </div>
     <div
