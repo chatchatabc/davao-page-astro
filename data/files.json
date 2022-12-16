@@ -26,36 +26,6 @@
       "order": 1000
     },
     {
-      "url": "/images/dusit thani hotel.jpg",
-      "parent": "dusit-thani-residence-davao",
-      "order": 1000
-    },
-    {
-      "url": "/images/waterfront insular hotel.jpg",
-      "parent": "waterfront-insular-hotel-davao",
-      "order": 1000
-    },
-    {
-      "url": "/images/anavada apartment inn.jpg",
-      "parent": "anavada-apartment-inn-davao",
-      "order": 1000
-    },
-    {
-      "url": "/images/seda abreeza.jpg",
-      "parent": "seda-abreeza",
-      "order": 1000
-    },
-    {
-      "url": "/images/grand regal hotel.jpg",
-      "parent": "grand-regal-hotel",
-      "order": 1000
-    },
-    {
-      "url": "/images/marco polo hotel.jpg",
-      "parent": "marco-polo-davao",
-      "order": 1000
-    },
-    {
       "url": "/images/abreeza mall.jpg",
       "parent": "abreeza-mall",
       "order": 1000

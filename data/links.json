@@ -110,36 +110,8 @@
       "url": "https://www.facebook.com/waterworlddavao/",
       "parent": "waterworld-beach-resort"
     },
-    {
-      "type": "website",
-      "url": "https://www.dusit.com/dusitthani-residencedavao/",
-      "parent": "dusit-thani-residence-davao"
-    },
-    {
-      "type": "website",
-      "url": "https://www.waterfronthotels.com.ph/",
-      "parent": "waterfront-insular-hotel-davao"
-    },
-    {
-      "type": "facebook",
-      "url": "https://m.facebook.com/people/Anavada-Apartment-Inn-Davao/100063832599425/",
-      "parent": "anavada-apartment-inn-davao"
-    },
-    {
-      "type": "website",
-      "url": "https://abreeza.sedahotels.com/",
-      "parent": "seda-abreeza"
-    },
-    {
-      "type": "website",
-      "url": "http://thegrandregalhotel.com/",
-      "parent": "grand-regal-hotel"
-    },
-    {
-      "type": "website",
-      "url": "http://www.marcopolohotels.com/",
-      "parent": "marco-polo-davao"
-    },
+
+    
     {
       "type": "facebook",
       "url": "https://www.facebook.com/robinsonsabreezamall/",

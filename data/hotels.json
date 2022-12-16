@@ -7,13 +7,23 @@
       "slug": "dusit-thani-residence-davao",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "Stella Hizon Reyes Drive, Bo. Pampanga, 2b Maryknoll Dr, Buhangin, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 272 7500",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
-      "tags": []
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.dusit.com/dusitthani-residencedavao/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/dusit thani hotel.jpg",
+          "order": 1000
+        }
+      ],
+      "tags": ["thai hotel"]
     },
     {
       "name": "Waterfront Insular Hotel Davao",
@@ -22,12 +32,22 @@
       "slug": "waterfront-insular-hotel-davao",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "Davao-Agusan Highway Brgy. 12-B, Davao City, Mindanao 8000 Philippines",
+      "phone": "(082) 233 2881",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
+      "links": [
+        {
+          "type": "website",
+          "url": "https://www.waterfronthotels.com.ph/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/waterfront insular hotel.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -37,12 +57,22 @@
       "slug": "anavada-apartment-inn-davao",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "block 12 Anavada Apartment Inn, aplicador st. corner Buulan St, Buhangin, Dabaw, 8000 Lalawigan ng Davao del Sur",
+      "phone": "0906 253 2118",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://m.facebook.com/people/Anavada-Apartment-Inn-Davao/100063832599425/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/anavada apartment inn.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -52,12 +82,22 @@
       "slug": "seda-abreeza",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "J.P. Laurel Ave, Bajada, Davao City, 8000 Davao del Sur",
+      "phone": "0917 851 7302",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
+      "links": [
+        {
+          "type": "website",
+          "url": "https://abreeza.sedahotels.com/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/seda abreeza.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -67,12 +107,22 @@
       "slug": "grand-regal-hotel",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "J.P. Laurel Ave, Lanang, Buhangin, Davao City, 8000 Davao del Sur",
+      "phone": "0966 174 0888",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
+      "links": [
+        {
+          "type": "website",
+          "url": "http://thegrandregalhotel.com/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/grand regal hotel.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -82,12 +132,22 @@
       "slug": "marco-polo-davao",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
-      "phone": "",
+      "address": "C. M. Recto, Poblacion District, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 221 0888",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
-      "files": [{ "url": "", "order": 1000 }],
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.marcopolohotels.com/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/marco polo hotel.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     }
   ]
