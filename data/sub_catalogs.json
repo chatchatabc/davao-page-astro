@@ -3,41 +3,97 @@
     {
       "name": "Chinese Foods",
       "slug": "chinese-foods",
+      "files": [
+        {
+          "url": "/images/chinese foods.jpg",
+          "parent": "chinese-foods",
+          "order": 1000
+        }
+      ],
       "catalog": "restaurants"
     },
     {
       "name": "Seafoods",
       "slug": "seafoods",
+      "files": [
+        {
+          "url": "/images/seafoods.jpg",
+          "parent": "seafoods",
+          "order": 1000
+        }
+      ],
       "catalog": "restaurants"
     },
     {
       "name": "Western Foods",
       "slug": "western-foods",
+      "files": [
+        {
+          "url": "/images/western foods.jpg",
+          "parent": "western-foods",
+          "order": 1000
+        }
+      ],
       "catalog": "restaurants"
     },
     {
       "name": "Local Foods",
       "slug": "local-foods",
+      "files": [
+        {
+          "url": "/images/local foods.jpg",
+          "parent": "local-foods",
+          "order": 1000
+        }
+      ],
       "catalog": "restaurants"
     },
     {
       "name": "Bar",
       "slug": "bar",
+      "files": [
+        {
+          "url": "/images/bar.jpg",
+          "parent": "bar",
+          "order": 1000
+        }
+      ],
       "catalog": "entertainment"
     },
     {
       "name": "Golf",
       "slug": "golf",
+      "files": [
+        {
+          "url": "/images/golf.jpg",
+          "parent": "golf",
+          "order": 1000
+        }
+      ],
       "catalog": "entertainment"
     },
     {
       "name": "Massage",
       "slug": "massage",
+      "files": [
+        {
+          "url": "/images/massage.jpg",
+          "parent": "massage",
+          "order": 1000
+        }
+      ],
       "catalog": "entertainment"
     },
     {
       "name": "Shooting",
       "slug": "shooting",
+      "files": [
+        {
+          "url": "/images/shooting.jpg",
+          "parent": "shooting",
+          "order": 1000
+        }
+      ],
       "catalog": "entertainment"
     }
   ]
