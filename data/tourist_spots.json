@@ -19,6 +19,7 @@
         }
       ],
       "links": [],
+      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
       "tags": []
     },
     {
@@ -40,6 +41,7 @@
         }
       ],
       "links": [],
+      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
       "tags": []
     },
     {
@@ -61,6 +63,7 @@
         }
       ],
       "links": [],
+      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
       "tags": []
     },
     {
@@ -82,6 +85,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/peoples park gallery.jpg" },
+        { "url": "/images/peoples park gallery1.jpg" },
+        { "url": "/images/peoples park gallery.png" },
+        { "url": "/images/peoples park gallery1.png" }
+      ],
       "tags": []
     },
     {
@@ -103,6 +112,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/roxas night market gallery.jpg" },
+        { "url": "/images/roxas night market gallery1.jpg" },
+        { "url": "/images/roxas night market gallery2.jpg" },
+        { "url": "/images/roxas night market gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -124,6 +139,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/pearl farm beach resort gallery.jpg" },
+        { "url": "/images/pearl farm beach resort gallery.webp" },
+        { "url": "/images/pearl farm beach resort gallery1.jpg" },
+        { "url": "/images/pearl farm beach resort gallery2.jpg" }
+      ],
       "tags": []
     },
     {
@@ -139,12 +160,18 @@
       "business_hours": "8:30 AM - 4:30 PM",
       "files": [
         {
-          "url": "/images/eagle park.jpg",
+          "url": "/images/eagle park gallery.jpg",
           "parent": "eagle-park",
           "order": 1000
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/eagle park.jpg" },
+        { "url": "/images/eagle park gallery1.jpg" },
+        { "url": "/images/eagle park gallery2.jpg" },
+        { "url": "/images/eagle park gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -166,6 +193,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/samal island gallery.jpg" },
+        { "url": "/images/samal island gallery.webp" },
+        { "url": "/images/samal island gallery1.webp" },
+        { "url": "/images/samal island gallery2.webp" }
+      ],
       "tags": []
     },
     {
@@ -187,6 +220,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/crocodile park gallery.jpg" },
+        { "url": "/images/crocodile park gallery1.jpg" },
+        { "url": "/images/crocodile park gallery2.jpg" },
+        { "url": "/images/crocodile park gallery.webp" }
+      ],
       "tags": []
     },
     {
@@ -208,6 +247,12 @@
         }
       ],
       "links": [],
+      "gallery": [
+        { "url": "/images/waterworld beach resort gallery2.jpg" },
+        { "url": "/images/waterworld beach resort gallery.jpg" },
+        { "url": "/images/waterworld beach resort gallery1.jpg" },
+        { "url": "/images/waterworld beach resort gallery3.jpg" }
+      ],
       "tags": []
     }
   ]
