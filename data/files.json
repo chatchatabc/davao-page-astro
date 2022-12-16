@@ -106,56 +106,6 @@
       "order": 1000
     },
     {
-      "url": "/images/waterworld beach resort.jpg",
-      "parent": "waterworld-beach-resort",
-      "order": 1000
-    },
-    {
-      "url": "/images/crocodile park.jpg",
-      "parent": "crocodile-park",
-      "order": 1000
-    },
-    {
-      "url": "/images/samal island.jpg",
-      "parent": "samal-island",
-      "order": 1000
-    },
-    {
-      "url": "/images/pearl farm beach resort.jpg",
-      "parent": "pearl-farm-beach-resort",
-      "order": 1000
-    },
-    {
-      "url": "/images/roxas night market.jpg",
-      "parent": "roxas-night-market",
-      "order": 1000
-    },
-    {
-      "url": "/images/peoples park.jpg",
-      "parent": "peoples-park",
-      "order": 1000
-    },
-    {
-      "url": "/images/eden park.jpg",
-      "parent": "eden-park",
-      "order": 1000
-    },
-    {
-      "url": "/images/mount apo trek.webp",
-      "parent": "mount-apo-trek",
-      "order": 1000
-    },
-    {
-      "url": "/images/malagos garden resort.jpg",
-      "parent": "malagos-garden-resort-and-chocolate-museum",
-      "order": 1000
-    },
-    {
-      "url": "/images/eagle park.jpg",
-      "parent": "eagle-park",
-      "order": 1000
-    },
-    {
       "url": "/images/the grid at alley bar.jpg",
       "parent": "the-grid-alley-bar",
       "order": 1000

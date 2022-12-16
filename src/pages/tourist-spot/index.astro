@@ -1,10 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import data_places from "../../../data/places.json";
+import dataTouristSpots from "../../../data/tourist_spots.json";
 import PoiListCard from "../../components/PoiListCard.astro";
-import { getItemsByCatalog } from "../../helpers/commonUtils";
 
-const places = getItemsByCatalog("tourist-spot", data_places.data);
+const touristSpots = [...dataTouristSpots.data];
 const { pathname } = Astro.url;
 ---
 
@@ -63,7 +62,7 @@ const { pathname } = Astro.url;
         class="mx-auto grid max-w-md grid-cols-1 gap-y-6 px-4 sm:max-w-7xl sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:px-6 lg:gap-x-8 lg:px-8"
       >
         {
-          places.splice(0, 3).map((place) => {
+          touristSpots.splice(0, 3).map((touristSpot) => {
             return (
               <div class="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-w-4 sm:aspect-h-5 sm:h-auto">
                 <div>
@@ -73,8 +72,8 @@ const { pathname } = Astro.url;
                   >
                     <div class="absolute inset-0 overflow-hidden group-hover:opacity-75">
                       <img
-                        src={place.files[0]?.url ?? "/"}
-                        alt={place.name}
+                        src={touristSpot.files[0]?.url ?? "/"}
+                        alt={touristSpot.name}
                         class="h-full w-full object-cover object-center"
                       />
                     </div>
@@ -83,9 +82,12 @@ const { pathname } = Astro.url;
                   <div class="absolute inset-0 flex items-end rounded-lg p-6">
                     <div>
                       <h3 class="mt-1 font-semibold text-white">
-                        <a href={`${pathname}/${place.slug}`} class="uppercase">
+                        <a
+                          href={`${pathname}/${touristSpot.slug}`}
+                          class="uppercase"
+                        >
                           <span class="absolute inset-0" />
-                          {place.name}
+                          {touristSpot.name}
                         </a>
                       </h3>
                       <p class="text-sm text-white">
@@ -109,8 +111,8 @@ const { pathname } = Astro.url;
   <!-- Tourist Spot List -->
   <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
     {
-      places.map((place) => {
-        return <PoiListCard place={place} pathname={pathname} />;
+      touristSpots.map((touristSpot) => {
+        return <PoiListCard place={touristSpot} pathname={pathname} />;
       })
     }
   </div>
