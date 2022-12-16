@@ -46,6 +46,14 @@
           "description": "Dessert"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/jacks ridge.jpg",
+          "parent": "jacks-ridge",
+          "order": 1000
+        }
+      ],
       "tags": ["quiet", "rural area", "night view"]
     },
     {
@@ -71,6 +79,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/vistaview.jpg",
+          "parent": "vistaview",
+          "order": 1000
         }
       ],
       "tags": ["night view", "filipino restaurant"]
@@ -124,6 +140,14 @@
           "description": "Seafood"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/bondi bourke davao.jpg",
+          "parent": "bondi-bourke-davao",
+          "order": 1000
+        }
+      ],
       "tags": ["Aussie"]
     },
     {
@@ -172,6 +196,14 @@
           "description": "Burger"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/red tomato.jpg",
+          "parent": "red-tomato-restaurant",
+          "order": 1000
+        }
+      ],
       "tags": ["Italian"]
     },
     {
@@ -216,6 +248,14 @@
           "description": "Beef"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/eskina.jpg",
+          "parent": "eskina",
+          "order": 1000
+        }
+      ],
       "tags": ["Music Restaurant"]
     },
     {
@@ -234,7 +274,7 @@
         {
           "name": "Ahfat Seafoods Cream Soup",
           "images": [{ "url": "/images/ahfat cream soup.webp", "order": 1000 }],
-          "price": "",
+          "price": "350",
           "description": "Soup"
         },
         {
@@ -242,7 +282,7 @@
           "images": [
             { "url": "/images/ahfat sauteed beef.jpg", "order": 1000 }
           ],
-          "price": "",
+          "price": "450",
           "description": "Beef"
         },
         {
@@ -250,7 +290,7 @@
           "images": [
             { "url": "/images/ahfat sate beef sotanghon.jpg", "order": 1000 }
           ],
-          "price": "1000",
+          "price": "400",
           "description": "Hot Pot"
         },
         {
@@ -258,8 +298,16 @@
           "images": [
             { "url": "/images/ahfat broccoli flower.jpg", "order": 1000 }
           ],
-          "price": "",
+          "price": "320",
           "description": "Vegetables"
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/ahfat seafoods plaza.jpg",
+          "parent": "ahfat-seafoods-plaza",
+          "order": 1000
         }
       ],
       "tags": ["Chinese Restaurant"]
@@ -308,6 +356,14 @@
           "description": "Pasta"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/de bonte koe.png",
+          "parent": "de-bonte-koe",
+          "order": 1000
+        }
+      ],
       "tags": ["European Restaurant"]
     },
     {
@@ -328,6 +384,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/belitos vineyard.jpg",
+          "parent": "belitos-vineyard",
+          "order": 1000
         }
       ],
       "tags": ["outdoor restaurant"]
@@ -352,6 +416,14 @@
           "description": ""
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/the fat cow.jpg",
+          "parent": "the-fat-cow",
+          "order": 1000
+        }
+      ],
       "tags": ["Beef"]
     },
     {
@@ -372,6 +444,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/garden bay resort.jpg",
+          "parent": "garden-bay-resort-and-restaurant",
+          "order": 1000
         }
       ],
       "tags": ["Philippines Restaurant"]
@@ -396,6 +476,14 @@
           "description": ""
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/lachis.jpg",
+          "parent": "lachis",
+          "order": 1000
+        }
+      ],
       "tags": ["Family restaurant", "Philippines Restaurant"]
     },
     {
@@ -416,6 +504,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/paramount coffee.jpg",
+          "parent": "paramount-coffee",
+          "order": 1000
         }
       ],
       "tags": ["outdoor restaurant"]
@@ -469,6 +565,14 @@
           "description": "Chicken"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/yellow fin seafood restaurant.jpg",
+          "parent": "yellow-fin-seafood-restaurant",
+          "order": 1000
+        }
+      ],
       "tags": ["seafood"]
     },
     {
@@ -513,6 +617,14 @@
           "description": "Vegetables"
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/rd crabshack.jpg",
+          "parent": "rd-crab-shack",
+          "order": 1000
+        }
+      ],
       "tags": ["seafood", "Philippines Restaurant"]
     },
     {
@@ -538,6 +650,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/shrabs boiling shrimps and crabs.jpg",
+          "parent": "shrabs-boiling-shrimps-and-crabs",
+          "order": 1000
         }
       ],
       "tags": ["seafood"]
@@ -582,6 +702,14 @@
           "description": ""
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/dimsum dinner.jpg",
+          "parent": "dimsum-diner",
+          "order": 1000
+        }
+      ],
       "tags": ["Chinese Restaurant"]
     },
     {
@@ -609,6 +737,14 @@
           "description": ""
         }
       ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/mixed temptation lanang.jpg",
+          "parent": "mixed-temptation-lanang",
+          "order": 1000
+        }
+      ],
       "tags": ["Chinese Restaurant"]
     },
     {
@@ -629,6 +765,14 @@
           "images": [{ "url": "/images/", "order": 1000 }],
           "price": "",
           "description": ""
+        }
+      ],
+      "links": [{ "url": "", "type": "" }],
+      "files": [
+        {
+          "url": "/images/dimsum dinner.jpg",
+          "parent": "dimsum-diner",
+          "order": 1000
         }
       ],
       "tags": ["tuna", "japanese restaurant"]
