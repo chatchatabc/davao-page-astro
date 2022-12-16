@@ -1,4 +1,5 @@
 ---
+import { log } from "astro/dist/core/logger/core";
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 import Layout from "./Layout.astro";
 import { Icon } from "astro-icon";
@@ -88,6 +89,7 @@ const featuredFile = files.length ? files : [];
         {
           links.length ? (
             links.map((link: ObjectInterface) => {
+              console.log(link);
               return (
                 <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
                   <a
@@ -95,10 +97,10 @@ const featuredFile = files.length ? files : [];
                     class="text-blue-500 underline hover:text-blue-600"
                     href={link.url}
                   >
-                    {link.name === "facebook" && (
+                    {link.type === "facebook" && (
                       <Icon name="ic:baseline-facebook" />
                     )}
-                    {link.name === "website" && <Icon name="mdi:web" />}
+                    {link.type === "website" && <Icon name="mdi:web" />}
                   </a>
                 </p>
               );

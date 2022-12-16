@@ -46,7 +46,9 @@
           "description": "Dessert"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/Jacksridge/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/jacks ridge.jpg",
@@ -81,7 +83,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/VistaviewRestoDavao/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/vistaview.jpg",
@@ -140,7 +147,9 @@
           "description": "Seafood"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "http://instagram.com/bondibourkeph", "type": "instagram" }
+      ],
       "files": [
         {
           "url": "/images/bondi bourke davao.jpg",
@@ -196,7 +205,9 @@
           "description": "Burger"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/RDTMT/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/red tomato.jpg",
@@ -248,7 +259,12 @@
           "description": "Beef"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/EskinaAtBizPark/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/eskina.jpg",
@@ -302,7 +318,12 @@
           "description": "Vegetables"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/ahfatseafoodsplazadotcom/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/ahfat seafoods plaza.jpg",
@@ -356,7 +377,7 @@
           "description": "Pasta"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [{ "url": "https://debontekoe.ph", "type": "website" }],
       "files": [
         {
           "url": "/images/de bonte koe.png",
@@ -386,7 +407,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/BelitosVineyard/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/belitos vineyard.jpg",
@@ -416,7 +442,9 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/theFatCowDvo/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/the fat cow.jpg",
@@ -446,7 +474,9 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/gardenbay/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/garden bay resort.jpg",
@@ -476,7 +506,9 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/lachisdavao/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/lachis.jpg",
@@ -506,7 +538,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/paramountcoffeeph/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/paramount coffee.jpg",
@@ -565,7 +602,12 @@
           "description": "Chicken"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/yellowfinseafoodrestaurant/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/yellow fin seafood restaurant.jpg",
@@ -617,7 +659,9 @@
           "description": "Vegetables"
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        { "url": "https://www.facebook.com/RDCRABSHACKDC/", "type": "facebook" }
+      ],
       "files": [
         {
           "url": "/images/rd crabshack.jpg",
@@ -652,7 +696,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/profile.php?id=100065404452609",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/shrabs boiling shrimps and crabs.jpg",
@@ -702,7 +751,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/DimsumDinerTorres/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/dimsum dinner.jpg",
@@ -737,7 +791,12 @@
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/mixedtemptations/",
+          "type": "facebook"
+        }
+      ],
       "files": [
         {
           "url": "/images/mixed temptation lanang.jpg",
