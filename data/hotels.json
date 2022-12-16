@@ -23,6 +23,12 @@
           "order": 1000
         }
       ],
+      "gallery": [
+        { "url": "/images/dusit thani hotel gallery.jpg" },
+        { "url": "/images/dusit thani hotel gallery1.jpg" },
+        { "url": "/images/dusit thani hotel gallery2.jpg" },
+        { "url": "/images/dusit thani hotel gallery3.jpg" }
+      ],
       "tags": ["thai hotel"]
     },
     {
@@ -47,6 +53,12 @@
           "url": "/images/waterfront insular hotel.jpg",
           "order": 1000
         }
+      ],
+      "gallery": [
+        { "url": "/images/waterfront insular hotel gallery.jpg" },
+        { "url": "/images/waterfront insular hotel gallery1.jpg" },
+        { "url": "/images/waterfront insular hotel gallery2.jpg" },
+        { "url": "/images/waterfront insular hotel gallery3.jpg" }
       ],
       "tags": []
     },
@@ -73,6 +85,12 @@
           "order": 1000
         }
       ],
+      "gallery": [
+        { "url": "/images/anavada apartment inn gallery.jpg" },
+        { "url": "/images/anavada apartment inn gallery1.jpg" },
+        { "url": "/images/anavada apartment inn gallery2.jpg" },
+        { "url": "/images/anavada apartment inn gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -97,6 +115,12 @@
           "url": "/images/seda abreeza.jpg",
           "order": 1000
         }
+      ],
+      "gallery": [
+        { "url": "/images/seda abreeza gallery.jpg" },
+        { "url": "/images/seda abreeza gallery1.jpg" },
+        { "url": "/images/seda abreeza gallery2.jpg" },
+        { "url": "/images/seda abreeza gallery3.jpg" }
       ],
       "tags": []
     },
@@ -123,6 +147,12 @@
           "order": 1000
         }
       ],
+      "gallery": [
+        { "url": "/images/grand regal hotel gallery.jpg" },
+        { "url": "/images/grand regal hotel gallery1.jpg" },
+        { "url": "/images/grand regal hotel gallery2.jpg" },
+        { "url": "/images/grand regal hotel gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -147,6 +177,12 @@
           "url": "/images/marco polo hotel.jpg",
           "order": 1000
         }
+      ],
+      "gallery": [
+        { "url": "/images/marco polo hotel gallery.jpg" },
+        { "url": "/images/marco polo hotel gallery.jpeg" },
+        { "url": "/images/marco polo hotel gallery1.jpg" },
+        { "url": "/images/marco polo hotel gallery2.jpg" }
       ],
       "tags": []
     }
