@@ -1,0 +1,23 @@
+---
+import dataHotels from "../../../../data/hotels.json";
+import type { ObjectInterface } from "../../../helpers/commonInterfaces";
+import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
+
+export function getStaticPaths() {
+  return dataHotels.data.map((hotel) => {
+    return {
+      params: { hotel: hotel.slug },
+      props: { hotel },
+    };
+  });
+}
+interface Props {
+  hotel: ObjectInterface;
+}
+
+const { hotel } = Astro.props as Props;
+---
+
+<PoiDetailsLayout place={hotel}>
+  <section class="text-center py-10">No Content</section>
+</PoiDetailsLayout>

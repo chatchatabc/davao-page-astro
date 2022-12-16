@@ -1,9 +1,8 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import data_places from "../../../data/places.json";
-import { getItemsByCatalog } from "../../helpers/commonUtils";
+import dataHotels from "../../../data/hotels.json";
 
-const places = getItemsByCatalog("hotels", data_places.data);
+const hotels = [...dataHotels.data];
 const { pathname } = Astro.url;
 ---
 
@@ -62,7 +61,7 @@ const { pathname } = Astro.url;
         class="mx-auto grid max-w-md grid-cols-1 gap-y-6 px-4 sm:max-w-7xl sm:grid-cols-3 sm:gap-y-0 sm:gap-x-6 sm:px-6 lg:gap-x-8 lg:px-8"
       >
         {
-          places.splice(0, 3).map((place) => {
+          hotels.splice(0, 3).map((hotel) => {
             return (
               <div class="group relative h-96 rounded-lg bg-white shadow-xl sm:aspect-w-4 sm:aspect-h-5 sm:h-auto">
                 <div>
@@ -72,8 +71,8 @@ const { pathname } = Astro.url;
                   >
                     <div class="absolute inset-0 overflow-hidden group-hover:opacity-75">
                       <img
-                        src={place.files[0]?.url ?? "/"}
-                        alt={place.name}
+                        src={hotel.files[0]?.url ?? "/"}
+                        alt={hotel.name}
                         class="h-full w-full object-cover object-center"
                       />
                     </div>
@@ -85,9 +84,9 @@ const { pathname } = Astro.url;
                         Read More
                       </p>
                       <h3 class="mt-1 font-semibold text-white">
-                        <a href={`${pathname}/${place.slug}`} class="uppercase">
+                        <a href={`${pathname}/${hotel.slug}`} class="uppercase">
                           <span class="absolute inset-0" />
-                          {place.name}
+                          {hotel.name}
                         </a>
                       </h3>
                     </div>
@@ -117,24 +116,20 @@ const { pathname } = Astro.url;
         class="mt-6 grid grid-cols-2 gap-x-4 gap-y-10 sm:gap-x-6 md:grid-cols-3 md:gap-y-0 lg:gap-x-8"
       >
         {
-          places.splice(0, 3).map((place) => {
-            const { links } = place;
+          hotels.splice(0, 3).map((hotel) => {
             return (
               <div class="group relative">
                 <div class="h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80">
                   <img
-                    src={place.files[0]?.url ?? "/"}
-                    alt={place.name}
+                    src={hotel.files[0]?.url ?? "/"}
+                    alt={hotel.name}
                     class="h-full w-full object-cover object-center"
                   />
                 </div>
                 <h3 class="mt-4 text-sm text-gray-700">
-                  <a
-                    href={links.length ? links[0].url : "#"}
-                    target={links.length ? "_blank" : "_self"}
-                  >
+                  <a href={`${pathname}/${hotel.slug}`}>
                     <span class="absolute inset-0" />
-                    {place.name}
+                    {hotel.name}
                   </a>
                 </h3>
                 <p class="mt-1 text-sm text-gray-500">Natural</p>
