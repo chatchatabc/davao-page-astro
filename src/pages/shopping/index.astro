@@ -1,10 +1,9 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import data_places from "../../../data/places.json";
-import { getItemsByCatalog } from "../../helpers/commonUtils";
+import dataShoppings from "../../../data/shoppings.json";
 import PoiListCard from "../../components/PoiListCard.astro";
 
-const places = getItemsByCatalog("shopping", data_places.data);
+const shoppings = [...dataShoppings.data];
 const { pathname } = Astro.url;
 ---
 
@@ -37,8 +36,8 @@ const { pathname } = Astro.url;
     <div class="relative">
       <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8 -mt-28">
         {
-          places.map((place) => {
-            return <PoiListCard place={place} pathname={pathname} />;
+          shoppings.map((shopping) => {
+            return <PoiListCard place={shopping} pathname={pathname} />;
           })
         }
       </div>

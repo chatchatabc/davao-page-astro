@@ -26,56 +26,6 @@
       "order": 1000
     },
     {
-      "url": "/images/abreeza mall.jpg",
-      "parent": "abreeza-mall",
-      "order": 1000
-    },
-    {
-      "url": "/images/abreeza mall1.jpg",
-      "parent": "abreeza-mall",
-      "order": 1000
-    },
-    {
-      "url": "/images/abreeza mall2.jpg",
-      "parent": "abreeza-mall",
-      "order": 1000
-    },
-    {
-      "url": "/images/abreeza mall3.jpg",
-      "parent": "abreeza-mall",
-      "order": 1000
-    },
-    {
-      "url": "/images/sm lanang premier.jpg",
-      "parent": "sm-lanang-premier",
-      "order": 1000
-    },
-    {
-      "url": "/images/nccc mall vp.jpg",
-      "parent": "nccc-mall-vp",
-      "order": 1000
-    },
-    {
-      "url": "/images/gaisano grand citygate.jpg",
-      "parent": "gaisano-grand-citygate-mall-davao",
-      "order": 1000
-    },
-    {
-      "url": "/images/robinsons cybergate davao.webp",
-      "parent": "robinsons-cybergate-davao",
-      "order": 1000
-    },
-    {
-      "url": "/images/gaisano grand citimall.jpg",
-      "parent": "gaisano-grand-citimall-illustre",
-      "order": 1000
-    },
-    {
-      "url": "/images/felcris centrale mall.jpg",
-      "parent": "felcris-centrale-mall",
-      "order": 1000
-    },
-    {
       "url": "/images/the grid at alley bar.jpg",
       "parent": "the-grid-alley-bar",
       "order": 1000

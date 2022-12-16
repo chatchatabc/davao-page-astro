@@ -1,0 +1,199 @@
+{
+  "data": [
+    {
+      "name": "Abreeza Mall",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "abreeza-mall",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "Abreeza Mall, J.P. Laurel Ave, Poblacion District, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 295 3301",
+      "email": "",
+      "business_hours": "10:00am-9:00pm",
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/robinsonsabreezamall/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/abreeza mall.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/abreeza mall1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/abreeza mall2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/abreeza mall3.jpg",
+          "order": 1000
+        }
+      ],
+      "tags": []
+    },
+    {
+      "name": "SM Lanang Premier",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "sm-lanang-premier",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "J.P. Laurel Ave, Agdao, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 285 0943",
+      "email": "",
+      "business_hours": "10:00am-9:00pm",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.smsupermalls.com/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/sm lanang premier.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    },
+    {
+      "name": "Gaisano Grand Citimall Illustre",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "gaisano-grand-citimall-illustre",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": " Ilustre St, Poblacion District, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 224 0811",
+      "email": "",
+      "business_hours": "10:00am-7:00pm",
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/profile.php?id=100067936883337"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/gaisano grand citimall.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    },
+    {
+      "name": "NCCC Mall VP",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "nccc-mall-vp",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "J.P. Laurel Avenue Bajada, J.P. Laurel Ave, Poblacion District, Davao City, Davao del Sur",
+      "phone": "0915 182 2889",
+      "email": "",
+      "business_hours": "10:00am-6:00pm",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.nccc.com.ph/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/nccc mall vp.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    },
+    {
+      "name": "Felcris Centrale Mall",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "felcris-centrale-mall",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "Quimpo Boulevard, Davao City, Philippines",
+      "phone": "0922 825 2893",
+      "email": "",
+      "business_hours": "10:00am-9:00pm",
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/felcriscentraledavao/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/felcris centrale mall.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    },
+    {
+      "name": "Gaisano Grand Citygate Mall Davao",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "gaisano-grand-citygate-mall-davao",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "Buhangin, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 221 6222",
+      "email": "",
+      "business_hours": "10:00am-8:00pm",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.gaisanograndmalls.com/"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/gaisano grand citygate.jpg",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    },
+    {
+      "name": "Robinsons Cybergate Davao",
+      "catalog": "shopping",
+      "sub_catalog": null,
+      "slug": "robinsons-cybergate-davao",
+      "details": "Details Details Details Details Details Details",
+      "order": 1000,
+      "address": "Robinsons Cybergate, J.P. Laurel Ave, Buhangin, Davao City, 8000 Davao del Sur",
+      "phone": "(082) 282 1088",
+      "email": "",
+      "business_hours": "10:00am-9:00pm",
+      "links": [
+        {
+          "type": "website",
+          "url": "http://robinsonsmalls.com"
+        }
+      ],
+      "files": [
+        {
+          "url": "/images/robinsons cybergate davao.webp",
+          "order": 1000
+        }
+      ],
+      "gallery": [],
+      "tags": []
+    }
+  ]
+}

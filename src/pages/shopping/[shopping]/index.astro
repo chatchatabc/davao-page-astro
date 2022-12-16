@@ -1,23 +1,22 @@
 ---
-import dataPlaces from "../../../../data/places.json";
+import dataShoppings from "../../../../data/shoppings.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
-import { getItemsByCatalog } from "../../../helpers/commonUtils";
 import Layout from "../../../layouts/Layout.astro";
 
 export function getStaticPaths() {
-  return getItemsByCatalog("shopping", dataPlaces.data).map((place) => {
+  return dataShoppings.data.map((shopping) => {
     return {
-      params: { place: place.slug },
-      props: { place },
+      params: { shopping: shopping.slug },
+      props: { shopping },
     };
   });
 }
 interface Props {
-  place: ObjectInterface;
+  shopping: ObjectInterface;
 }
 
-const { place } = Astro.props as Props;
-const { files } = place;
+const { shopping } = Astro.props as Props;
+const { files } = shopping;
 ---
 
 <Layout>
@@ -33,7 +32,7 @@ const { files } = place;
         <h2
           class="p-5 text-3xl font-bold text-white text-center w-fit mx-auto bg-black bg-opacity-50 capitalize sm:px-52"
         >
-          {place.name}
+          {shopping.name}
         </h2>
         <p class="py-10 text-white text-center md:w-2/3 mx-auto">
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Explicabo
@@ -49,7 +48,7 @@ const { files } = place;
         </div>
         <div class="mx-auto lg:max-w-[50%]">
           <p>Address</p>
-          <p>{place.address ?? "N/A"}</p>
+          <p>{shopping.address ?? "N/A"}</p>
         </div>
       </div>
     </div>
@@ -81,29 +80,24 @@ const { files } = place;
       </div>
     </div>
   </section> -->
-  <section class="relative">
-    <div class="container mx-auto px-10">
+  <section class="container mx-auto">
+    <h2 class="text-2xl font-bold pt-5">More Photos</h2>
+    <div class="py-2 grid grid-cols-4 gap-4">
       {
-        files.length > 0 && (
-          <>
-            <h3 class="pt-4 text-2xl font-bold capitalize">More Photos</h3>
-            <div class="flex gap-5">
-              {files.map((file: ObjectInterface, index: number) => {
-                return (
-                  <div class="rounded-lg shadow-xl overflow-hidden">
-                    <img
-                      class="h-full w-full"
-                      src={file.url ?? "/"}
-                      alt={place.name}
-                    />
-                  </div>
-                );
-              })}
+        shopping.gallery.map((gallery: ObjectInterface) => {
+          return (
+            <div class="aspect-w-1 aspect-h-1 relative duration-500 group hover:scale-150 hover:z-10">
+              <div class="absolute inset-0 rounded-lg overflow-hidden mx-auto group-hover:w-fit">
+                <img
+                  class="object-cover h-full w-full group-hover:object-contain"
+                  src={gallery.url}
+                  alt={gallery.url}
+                />
+              </div>
             </div>
-          </>
-        )
+          );
+        })
       }
     </div>
-    
   </section>
 </Layout>

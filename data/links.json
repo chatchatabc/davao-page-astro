@@ -109,43 +109,6 @@
       "type": "website",
       "url": "https://www.facebook.com/waterworlddavao/",
       "parent": "waterworld-beach-resort"
-    },
-
-    
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/robinsonsabreezamall/",
-      "parent": "abreeza-mall"
-    },
-    {
-      "type": "website",
-      "url": "http://www.smsupermalls.com/",
-      "parent": "sm-lanang-premier"
-    },
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/profile.php?id=100067936883337",
-      "parent": "gaisano-grand-citimall-illustre"
-    },
-    {
-      "type": "website",
-      "url": "http://www.nccc.com.ph/",
-      "parent": "nccc-mall-vp"
-    },
-    {
-      "type": "website",
-      "url": "http://www.gaisanograndmalls.com/",
-      "parent": "gaisano-grand-citygate-mall-davao"
-    },
-    {
-      "type": "website",
-      "url": "http://robinsonsmalls.com",
-      "parent": "robinsons-cybergate-davao"
-    },
-    {
-      "type": "facebook",
-      "url": "https://www.facebook.com/felcriscentraledavao/",
-      "parent": "felcris-centrale-mall"
     }
   ]
 }
