@@ -5,6 +5,7 @@ import dataSubCatalogs from "../../../data/sub_catalogs.json";
 import dataRestaurants from "../../../data/restaurants.json";
 import type { ObjectInterface } from "../../helpers/commonInterfaces";
 
+// Linked the place to its corresponding sub catalog
 const subCatalogs = dataSubCatalogs.data
   .filter((subCatalog) => subCatalog.catalog === "restaurants")
   .map((subCatalog) => {
@@ -15,7 +16,6 @@ const subCatalogs = dataSubCatalogs.data
     return newObject;
   });
 const featured_places = [...dataRestaurants.data];
-console.log(subCatalogs);
 ---
 
 <Layout>
