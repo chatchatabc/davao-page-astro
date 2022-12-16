@@ -3,23 +3,18 @@ import Layout from "../../layouts/Layout.astro";
 import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
 import data_sub_catalogs from "../../../data/sub_catalogs.json";
 import dataRestaurants from "../../../data/restaurants.json";
-import {
-  getItemFiles,
-  getItemsByCatalog,
-  getItemsBySubCatalog,
-} from "../../helpers/commonUtils";
+import { getItemsByCatalog } from "../../helpers/commonUtils";
 
 const sub_catalogs = getItemsByCatalog(
   "restaurants",
   data_sub_catalogs.data
 ).map((sub_catalog) => {
-  sub_catalog.places = getItemsBySubCatalog(
-    sub_catalog.slug,
-    dataRestaurants.data
+  sub_catalog.places = dataRestaurants.data.filter(
+    (restaurant) => restaurant.sub_catalog === sub_catalog.slug
   );
   return sub_catalog;
 });
-const featured_places = getItemFiles(dataRestaurants.data);
+const featured_places = [...dataRestaurants.data];
 ---
 
 <Layout>

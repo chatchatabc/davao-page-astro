@@ -1,18 +1,15 @@
 ---
 import dataRestaurants from "../../../../data/restaurants.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
-import { getItemsByCatalog } from "../../../helpers/commonUtils";
 import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
 
 export function getStaticPaths() {
-  return getItemsByCatalog("restaurants", dataRestaurants.data).map(
-    (restaurant) => {
-      return {
-        params: { restaurant: restaurant.slug },
-        props: { restaurant },
-      };
-    }
-  );
+  return dataRestaurants.data.map((restaurant) => {
+    return {
+      params: { restaurant: restaurant.slug },
+      props: { restaurant },
+    };
+  });
 }
 interface Props {
   restaurant: ObjectInterface;
