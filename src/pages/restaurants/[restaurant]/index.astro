@@ -49,7 +49,12 @@ const { restaurant } = Astro.props as Props;
                     <p>
                       Price:{" "}
                       <span class="font-medium">
-                        {product.price.length ? product.price : "₱₱"}
+                        {product.price.length
+                          ? Intl.NumberFormat("en-PH", {
+                              style: "currency",
+                              currency: "PHP",
+                            }).format(product.price)
+                          : "₱₱"}
                       </span>
                     </p>
                   </div>
