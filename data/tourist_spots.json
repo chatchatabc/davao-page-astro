@@ -5,7 +5,7 @@
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "eden-park",
-      "details": "Details Details Details Details Details Details",
+      "details": "Eden Nature Park is a popular tourist destination located in Davao City, Philippines. It is a mountain resort that offers a variety of activities and amenities for visitors, including hiking, bird watching, and swimming. The park is known for its beautiful scenery and natural surroundings, which include waterfalls, gardens, and forests.",
       "order": 1000,
       "address": "Brgy. Eden, Toril, Davao City",
       "phone": "(082) 286-0383",
@@ -18,8 +18,18 @@
           "order": 1000
         }
       ],
-      "links": [],
-      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/edennatureparkdavao",
+          "type": "facebook"
+        }
+      ],
+      "gallery": [
+        { "url": "/images/eden park gallery.jpg" },
+        { "url": "/images/eden park gallery1.jpg" },
+        { "url": "/images/eden park gallery2.jpg" },
+        { "url": "/images/eden park gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -29,7 +39,7 @@
       "slug": "mount-apo-trek",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "N/A",
+      "address": "Mount Apo, Davao City, Davao del Sur",
       "phone": "N/A",
       "email": "",
       "business_hours": "N/A",
@@ -41,7 +51,12 @@
         }
       ],
       "links": [],
-      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
+      "gallery": [
+        { "url": "/images/mount apo trek gallery.jpg" },
+        { "url": "/images/mount apo trek gallery1.jpg" },
+        { "url": "/images/mount apo trek gallery.webp" },
+        { "url": "/images/mount apo trek gallery2.jpg" }
+      ],
       "tags": []
     },
     {
@@ -51,7 +66,7 @@
       "slug": "malagos-garden-resort-and-chocolate-museum",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "N/A",
+      "address": "Malagos Garden Resort, Baguio District, Calinan-Baguio-Cadalian Rd, Davao City, 8000",
       "phone": "0917 795 0775",
       "email": "",
       "business_hours": "N/A",
@@ -62,8 +77,18 @@
           "order": 1000
         }
       ],
-      "links": [],
-      "gallery": [{ "url": "/images/peoples park gallery.jpg" }],
+      "links": [
+        {
+          "url": "https://www.facebook.com/malagos.chocolate/",
+          "type": "facebook"
+        }
+      ],
+      "gallery": [
+        { "url": "/images/malagos garden resort gallery.jpg" },
+        { "url": "/images/malagos garden resort gallery1.jpg" },
+        { "url": "/images/malagos garden resort gallery2.jpg" },
+        { "url": "/images/malagos garden resort gallery3.jpg" }
+      ],
       "tags": []
     },
     {
@@ -84,7 +109,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.facebook.com/pages/Peoples-Park/253126004874618",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/peoples park gallery.jpg" },
         { "url": "/images/peoples park gallery1.jpg" },
@@ -111,7 +141,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://m.facebook.com/profile.php?id=152322785525999",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/roxas night market gallery.jpg" },
         { "url": "/images/roxas night market gallery1.jpg" },
@@ -138,7 +173,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.facebook.com/PearlFarm/",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/pearl farm beach resort gallery.jpg" },
         { "url": "/images/pearl farm beach resort gallery.webp" },
@@ -165,7 +205,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.facebook.com/phileaglefdn/",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/eagle park.jpg" },
         { "url": "/images/eagle park gallery1.jpg" },
@@ -192,7 +237,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "https://www.facebook.com/puntadelsolsamalbeachresort/",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/samal island gallery.jpg" },
         { "url": "/images/samal island gallery.webp" },
@@ -219,7 +269,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "http://www.crocodilepark.ph/",
+          "type": "website"
+        }
+      ],
       "gallery": [
         { "url": "/images/crocodile park gallery.jpg" },
         { "url": "/images/crocodile park gallery1.jpg" },
@@ -246,7 +301,12 @@
           "order": 1000
         }
       ],
-      "links": [],
+      "links": [
+        {
+          "url": "hhttps://www.facebook.com/waterworlddavao/",
+          "type": "facebook"
+        }
+      ],
       "gallery": [
         { "url": "/images/waterworld beach resort gallery2.jpg" },
         { "url": "/images/waterworld beach resort gallery.jpg" },
