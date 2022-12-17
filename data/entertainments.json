@@ -246,7 +246,24 @@
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/thai boran gallery.png",
+          "order": 1000
+        },
+        {
+          "url": "/images/thai boran gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/thai boran gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/thai boran gallery2.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -267,7 +284,24 @@
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/heavens nest spa gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/heavens nest spa gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/heavens nest spa gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/heavens nest spa gallery3.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -288,7 +322,24 @@
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/opal jhane thai massage spa gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/opal jhane thai massage spa gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/opal jhane thai massage spa gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/opal jhane thai massage spa gallery3.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
