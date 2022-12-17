@@ -7,11 +7,17 @@
       "slug": "club-echelon",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "6th Floor The Peak gaisano mall, Davao City, 8000",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/clubechelon/",
+          "parent": "club-echelon"
+        }
+      ],
       "files": [
         {
           "url": "/images/club echelon.jpg",
@@ -45,11 +51,17 @@
       "slug": "the-grid-alley-bar",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "3JJ7+M6H, Teodoro Palma Gil St, Bo. Obrero, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/thegridandthealley/",
+          "parent": "potions-bar-and-lounge"
+        }
+      ],
       "files": [
         {
           "url": "/images/the grid at alley bar.jpg",
@@ -83,11 +95,17 @@
       "slug": "potions-bar-and-lounge",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "Plaza de Bole, F. Torres St., Davao City, Philippines",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/potionsbarandlounge/",
+          "parent": "the-grid-alley-bar"
+        }
+      ],
       "files": [
         {
           "url": "/images/potions bar and lounge.jpg",
@@ -121,11 +139,17 @@
       "slug": "rancho-palos-verdes-golf-and-country-club",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "5H8P+H63, Barangay Mandug, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/people/Rancho-Palos-Verdes-Golf-Country-Club-Official/100064146698401/",
+          "parent": "rancho-palos-verdes-golf-and-country-club"
+        }
+      ],
       "files": [
         {
           "url": "/images/rancho palos verdes golf and country club.webp",
@@ -159,11 +183,17 @@
       "slug": "apo-golf-and-country-club",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "3G3H+7RF, Talomo, Davao City, Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/apogolfcc/",
+          "parent": "apo-golf-and-country-club"
+        }
+      ],
       "files": [
         {
           "url": "/images/apo golf and country club.jpg",
@@ -197,11 +227,17 @@
       "slug": "south-pacific-golf-and-country-club",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "3G77+VQG, Tugbok, Davao City, Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/SouthPacificGolfDavao/",
+          "parent": "south-pacific-golf-and-country-club"
+        }
+      ],
       "files": [
         {
           "url": "/images/south pacific golf and country club.jpg",
@@ -235,11 +271,17 @@
       "slug": "thai-boran",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "Door No: 1, Tropicana Building, KM.7 J.P. Laurel Ave, Lanang, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/thaiborandavaoroxas",
+          "parent": "thai-boran"
+        }
+      ],
       "files": [
         {
           "url": "/images/thai boran.png",
@@ -273,11 +315,17 @@
       "slug": "heavens-nest-spa",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "3JP6+R3M, J.P. Laurel Ave, Barangay 9-A, Bajada, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/HEAVENSNESTSPA/",
+          "parent": "heavens-nest-spa"
+        }
+      ],
       "files": [
         {
           "url": "/images/heavens nest spa.jpg",
@@ -311,11 +359,17 @@
       "slug": "opal-jhane-thai-massage-spa",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "3JP6+R3M, J.P. Laurel Ave, Barangay 9-A, Bajada, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/opaljhane/",
+          "parent": "opal-jhane-thai-massage-spa"
+        }
+      ],
       "files": [
         {
           "url": "/images/opal jhane thai massage spa.jpg",
@@ -349,11 +403,17 @@
       "slug": "red-dot-sports-house",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "Amsons Building, Lapu-Lapu St, Agdao, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://m.facebook.com/profile.php?id=604977999552901&__tn__=C-R",
+          "parent": "red-dot-sports-house"
+        }
+      ],
       "files": [
         {
           "url": "/images/red dot sports house.jpg",
@@ -387,11 +447,17 @@
       "slug": "armscor-shooting-center",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "4JHP+FV3, C. P. Garcia Hwy, Buhangin, Davao City, Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "facebook",
+          "url": "https://www.facebook.com/people/Armscor-Shooting-Center-Inc-Davao/100047283685696/",
+          "parent": "armscor-shooting-center"
+        }
+      ],
       "files": [
         {
           "url": "/images/armscor shooting center.jpg",
@@ -425,18 +491,41 @@
       "slug": "target-alpha-shooting-range",
       "details": "Details Details Details Details Details Details",
       "order": 1000,
-      "address": "",
+      "address": "Lower Mudiang, Purok 5, Bunawan, Davao City, 8000 Davao del Sur",
       "phone": "",
       "email": "",
       "business_hours": "",
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "type": "website",
+          "url": "http://www.alphashoot.ee/",
+          "parent": "target-alpha-shooting-range"
+        }
+      ],
       "files": [
         {
           "url": "/images/target alpha shooting range.jpg",
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/target alpha shooting range gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/target alpha shooting range.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/target alpha shooting range gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/target alpha shooting range gallery.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     }
   ]
