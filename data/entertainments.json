@@ -360,7 +360,24 @@
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/red dot sports house gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/red dot sports house gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/red dot sports house gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/red dot sports house gallery3.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
@@ -381,7 +398,24 @@
           "order": 1000
         }
       ],
-      "gallery": [],
+      "gallery": [
+        {
+          "url": "/images/armscor shooting center gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/armscor shooting center gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/armscor shooting center gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/armscor shooting center gallery3.jpg",
+          "order": 1000
+        }
+      ],
       "tags": []
     },
     {
