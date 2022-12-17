@@ -15,7 +15,24 @@
       "files": [
         {
           "url": "/images/club echelon.jpg",
-          "parent": "club-echelon",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/club echelon gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/club echelon gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/club echelon gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/club echelon gallery3.jpg",
           "order": 1000
         }
       ],
@@ -36,7 +53,24 @@
       "files": [
         {
           "url": "/images/the grid at alley bar.jpg",
-          "parent": "the-grid-alley-bar",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/the grid at alley bar gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/the grid at alley bar gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/the grid at alley bar gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/the grid at alley bar gallery3.jpg",
           "order": 1000
         }
       ],
@@ -57,7 +91,24 @@
       "files": [
         {
           "url": "/images/potions bar and lounge.jpg",
-          "parent": "potions-bar-and-lounge",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/potions bar and lounge gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/potions bar and lounge gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/potions bar and lounge gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/potions bar and lounge gallery3.jpg",
           "order": 1000
         }
       ],
@@ -78,7 +129,24 @@
       "files": [
         {
           "url": "/images/rancho palos verdes golf and country club.webp",
-          "parent": "rancho-palos-verdes-golf-and-country-club",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/rancho palos verdes golf and country club gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/rancho palos verdes golf and country club gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/rancho palos verdes golf and country club gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/rancho palos verdes golf and country club gallery3.jpg",
           "order": 1000
         }
       ],
@@ -99,7 +167,24 @@
       "files": [
         {
           "url": "/images/apo golf and country club.jpg",
-          "parent": "apo-golf-and-country-club",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/apo golf and country club gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/apo golf and country club gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/apo golf and country club gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/apo golf and country club gallery3.jpg",
           "order": 1000
         }
       ],
@@ -120,7 +205,24 @@
       "files": [
         {
           "url": "/images/south pacific golf and country club.jpg",
-          "parent": "south-pacific-golf-and-country-club",
+          "order": 1000
+        }
+      ],
+      "gallery": [
+        {
+          "url": "/images/south pacific golf and country club gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/south pacific golf and country club gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/south pacific golf and country club gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/south pacific golf and country club gallery3.jpg",
           "order": 1000
         }
       ],
@@ -141,10 +243,10 @@
       "files": [
         {
           "url": "/images/thai boran.png",
-          "parent": "thai-boran",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     },
     {
@@ -162,10 +264,10 @@
       "files": [
         {
           "url": "/images/heavens nest spa.jpg",
-          "parent": "heavens-nest-spa",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     },
     {
@@ -183,10 +285,10 @@
       "files": [
         {
           "url": "/images/opal jhane thai massage spa.jpg",
-          "parent": "opal-jhane-thai-massage-spa",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     },
     {
@@ -204,10 +306,10 @@
       "files": [
         {
           "url": "/images/red dot sports house.jpg",
-          "parent": "red-dot-sports-house",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     },
     {
@@ -225,10 +327,10 @@
       "files": [
         {
           "url": "/images/armscor shooting center.jpg",
-          "parent": "armscor-shooting-center",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     },
     {
@@ -246,10 +348,10 @@
       "files": [
         {
           "url": "/images/target alpha shooting range.jpg",
-          "parent": "target-alpha-shooting-range",
           "order": 1000
         }
       ],
+      "gallery": [],
       "tags": []
     }
   ]
