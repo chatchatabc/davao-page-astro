@@ -1,20 +1,19 @@
 ---
 import Layout from "../../layouts/Layout.astro";
-import data_sub_catalogs from "../../../data/sub_catalogs.json";
-import data_places from "../../../data/places.json";
-import {
-  getItemsByCatalog,
-  getItemsBySubCatalog,
-} from "../../helpers/commonUtils";
+import dataSubCatalogs from "../../../data/sub_catalogs.json";
+import dataEntertainments from "../../../data/entertainments.json";
 import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
+import type { ObjectInterface } from "../../helpers/commonInterfaces";
 
-const sub_catalogs = getItemsByCatalog(
-  "entertainment",
-  data_sub_catalogs.data
-).map((sub_catalog) => {
-  sub_catalog.places = getItemsBySubCatalog(sub_catalog.slug, data_places.data);
-  return sub_catalog;
-});
+const subCatalogs = dataSubCatalogs.data
+  .filter((subCatalog) => subCatalog.catalog === "entertainment")
+  .map((subCatalog) => {
+    const newObject: ObjectInterface = { ...subCatalog };
+    newObject.places = dataEntertainments.data.filter(
+      (entertainment) => entertainment.sub_catalog === subCatalog.slug
+    );
+    return newObject;
+  });
 ---
 
 <Layout>
@@ -57,19 +56,20 @@ const sub_catalogs = getItemsByCatalog(
             class="space-y-12 sm:grid sm:grid-cols-2 sm:gap-x-6 sm:gap-y-12 sm:space-y-0 lg:gap-x-8"
           >
             {
-              sub_catalogs.map((sub_catalog) => {
+              subCatalogs.map((subCatalog) => {
+                console.log(subCatalog);
                 return (
                   <li class="space-y-4">
-                    <a href={`#${sub_catalog.slug}`}>
+                    <a href={`#${subCatalog.slug}`}>
                       <div class="rounded-lg shadow-lg relative overflow-hidden aspect-w-3 aspect-h-2">
                         <img
                           class="object-cover h-full w-full"
-                          src={sub_catalog.files[0]?.url ?? "/"}
-                          alt={sub_catalog.name}
+                          src={subCatalog.files[0]?.url ?? "/"}
+                          alt={subCatalog.name}
                         />
                         <div class="absolute inset-0 bg-gray-800 opacity-50" />
                         <h3 class="absolute text-5xl font-bold text-center text-white top-1/3">
-                          {sub_catalog.name}
+                          {subCatalog.name}
                         </h3>
                       </div>
                     </a>
@@ -85,8 +85,8 @@ const sub_catalogs = getItemsByCatalog(
     </div>
   </section>
   {
-    sub_catalogs.map((sub_catalog) => {
-      return <FeaturedPoi sub_catalog={sub_catalog} external_link={true} />;
+    subCatalogs.map((subCatalog) => {
+      return <FeaturedPoi sub_catalog={subCatalog} external_link={true} />;
     })
   }
 </Layout>
