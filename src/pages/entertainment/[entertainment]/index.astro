@@ -1,0 +1,23 @@
+---
+import dataEntertainments from "../../../../data/entertainments.json";
+import type { ObjectInterface } from "../../../helpers/commonInterfaces";
+import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
+
+export function getStaticPaths() {
+  return dataEntertainments.data.map((entertainment) => {
+    return {
+      params: { entertainment: entertainment.slug },
+      props: { entertainment },
+    };
+  });
+}
+interface Props {
+  entertainment: ObjectInterface;
+}
+
+const { entertainment } = Astro.props as Props;
+---
+
+<PoiDetailsLayout place={entertainment}>
+  <section class="text-center py-10">No Content</section>
+</PoiDetailsLayout>
