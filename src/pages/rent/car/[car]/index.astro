@@ -1,12 +1,11 @@
 ---
 import dataCars from "../../../../../data/cars.json";
 import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
-import { getItemFiles } from "../../../../helpers/commonUtils";
 import { Icon } from "astro-icon";
 import Layout from "../../../../layouts/Layout.astro";
 
 export function getStaticPaths() {
-  return getItemFiles(dataCars.data).map((car) => {
+  return dataCars.data.map((car) => {
     return {
       params: { car: car.slug },
       props: { car },

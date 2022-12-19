@@ -1,10 +1,9 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import dataCars from "../../../../data/cars.json";
-import { getItemFiles } from "../../../helpers/commonUtils";
 import { Icon } from "astro-icon";
 
-const cars = getItemFiles(dataCars.data);
+const cars = dataCars.data;
 const { pathname } = Astro.url;
 ---
 

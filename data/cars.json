@@ -15,6 +15,23 @@
       "type": "sedan",
       "transmission": "automatic",
       "slug": "sedan",
+      "files": [
+        {
+          "url": "/images/sedan.png",
+          "parent": "sedan",
+          "order": 1000
+        },
+        {
+          "url": "/images/sedan.jpg",
+          "parent": "sedan",
+          "order": 1000
+        },
+        {
+          "url": "/images/sedan1.jpg",
+          "parent": "sedan",
+          "order": 1000
+        }
+      ],
       "telephone": ""
     },
     {
@@ -32,6 +49,23 @@
       "type": "truck",
       "transmission": "automatic",
       "slug": "truck",
+      "files": [
+        {
+          "url": "/images/truck.webp",
+          "parent": "truck",
+          "order": 1000
+        },
+        {
+          "url": "/images/truck1.jpg",
+          "parent": "truck",
+          "order": 1000
+        },
+        {
+          "url": "/images/truck.jpg",
+          "parent": "truck",
+          "order": 1000
+        }
+      ],
       "telephone": ""
     },
     {
@@ -49,6 +83,23 @@
       "type": "suv",
       "transmission": "automatic",
       "slug": "suv",
+      "files": [
+        {
+          "url": "/images/suv.jpg",
+          "parent": "suv",
+          "order": 1000
+        },
+        {
+          "url": "/images/suv1.jpg",
+          "parent": "suv",
+          "order": 1000
+        },
+        {
+          "url": "/images/suv.avif",
+          "parent": "suv",
+          "order": 1000
+        }
+      ],
       "telephone": ""
     },
     {
@@ -66,6 +117,13 @@
       "type": "van",
       "transmission": "automatic",
       "slug": "van",
+      "files": [
+        {
+          "url": "/images/van.jpg",
+          "parent": "van",
+          "order": 1000
+        }
+      ],
       "telephone": ""
     }
   ]
