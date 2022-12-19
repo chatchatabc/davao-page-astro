@@ -41,6 +41,24 @@
           "order": 1000
         }
       ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+      ],
       "tags": []
     },
     {
@@ -83,6 +101,24 @@
           "url": "/images/sm lanang premier gallery3.jpg",
           "order": 1000
         }
+      ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
       ],
       "tags": []
     },
@@ -127,6 +163,24 @@
           "order": 1000
         }
       ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+      ],
       "tags": []
     },
     {
@@ -169,6 +223,24 @@
           "url": "/images/nccc mall vp gallery3.jpg",
           "order": 1000
         }
+      ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
       ],
       "tags": []
     },
@@ -213,6 +285,24 @@
           "order": 1000
         }
       ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+      ],
       "tags": []
     },
     {
@@ -256,6 +346,24 @@
           "order": 1000
         }
       ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+      ],
       "tags": []
     },
     {
@@ -298,6 +406,24 @@
           "url": "/images/robinsons cybergate davao gallery3.jpg",
           "order": 1000
         }
+      ],
+      "stores": [
+        {
+          "name": "Nike",
+          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Addidas",
+          "images": [{ "url": "/images/addidas.webp" }],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Bench",
+          "images": [{ "url": "/images/bench.jpg" }],
+          "type": "Clothing Store"
+        },
+        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
       ],
       "tags": []
     }
