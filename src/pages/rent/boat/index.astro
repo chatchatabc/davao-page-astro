@@ -1,9 +1,8 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import dataBoats from "../../../../data/boats.json";
-import { getItemFiles } from "../../../helpers/commonUtils";
 
-const boats = getItemFiles(dataBoats.data);
+const boats = dataBoats.data;
 const { pathname } = Astro.url;
 ---
 

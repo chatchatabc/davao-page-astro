@@ -1,0 +1,21 @@
+---
+import type { ObjectInterface } from "../helpers/commonInterfaces";
+
+interface Props {
+  files: ObjectInterface[];
+}
+
+const { files } = Astro.props as Props;
+---
+
+<div class="flex overflow-x-auto">
+  {
+    files.map((file: ObjectInterface, index: number) => {
+      return (
+        <div class="min-w-full h-full border">
+          <img class="w-full h-full object-cover" src={file.url} />
+        </div>
+      );
+    })
+  }
+</div>
