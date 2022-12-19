@@ -11,7 +11,7 @@ import sitemap from "@astrojs/sitemap";
 // https://astro.build/config
 export default defineConfig({
   site: "https://davao.page",
-  integrations: [astroImageTools, tailwind(), sitemap(), compress()],
+  integrations: [tailwind(), astroImageTools, sitemap()],
   server: {
     port: 3000,
     host: false,
