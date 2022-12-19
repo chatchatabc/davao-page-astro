@@ -1,4 +1,5 @@
 ---
+import { Icon } from "astro-icon";
 import Layout from "../../../layouts/Layout.astro";
 import dataBoats from "../../../../data/boats.json";
 
@@ -30,8 +31,18 @@ const { pathname } = Astro.url;
               <div class="relative flex flex-col py-10">
                 <h3 class="text-3xl font-bold">{boat.name}</h3>
                 <p>
+                  <Icon name="mdi:people-group" />
                   <span class="font-bold">Capacity:</span> {boat.capacity}{" "}
                   passengers
+                </p>
+                <p>
+                  <Icon name="ph:ruler" />
+                  <span class="font-bold">Length:</span> {boat.length}
+                </p>
+                <p>
+                  <Icon name="ph:toilet" />
+                  <span class="font-bold">Toilet:</span>{" "}
+                  {boat.toilet ? "Available" : "N/A"}
                 </p>
                 <a
                   href={`${pathname ? `${pathname}/` : ""}${boat.slug}`}
@@ -52,3 +63,11 @@ const { pathname } = Astro.url;
     </div>
   </section>
 </Layout>
+
+<style>
+  [astro-icon] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+</style>

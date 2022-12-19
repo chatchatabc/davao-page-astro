@@ -35,6 +35,8 @@
           "order": 1000
         }
       ],
+      "length": "N/A",
+      "toilet": true,
       "telephone": ""
     },
     {
@@ -67,6 +69,8 @@
           "order": 1000
         }
       ],
+      "length": "11ft",
+      "toilet": false,
       "telephone": ""
     },
     {
@@ -99,6 +103,8 @@
           "order": 1000
         }
       ],
+      "length": "26ft",
+      "toilet": false,
       "telephone": ""
     }
   ]
