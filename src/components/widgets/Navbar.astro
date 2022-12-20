@@ -15,7 +15,7 @@ const currentPage = pathname.split("/")[1];
       </a>
       <div
         id="nav-links"
-        class="h-0 opacity-0 duration-500 bg-white flex-col gap-x-10 gap-y-2 items-center justify-end flex md:flex-wrap md:flex-row md:opacity-100 md:h-fit"
+        class="max-h-0 opacity-0 duration-500 bg-white flex-col gap-x-10 gap-y-2 items-center justify-end flex md:flex-wrap md:flex-row md:opacity-100 md:max-h-[1000px]"
       >
         {
           catalogs.data.map((object) => {
@@ -63,13 +63,13 @@ const currentPage = pathname.split("/")[1];
     display: inline-block;
   }
   .show-links {
-    height: 220px;
+    max-height: 1000px;
     opacity: 1;
   }
 
   @media (min-width: 768px) {
     .show-links {
-      height: fit-content;
+      max-height: 1000px;
     }
   }
 </style>
