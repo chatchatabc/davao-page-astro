@@ -10,12 +10,12 @@ const currentPage = pathname.split("/")[1];
     <nav
       class="relative container mx-auto justify-between items-center gap-10 md:static md:flex"
     >
-      <a href="/">
-        <img src="/images/logo.png" class="w-14" />
+      <a href="/" class="block w-14 md:w-20">
+        <img src="/images/logo.png" class="w-full" />
       </a>
       <div
         id="nav-links"
-        class="max-h-0 opacity-0 duration-500 bg-white flex-col gap-x-10 gap-y-2 items-center justify-end flex md:flex-wrap md:flex-row md:opacity-100 md:max-h-[1000px]"
+        class="max-h-0 opacity-0 pointer-events-none duration-500 bg-white flex-col gap-x-10 gap-y-2 justify-end flex md:flex-wrap md:flex-row md:opacity-100 md:max-h-[1000px] md:pointer-events-auto"
       >
         {
           catalogs.data.map((object) => {
@@ -64,12 +64,16 @@ const currentPage = pathname.split("/")[1];
   }
   .show-links {
     max-height: 1000px;
+    padding: 1rem;
     opacity: 1;
+    pointer-events: all;
   }
 
   @media (min-width: 768px) {
     .show-links {
       max-height: 1000px;
+      pointer-events: all;
+      padding: 0;
     }
   }
 </style>
