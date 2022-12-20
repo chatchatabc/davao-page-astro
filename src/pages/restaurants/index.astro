@@ -33,19 +33,21 @@ const featured_places = [...dataRestaurants.data];
             This year, our new summer collection will shelter you from the harsh
             elements of a world that doesn't care if you live or die.
           </p>
-          <div class="grid grid-cols-4 gap-4 absolute bottom-10">
+          <div
+            class="grid grid-cols-4 gap-4 absolute bottom-10 left-0 md:left-10"
+          >
             {
               subCatalogs.map((subCatalog) => {
                 return (
                   <a href={`#${subCatalog.slug}`}>
-                    <div class="h-32 w-32 -skew-x-[30deg] flex items-center relative overflow-hidden">
+                    <div class="h-32 w-32 flex items-center relative overflow-hidden md:-skew-x-[30deg]">
                       <img
                         src={subCatalog.files[0]?.url ?? "/"}
                         alt="background"
-                        class="absolute inset-0 object-cover skew-x-[30deg] scale-[230%]"
+                        class="absolute inset-0 object-cover scale-[230%] md:skew-x-[30deg]"
                       />
                       <div class="bg-gray-500 mix-blend-multiply absolute inset-0" />
-                      <p class="skew-x-[30deg] mx-auto text-white font-bold capitalize">
+                      <p class="relative mx-auto text-white font-bold capitalize md:skew-x-[30deg]">
                         {subCatalog.name}
                       </p>
                     </div>
