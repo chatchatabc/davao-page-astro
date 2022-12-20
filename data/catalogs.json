@@ -2,31 +2,31 @@
   "data": [
     {
       "name": "restaurants",
-      "details": "Details Details Details Details Details",
+      "details": "Try a variety of cuisines that is sure to satisfy your taste buds during your stay here in Davao City!",
       "slug": "restaurants",
       "icon": "ic:baseline-restaurant"
     },
     {
       "name": "Tourist Spot",
-      "details": "Tourism Spot in davao are so nice!",
+      "details": "Whether you're looking for a place to relax and enjoy the beauty of Davao, or if you want an adventure that will take your breath away, we've got you covered.",
       "slug": "tourist-spot",
       "icon": "ic:baseline-mode-of-travel"
     },
     {
       "name": "Hotels",
-      "details": "Details Details Details Details Details",
+      "details": "Here, you can enjoy and relax in comfort while having fun with family and friends. With a lot of selection, you can find a hotel that will satisfy your budget and make your stay more enjoyable.",
       "slug": "hotels",
       "icon": "ic:baseline-hotel"
     },
     {
       "name": "Shopping",
-      "details": "Details Details Details Details Details",
+      "details": "If you're looking for something new and trendy, look no further than our stores in Davao City! We have everything you need to make your life easier—from groceries to clothes to electronics and more.",
       "slug": "shopping",
       "icon": "ic:baseline-shopping-basket"
     },
     {
       "name": "Entertainment",
-      "details": "Details Details Details Details Details",
+      "details": "You'll find everything you need to make your stay in Davao unforgettable, from fun to relaxation to thrilling activities.",
       "slug": "entertainment",
       "icon": "ic:baseline-wine-bar"
     },

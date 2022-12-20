@@ -5,7 +5,7 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "abreeza-mall",
-      "details": "Details Details Details Details Details Details",
+      "details": "The mall is located in the city center, which means you'll be able to shop for your favorite products without having to travel far. It's also close to a lot of restaurants and other stores, so you can get everything you need all in one place!",
       "order": 1000,
       "address": "Abreeza Mall, J.P. Laurel Ave, Poblacion District, Davao City, 8000 Davao del Sur",
       "phone": "(082) 295 3301",
@@ -57,7 +57,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -66,7 +70,7 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "sm-lanang-premier",
-      "details": "Details Details Details Details Details Details",
+      "details": "If you're looking for the best shopping experience in Davao City, look no further. SM Lanang Premier is your go-to destination for shopping.",
       "order": 1000,
       "address": "J.P. Laurel Ave, Agdao, Davao City, 8000 Davao del Sur",
       "phone": "(082) 285 0943",
@@ -118,7 +122,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -179,7 +187,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -240,7 +252,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -301,7 +317,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -362,7 +382,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     },
@@ -423,7 +447,11 @@
           "images": [{ "url": "/images/bench.jpg" }],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "type": "Food"
+        }
       ],
       "tags": []
     }
