@@ -19,9 +19,9 @@ const { touristSpot } = Astro.props as Props;
 ---
 
 <PoiDetailsLayout place={touristSpot}>
-  <section>
+  <section class="px-2">
     <h2 class="text-2xl font-bold pt-5">More Photos</h2>
-    <div class="py-2 grid grid-cols-4 gap-4">
+    <div class="py-2 grid gap-2 grid-cols-2 md:grid-cols-4">
       {
         touristSpot.gallery.map((gallery: ObjectInterface) => {
           return (
