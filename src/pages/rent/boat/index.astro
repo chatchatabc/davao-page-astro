@@ -24,11 +24,11 @@ const { pathname } = Astro.url;
       {
         boats.map((boat) => {
           return (
-            <div class="grid grid-cols-2 gap-5 relative hover:bg-blue-50 rounded-xl">
+            <div class="gap-x-5 relative rounded-xl md:grid md:grid-cols-2 hover:bg-blue-50">
               <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
                 <img class="w-full h-full" src={boat.files[0]?.url ?? "/"} />
               </div>
-              <div class="relative flex flex-col py-10">
+              <div class="relative flex flex-col">
                 <h3 class="text-3xl font-bold">{boat.name}</h3>
                 <p>
                   <Icon name="mdi:people-group" />
