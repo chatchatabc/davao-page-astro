@@ -42,7 +42,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Bar"]
     },
     {
       "name": "the grid alley bar",
@@ -86,7 +86,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Bar"]
     },
     {
       "name": "potions bar & lounge",
@@ -130,7 +130,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Bar"]
     },
     {
       "name": "rancho palos verdes golf & country club",
@@ -174,7 +174,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Golf"]
     },
     {
       "name": "apo golf & country club",
@@ -218,7 +218,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Golf"]
     },
     {
       "name": "south pacific golf and country club",
@@ -262,7 +262,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Golf"]
     },
     {
       "name": "thai boran",
@@ -306,7 +306,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Massage", "Thai"]
     },
     {
       "name": "heavens nest spa",
@@ -350,7 +350,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Spa", "Massage"]
     },
     {
       "name": "opal jhane thai massage spa",
@@ -394,7 +394,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Thai", "Massage"]
     },
     {
       "name": "red dot sports house",
@@ -438,7 +438,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Shooting"]
     },
     {
       "name": "armscor shooting center inc., davao",
@@ -482,7 +482,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Shooting"]
     },
     {
       "name": "target alpha shooting range",
@@ -526,7 +526,7 @@
           "order": 1000
         }
       ],
-      "tags": []
+      "tags": ["Shooting"]
     }
   ]
 }

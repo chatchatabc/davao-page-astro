@@ -30,7 +30,7 @@
         { "url": "/images/eden park gallery2.jpg" },
         { "url": "/images/eden park gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "mount apo trek",
@@ -57,7 +57,7 @@
         { "url": "/images/mount apo trek gallery.webp" },
         { "url": "/images/mount apo trek gallery2.jpg" }
       ],
-      "tags": []
+      "tags": ["Hiking", "Mountains", "Adventure"]
     },
     {
       "name": "malagos garden resort and chocolate museum",
@@ -89,7 +89,7 @@
         { "url": "/images/malagos garden resort gallery2.jpg" },
         { "url": "/images/malagos garden resort gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Resort", "Museum", "Leisure"]
     },
     {
       "name": "people's park",
@@ -121,7 +121,7 @@
         { "url": "/images/peoples park gallery.png" },
         { "url": "/images/peoples park gallery1.png" }
       ],
-      "tags": []
+      "tags": ["City Park", "Leisure"]
     },
     {
       "name": "roxas night market",
@@ -153,7 +153,7 @@
         { "url": "/images/roxas night market gallery2.jpg" },
         { "url": "/images/roxas night market gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Night Market", "Food Stalls", "Night Time"]
     },
     {
       "name": "pearl farm beach resort",
@@ -185,14 +185,14 @@
         { "url": "/images/pearl farm beach resort gallery1.jpg" },
         { "url": "/images/pearl farm beach resort gallery2.jpg" }
       ],
-      "tags": []
+      "tags": ["Beach", "Resort", "Leisure"]
     },
     {
       "name": "eagle park",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "eagle-park",
-      "details": "Details Details Details Details Details Details",
+      "details": "Eagle Park is a beautiful place for relaxation and a great view. It's located in Davao City, and there are so many eagles that you'll want to take pictures with them! It's an amazing place to visit, whether you're looking for a place to relax or just want to see some beautiful birds.",
       "order": 1000,
       "address": "Malagos-Baguio Road, Brgy, Davao City, 8000 Davao del Sur",
       "phone": "(082) 324 1860",
@@ -217,14 +217,14 @@
         { "url": "/images/eagle park gallery2.jpg" },
         { "url": "/images/eagle park gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "samal island",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "samal-island",
-      "details": "Details Details Details Details Details Details",
+      "details": "Samal Island is a beautiful and relaxing place to visit. The beach is clean, the breeze is cool, and you can even walk across the sand like a giant! Come visit this place—you won't be disappointed.",
       "order": 1000,
       "address": "Samal, Island Garden City of Samal, Davao del Norte",
       "phone": "N/A",
@@ -249,14 +249,14 @@
         { "url": "/images/samal island gallery1.webp" },
         { "url": "/images/samal island gallery2.webp" }
       ],
-      "tags": []
+      "tags": ["Beach", "Vacation", "Water Activities"]
     },
     {
       "name": "crocodile park",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "crocodile-park",
-      "details": "Details Details Details Details Details Details",
+      "details": "Crocodile Park is a place to go if you're looking for adventure and excitement. Here, you can get up close and personal with crocodiles, snakes, lizards, monkeys, and other wild animals. You'll also be able to enjoy the park's beautiful landscape.",
       "order": 1000,
       "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway，Ma-a, Davao City 8000 Philippines",
       "phone": "0917 702 5953",
@@ -281,14 +281,14 @@
         { "url": "/images/crocodile park gallery2.jpg" },
         { "url": "/images/crocodile park gallery.webp" }
       ],
-      "tags": []
+      "tags": ["Zoo", "Park", "Leisure"]
     },
     {
       "name": "waterworld beach resort",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "waterworld-beach-resort",
-      "details": "Details Details Details Details Details Details",
+      "details": "The Waterworld Beach Resort in Davao City is a tropical paradise that's got everything you need to have a great time. It's got a huge swimming pool, waterslides galore, and an adventure park for when you're done playing around in the water!",
       "order": 1000,
       "address": "2GJG+6X4, Talomo, Davao City, 8000 Davao del Sur",
       "phone": "(082) 296 1216",
@@ -313,7 +313,7 @@
         { "url": "/images/waterworld beach resort gallery1.jpg" },
         { "url": "/images/waterworld beach resort gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Pool", "Water Slides", "Resort", "Beach"]
     }
   ]
 }

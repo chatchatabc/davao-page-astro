@@ -29,7 +29,7 @@
         { "url": "/images/dusit thani hotel gallery2.jpg" },
         { "url": "/images/dusit thani hotel gallery3.jpg" }
       ],
-      "tags": ["thai hotel"]
+      "tags": ["thai hotel", "Hotels"]
     },
     {
       "name": "Waterfront Insular Hotel Davao",
@@ -60,7 +60,7 @@
         { "url": "/images/waterfront insular hotel gallery2.jpg" },
         { "url": "/images/waterfront insular hotel gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Hotels", "relaxing"]
     },
     {
       "name": "Anavada Apartment Inn, Davao",
@@ -91,7 +91,7 @@
         { "url": "/images/anavada apartment inn gallery2.jpg" },
         { "url": "/images/anavada apartment inn gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Inn"]
     },
     {
       "name": "Seda Abreeza",
@@ -122,7 +122,7 @@
         { "url": "/images/seda abreeza gallery2.jpg" },
         { "url": "/images/seda abreeza gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Hotels"]
     },
     {
       "name": "Grand Regal Hotel",
@@ -153,7 +153,7 @@
         { "url": "/images/grand regal hotel gallery2.jpg" },
         { "url": "/images/grand regal hotel gallery3.jpg" }
       ],
-      "tags": []
+      "tags": ["Hotels"]
     },
     {
       "name": "Marco Polo Davao",
@@ -184,7 +184,7 @@
         { "url": "/images/marco polo hotel gallery1.jpg" },
         { "url": "/images/marco polo hotel gallery2.jpg" }
       ],
-      "tags": []
+      "tags": ["Hotels"]
     }
   ]
 }
