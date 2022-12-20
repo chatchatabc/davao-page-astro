@@ -13,9 +13,9 @@ const featuredFile = files.length ? files : [];
 ---
 
 <Layout>
-  <div class="flex mx-auto container px-5">
+  <div class="flex flex-col-reverse lg:flex-row mx-auto container px-5">
     <!-- Left Side (Showcase) -->
-    <div class="w-3/4">
+    <div class="lg:w-3/4">
       <!-- Restaurant Picture -->
       <section class="bg-yellow-50 py-32 relative">
         <div class="absolute inset-0">
@@ -32,7 +32,7 @@ const featuredFile = files.length ? files : [];
     </div>
 
     <!-- Right Side (Details) -->
-    <div class="w-1/4 p-4">
+    <div class="flex flex-wrap gap-x-5 p-4 lg:block lg:w-1/4">
       <h3 id="title" class="text-3xl uppercase font-bold">
         {place.name}
       </h3>
