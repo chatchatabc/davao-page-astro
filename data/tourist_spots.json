@@ -37,6 +37,7 @@
           "image": ""
         }
       ],
+      "price": "",
       "tags": ["Park", "Leisure"]
     },
     {
@@ -71,6 +72,7 @@
           "image": ""
         }
       ],
+      "price": "",
       "tags": ["Hiking", "Mountains", "Adventure"]
     },
     {
@@ -110,6 +112,7 @@
           "image": ""
         }
       ],
+      "price": "",
       "tags": ["Resort", "Museum", "Leisure"]
     },
     {
@@ -149,6 +152,7 @@
           "image": ""
         }
       ],
+      "price": "Free",
       "tags": ["City Park", "Leisure"]
     },
     {
@@ -188,6 +192,7 @@
           "image": ""
         }
       ],
+      "price": "$",
       "tags": ["Night Market", "Food Stalls", "Night Time"]
     },
     {
@@ -227,6 +232,7 @@
           "image": ""
         }
       ],
+      "price": "$$~$$$",
       "tags": ["Beach", "Resort", "Leisure"]
     },
     {
@@ -266,6 +272,7 @@
           "image": ""
         }
       ],
+      "price": "Free",
       "tags": ["Park", "Leisure"]
     },
     {
@@ -305,6 +312,7 @@
           "image": ""
         }
       ],
+      "price": "$$",
       "tags": ["Beach", "Vacation", "Water Activities"]
     },
     {
@@ -317,7 +325,7 @@
       "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway，Ma-a, Davao City 8000 Philippines",
       "phone": "0917 702 5953",
       "email": "",
-      "business_hours": " 8:00 AM - 5:00 PM",
+      "business_hours": "8:00 AM - 5:00 PM",
       "files": [
         {
           "url": "/images/crocodile park.jpg",
@@ -344,6 +352,7 @@
           "image": ""
         }
       ],
+      "price": "$",
       "tags": ["Zoo", "Park", "Leisure"]
     },
     {
@@ -383,6 +392,7 @@
           "image": ""
         }
       ],
+      "price": "$",
       "tags": ["Pool", "Water Slides", "Resort", "Beach"]
     }
   ]
