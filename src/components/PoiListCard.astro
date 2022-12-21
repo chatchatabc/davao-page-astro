@@ -13,6 +13,7 @@ const { place, pathname } = Astro.props as Props;
 <div
   class="group relative flex flex-col-reverse bg-white cursor-pointer my-10 mx-auto max-w-xs duration-500 overflow-hidden rounded-lg shadow-lg ring-blue-500 lg:flex-row lg:max-w-none hover:shadow-blue-300 hover:ring"
 >
+  <!-- Left Side -->
   <div class="flex-1 px-6 py-8 lg:p-12">
     <h3
       class="text-2xl font-bold text-gray-900 sm:text-3xl sm:tracking-tight capitalize"
@@ -88,8 +89,10 @@ const { place, pathname } = Astro.props as Props;
       </ul>
     </div>
   </div>
+
+  <!-- Right Side -->
   <div class="lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center">
-    <div class="w-full h-56 relative lg:w-96 lg:h-full lg:max-h-96">
+    <div class="w-full h-56 relative lg:w-96 lg:h-full">
       <img
         src={place.files[0]?.url ?? "/"}
         class="relative w-full h-full object-cover"
