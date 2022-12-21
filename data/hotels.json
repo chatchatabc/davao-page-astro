@@ -29,6 +29,13 @@
         { "url": "/images/dusit thani hotel gallery2.jpg" },
         { "url": "/images/dusit thani hotel gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "My experience at the hotel was great, and I'd definitely recommend it to others! The place is very clean, and the food is really good. I also liked their pool. The room were well-conditioned, and they had a nice selection of pillows.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["thai hotel", "Hotels"]
     },
     {
@@ -59,6 +66,13 @@
         { "url": "/images/waterfront insular hotel gallery1.jpg" },
         { "url": "/images/waterfront insular hotel gallery2.jpg" },
         { "url": "/images/waterfront insular hotel gallery3.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "I stayed at this hotel recently and I found it to be very clean, comfortable, and well-cared for. The room was very clean, and I loved the way it smelled when I walked in. The staff was also very friendly and helpful. They helped me check into my room promptly",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Hotels", "relaxing"]
     },
@@ -91,6 +105,13 @@
         { "url": "/images/anavada apartment inn gallery2.jpg" },
         { "url": "/images/anavada apartment inn gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "We had a great time at Anavada Apartment Inn, and we were impressed by how clean and well-kept it was. The room we stayed in was spacious, comfortable, and very well-lit. The bed was also very comfortable, and I slept well every night!",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Inn"]
     },
     {
@@ -121,6 +142,13 @@
         { "url": "/images/seda abreeza gallery1.jpg" },
         { "url": "/images/seda abreeza gallery2.jpg" },
         { "url": "/images/seda abreeza gallery3.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "The food was delicious—I especially loved the breakfast buffet they offered each morning! Their pool is beautiful, too—it's very relaxing to sit by it and read a book while taking in the view.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Hotels"]
     },
@@ -153,6 +181,13 @@
         { "url": "/images/grand regal hotel gallery2.jpg" },
         { "url": "/images/grand regal hotel gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "The hotel also offers many amenities that make your stay more exciting: a pool with a waterfall running through it; a jacuzzi; and an awesome exercise room where you can work out in peace.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Hotels"]
     },
     {
@@ -183,6 +218,13 @@
         { "url": "/images/marco polo hotel gallery.jpeg" },
         { "url": "/images/marco polo hotel gallery1.jpg" },
         { "url": "/images/marco polo hotel gallery2.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "I have to admit that I was very impressed by the hotel. I loved the pool and the room were well conditioned. The food is also good.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Hotels"]
     }
