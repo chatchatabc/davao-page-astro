@@ -42,6 +42,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "It got everything you could ever want. It got drinks you can buy, so you can totally enjoy your night. The music they play are good too!",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Bar"]
     },
     {
@@ -84,6 +91,13 @@
         {
           "url": "/images/the grid at alley bar gallery3.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "I have been to this bar a couple of times now and it is one of my favorite places to go. The drinks are great, the music is always good, and the staff is always polite. The only downside is that sometimes it can be hard to find parking, but otherwise I highly recommend this place!",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Bar"]
@@ -130,6 +144,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "I really enjoyed my time at the bar. It was a great place to go and have a drink with friends. The music they played was really good and I had a lot of fun dancing to it.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Bar"]
     },
     {
@@ -172,6 +193,13 @@
         {
           "url": "/images/rancho palos verdes golf and country club gallery3.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "I have been to the golf club a couple times. The place is great. They have a lot of areas to play, and the grass are clean and green. The weather is good. It's also affordable.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Golf"]
@@ -218,6 +246,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "There's so much to do here, and it's all right at your fingertips. There are four different areas where you can play golf: a range with targets, a practice area, a driving range, and a par 3 course.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Golf"]
     },
     {
@@ -260,6 +295,13 @@
         {
           "url": "/images/south pacific golf and country club gallery3.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "There are so many areas to play, and the grass is always clean and green! The weather is always good as well. And it's affordable!",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Golf"]
@@ -306,6 +348,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "I had a great massage at Thai Boran in Davao City, Philippines. It was very relaxing, and they have some nice rooms to relax in. They also have great music playing in the background so you can enjoy your massage while listening to it! The environment was very peaceful and quiet while I was there.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Massage", "Thai"]
     },
     {
@@ -348,6 +397,13 @@
         {
           "url": "/images/heavens nest spa gallery3.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "I went to the spa to relax and have a massage. I really enjoyed my time there because they had good services. The place was very clean and the staff were friendly.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Spa", "Massage"]
@@ -394,6 +450,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "The place made me feel relaxed and comfortable during my time over there. The prices are also affordable so it's a good deal for you to try out this spa!",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Thai", "Massage"]
     },
     {
@@ -436,6 +499,13 @@
         {
           "url": "/images/red dot sports house gallery3.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "It's safe, clean, and has a lot of different guns to choose from. The employees are nice and helpful, and they're always willing to answer any questions you might have.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Shooting"]
@@ -482,6 +552,13 @@
           "order": 1000
         }
       ],
+      "comments": [
+        {
+          "message": "I went to a shooting range for the first time. It was a great experience! The staff were very welcoming and helpful, and they had a lot of different guns to choose from. I really enjoyed shooting all of the different types of guns—it was fun and exciting!",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Shooting"]
     },
     {
@@ -524,6 +601,13 @@
         {
           "url": "/images/target alpha shooting range gallery.jpg",
           "order": 1000
+        }
+      ],
+      "comments": [
+        {
+          "message": "The employees are all very nice, which is probably why they have such good service. They have a safe environment so that you don't feel unsafe while you're there, and it's not just like any old place where you can just go shoot someplace random.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": ["Shooting"]
