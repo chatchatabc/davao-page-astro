@@ -2,7 +2,7 @@
   "data": [
     {
       "name": "Sedan",
-      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "details": "Our sedan is affordable because of its four doors and 5 seats. It's affordable because it comes with an automatic transmission, so you won't have to spend hours learning how to drive. And it's affordable because it has a lot of room in the backseat—so if you do have to haul anything, this car will be able to accommodate it!",
       "price": { "price": "14,000", "time": "day" },
       "pricePackages": [
         { "totalTime": "1", "price": "2500", "time": "days" },
@@ -36,7 +36,7 @@
     },
     {
       "name": "Truck",
-      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "details": "We have a lot of vehicles in our fleet, but I wanted to introduce you to one that's especially unique: the pickup truck. We all know that cars are important, but this one is just different. The pickup truck has four doors and five seats. It has an automatic transmission and can go up to 60 miles per hour. And if all that weren't enough, we also offer a driver for you—we're not just about the vehicles here; we do everything for you so you can focus on getting where you need to go.",
       "price": { "price": "14,000", "time": "day" },
       "pricePackages": [
         { "totalTime": "1", "price": "2500", "time": "days" },
@@ -70,7 +70,7 @@
     },
     {
       "name": "SUV",
-      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "details": "The SUV is perfect for the family because it can carry up to seven people and still have room for gear in the back. The SUV is also great for those who like to go on long trips or like to travel in style without breaking the bank! It has five doors. It has seven seats. It has an automatic transmission. We also offer a driver if you need one.",
       "price": { "price": "14,000", "time": "day" },
       "pricePackages": [
         { "totalTime": "1", "price": "2500", "time": "days" },
@@ -104,7 +104,7 @@
     },
     {
       "name": "Van",
-      "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
+      "details": "As a new vehicle, the van is very safe and reliable. It has four doors, fifteen seats, an automatic transmission, and we also offer a driver if you need one. In addition to being safe, the car comes with an advanced system that helps prevent accidents on the road. The car is also equipped with an airbag system that protects the driver during an accident.",
       "price": { "price": "14,000", "time": "day" },
       "pricePackages": [
         { "totalTime": "1", "price": "2500", "time": "days" },
