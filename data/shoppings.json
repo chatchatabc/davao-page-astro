@@ -63,6 +63,13 @@
           "type": "Food"
         }
       ],
+      "comments": [
+        {
+          "message": "The mall is so big and there are so many stores. You can find anything you want to buy. There are also restaurants that you can eat. The place is very beautiful and new.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": []
     },
     {
@@ -126,6 +133,13 @@
           "name": "McDonalds",
           "images": [{ "url": "/images/mcdonalds.jpg" }],
           "type": "Food"
+        }
+      ],
+      "comments": [
+        {
+          "message": "The shopping mall is a great place to visit. When you go there, you can find anything you want to buy. There are also restaurants that you can eat at. The mall is located in Davao City, so if you're ever in the area, it's worth checking out!",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": []
@@ -193,6 +207,13 @@
           "type": "Food"
         }
       ],
+      "comments": [
+        {
+          "message": "The shopping mall is a place that everyone should enjoy. You can find everything you want to buy, and even more! There are also restaurants that you can eat at.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": []
     },
     {
@@ -256,6 +277,13 @@
           "name": "McDonalds",
           "images": [{ "url": "/images/mcdonalds.jpg" }],
           "type": "Food"
+        }
+      ],
+      "comments": [
+        {
+          "message": "This mall has been around for many years, so it's safe to say that it's a popular place for people to visit. It's also important to note that the mall is well-maintained, which means there won't be any problems with your shopping experience at this location.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": []
@@ -323,6 +351,13 @@
           "type": "Food"
         }
       ],
+      "comments": [
+        {
+          "message": "The atmosphere at this mall is great because it gives off a feeling of being relaxed while still being busy; this makes it easy for anyone who visits this place to feel comfortable no matter what they're doing there.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": []
     },
     {
@@ -388,6 +423,13 @@
           "type": "Food"
         }
       ],
+      "comments": [
+        {
+          "message": "I went to the mall and I saw a lot of people. The place is very big and there are many stores. You can buy anything you want to buy. There are also restaurants that you can eat.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": []
     },
     {
@@ -451,6 +493,13 @@
           "name": "McDonalds",
           "images": [{ "url": "/images/mcdonalds.jpg" }],
           "type": "Food"
+        }
+      ],
+      "comments": [
+        {
+          "message": "This place has everything you need. There are stores that sell everything from clothes to electronics to food—it's a great place to shop. And if you're hungry after shopping, there are restaurants that serve up delicious meals.",
+          "author": "",
+          "image": ""
         }
       ],
       "tags": []
