@@ -60,7 +60,7 @@
         {
           "message": "I've been to Jack's Ridge many times. I love their food and their service is always excellent. The place is very clean and the employees are kind and attentive.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["quiet", "rural area", "night view"]
@@ -107,7 +107,7 @@
         {
           "message": "I love Vistaview! The food is always delicious, and it's so clean—I feel like I'm eating in a restaurant that's been around forever. And the employees—they're all so nice!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["night view", "filipino restaurant"]
@@ -175,7 +175,7 @@
         {
           "message": "I recommend this place to anyone who wants something delicious and healthy to eat!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Aussie"]
@@ -240,7 +240,7 @@
         {
           "message": "I went to Red Tomato Restaurant for the first time a few days ago, and let me just say: I was blown away.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Italian"]
@@ -304,7 +304,7 @@
         {
           "message": "The food was incredible. The staff was incredibly friendly and helpful, and their service was top-notch.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Music Restaurant"]
@@ -370,7 +370,7 @@
         {
           "message": "I ordered the sea bass with cranberry bean puree and creamed spinach—it was so good that I wanted to lick the plate clean! And then there were those side dishes: roasted cauliflower with white truffle oil and shaved Brussels sprouts with bacon crumbs? Holy moly, they were amazing too.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Chinese Restaurant"]
@@ -431,7 +431,7 @@
         {
           "message": "The food is delicious, and I love the atmosphere. The staff is also very nice, which is always a plus.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["European Restaurant"]
@@ -473,7 +473,7 @@
         {
           "message": "We had heard great things about their food, and we can't believe how delicious it was. The restaurant was clean and well-kept, with friendly employees who made us feel right at home. We will definitely be back again soon!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["outdoor restaurant"]
@@ -512,7 +512,7 @@
         {
           "message": "I have been to this place twice. The first time I was there, the food was delicious and they served me in the nicest way. The second time I went there, the food was just as delicious and they even remembered me! They are very attentive at all times so it is easy to enjoy your meal here.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Beef"]
@@ -551,7 +551,7 @@
         {
           "message": "They have a nice atmosphere that makes you feel like you are in someones home rather than just going out for food.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Philippines Restaurant"]
@@ -590,7 +590,7 @@
         {
           "message": "Their employees are very nice and really friendly. They make sure that any guest who comes in feels welcomed and cared for.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Family restaurant", "Philippines Restaurant"]
@@ -632,7 +632,7 @@
         {
           "message": "I was at Paramount Coffee last night with a friend. We were enjoying some of their delicious food, and talking about how much we love their place. The employees are always so friendly and helpful, the food is amazing, and it's always clean and cozy. I would definitely recommend this place to anyone looking for a fun night out!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["outdoor restaurant"]
@@ -703,7 +703,7 @@
         {
           "message": "I was so excited to try this new place. My friends and I went there last Friday, and it was delicious. The food was cooked well and tasted great, and the employees were all very friendly. I recommend this place to everyone!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["seafood"]
@@ -764,7 +764,7 @@
         {
           "message": "I came here with my girlfriend to try out their new lunch special. We both ordered the same thing, and I have to say we were pleasantly surprised. The food was delicious, and it was very reasonably priced.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["seafood", "Philippines Restaurant"]
@@ -811,7 +811,7 @@
         {
           "message": "I definitely recommend this place for anyone looking for a good meal at a great price!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["seafood"]
@@ -873,7 +873,7 @@
         {
           "message": "There are a lot of good restaurants in this area, but I think Dimsum Diner is one of the best. They cook delicious food and their employees are super nice. I'd recommend it to anyone!",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Chinese Restaurant"]
@@ -920,7 +920,7 @@
         {
           "message": "I've been here a lot and I love the food. It's always so delicious, and I'm always able to find something new to try. The employees are always nice, too.",
           "author": "",
-          "img": ""
+          "image": ""
         }
       ],
       "tags": ["Chinese Restaurant"]
@@ -953,7 +953,7 @@
           "order": 1000
         }
       ],
-      "comments": [{ "message": "", "author": "", "img": "" }],
+      "comments": [{ "message": "", "author": "", "image": "" }],
       "tags": ["tuna", "japanese restaurant"]
     }
   ]
