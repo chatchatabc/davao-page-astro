@@ -21,13 +21,13 @@ const subCatalogs = dataSubCatalogs.data
     <div class="mx-auto max-w-7xl px-4 pb-6 md:pb-16 md:pt-6 lg:px-8">
       <div class="space-y-2 lg:grid lg:grid-cols-3 lg:gap-8">
         <div
-          class="space-y-5 sm:space-y-4 flex flex-col h-full relative p-2 rounded-lg overflow-hidden"
+          class="space-y-5 sm:space-y-4 flex flex-col h-full relative p-2 rounded-lg overflow-hidden w-fit"
         >
-          <div class="relative">
+          <div class="relative z-10">
             <h2 class="text-3xl font-bold tracking-tight sm:text-5xl">
               Entertainment
             </h2>
-            <p class="text-gray-500 md:mt-4 md:text-xl">
+            <p class="text-gray-500 mt-2 md:text-xl">
               You'll find everything you need to make your stay in Davao
               unforgettable, from fun to relaxation to thrilling activities.
             </p>
@@ -40,7 +40,7 @@ const subCatalogs = dataSubCatalogs.data
         <div class="lg:col-span-2">
           <ul
             role="list"
-            class="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-2 lg:gap-8"
+            class="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-2 lg:gap-4"
           >
             {
               subCatalogs.map((subCatalog) => {
