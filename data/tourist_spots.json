@@ -30,6 +30,13 @@
         { "url": "/images/eden park gallery2.jpg" },
         { "url": "/images/eden park gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "It's very enjoyable staying here and I think it's very satisfying. The place is clean and well-kept, so it's a good place to stay.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Park", "Leisure"]
     },
     {
@@ -56,6 +63,13 @@
         { "url": "/images/mount apo trek gallery1.jpg" },
         { "url": "/images/mount apo trek gallery.webp" },
         { "url": "/images/mount apo trek gallery2.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "It was a beautiful place. The view was amazing and I enjoyed it very much. The place was clean and the service was good. It is a good place to stay at.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Hiking", "Mountains", "Adventure"]
     },
@@ -89,6 +103,13 @@
         { "url": "/images/malagos garden resort gallery2.jpg" },
         { "url": "/images/malagos garden resort gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "I really enjoyed staying at the place. The view is beautiful, and the atmosphere was very relaxing. It felt like home, which is perfect for me.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Resort", "Museum", "Leisure"]
     },
     {
@@ -120,6 +141,13 @@
         { "url": "/images/peoples park gallery1.jpg" },
         { "url": "/images/peoples park gallery.png" },
         { "url": "/images/peoples park gallery1.png" }
+      ],
+      "comments": [
+        {
+          "message": "I think this place is amazing. The view is outstanding, and the entire area is just beautiful. It's very relaxing to be here, and I can't wait to come back!",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["City Park", "Leisure"]
     },
@@ -153,6 +181,13 @@
         { "url": "/images/roxas night market gallery2.jpg" },
         { "url": "/images/roxas night market gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "When you're looking for a place to eat in the evening, you want it to be both delicious and affordable. And the best way to do this is with a food stall that serves up a wide variety of delicious dishes.",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Night Market", "Food Stalls", "Night Time"]
     },
     {
@@ -184,6 +219,13 @@
         { "url": "/images/pearl farm beach resort gallery.webp" },
         { "url": "/images/pearl farm beach resort gallery1.jpg" },
         { "url": "/images/pearl farm beach resort gallery2.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "I visited this place and I can say that it is very beautiful. I like the view, it is beautiful. It's very enjoyable to spend the day there. The place is clean, I like it very much.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Beach", "Resort", "Leisure"]
     },
@@ -217,6 +259,13 @@
         { "url": "/images/eagle park gallery2.jpg" },
         { "url": "/images/eagle park gallery3.jpg" }
       ],
+      "comments": [
+        {
+          "message": "There are a lot of things to love about this park. I've seen and interacted with eagles in the park, which is a lot of fun. The place is also clean, which is always nice when you're lounging around. It's a great place to spend time with friends or family, and I recommend it for everyone!",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Park", "Leisure"]
     },
     {
@@ -248,6 +297,13 @@
         { "url": "/images/samal island gallery.webp" },
         { "url": "/images/samal island gallery1.webp" },
         { "url": "/images/samal island gallery2.webp" }
+      ],
+      "comments": [
+        {
+          "message": "I really like the place. It is so beautiful and I really enjoy spending my time there. The place is very clean and organized. It is satisfying to stay in such a nice place.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Beach", "Vacation", "Water Activities"]
     },
@@ -281,6 +337,13 @@
         { "url": "/images/crocodile park gallery2.jpg" },
         { "url": "/images/crocodile park gallery.webp" }
       ],
+      "comments": [
+        {
+          "message": "I have been spending time at the zoo park. I've seen and interacted with many animals. They are all very cute and interesting to watch. ",
+          "author": "",
+          "image": ""
+        }
+      ],
       "tags": ["Zoo", "Park", "Leisure"]
     },
     {
@@ -312,6 +375,13 @@
         { "url": "/images/waterworld beach resort gallery.jpg" },
         { "url": "/images/waterworld beach resort gallery1.jpg" },
         { "url": "/images/waterworld beach resort gallery3.jpg" }
+      ],
+      "comments": [
+        {
+          "message": "The place is also clean, which is always a big plus for me. It's hard to find a place that keeps things tidy enough that you don't need to worry about germs or other nasty things.",
+          "author": "",
+          "image": ""
+        }
       ],
       "tags": ["Pool", "Water Slides", "Resort", "Beach"]
     }
