@@ -79,9 +79,22 @@ const featuredFile = files.length ? files : [];
       <div class="pt-2">
         <h4 class="inline">Comments</h4>
         <Icon name="ic:baseline-comment" />
-        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </p>
+        {
+          place.comments?.length ? (
+            place.comments.map((comment: ObjectInterface) => {
+              return (
+                <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 text-justify">
+                  "{comment.message}"{" "}
+                  <span class="font-medium">-Anonymous</span>
+                </p>
+              );
+            })
+          ) : (
+            <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 text-justify">
+              No Comments
+            </p>
+          )
+        }
       </div>
       <div class="pt-2">
         <h4 class="inline">External Links</h4>
