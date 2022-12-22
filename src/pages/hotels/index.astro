@@ -1,6 +1,7 @@
 ---
 import Layout from "../../layouts/Layout.astro";
 import dataHotels from "../../../data/hotels.json";
+import PoiCard from "../../components/PoiCard.astro";
 
 const hotels = [...dataHotels.data];
 const { pathname } = Astro.url;
@@ -111,7 +112,7 @@ const { pathname } = Astro.url;
   </section>
 
   <!-- Hotels List -->
-  <section aria-labelledby="trending-heading">
+  <!-- <section aria-labelledby="trending-heading">
     <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 sm:py-32 lg:px-8 lg:pt-32">
       <div class="md:flex md:items-center md:justify-between">
         <h2
@@ -155,6 +156,18 @@ const { pathname } = Astro.url;
           Shop the collection
           <span aria-hidden="true"> &rarr;</span>
         </a>
+      </div>
+    </div>
+  </section> -->
+  <section>
+    <div class="container mx-auto px-2">
+      <h2 class="text-2xl font-bold pb-4 pt-8">Discover more</h2>
+      <div class="grid gap-8 lg:grid-cols-3">
+        {
+          hotels.map((hotel) => {
+            return <PoiCard data={hotel} />;
+          })
+        }
       </div>
     </div>
   </section>
