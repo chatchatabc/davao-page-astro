@@ -37,7 +37,7 @@
       ],
       "length": "N/A",
       "toilet": true,
-      "telephone": ""
+      "phone": ""
     },
     {
       "name": "Jet Ski",
@@ -71,7 +71,7 @@
       ],
       "length": "11ft",
       "toilet": false,
-      "telephone": ""
+      "phone": ""
     },
     {
       "name": "Bowrider Boat",
@@ -105,7 +105,7 @@
       ],
       "length": "26ft",
       "toilet": false,
-      "telephone": ""
+      "phone": ""
     }
   ]
 }

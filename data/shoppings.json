@@ -8,7 +8,7 @@
       "details": "The mall is located in the city center, which means you'll be able to shop for your favorite products without having to travel far. It's also close to a lot of restaurants and other stores, so you can get everything you need all in one place!",
       "order": 1000,
       "address": "Abreeza Mall, J.P. Laurel Ave, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 295 3301",
+      "phone": "082 295 3301",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
@@ -81,7 +81,7 @@
       "details": "If you're looking for the best shopping experience in Davao City, look no further. SM Lanang Premier is your go-to destination for shopping.",
       "order": 1000,
       "address": "J.P. Laurel Ave, Agdao, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 285 0943",
+      "phone": "082 285 0943",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
@@ -154,7 +154,7 @@
       "details": "Gaisano Grand Citimall Illustre is a mall located in Davao City. It has various stores and restaurants, including those that cater to different cultures. The mall also has a food court, which has a variety of foods that you can try.",
       "order": 1000,
       "address": " Ilustre St, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 224 0811",
+      "phone": "082 224 0811",
       "email": "",
       "business_hours": "10:00am-7:00pm",
       "links": [
@@ -165,7 +165,7 @@
       ],
       "files": [
         {
-          "url": "/images/gaisano grand citimall.jpg",
+          "url": "/images/gaisano grand citimall.JPG",
           "order": 1000
         }
       ],
@@ -373,7 +373,7 @@
       "details": "Gaisano Grand Citygate Mall is one of the best places to shop! In this mall you'll find an abundance of shops and stores, so if you're looking for something specific, you're sure to find it here. And don't forget about their grocery store—they have everything from fresh produce to snacks and drinks!",
       "order": 1000,
       "address": "Buhangin, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 221 6222",
+      "phone": "082 221 6222",
       "email": "",
       "business_hours": "10:00am-8:00pm",
       "links": [
@@ -446,7 +446,7 @@
       "details": "One of the greatest locations to shop in Davao city. If you're looking for a certain item, you're likely to find it at this mall, which has a ton of shops and businesses. They also feature a grocery shop with everything you might want, including fresh fruit, snacks, and drinks.",
       "order": 1000,
       "address": "Robinsons Cybergate, J.P. Laurel Ave, Buhangin, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 282 1088",
+      "phone": "082 282 1088",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
