@@ -11,24 +11,21 @@
       ],
       "seats": "5",
       "doors": "4",
-      "driver": "8000",
+      "driver": "700",
       "type": "sedan",
       "transmission": "automatic",
       "slug": "sedan",
       "files": [
         {
           "url": "/images/sedan.png",
-          "parent": "sedan",
           "order": 1000
         },
         {
           "url": "/images/sedan.jpg",
-          "parent": "sedan",
           "order": 1000
         },
         {
           "url": "/images/sedan1.jpg",
-          "parent": "sedan",
           "order": 1000
         }
       ],
@@ -45,24 +42,21 @@
       ],
       "seats": "5",
       "doors": "4",
-      "driver": "8000",
+      "driver": "700",
       "type": "truck",
       "transmission": "automatic",
       "slug": "truck",
       "files": [
         {
           "url": "/images/truck.webp",
-          "parent": "truck",
           "order": 1000
         },
         {
           "url": "/images/truck1.jpg",
-          "parent": "truck",
           "order": 1000
         },
         {
           "url": "/images/truck.jpg",
-          "parent": "truck",
           "order": 1000
         }
       ],
@@ -79,24 +73,21 @@
       ],
       "seats": "7",
       "doors": "5",
-      "driver": "8000",
+      "driver": "700",
       "type": "suv",
       "transmission": "automatic",
       "slug": "suv",
       "files": [
         {
           "url": "/images/suv.jpg",
-          "parent": "suv",
           "order": 1000
         },
         {
           "url": "/images/suv1.jpg",
-          "parent": "suv",
           "order": 1000
         },
         {
           "url": "/images/suv.avif",
-          "parent": "suv",
           "order": 1000
         }
       ],
@@ -113,14 +104,40 @@
       ],
       "seats": "15",
       "doors": "4",
-      "driver": "8000",
+      "driver": "700",
       "type": "van",
       "transmission": "automatic",
       "slug": "van",
       "files": [
         {
           "url": "/images/van.jpg",
-          "parent": "van",
+          "order": 1000
+        }
+      ],
+      "phone": ""
+    },
+    {
+      "name": "Motorcycle",
+      "details": "The Venom x18r is the best thing to have when you're in Davao City. It's a 200cc motorcycle, so it'll get you there fast, and it's efficient with its gas consumption. It also comes at an affordable price!",
+      "price": { "price": "14,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "2",
+      "doors": "N/A",
+      "driver": "700",
+      "type": "motorcycle",
+      "transmission": "automatic",
+      "slug": "motorcycle",
+      "files": [
+        {
+          "url": "/images/motor.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/motor.webp",
           "order": 1000
         }
       ],

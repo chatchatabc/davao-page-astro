@@ -12,7 +12,7 @@ const { files } = Astro.props as Props;
   {
     files.map((file: ObjectInterface, index: number) => {
       return (
-        <div class="min-w-full h-full border">
+        <div class="min-w-full h-full border aspect-w-3 aspect-h-2">
           <img class="w-full h-full object-cover" src={file.url} />
         </div>
       );
