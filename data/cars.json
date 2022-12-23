@@ -142,6 +142,41 @@
         }
       ],
       "phone": ""
+    },
+    {
+      "name": "MPV",
+      "details": "It was released in the year 2022, and it is a great vehicle for families or groups on the go. It has a spacious interior that can seat seven people comfortably, and it's affordable to rent. It's a multi-purpose vehicle with an affordable price tag, so it's perfect for those who want to take their family out for a ride without breaking the bank.",
+      "price": { "price": "5,000", "time": "day" },
+      "pricePackages": [
+        { "totalTime": "1", "price": "2500", "time": "days" },
+        { "totalTime": "2", "price": "4500", "time": "days" },
+        { "totalTime": "3", "price": "6000", "time": "days" }
+      ],
+      "seats": "5",
+      "doors": "5",
+      "driver": "700",
+      "type": "motorcycle",
+      "transmission": "automatic",
+      "slug": "motorcycle",
+      "files": [
+        {
+          "url": "/images/mpv2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mpv.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mpv1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mpv.webp",
+          "order": 1000
+        }
+      ],
+      "phone": ""
     }
   ]
 }
