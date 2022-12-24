@@ -1,5 +1,6 @@
 ---
 import { Icon } from "astro-icon";
+import { Img } from "astro-imagetools/components";
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 
 interface Props {
@@ -93,10 +94,11 @@ const { place, pathname } = Astro.props as Props;
   <!-- Right Side -->
   <div class="lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center">
     <div class="w-full h-56 relative lg:w-96 lg:h-full">
-      <img
+      <Img
         src={place.files[0]?.url ?? "/"}
-        class="relative w-full h-full object-cover"
         alt={place.name}
+        layout="fill"
+        sizes="(min-width: 768px) 480px, 100vw"
       />
       <div
         class="absolute mix-blend-multiply inset-0 duration-500 group-hover:bg-gray-300"

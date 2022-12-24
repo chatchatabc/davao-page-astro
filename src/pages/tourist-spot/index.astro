@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import dataTouristSpots from "../../../data/tourist_spots.json";
 import PoiListCard from "../../components/PoiListCard.astro";
+import { Img } from "astro-imagetools/components";
 
 const touristSpots = [...dataTouristSpots.data];
 const { pathname } = Astro.url;
@@ -14,11 +15,7 @@ const { pathname } = Astro.url;
     <div aria-hidden="true" class="absolute inset-0 hidden sm:flex sm:flex-col">
       <div class="relative w-full flex-1 bg-gray-800">
         <div class="absolute inset-0 overflow-hidden">
-          <img
-            src="/images/tourist spot.jpg"
-            alt="background"
-            class="h-full w-full object-cover object-center"
-          />
+          <Img src="/images/tourist-spot.jpg" alt="background" layout="fill" />
         </div>
         <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
       </div>
@@ -33,10 +30,10 @@ const { pathname } = Astro.url;
       <div aria-hidden="true" class="absolute inset-0 flex flex-col sm:hidden">
         <div class="relative w-full flex-1 bg-gray-800">
           <div class="absolute inset-0 overflow-hidden">
-            <img
-              src="/images/tourist spot.jpg"
+            <Img
+              src="/images/tourist-spot.jpg"
               alt="background"
-              class="h-full w-full object-cover object-center"
+              layout="fill"
             />
           </div>
           <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
@@ -77,11 +74,14 @@ const { pathname } = Astro.url;
                       class="absolute inset-0 overflow-hidden rounded-lg"
                     >
                       <div class="absolute inset-0 overflow-hidden">
-                        <img
-                          src={touristSpot.files[0]?.url ?? "/"}
-                          alt={touristSpot.name}
-                          class="h-full w-full object-cover object-center duration-500 group-hover:scale-105"
-                        />
+                        <div class="h-full w-full object-cover duration-500 group-hover:scale-105">
+                          <Img
+                            src={touristSpot.files[0]?.url ?? "/"}
+                            alt={touristSpot.name}
+                            layout="fill"
+                            sizes="(min-width: 768px) 480px, 100vw"
+                          />
+                        </div>
                       </div>
                       <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50" />
                     </div>

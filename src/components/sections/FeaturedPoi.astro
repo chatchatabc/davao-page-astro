@@ -1,5 +1,6 @@
 ---
 import type { ObjectInterface } from "../../helpers/commonInterfaces";
+import { Img } from "astro-imagetools/components";
 import PoiCard from "../PoiCard.astro";
 
 interface Props {
@@ -16,11 +17,7 @@ const { pathname } = Astro.url;
   <!-- Header -->
   <div class="relative bg-gray-800 pb-16">
     <div class="absolute inset-0">
-      <img
-        class="h-full w-full object-cover"
-        src={files[0]?.url ?? "/"}
-        alt="background"
-      />
+      <Img src={files[0]?.url ?? "/"} alt="background" layout="fill" />
       <div
         class="absolute inset-0 bg-gray-800 mix-blend-multiply opacity-50"
         aria-hidden="true"
