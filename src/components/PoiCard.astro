@@ -1,5 +1,6 @@
 ---
 import type { ObjectInterface } from "../helpers/commonInterfaces";
+import { Img } from "astro-imagetools/components";
 
 interface Props {
   data: ObjectInterface;
@@ -19,11 +20,14 @@ const { pathname, data } = Astro.props as Props;
     class="flex flex-col rounded-2xl bg-white shadow-xl overflow-hidden h-80"
   >
     <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
-      <img
-        src={data.files[0]?.url ?? "/"}
-        class="absolute inset-0 object-cover w-full h-full"
-        alt={`${data.name} place`}
-      />
+      <div class="absolute inset-0 object-cover w-full h-full">
+        <Img
+          src={`${data.files[0]?.url}`}
+          alt={`${data.name} place`}
+          sizes="(min-width: 768px) 480px, 100vw"
+          layout="fill"
+        />
+      </div>
     </div>
     <div class="rounded-bl-2xl rounded-br-2xl bg-gray-50 p-6 md:px-8">
       <p

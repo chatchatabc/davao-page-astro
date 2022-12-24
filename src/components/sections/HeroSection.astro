@@ -1,4 +1,5 @@
 ---
+import { Img } from "astro-imagetools/components";
 export interface Props {
   title?: string;
   description?: string;
@@ -12,10 +13,10 @@ const { title, description } = Astro.props;
     <div class="mx-auto container sm:px-6 lg:px-8">
       <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
         <div class="absolute inset-0">
-          <img
-            class="h-full w-full object-cover"
+          <Img
             src="/images/background3.jpg"
             alt="People working on laptops"
+            layout="fill"
           />
           <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
         </div>
