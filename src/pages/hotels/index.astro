@@ -2,6 +2,7 @@
 import Layout from "../../layouts/Layout.astro";
 import dataHotels from "../../../data/hotels.json";
 import PoiCard from "../../components/PoiCard.astro";
+import { Img } from "astro-imagetools/components";
 
 const hotels = [...dataHotels.data];
 const { pathname } = Astro.url;
@@ -14,11 +15,7 @@ const { pathname } = Astro.url;
     <div aria-hidden="true" class="absolute inset-0 hidden sm:flex sm:flex-col">
       <div class="relative w-full flex-1 bg-gray-800">
         <div class="absolute inset-0 overflow-hidden">
-          <img
-            src="/images/hotels.jpg"
-            alt="background"
-            class="h-full w-full object-cover object-center"
-          />
+          <Img src="/images/hotels.jpg" alt="background" layout="fill" />
         </div>
         <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
       </div>
@@ -33,11 +30,7 @@ const { pathname } = Astro.url;
       <div aria-hidden="true" class="absolute inset-0 flex flex-col sm:hidden">
         <div class="relative w-full flex-1 bg-gray-800">
           <div class="absolute inset-0 overflow-hidden">
-            <img
-              src="/images/hotels.jpg"
-              alt="background"
-              class="h-full w-full object-cover object-center"
-            />
+            <Img src="/images/hotels.jpg" alt="background" layout="fill" />
           </div>
           <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
         </div>
@@ -77,11 +70,13 @@ const { pathname } = Astro.url;
                       class="absolute inset-0 overflow-hidden rounded-lg"
                     >
                       <div class="absolute inset-0 overflow-hidden">
-                        <img
-                          src={hotel.files[0]?.url ?? "/"}
-                          alt={hotel.name}
-                          class="h-full w-full object-cover object-center duration-500 group-hover:scale-105"
-                        />
+                        <div class="h-full w-full object-cover duration-500 group-hover:scale-105">
+                          <Img
+                            src={hotel.files[0]?.url ?? "/"}
+                            alt={hotel.name}
+                            layout="fill"
+                          />
+                        </div>
                       </div>
                       <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50" />
                     </div>
@@ -111,54 +106,6 @@ const { pathname } = Astro.url;
     </section>
   </section>
 
-  <!-- Hotels List -->
-  <!-- <section aria-labelledby="trending-heading">
-    <div class="mx-auto max-w-7xl py-24 px-4 sm:px-6 sm:py-32 lg:px-8 lg:pt-32">
-      <div class="md:flex md:items-center md:justify-between">
-        <h2
-          id="favorites-heading"
-          class="text-2xl font-bold tracking-tight text-gray-900"
-        >
-          Discover More Hotels
-        </h2>
-      </div>
-      <div class="overflow-x-auto">
-        <div
-          class="flex container mx-auto gap-2 px-5 justify-center min-w-min lg:min-w-0"
-        >
-          {
-            hotels.splice(0, 3).map((hotel) => {
-              return (
-                <div class="group relative h-48 w-[80vw] overflow-hidden md:h-96">
-                  <div class="h-56 w-full overflow-hidden rounded-md group-hover:opacity-75 lg:h-72 xl:h-80">
-                    <img
-                      src={hotel.files[0]?.url ?? "/"}
-                      alt={hotel.name}
-                      class="h-full w-full object-cover object-center"
-                    />
-                  </div>
-                  <h3 class="mt-4 text-sm text-gray-700">
-                    <a href={`${pathname}/${hotel.slug}`}>
-                      <span class="absolute inset-0" />
-                      {hotel.name}
-                    </a>
-                  </h3>
-                  <p class="mt-1 text-sm text-gray-500">Natural</p>
-                  <p class="mt-1 text-sm font-medium text-gray-900">$75</p>
-                </div>
-              );
-            })
-          }
-        </div>
-      </div>
-      <div class="mt-8 text-sm md:hidden">
-        <a href="#" class="font-medium text-indigo-600 hover:text-indigo-500">
-          Shop the collection
-          <span aria-hidden="true"> &rarr;</span>
-        </a>
-      </div>
-    </div>
-  </section> -->
   <section>
     <div class="container mx-auto px-2">
       <h2 class="text-2xl font-bold pb-4 pt-8">Discover more</h2>
