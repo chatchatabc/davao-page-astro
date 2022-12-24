@@ -19,15 +19,23 @@
       ],
       "files": [
         {
-          "url": "/images/dusit thani hotel.jpg",
+          "url": "/images/dusit-thani-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/dusit thani hotel gallery.jpg" },
-        { "url": "/images/dusit thani hotel gallery1.jpg" },
-        { "url": "/images/dusit thani hotel gallery2.jpg" },
-        { "url": "/images/dusit thani hotel gallery3.jpg" }
+        {
+          "url": "/images/dusit thani hotel gallery.jpg"
+        },
+        {
+          "url": "/images/dusit thani hotel gallery1.jpg"
+        },
+        {
+          "url": "/images/dusit thani hotel gallery2.jpg"
+        },
+        {
+          "url": "/images/dusit thani hotel gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -36,7 +44,10 @@
           "image": ""
         }
       ],
-      "tags": ["thai hotel", "Hotels"]
+      "tags": [
+        "thai hotel",
+        "Hotels"
+      ]
     },
     {
       "name": "Waterfront Insular Hotel Davao",
@@ -57,15 +68,23 @@
       ],
       "files": [
         {
-          "url": "/images/waterfront insular hotel.jpg",
+          "url": "/images/waterfront-insular-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/waterfront insular hotel gallery.jpg" },
-        { "url": "/images/waterfront insular hotel gallery1.jpg" },
-        { "url": "/images/waterfront insular hotel gallery2.jpg" },
-        { "url": "/images/waterfront insular hotel gallery3.jpg" }
+        {
+          "url": "/images/waterfront insular hotel gallery.jpg"
+        },
+        {
+          "url": "/images/waterfront insular hotel gallery1.jpg"
+        },
+        {
+          "url": "/images/waterfront insular hotel gallery2.jpg"
+        },
+        {
+          "url": "/images/waterfront insular hotel gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -74,7 +93,10 @@
           "image": ""
         }
       ],
-      "tags": ["Hotels", "relaxing"]
+      "tags": [
+        "Hotels",
+        "relaxing"
+      ]
     },
     {
       "name": "Anavada Apartment Inn, Davao",
@@ -95,15 +117,23 @@
       ],
       "files": [
         {
-          "url": "/images/anavada apartment inn.jpg",
+          "url": "/images/anavada-apartment-inn.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/anavada apartment inn gallery.jpg" },
-        { "url": "/images/anavada apartment inn gallery1.jpg" },
-        { "url": "/images/anavada apartment inn gallery2.jpg" },
-        { "url": "/images/anavada apartment inn gallery3.jpg" }
+        {
+          "url": "/images/anavada apartment inn gallery.jpg"
+        },
+        {
+          "url": "/images/anavada apartment inn gallery1.jpg"
+        },
+        {
+          "url": "/images/anavada apartment inn gallery2.jpg"
+        },
+        {
+          "url": "/images/anavada apartment inn gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -112,7 +142,9 @@
           "image": ""
         }
       ],
-      "tags": ["Inn"]
+      "tags": [
+        "Inn"
+      ]
     },
     {
       "name": "Seda Abreeza",
@@ -133,24 +165,34 @@
       ],
       "files": [
         {
-          "url": "/images/seda abreeza.jpg",
+          "url": "/images/seda-abreeza.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/seda abreeza gallery.jpg" },
-        { "url": "/images/seda abreeza gallery1.jpg" },
-        { "url": "/images/seda abreeza gallery2.jpg" },
-        { "url": "/images/seda abreeza gallery3.jpg" }
+        {
+          "url": "/images/seda abreeza gallery.jpg"
+        },
+        {
+          "url": "/images/seda abreeza gallery1.jpg"
+        },
+        {
+          "url": "/images/seda abreeza gallery2.jpg"
+        },
+        {
+          "url": "/images/seda abreeza gallery3.jpg"
+        }
       ],
       "comments": [
         {
-          "message": "The food was delicious—I especially loved the breakfast buffet they offered each morning! Their pool is beautiful, too—it's very relaxing to sit by it and read a book while taking in the view.",
+          "message": "The food was delicious\u2014I especially loved the breakfast buffet they offered each morning! Their pool is beautiful, too\u2014it's very relaxing to sit by it and read a book while taking in the view.",
           "author": "",
           "image": ""
         }
       ],
-      "tags": ["Hotels"]
+      "tags": [
+        "Hotels"
+      ]
     },
     {
       "name": "Grand Regal Hotel",
@@ -171,15 +213,23 @@
       ],
       "files": [
         {
-          "url": "/images/grand regal hotel.jpg",
+          "url": "/images/grand-regal-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/grand regal hotel gallery.jpg" },
-        { "url": "/images/grand regal hotel gallery1.jpg" },
-        { "url": "/images/grand regal hotel gallery2.jpg" },
-        { "url": "/images/grand regal hotel gallery3.jpg" }
+        {
+          "url": "/images/grand regal hotel gallery.jpg"
+        },
+        {
+          "url": "/images/grand regal hotel gallery1.jpg"
+        },
+        {
+          "url": "/images/grand regal hotel gallery2.jpg"
+        },
+        {
+          "url": "/images/grand regal hotel gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -188,7 +238,9 @@
           "image": ""
         }
       ],
-      "tags": ["Hotels"]
+      "tags": [
+        "Hotels"
+      ]
     },
     {
       "name": "Marco Polo Davao",
@@ -209,15 +261,23 @@
       ],
       "files": [
         {
-          "url": "/images/marco polo hotel.jpg",
+          "url": "/images/marco-polo-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/marco polo hotel gallery.jpg" },
-        { "url": "/images/marco polo hotel gallery.jpeg" },
-        { "url": "/images/marco polo hotel gallery1.jpg" },
-        { "url": "/images/marco polo hotel gallery2.jpg" }
+        {
+          "url": "/images/marco polo hotel gallery.jpg"
+        },
+        {
+          "url": "/images/marco polo hotel gallery.jpeg"
+        },
+        {
+          "url": "/images/marco polo hotel gallery1.jpg"
+        },
+        {
+          "url": "/images/marco polo hotel gallery2.jpg"
+        }
       ],
       "comments": [
         {
@@ -226,7 +286,9 @@
           "image": ""
         }
       ],
-      "tags": ["Hotels"]
+      "tags": [
+        "Hotels"
+      ]
     }
   ]
 }

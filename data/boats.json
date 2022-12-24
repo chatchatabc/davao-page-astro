@@ -3,11 +3,26 @@
     {
       "name": "Pontoon Boat",
       "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
-      "price": { "price": "14,000", "time": "day" },
+      "price": {
+        "price": "14,000",
+        "time": "day"
+      },
       "pricePackages": [
-        { "totalTime": "1", "price": "2500", "time": "days" },
-        { "totalTime": "2", "price": "4500", "time": "days" },
-        { "totalTime": "3", "price": "6000", "time": "days" }
+        {
+          "totalTime": "1",
+          "price": "2500",
+          "time": "days"
+        },
+        {
+          "totalTime": "2",
+          "price": "4500",
+          "time": "days"
+        },
+        {
+          "totalTime": "3",
+          "price": "6000",
+          "time": "days"
+        }
       ],
       "capacity": "18",
       "captain_price": "8000",
@@ -42,11 +57,26 @@
     {
       "name": "Jet Ski",
       "details": "Speed boats are known for their speed and maneuverability, but they can also be dangerous if operated carelessly or without proper training. It is important to follow all safety guidelines and regulations when operating a speed boat, and to always wear a personal flotation device (PFD) while on the water.",
-      "price": { "price": "5,572", "time": "hour" },
+      "price": {
+        "price": "5,572",
+        "time": "hour"
+      },
       "pricePackages": [
-        { "totalTime": "1", "price": "1000", "time": "days" },
-        { "totalTime": "2", "price": "1000", "time": "days" },
-        { "totalTime": "3", "price": "1000", "time": "days" }
+        {
+          "totalTime": "1",
+          "price": "1000",
+          "time": "days"
+        },
+        {
+          "totalTime": "2",
+          "price": "1000",
+          "time": "days"
+        },
+        {
+          "totalTime": "3",
+          "price": "1000",
+          "time": "days"
+        }
       ],
       "capacity": "3",
       "captain_price": "8000",
@@ -54,17 +84,17 @@
       "slug": "jet-ski",
       "files": [
         {
-          "url": "/images/jet ski.jpg",
+          "url": "/images/jet-ski.jpg",
           "parent": "jet-ski",
           "order": 1000
         },
         {
-          "url": "/images/jet ski1.jpg",
+          "url": "/images/jet-ski1.jpg",
           "parent": "jet-ski",
           "order": 1000
         },
         {
-          "url": "/images/jet ski2.jpg",
+          "url": "/images/jet-ski2.jpg",
           "parent": "jet-ski",
           "order": 1000
         }
@@ -76,11 +106,26 @@
     {
       "name": "Bowrider Boat",
       "details": "Bowriders are typically powered by outboard motors or inboard/outboard motors, and are made from materials such as fiberglass or composite materials. They usually have a flat bottom and a deep-V hull shape, which provides stability and a smooth ride in rough water.",
-      "price": { "price": "5,894", "time": "hour" },
+      "price": {
+        "price": "5,894",
+        "time": "hour"
+      },
       "pricePackages": [
-        { "totalTime": "1", "price": "1000", "time": "hours" },
-        { "totalTime": "2", "price": "1000", "time": "hours" },
-        { "totalTime": "3", "price": "1000", "time": "hours" }
+        {
+          "totalTime": "1",
+          "price": "1000",
+          "time": "hours"
+        },
+        {
+          "totalTime": "2",
+          "price": "1000",
+          "time": "hours"
+        },
+        {
+          "totalTime": "3",
+          "price": "1000",
+          "time": "hours"
+        }
       ],
       "capacity": "10",
       "captain_price": "8000",

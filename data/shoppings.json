@@ -19,7 +19,7 @@
       ],
       "files": [
         {
-          "url": "/images/abreeza mall.jpg",
+          "url": "/images/abreeza-mall.jpg",
           "order": 1000
         }
       ],
@@ -44,22 +44,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -92,7 +109,7 @@
       ],
       "files": [
         {
-          "url": "/images/sm lanang premier.jpg",
+          "url": "/images/sm-lanang-premier.jpg",
           "order": 1000
         }
       ],
@@ -117,22 +134,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -165,7 +199,7 @@
       ],
       "files": [
         {
-          "url": "/images/gaisano grand citimall.JPG",
+          "url": "/images/gaisano-grand-citimall.JPG",
           "order": 1000
         }
       ],
@@ -190,22 +224,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -238,7 +289,7 @@
       ],
       "files": [
         {
-          "url": "/images/nccc mall vp.jpg",
+          "url": "/images/nccc-mall-vp.jpg",
           "order": 1000
         }
       ],
@@ -263,22 +314,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -311,7 +379,7 @@
       ],
       "files": [
         {
-          "url": "/images/felcris centrale mall.jpg",
+          "url": "/images/felcris-centrale-mall.jpg",
           "order": 1000
         }
       ],
@@ -336,22 +404,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -370,7 +455,7 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "gaisano-grand-citygate-mall-davao",
-      "details": "Gaisano Grand Citygate Mall is one of the best places to shop! In this mall you'll find an abundance of shops and stores, so if you're looking for something specific, you're sure to find it here. And don't forget about their grocery store—they have everything from fresh produce to snacks and drinks!",
+      "details": "Gaisano Grand Citygate Mall is one of the best places to shop! In this mall you'll find an abundance of shops and stores, so if you're looking for something specific, you're sure to find it here. And don't forget about their grocery store\u2014they have everything from fresh produce to snacks and drinks!",
       "order": 1000,
       "address": "Buhangin, Davao City, 8000 Davao del Sur",
       "phone": "082 221 6222",
@@ -384,7 +469,7 @@
       ],
       "files": [
         {
-          "url": "/images/gaisano grand citygate.jpg",
+          "url": "/images/gaisano-grand-citygate.jpg",
           "order": 1000
         }
       ],
@@ -409,22 +494,39 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
@@ -457,7 +559,7 @@
       ],
       "files": [
         {
-          "url": "/images/robinsons cybergate davao.webp",
+          "url": "/images/robinsons-cybergate-davao.webp",
           "order": 1000
         }
       ],
@@ -482,28 +584,45 @@
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "McDonalds",
-          "images": [{ "url": "/images/mcdonalds.jpg" }],
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
           "type": "Food"
         }
       ],
       "comments": [
         {
-          "message": "This place has everything you need. There are stores that sell everything from clothes to electronics to food—it's a great place to shop. And if you're hungry after shopping, there are restaurants that serve up delicious meals.",
+          "message": "This place has everything you need. There are stores that sell everything from clothes to electronics to food\u2014it's a great place to shop. And if you're hungry after shopping, there are restaurants that serve up delicious meals.",
           "author": "",
           "image": ""
         }

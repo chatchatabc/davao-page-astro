@@ -11,12 +11,20 @@
       "phone": "",
       "email": "jacksridgedavao@yahoo.com.ph",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Pork Sisig",
           "images": [
-            { "url": "/images/jacks ridge pork sisig.webp", "order": 1000 }
+            {
+              "url": "/images/jacks ridge pork sisig.webp",
+              "order": 1000
+            }
           ],
           "price": "240.00",
           "description": "Sizzlers"
@@ -24,7 +32,10 @@
         {
           "name": "Adobong Pusit",
           "images": [
-            { "url": "/images/jacks ridge adobong pusit.jpg", "order": 1000 }
+            {
+              "url": "/images/jacks ridge adobong pusit.jpg",
+              "order": 1000
+            }
           ],
           "price": "226.00",
           "description": "Traditional Specialties"
@@ -32,7 +43,10 @@
         {
           "name": "Tinolang Imbao",
           "images": [
-            { "url": "/images/jacks ridge tinolang imbao.webp", "order": 1000 }
+            {
+              "url": "/images/jacks ridge tinolang imbao.webp",
+              "order": 1000
+            }
           ],
           "price": "80.00",
           "description": "Soup"
@@ -40,18 +54,24 @@
         {
           "name": "Leche Flan",
           "images": [
-            { "url": "/images/jacks ridge leche flan.jpg", "order": 1000 }
+            {
+              "url": "/images/jacks ridge leche flan.jpg",
+              "order": 1000
+            }
           ],
           "price": "240.00",
           "description": "Dessert"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/Jacksridge/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/Jacksridge/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/jacks ridge.jpg",
+          "url": "/images/jacks-ridge.jpg",
           "parent": "jacks-ridge",
           "order": 1000
         }
@@ -63,7 +83,11 @@
           "image": ""
         }
       ],
-      "tags": ["quiet", "rural area", "night view"]
+      "tags": [
+        "quiet",
+        "rural area",
+        "night view"
+      ]
     },
     {
       "name": "Vistaview",
@@ -77,15 +101,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/vistaview gallery.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery1.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery2.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery3.jpg", "order": 1000 }
+        {
+          "url": "/images/vistaview gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview gallery3.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -105,12 +146,15 @@
       ],
       "comments": [
         {
-          "message": "I love Vistaview! The food is always delicious, and it's so clean—I feel like I'm eating in a restaurant that's been around forever. And the employees—they're all so nice!",
+          "message": "I love Vistaview! The food is always delicious, and it's so clean\u2014I feel like I'm eating in a restaurant that's been around forever. And the employees\u2014they're all so nice!",
           "author": "",
           "image": ""
         }
       ],
-      "tags": ["night view", "filipino restaurant"]
+      "tags": [
+        "night view",
+        "filipino restaurant"
+      ]
     },
     {
       "name": "Bondi & Bourke Davao",
@@ -123,7 +167,12 @@
       "phone": "0998 593 3763",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Apple and Blueberry Pie 4inch",
@@ -139,7 +188,10 @@
         {
           "name": "Cheese Ensaymada",
           "images": [
-            { "url": "/images/bondi cheese ensaymada.jpg", "order": 1000 }
+            {
+              "url": "/images/bondi cheese ensaymada.jpg",
+              "order": 1000
+            }
           ],
           "price": "1280.00",
           "description": "Fresh Bake"
@@ -147,7 +199,10 @@
         {
           "name": "Chicken Parm",
           "images": [
-            { "url": "/images/bondi chicken parm.webp", "order": 1000 }
+            {
+              "url": "/images/bondi chicken parm.webp",
+              "order": 1000
+            }
           ],
           "price": "795.00",
           "description": "Aussie Favourites"
@@ -155,18 +210,24 @@
         {
           "name": "Lapu-Lapu Fillet",
           "images": [
-            { "url": "/images/bondi lapu lapu fillet.jpg", "order": 1000 }
+            {
+              "url": "/images/bondi lapu lapu fillet.jpg",
+              "order": 1000
+            }
           ],
           "price": "925.00",
           "description": "Seafood"
         }
       ],
       "links": [
-        { "url": "http://instagram.com/bondibourkeph", "type": "instagram" }
+        {
+          "url": "http://instagram.com/bondibourkeph",
+          "type": "instagram"
+        }
       ],
       "files": [
         {
-          "url": "/images/bondi bourke davao.jpg",
+          "url": "/images/bondi-bourke-davao.jpg",
           "parent": "bondi-bourke-davao",
           "order": 1000
         }
@@ -178,25 +239,35 @@
           "image": ""
         }
       ],
-      "tags": ["Aussie"]
+      "tags": [
+        "Aussie"
+      ]
     },
     {
       "name": "Red Tomato Restaurant",
       "catalog": "restaurants",
       "sub_catalog": "western-foods",
       "slug": "red-tomato-restaurant",
-      "details": "At Red Tomato Restaurant, we believe that you shouldn't have to sacrifice flavor for convenience. That's why we offer a wide selection of western foods—with the same great taste you expect from your favorite restaurant.",
+      "details": "At Red Tomato Restaurant, we believe that you shouldn't have to sacrifice flavor for convenience. That's why we offer a wide selection of western foods\u2014with the same great taste you expect from your favorite restaurant.",
       "order": 1000,
       "address": "",
       "phone": "0927 069 3587",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Banana Berry",
           "images": [
-            { "url": "/images/red tomato banana berry.jpg", "order": 1000 }
+            {
+              "url": "/images/red tomato banana berry.jpg",
+              "order": 1000
+            }
           ],
           "price": "195.00",
           "description": "Crepe"
@@ -204,7 +275,10 @@
         {
           "name": "Seafood Calamari",
           "images": [
-            { "url": "/images/red tomato seafood calamari.jpg", "order": 1000 }
+            {
+              "url": "/images/red tomato seafood calamari.jpg",
+              "order": 1000
+            }
           ],
           "price": "390.00",
           "description": "Appetizer"
@@ -212,7 +286,10 @@
         {
           "name": "Italian Pepperoni",
           "images": [
-            { "url": "/images/red tomato italian pepperoni.jpg", "order": 1000 }
+            {
+              "url": "/images/red tomato italian pepperoni.jpg",
+              "order": 1000
+            }
           ],
           "price": "375.00",
           "description": "Pizza"
@@ -220,18 +297,24 @@
         {
           "name": "Wagyu Burger",
           "images": [
-            { "url": "/images/red tomato wagyu burger.jpg", "order": 1000 }
+            {
+              "url": "/images/red tomato wagyu burger.jpg",
+              "order": 1000
+            }
           ],
           "price": "250.00",
           "description": "Burger"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/RDTMT/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/RDTMT/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/red tomato.jpg",
+          "url": "/images/red-tomato.jpg",
           "parent": "red-tomato-restaurant",
           "order": 1000
         }
@@ -243,7 +326,9 @@
           "image": ""
         }
       ],
-      "tags": ["Italian"]
+      "tags": [
+        "Italian"
+      ]
     },
     {
       "name": "eskina",
@@ -256,18 +341,31 @@
       "phone": "0998 531 2492",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Bulalo",
-          "images": [{ "url": "/images/eskina bulalo.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/eskina bulalo.webp",
+              "order": 1000
+            }
+          ],
           "price": "720.00",
           "description": "Soup"
         },
         {
           "name": "Fried Ice Cream",
           "images": [
-            { "url": "/images/eskina fried ice cream.jpg", "order": 1000 }
+            {
+              "url": "/images/eskina fried ice cream.jpg",
+              "order": 1000
+            }
           ],
           "price": "180.00",
           "description": "Dessert"
@@ -275,14 +373,22 @@
         {
           "name": "Spaghetti Bolognese",
           "images": [
-            { "url": "/images/eskina spaghetti bolognese.jpg", "order": 1000 }
+            {
+              "url": "/images/eskina spaghetti bolognese.jpg",
+              "order": 1000
+            }
           ],
           "price": "350.00",
           "description": "Pasta"
         },
         {
           "name": "Beef Skank Kare Kare",
-          "images": [{ "url": "/images/eskina beef skank.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/eskina beef skank.jpg",
+              "order": 1000
+            }
+          ],
           "price": "610.00",
           "description": "Beef"
         }
@@ -307,7 +413,9 @@
           "image": ""
         }
       ],
-      "tags": ["Music Restaurant"]
+      "tags": [
+        "Music Restaurant"
+      ]
     },
     {
       "name": "ahfat seafoods plaza",
@@ -320,18 +428,31 @@
       "phone": "0905 263 2875",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Ahfat Seafoods Cream Soup",
-          "images": [{ "url": "/images/ahfat cream soup.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/ahfat cream soup.webp",
+              "order": 1000
+            }
+          ],
           "price": "350",
           "description": "Soup"
         },
         {
           "name": "Sauteed Beef with Broccoli Flower",
           "images": [
-            { "url": "/images/ahfat sauteed beef.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat sauteed beef.jpg",
+              "order": 1000
+            }
           ],
           "price": "450",
           "description": "Beef"
@@ -339,7 +460,10 @@
         {
           "name": "Sate Beef Sotanghon",
           "images": [
-            { "url": "/images/ahfat sate beef sotanghon.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat sate beef sotanghon.jpg",
+              "order": 1000
+            }
           ],
           "price": "400",
           "description": "Hot Pot"
@@ -347,7 +471,10 @@
         {
           "name": "Broccoli Flower with Oyster Sauce",
           "images": [
-            { "url": "/images/ahfat broccoli flower.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat broccoli flower.jpg",
+              "order": 1000
+            }
           ],
           "price": "320",
           "description": "Vegetables"
@@ -361,19 +488,21 @@
       ],
       "files": [
         {
-          "url": "/images/ahfat seafoods plaza.jpg",
+          "url": "/images/ahfat-seafoods-plaza.jpg",
           "parent": "ahfat-seafoods-plaza",
           "order": 1000
         }
       ],
       "comments": [
         {
-          "message": "I ordered the sea bass with cranberry bean puree and creamed spinach—it was so good that I wanted to lick the plate clean! And then there were those side dishes: roasted cauliflower with white truffle oil and shaved Brussels sprouts with bacon crumbs? Holy moly, they were amazing too.",
+          "message": "I ordered the sea bass with cranberry bean puree and creamed spinach\u2014it was so good that I wanted to lick the plate clean! And then there were those side dishes: roasted cauliflower with white truffle oil and shaved Brussels sprouts with bacon crumbs? Holy moly, they were amazing too.",
           "author": "",
           "image": ""
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "de bonte koe",
@@ -386,12 +515,20 @@
       "phone": "0915 667 9184",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Greek Salad",
           "images": [
-            { "url": "/images/de bonte greek salad.jpeg", "order": 1000 }
+            {
+              "url": "/images/de bonte greek salad.jpeg",
+              "order": 1000
+            }
           ],
           "price": "190.00",
           "description": "Salad"
@@ -399,30 +536,46 @@
         {
           "name": "Dutch Stew",
           "images": [
-            { "url": "/images/de bonte dutch stew.jpg", "order": 1000 }
+            {
+              "url": "/images/de bonte dutch stew.jpg",
+              "order": 1000
+            }
           ],
           "price": "430.00",
           "description": "Dutch Table"
         },
         {
           "name": "Mussels (Mosselen)",
-          "images": [{ "url": "/images/de bonte mussels.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/de bonte mussels.jpg",
+              "order": 1000
+            }
+          ],
           "price": "200.00",
           "description": "European Delicacies"
         },
         {
           "name": "Pasta Pangritata",
           "images": [
-            { "url": "/images/de bonte pasta pangritata.jpeg", "order": 1000 }
+            {
+              "url": "/images/de bonte pasta pangritata.jpeg",
+              "order": 1000
+            }
           ],
           "price": "225.00",
           "description": "Pasta"
         }
       ],
-      "links": [{ "url": "https://debontekoe.ph", "type": "website" }],
+      "links": [
+        {
+          "url": "https://debontekoe.ph",
+          "type": "website"
+        }
+      ],
       "files": [
         {
-          "url": "/images/de bonte koe.png",
+          "url": "/images/de-bonte-koe.png",
           "parent": "de-bonte-koe",
           "order": 1000
         }
@@ -434,7 +587,9 @@
           "image": ""
         }
       ],
-      "tags": ["European Restaurant"]
+      "tags": [
+        "European Restaurant"
+      ]
     },
     {
       "name": "belitos vineyard",
@@ -447,11 +602,21 @@
       "phone": "082 227 6726",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -464,7 +629,7 @@
       ],
       "files": [
         {
-          "url": "/images/belitos vineyard.jpg",
+          "url": "/images/belitos-vineyard.jpg",
           "parent": "belitos-vineyard",
           "order": 1000
         }
@@ -476,7 +641,9 @@
           "image": ""
         }
       ],
-      "tags": ["outdoor restaurant"]
+      "tags": [
+        "outdoor restaurant"
+      ]
     },
     {
       "name": "the fat cow",
@@ -489,21 +656,34 @@
       "phone": "0917 888 8312",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/theFatCowDvo/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/theFatCowDvo/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/the fat cow.jpg",
+          "url": "/images/the-fat-cow.jpg",
           "parent": "the-fat-cow",
           "order": 1000
         }
@@ -515,7 +695,9 @@
           "image": ""
         }
       ],
-      "tags": ["Beef"]
+      "tags": [
+        "Beef"
+      ]
     },
     {
       "name": "garden bay resort and restaurant",
@@ -528,21 +710,34 @@
       "phone": "09190642619",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/gardenbay/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/gardenbay/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/garden bay resort.jpg",
+          "url": "/images/garden-bay-resort.jpg",
           "parent": "garden-bay-resort-and-restaurant",
           "order": 1000
         }
@@ -554,7 +749,9 @@
           "image": ""
         }
       ],
-      "tags": ["Philippines Restaurant"]
+      "tags": [
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "lachis",
@@ -567,17 +764,30 @@
       "phone": "082 224 5552",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/lachisdavao/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/lachisdavao/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
@@ -593,7 +803,10 @@
           "image": ""
         }
       ],
-      "tags": ["Family restaurant", "Philippines Restaurant"]
+      "tags": [
+        "Family restaurant",
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "Paramount Coffee",
@@ -606,11 +819,21 @@
       "phone": "082 225 1238",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -623,7 +846,7 @@
       ],
       "files": [
         {
-          "url": "/images/paramount coffee.jpg",
+          "url": "/images/paramount-coffee.jpg",
           "parent": "paramount-coffee",
           "order": 1000
         }
@@ -635,7 +858,9 @@
           "image": ""
         }
       ],
-      "tags": ["outdoor restaurant"]
+      "tags": [
+        "outdoor restaurant"
+      ]
     },
     {
       "name": "yellow fin seafood restaurant",
@@ -648,7 +873,12 @@
       "phone": "082 297 8777",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Sinigang na Salmon Head",
@@ -664,7 +894,10 @@
         {
           "name": "Tortang Talong",
           "images": [
-            { "url": "/images/yellow fin tortang talong.webp", "order": 1000 }
+            {
+              "url": "/images/yellow fin tortang talong.webp",
+              "order": 1000
+            }
           ],
           "price": "85.00",
           "description": "Vegetables"
@@ -672,7 +905,10 @@
         {
           "name": "Tuna Laing",
           "images": [
-            { "url": "/images/yellow fin tuna laing.jpg", "order": 1000 }
+            {
+              "url": "/images/yellow fin tuna laing.jpg",
+              "order": 1000
+            }
           ],
           "price": "65.00",
           "description": "Fish"
@@ -680,7 +916,10 @@
         {
           "name": "Chicken Inasal",
           "images": [
-            { "url": "/images/yellow fin chicken inasal.jpg", "order": 1000 }
+            {
+              "url": "/images/yellow fin chicken inasal.jpg",
+              "order": 1000
+            }
           ],
           "price": "135.00",
           "description": "Chicken"
@@ -694,7 +933,7 @@
       ],
       "files": [
         {
-          "url": "/images/yellow fin seafood restaurant.jpg",
+          "url": "/images/yellow-fin-seafood-restaurant.jpg",
           "parent": "yellow-fin-seafood-restaurant",
           "order": 1000
         }
@@ -706,7 +945,9 @@
           "image": ""
         }
       ],
-      "tags": ["seafood"]
+      "tags": [
+        "seafood"
+      ]
     },
     {
       "name": "RD Crab Shack",
@@ -719,43 +960,67 @@
       "phone": "082 286 0226",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Crab and Shrimps Bilao",
           "images": [
-            { "url": "/images/rd crab and shrimp.png", "order": 1000 }
+            {
+              "url": "/images/rd crab and shrimp.png",
+              "order": 1000
+            }
           ],
           "price": "1499.00",
           "description": "Seafood"
         },
         {
           "name": "Crispy Pata",
-          "images": [{ "url": "/images/rd crispy pata.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/rd crispy pata.jpg",
+              "order": 1000
+            }
+          ],
           "price": "599.00",
           "description": "Pork"
         },
         {
           "name": "Buttered Chicken",
           "images": [
-            { "url": "/images/rd buttered chicken.jpg", "order": 1000 }
+            {
+              "url": "/images/rd buttered chicken.jpg",
+              "order": 1000
+            }
           ],
           "price": "450.00",
           "description": "Chicken"
         },
         {
           "name": "Chopsuey",
-          "images": [{ "url": "/images/rd chopsuey.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/rd chopsuey.jpg",
+              "order": 1000
+            }
+          ],
           "price": "350.00",
           "description": "Vegetables"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/RDCRABSHACKDC/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/RDCRABSHACKDC/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/rd crabshack.jpg",
+          "url": "/images/rd-crabshack.jpg",
           "parent": "rd-crab-shack",
           "order": 1000
         }
@@ -767,7 +1032,10 @@
           "image": ""
         }
       ],
-      "tags": ["seafood", "Philippines Restaurant"]
+      "tags": [
+        "seafood",
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "Shrabs boiling shrimps and crabs",
@@ -781,15 +1049,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/shrabs gallery.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery1.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery3.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery2.jpg", "order": 1000 }
+        {
+          "url": "/images/shrabs gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs gallery3.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs gallery2.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -802,7 +1087,7 @@
       ],
       "files": [
         {
-          "url": "/images/shrabs boiling shrimps and crabs.jpg",
+          "url": "/images/shrabs-boiling-shrimps-and-crabs.jpg",
           "parent": "shrabs-boiling-shrimps-and-crabs",
           "order": 1000
         }
@@ -814,7 +1099,9 @@
           "image": ""
         }
       ],
-      "tags": ["seafood"]
+      "tags": [
+        "seafood"
+      ]
     },
     {
       "name": "Dimsum Diner",
@@ -832,26 +1119,44 @@
         {
           "name": "Rice Toppings",
           "images": [
-            { "url": "/images/dimsum rice toppings.jpg", "order": 1000 }
+            {
+              "url": "/images/dimsum rice toppings.jpg",
+              "order": 1000
+            }
           ],
           "price": "",
           "description": ""
         },
         {
           "name": "Noodles",
-          "images": [{ "url": "/images/dimsum noodles.png", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum noodles.png",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         },
         {
           "name": "Congee",
-          "images": [{ "url": "/images/dimsum congee.png", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum congee.png",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         },
         {
           "name": "Dimsum",
-          "images": [{ "url": "/images/dimsum dimsum.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum dimsum.jpg",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -864,7 +1169,7 @@
       ],
       "files": [
         {
-          "url": "/images/dimsum dinner.jpg",
+          "url": "/images/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
@@ -876,7 +1181,9 @@
           "image": ""
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "Mixed temptation lanang",
@@ -890,15 +1197,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/mixed temptation gallery.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation gallery1.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation gallery2.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation lanang.jpg", "order": 1000 }
+        {
+          "url": "/images/mixed temptation gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed temptation gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed temptation gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed temptation lanang.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -911,7 +1235,7 @@
       ],
       "files": [
         {
-          "url": "/images/mixed temptation lanang.jpg",
+          "url": "/images/mixed-temptation-lanang.jpg",
           "parent": "mixed-temptation-lanang",
           "order": 1000
         }
@@ -923,7 +1247,9 @@
           "image": ""
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "Marina Tuna",
@@ -936,25 +1262,49 @@
       "phone": "0925 714 1434",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "",
+          "type": ""
+        }
+      ],
       "files": [
         {
-          "url": "/images/dimsum dinner.jpg",
+          "url": "/images/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
       ],
-      "comments": [{ "message": "", "author": "", "image": "" }],
-      "tags": ["tuna", "japanese restaurant"]
+      "comments": [
+        {
+          "message": "",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "tuna",
+        "japanese restaurant"
+      ]
     }
   ]
 }

@@ -13,7 +13,7 @@
       "business_hours": "9:00 AM - 5:00 PM",
       "files": [
         {
-          "url": "/images/eden park.jpg",
+          "url": "/images/eden-park.jpg",
           "parent": "eden-park",
           "order": 1000
         }
@@ -25,10 +25,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/eden park gallery.jpg" },
-        { "url": "/images/eden park gallery1.jpg" },
-        { "url": "/images/eden park gallery2.jpg" },
-        { "url": "/images/eden park gallery3.jpg" }
+        {
+          "url": "/images/eden park gallery.jpg"
+        },
+        {
+          "url": "/images/eden park gallery1.jpg"
+        },
+        {
+          "url": "/images/eden park gallery2.jpg"
+        },
+        {
+          "url": "/images/eden park gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -38,7 +46,10 @@
         }
       ],
       "price": "",
-      "tags": ["Park", "Leisure"]
+      "tags": [
+        "Park",
+        "Leisure"
+      ]
     },
     {
       "name": "mount apo trek",
@@ -53,17 +64,25 @@
       "business_hours": "N/A",
       "files": [
         {
-          "url": "/images/mount apo trek.webp",
+          "url": "/images/mount-apo-trek.webp",
           "parent": "mount-apo-trek",
           "order": 1000
         }
       ],
       "links": [],
       "gallery": [
-        { "url": "/images/mount apo trek gallery.jpg" },
-        { "url": "/images/mount apo trek gallery1.jpg" },
-        { "url": "/images/mount apo trek gallery.webp" },
-        { "url": "/images/mount apo trek gallery2.jpg" }
+        {
+          "url": "/images/mount apo trek gallery.jpg"
+        },
+        {
+          "url": "/images/mount apo trek gallery1.jpg"
+        },
+        {
+          "url": "/images/mount apo trek gallery.webp"
+        },
+        {
+          "url": "/images/mount apo trek gallery2.jpg"
+        }
       ],
       "comments": [
         {
@@ -73,7 +92,11 @@
         }
       ],
       "price": "",
-      "tags": ["Hiking", "Mountains", "Adventure"]
+      "tags": [
+        "Hiking",
+        "Mountains",
+        "Adventure"
+      ]
     },
     {
       "name": "malagos garden resort and chocolate museum",
@@ -88,7 +111,7 @@
       "business_hours": "N/A",
       "files": [
         {
-          "url": "/images/malagos garden resort.jpg",
+          "url": "/images/malagos-garden-resort.jpg",
           "parent": "malagos-garden-resort-and-chocolate-museum",
           "order": 1000
         }
@@ -100,10 +123,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/malagos garden resort gallery.jpg" },
-        { "url": "/images/malagos garden resort gallery1.jpg" },
-        { "url": "/images/malagos garden resort gallery2.jpg" },
-        { "url": "/images/malagos garden resort gallery3.jpg" }
+        {
+          "url": "/images/malagos garden resort gallery.jpg"
+        },
+        {
+          "url": "/images/malagos garden resort gallery1.jpg"
+        },
+        {
+          "url": "/images/malagos garden resort gallery2.jpg"
+        },
+        {
+          "url": "/images/malagos garden resort gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -113,7 +144,11 @@
         }
       ],
       "price": "",
-      "tags": ["Resort", "Museum", "Leisure"]
+      "tags": [
+        "Resort",
+        "Museum",
+        "Leisure"
+      ]
     },
     {
       "name": "people's park",
@@ -128,7 +163,7 @@
       "business_hours": "1:00 PM -10:00 PM",
       "files": [
         {
-          "url": "/images/peoples park.jpg",
+          "url": "/images/peoples-park.jpg",
           "parent": "peoples-park",
           "order": 1000
         }
@@ -140,10 +175,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/peoples park gallery.jpg" },
-        { "url": "/images/peoples park gallery1.jpg" },
-        { "url": "/images/peoples park gallery.png" },
-        { "url": "/images/peoples park gallery1.png" }
+        {
+          "url": "/images/peoples park gallery.jpg"
+        },
+        {
+          "url": "/images/peoples park gallery1.jpg"
+        },
+        {
+          "url": "/images/peoples park gallery.png"
+        },
+        {
+          "url": "/images/peoples park gallery1.png"
+        }
       ],
       "comments": [
         {
@@ -153,7 +196,10 @@
         }
       ],
       "price": "Free",
-      "tags": ["City Park", "Leisure"]
+      "tags": [
+        "City Park",
+        "Leisure"
+      ]
     },
     {
       "name": "roxas night market",
@@ -168,7 +214,7 @@
       "business_hours": "6:00PM - 3:00AM",
       "files": [
         {
-          "url": "/images/roxas night market.jpg",
+          "url": "/images/roxas-night-market.jpg",
           "parent": "roxas-night-market",
           "order": 1000
         }
@@ -180,10 +226,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/roxas night market gallery.jpg" },
-        { "url": "/images/roxas night market gallery1.jpg" },
-        { "url": "/images/roxas night market gallery2.jpg" },
-        { "url": "/images/roxas night market gallery3.jpg" }
+        {
+          "url": "/images/roxas night market gallery.jpg"
+        },
+        {
+          "url": "/images/roxas night market gallery1.jpg"
+        },
+        {
+          "url": "/images/roxas night market gallery2.jpg"
+        },
+        {
+          "url": "/images/roxas night market gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -193,7 +247,11 @@
         }
       ],
       "price": "$",
-      "tags": ["Night Market", "Food Stalls", "Night Time"]
+      "tags": [
+        "Night Market",
+        "Food Stalls",
+        "Night Time"
+      ]
     },
     {
       "name": "pearl farm beach resort",
@@ -208,7 +266,7 @@
       "business_hours": "Always open",
       "files": [
         {
-          "url": "/images/pearl farm beach resort.jpg",
+          "url": "/images/pearl-farm-beach-resort.jpg",
           "parent": "pearl-farm-beach-resort",
           "order": 1000
         }
@@ -220,10 +278,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/pearl farm beach resort gallery.jpg" },
-        { "url": "/images/pearl farm beach resort gallery.webp" },
-        { "url": "/images/pearl farm beach resort gallery1.jpg" },
-        { "url": "/images/pearl farm beach resort gallery2.jpg" }
+        {
+          "url": "/images/pearl farm beach resort gallery.jpg"
+        },
+        {
+          "url": "/images/pearl farm beach resort gallery.webp"
+        },
+        {
+          "url": "/images/pearl farm beach resort gallery1.jpg"
+        },
+        {
+          "url": "/images/pearl farm beach resort gallery2.jpg"
+        }
       ],
       "comments": [
         {
@@ -233,7 +299,11 @@
         }
       ],
       "price": "$$~$$$",
-      "tags": ["Beach", "Resort", "Leisure"]
+      "tags": [
+        "Beach",
+        "Resort",
+        "Leisure"
+      ]
     },
     {
       "name": "eagle park",
@@ -248,7 +318,7 @@
       "business_hours": "8:30 AM - 4:30 PM",
       "files": [
         {
-          "url": "/images/eagle park gallery.jpg",
+          "url": "/images/eagle-park-gallery.jpg",
           "parent": "eagle-park",
           "order": 1000
         }
@@ -260,10 +330,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/eagle park.jpg" },
-        { "url": "/images/eagle park gallery1.jpg" },
-        { "url": "/images/eagle park gallery2.jpg" },
-        { "url": "/images/eagle park gallery3.jpg" }
+        {
+          "url": "/images/eagle park.jpg"
+        },
+        {
+          "url": "/images/eagle park gallery1.jpg"
+        },
+        {
+          "url": "/images/eagle park gallery2.jpg"
+        },
+        {
+          "url": "/images/eagle park gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -273,14 +351,17 @@
         }
       ],
       "price": "Free",
-      "tags": ["Park", "Leisure"]
+      "tags": [
+        "Park",
+        "Leisure"
+      ]
     },
     {
       "name": "samal island",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "samal-island",
-      "details": "Samal Island is a beautiful and relaxing place to visit. The beach is clean, the breeze is cool, and you can even walk across the sand like a giant! Come visit this place—you won't be disappointed.",
+      "details": "Samal Island is a beautiful and relaxing place to visit. The beach is clean, the breeze is cool, and you can even walk across the sand like a giant! Come visit this place\u2014you won't be disappointed.",
       "order": 1000,
       "address": "Samal, Island Garden City of Samal, Davao del Norte",
       "phone": "N/A",
@@ -288,7 +369,7 @@
       "business_hours": "Always open",
       "files": [
         {
-          "url": "/images/samal island.jpg",
+          "url": "/images/samal-island.jpg",
           "parent": "samal-island",
           "order": 1000
         }
@@ -300,10 +381,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/samal island gallery.jpg" },
-        { "url": "/images/samal island gallery.webp" },
-        { "url": "/images/samal island gallery1.webp" },
-        { "url": "/images/samal island gallery2.webp" }
+        {
+          "url": "/images/samal island gallery.jpg"
+        },
+        {
+          "url": "/images/samal island gallery.webp"
+        },
+        {
+          "url": "/images/samal island gallery1.webp"
+        },
+        {
+          "url": "/images/samal island gallery2.webp"
+        }
       ],
       "comments": [
         {
@@ -313,7 +402,11 @@
         }
       ],
       "price": "$$",
-      "tags": ["Beach", "Vacation", "Water Activities"]
+      "tags": [
+        "Beach",
+        "Vacation",
+        "Water Activities"
+      ]
     },
     {
       "name": "crocodile park",
@@ -322,13 +415,13 @@
       "slug": "crocodile-park",
       "details": "Crocodile Park is a place to go if you're looking for adventure and excitement. Here, you can get up close and personal with crocodiles, snakes, lizards, monkeys, and other wild animals. You'll also be able to enjoy the park's beautiful landscape.",
       "order": 1000,
-      "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway，Ma-a, Davao City 8000 Philippines",
+      "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway\uff0cMa-a, Davao City 8000 Philippines",
       "phone": "0917 702 5953",
       "email": "",
       "business_hours": "8:00 AM - 5:00 PM",
       "files": [
         {
-          "url": "/images/crocodile park.jpg",
+          "url": "/images/crocodile-park.jpg",
           "parent": "crocodile-park",
           "order": 1000
         }
@@ -340,10 +433,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/crocodile park gallery.jpg" },
-        { "url": "/images/crocodile park gallery1.jpg" },
-        { "url": "/images/crocodile park gallery2.jpg" },
-        { "url": "/images/crocodile park gallery.webp" }
+        {
+          "url": "/images/crocodile park gallery.jpg"
+        },
+        {
+          "url": "/images/crocodile park gallery1.jpg"
+        },
+        {
+          "url": "/images/crocodile park gallery2.jpg"
+        },
+        {
+          "url": "/images/crocodile park gallery.webp"
+        }
       ],
       "comments": [
         {
@@ -353,7 +454,11 @@
         }
       ],
       "price": "$",
-      "tags": ["Zoo", "Park", "Leisure"]
+      "tags": [
+        "Zoo",
+        "Park",
+        "Leisure"
+      ]
     },
     {
       "name": "waterworld beach resort",
@@ -368,7 +473,7 @@
       "business_hours": "Always Open",
       "files": [
         {
-          "url": "/images/waterworld beach resort.jpg",
+          "url": "/images/waterworld-beach-resort.jpg",
           "parent": "waterworld-beach-resort",
           "order": 1000
         }
@@ -380,10 +485,18 @@
         }
       ],
       "gallery": [
-        { "url": "/images/waterworld beach resort gallery2.jpg" },
-        { "url": "/images/waterworld beach resort gallery.jpg" },
-        { "url": "/images/waterworld beach resort gallery1.jpg" },
-        { "url": "/images/waterworld beach resort gallery3.jpg" }
+        {
+          "url": "/images/waterworld beach resort gallery2.jpg"
+        },
+        {
+          "url": "/images/waterworld beach resort gallery.jpg"
+        },
+        {
+          "url": "/images/waterworld beach resort gallery1.jpg"
+        },
+        {
+          "url": "/images/waterworld beach resort gallery3.jpg"
+        }
       ],
       "comments": [
         {
@@ -393,7 +506,12 @@
         }
       ],
       "price": "$",
-      "tags": ["Pool", "Water Slides", "Resort", "Beach"]
+      "tags": [
+        "Pool",
+        "Water Slides",
+        "Resort",
+        "Beach"
+      ]
     }
   ]
 }

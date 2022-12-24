@@ -20,7 +20,7 @@
       ],
       "files": [
         {
-          "url": "/images/club echelon.jpg",
+          "url": "/images/club-echelon.jpg",
           "order": 1000
         }
       ],
@@ -49,7 +49,9 @@
           "image": ""
         }
       ],
-      "tags": ["Bar"]
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "the grid alley bar",
@@ -71,7 +73,7 @@
       ],
       "files": [
         {
-          "url": "/images/the grid at alley bar.jpg",
+          "url": "/images/the-grid-at-alley-bar.jpg",
           "order": 1000
         }
       ],
@@ -100,7 +102,9 @@
           "image": ""
         }
       ],
-      "tags": ["Bar"]
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "potions bar & lounge",
@@ -122,7 +126,7 @@
       ],
       "files": [
         {
-          "url": "/images/potions bar and lounge.jpg",
+          "url": "/images/potions-bar-and-lounge.jpg",
           "order": 1000
         }
       ],
@@ -151,7 +155,9 @@
           "image": ""
         }
       ],
-      "tags": ["Bar"]
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "rancho palos verdes golf & country club",
@@ -173,7 +179,7 @@
       ],
       "files": [
         {
-          "url": "/images/rancho palos verdes golf and country club.webp",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club.webp",
           "order": 1000
         }
       ],
@@ -202,14 +208,16 @@
           "image": ""
         }
       ],
-      "tags": ["Golf"]
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "apo golf & country club",
       "catalog": "entertainment",
       "sub_catalog": "golf",
       "slug": "apo-golf-and-country-club",
-      "details": "The grass is lush and green, the terrain is level and forgiving, and there are plenty of bunkers to keep players on their toes. All in all, it's one of the best courses around—so if you're looking for a place to get your game on without getting bogged down by traffic or bad weather, this may be just what you're looking for!",
+      "details": "The grass is lush and green, the terrain is level and forgiving, and there are plenty of bunkers to keep players on their toes. All in all, it's one of the best courses around\u2014so if you're looking for a place to get your game on without getting bogged down by traffic or bad weather, this may be just what you're looking for!",
       "order": 1000,
       "address": "3G3H+7RF, Talomo, Davao City, Davao del Sur",
       "phone": "0963 093 1546",
@@ -224,7 +232,7 @@
       ],
       "files": [
         {
-          "url": "/images/apo golf and country club.jpg",
+          "url": "/images/apo-golf-and-country-club.jpg",
           "order": 1000
         }
       ],
@@ -253,14 +261,16 @@
           "image": ""
         }
       ],
-      "tags": ["Golf"]
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "south pacific golf and country club",
       "catalog": "entertainment",
       "sub_catalog": "golf",
       "slug": "south-pacific-golf-and-country-club",
-      "details": "South Pacific Golf and Country Club is a golf course in Davao City, Philippines. It has everything you could want from a golf course—a nice, clean environment, great weather, and great grass. It can be difficult to get to, but once you get there, it's worth the trip!",
+      "details": "South Pacific Golf and Country Club is a golf course in Davao City, Philippines. It has everything you could want from a golf course\u2014a nice, clean environment, great weather, and great grass. It can be difficult to get to, but once you get there, it's worth the trip!",
       "order": 1000,
       "address": "3G77+VQG, Tugbok, Davao City, Davao del Sur",
       "phone": "0905 409 9023",
@@ -275,7 +285,7 @@
       ],
       "files": [
         {
-          "url": "/images/south pacific golf and country club.jpg",
+          "url": "/images/south-pacific-golf-and-country-club.jpg",
           "order": 1000
         }
       ],
@@ -304,7 +314,9 @@
           "image": ""
         }
       ],
-      "tags": ["Golf"]
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "thai boran",
@@ -326,7 +338,7 @@
       ],
       "files": [
         {
-          "url": "/images/thai boran.png",
+          "url": "/images/thai-boran.png",
           "order": 1000
         }
       ],
@@ -355,7 +367,10 @@
           "image": ""
         }
       ],
-      "tags": ["Massage", "Thai"]
+      "tags": [
+        "Massage",
+        "Thai"
+      ]
     },
     {
       "name": "heavens nest spa",
@@ -377,7 +392,7 @@
       ],
       "files": [
         {
-          "url": "/images/heavens nest spa.jpg",
+          "url": "/images/heavens-nest-spa.jpg",
           "order": 1000
         }
       ],
@@ -406,7 +421,10 @@
           "image": ""
         }
       ],
-      "tags": ["Spa", "Massage"]
+      "tags": [
+        "Spa",
+        "Massage"
+      ]
     },
     {
       "name": "opal jhane thai massage spa",
@@ -428,7 +446,7 @@
       ],
       "files": [
         {
-          "url": "/images/opal jhane thai massage spa.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa.jpg",
           "order": 1000
         }
       ],
@@ -457,7 +475,10 @@
           "image": ""
         }
       ],
-      "tags": ["Thai", "Massage"]
+      "tags": [
+        "Thai",
+        "Massage"
+      ]
     },
     {
       "name": "red dot sports house",
@@ -479,7 +500,7 @@
       ],
       "files": [
         {
-          "url": "/images/red dot sports house.jpg",
+          "url": "/images/red-dot-sports-house.jpg",
           "order": 1000
         }
       ],
@@ -508,7 +529,9 @@
           "image": ""
         }
       ],
-      "tags": ["Shooting"]
+      "tags": [
+        "Shooting"
+      ]
     },
     {
       "name": "armscor shooting center inc., davao",
@@ -530,7 +553,7 @@
       ],
       "files": [
         {
-          "url": "/images/armscor shooting center.jpg",
+          "url": "/images/armscor-shooting-center.jpg",
           "order": 1000
         }
       ],
@@ -554,12 +577,14 @@
       ],
       "comments": [
         {
-          "message": "I went to a shooting range for the first time. It was a great experience! The staff were very welcoming and helpful, and they had a lot of different guns to choose from. I really enjoyed shooting all of the different types of guns—it was fun and exciting!",
+          "message": "I went to a shooting range for the first time. It was a great experience! The staff were very welcoming and helpful, and they had a lot of different guns to choose from. I really enjoyed shooting all of the different types of guns\u2014it was fun and exciting!",
           "author": "",
           "image": ""
         }
       ],
-      "tags": ["Shooting"]
+      "tags": [
+        "Shooting"
+      ]
     },
     {
       "name": "target alpha shooting range",
@@ -581,7 +606,7 @@
       ],
       "files": [
         {
-          "url": "/images/target alpha shooting range.jpg",
+          "url": "/images/target-alpha-shooting-range.jpg",
           "order": 1000
         }
       ],
@@ -610,7 +635,9 @@
           "image": ""
         }
       ],
-      "tags": ["Shooting"]
+      "tags": [
+        "Shooting"
+      ]
     }
   ]
 }
