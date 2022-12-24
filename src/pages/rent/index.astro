@@ -1,6 +1,7 @@
 ---
 import { fixUrl } from "../../helpers/commonUtils";
 import Layout from "../../layouts/Layout.astro";
+import { Img } from "astro-imagetools/components";
 
 const { pathname } = Astro.url;
 ---
@@ -11,11 +12,9 @@ const { pathname } = Astro.url;
       class="overflow-hidden relative duration-300 shadow-lg group cursor-pointer md:hover:shadow-2xl"
     >
       <div class="absolute inset-0">
-        <img
-          src="/images/car rental.jpg"
-          alt="car"
-          class="w-full h-full object-cover duration-1000 group-hover:scale-105"
-        />
+        <div class="h-full w-full duration-1000 group-hover:scale-105">
+          <Img src="/images/car-rental.jpg" alt="car" layout="fill" />
+        </div>
         <div
           class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
         >
@@ -41,11 +40,9 @@ const { pathname } = Astro.url;
       class="overflow-hidden relative group duration-300 shadow-lg cursor-pointer md:hover:shadow-2xl"
     >
       <div class="absolute inset-0">
-        <img
-          src="/images/boat rental.jpg"
-          alt="car"
-          class="w-full h-full duration-1000 object-cover group-hover:scale-105"
-        />
+        <div class="h-full w-full duration-1000 group-hover:scale-105">
+          <Img src="/images/boat-rental.jpg" alt="boat" layout="fill" />
+        </div>
         <div
           class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
         >

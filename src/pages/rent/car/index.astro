@@ -1,6 +1,7 @@
 ---
 import Layout from "../../../layouts/Layout.astro";
 import dataCars from "../../../../data/cars.json";
+import { Img } from "astro-imagetools/components";
 import { Icon } from "astro-icon";
 
 const cars = dataCars.data;
@@ -11,10 +12,11 @@ const { pathname } = Astro.url;
   <!-- Hero Section -->
   <section class="py-10 relative h-96">
     <div class="absolute inset-0">
-      <img
-        src="/images/car rental.jpg"
-        alt="boat rental"
-        class="w-full h-full object-cover"
+      <Img
+        src="/images/car-rental.jpg"
+        alt="car rental"
+        layout="fill"
+        sizes="(min-width: 768px) 768px, 100vw"
       />
     </div>
   </section>
@@ -28,10 +30,7 @@ const { pathname } = Astro.url;
           return (
             <div class="relative hover:bg-blue-50 rounded-xl shadow-lg bg-white">
               <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
-                <img
-                  class="w-full h-full object-cover"
-                  src={car.files[0]?.url ?? "/"}
-                />
+                <Img src={car.files[0]?.url} alt={car.name} layout="fill" />
               </div>
               <div class="relative flex flex-col px-3 pb-3">
                 <h3 class="text-3xl font-bold py-2">{car.name}</h3>

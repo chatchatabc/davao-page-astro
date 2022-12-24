@@ -32,10 +32,6 @@
       "slug": "sedan",
       "files": [
         {
-          "url": "/images/sedan.png",
-          "order": 1000
-        },
-        {
           "url": "/images/sedan.jpg",
           "order": 1000
         },
