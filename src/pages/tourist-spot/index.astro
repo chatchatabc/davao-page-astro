@@ -15,7 +15,12 @@ const { pathname } = Astro.url;
     <div aria-hidden="true" class="absolute inset-0 hidden sm:flex sm:flex-col">
       <div class="relative w-full flex-1 bg-gray-800">
         <div class="absolute inset-0 overflow-hidden">
-          <Img src="/images/tourist-spot.jpg" alt="background" layout="fill" />
+          <Img
+            src="/images/tourist-spot.jpg"
+            alt="background"
+            layout="fill"
+            sizes="(min-width: 768px) 768px, 100vw"
+          />
         </div>
         <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
       </div>

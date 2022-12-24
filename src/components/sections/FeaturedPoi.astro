@@ -17,7 +17,12 @@ const { pathname } = Astro.url;
   <!-- Header -->
   <div class="relative bg-gray-800 pb-16">
     <div class="absolute inset-0">
-      <Img src={files[0]?.url ?? "/"} alt="background" layout="fill" />
+      <Img
+        src={files[0]?.url ?? "/"}
+        alt="background"
+        layout="fill"
+        sizes="(min-width: 768px) 768px, 100vw"
+      />
       <div
         class="absolute inset-0 bg-gray-800 mix-blend-multiply opacity-50"
         aria-hidden="true"
