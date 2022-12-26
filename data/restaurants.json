@@ -22,7 +22,7 @@
           "name": "Pork Sisig",
           "images": [
             {
-              "url": "/images/jacks ridge pork sisig.webp",
+              "url": "/images/jacks-ridge-pork-sisig.webp",
               "order": 1000
             }
           ],
@@ -33,7 +33,7 @@
           "name": "Adobong Pusit",
           "images": [
             {
-              "url": "/images/jacks ridge adobong pusit.jpg",
+              "url": "/images/jacks-ridge-adobong-pusit.jpg",
               "order": 1000
             }
           ],
@@ -44,7 +44,7 @@
           "name": "Tinolang Imbao",
           "images": [
             {
-              "url": "/images/jacks ridge tinolang imbao.webp",
+              "url": "/images/jacks-ridge-tinolang-imbao.webp",
               "order": 1000
             }
           ],
@@ -55,7 +55,7 @@
           "name": "Leche Flan",
           "images": [
             {
-              "url": "/images/jacks ridge leche flan.jpg",
+              "url": "/images/jacks-ridge-leche-flan.jpg",
               "order": 1000
             }
           ],
@@ -102,19 +102,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/vistaview gallery.jpg",
+          "url": "/images/vistaview-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview gallery1.jpg",
+          "url": "/images/vistaview-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview gallery2.jpg",
+          "url": "/images/vistaview-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview gallery3.jpg",
+          "url": "/images/vistaview-gallery3.jpg",
           "order": 1000
         }
       ],
@@ -178,7 +178,7 @@
           "name": "Apple and Blueberry Pie 4inch",
           "images": [
             {
-              "url": "/images/bondi apple and blueberry pie.jpg",
+              "url": "/images/bondi-apple-and-blueberry-pie.jpg",
               "order": 1000
             }
           ],
@@ -189,7 +189,7 @@
           "name": "Cheese Ensaymada",
           "images": [
             {
-              "url": "/images/bondi cheese ensaymada.jpg",
+              "url": "/images/bondi-cheese-ensaymada.jpg",
               "order": 1000
             }
           ],
@@ -200,7 +200,7 @@
           "name": "Chicken Parm",
           "images": [
             {
-              "url": "/images/bondi chicken parm.webp",
+              "url": "/images/bondi-chicken-parm.webp",
               "order": 1000
             }
           ],
@@ -211,7 +211,7 @@
           "name": "Lapu-Lapu Fillet",
           "images": [
             {
-              "url": "/images/bondi lapu lapu fillet.jpg",
+              "url": "/images/bondi-lapu-lapu-fillet.jpg",
               "order": 1000
             }
           ],
@@ -265,7 +265,7 @@
           "name": "Banana Berry",
           "images": [
             {
-              "url": "/images/red tomato banana berry.jpg",
+              "url": "/images/red-tomato-banana-berry.jpg",
               "order": 1000
             }
           ],
@@ -276,7 +276,7 @@
           "name": "Seafood Calamari",
           "images": [
             {
-              "url": "/images/red tomato seafood calamari.jpg",
+              "url": "/images/red-tomato-seafood-calamari.jpg",
               "order": 1000
             }
           ],
@@ -287,7 +287,7 @@
           "name": "Italian Pepperoni",
           "images": [
             {
-              "url": "/images/red tomato italian pepperoni.jpg",
+              "url": "/images/red-tomato-italian-pepperoni.jpg",
               "order": 1000
             }
           ],
@@ -298,7 +298,7 @@
           "name": "Wagyu Burger",
           "images": [
             {
-              "url": "/images/red tomato wagyu burger.jpg",
+              "url": "/images/red-tomato-wagyu-burger.jpg",
               "order": 1000
             }
           ],
@@ -352,7 +352,7 @@
           "name": "Bulalo",
           "images": [
             {
-              "url": "/images/eskina bulalo.webp",
+              "url": "/images/eskina-bulalo.webp",
               "order": 1000
             }
           ],
@@ -363,7 +363,7 @@
           "name": "Fried Ice Cream",
           "images": [
             {
-              "url": "/images/eskina fried ice cream.jpg",
+              "url": "/images/eskina-fried-ice-cream.jpg",
               "order": 1000
             }
           ],
@@ -374,7 +374,7 @@
           "name": "Spaghetti Bolognese",
           "images": [
             {
-              "url": "/images/eskina spaghetti bolognese.jpg",
+              "url": "/images/eskina-spaghetti-bolognese.jpg",
               "order": 1000
             }
           ],
@@ -385,7 +385,7 @@
           "name": "Beef Skank Kare Kare",
           "images": [
             {
-              "url": "/images/eskina beef skank.jpg",
+              "url": "/images/eskina-beef-skank.jpg",
               "order": 1000
             }
           ],
@@ -439,7 +439,7 @@
           "name": "Ahfat Seafoods Cream Soup",
           "images": [
             {
-              "url": "/images/ahfat cream soup.webp",
+              "url": "/images/ahfat-cream-soup.webp",
               "order": 1000
             }
           ],
@@ -450,7 +450,7 @@
           "name": "Sauteed Beef with Broccoli Flower",
           "images": [
             {
-              "url": "/images/ahfat sauteed beef.jpg",
+              "url": "/images/ahfat-sauteed-beef.jpg",
               "order": 1000
             }
           ],
@@ -461,7 +461,7 @@
           "name": "Sate Beef Sotanghon",
           "images": [
             {
-              "url": "/images/ahfat sate beef sotanghon.jpg",
+              "url": "/images/ahfat-sate-beef-sotanghon.jpg",
               "order": 1000
             }
           ],
@@ -472,7 +472,7 @@
           "name": "Broccoli Flower with Oyster Sauce",
           "images": [
             {
-              "url": "/images/ahfat broccoli flower.jpg",
+              "url": "/images/ahfat-broccoli-flower.jpg",
               "order": 1000
             }
           ],
@@ -526,7 +526,7 @@
           "name": "Greek Salad",
           "images": [
             {
-              "url": "/images/de bonte greek salad.jpeg",
+              "url": "/images/de-bonte-greek-salad.jpeg",
               "order": 1000
             }
           ],
@@ -537,7 +537,7 @@
           "name": "Dutch Stew",
           "images": [
             {
-              "url": "/images/de bonte dutch stew.jpg",
+              "url": "/images/de-bonte-dutch-stew.jpg",
               "order": 1000
             }
           ],
@@ -548,7 +548,7 @@
           "name": "Mussels (Mosselen)",
           "images": [
             {
-              "url": "/images/de bonte mussels.jpg",
+              "url": "/images/de-bonte-mussels.jpg",
               "order": 1000
             }
           ],
@@ -559,7 +559,7 @@
           "name": "Pasta Pangritata",
           "images": [
             {
-              "url": "/images/de bonte pasta pangritata.jpeg",
+              "url": "/images/de-bonte-pasta-pangritata.jpeg",
               "order": 1000
             }
           ],
@@ -884,7 +884,7 @@
           "name": "Sinigang na Salmon Head",
           "images": [
             {
-              "url": "/images/yellow fin sinigang na salmon head.webp",
+              "url": "/images/yellow-fin-sinigang-na-salmon-head.webp",
               "order": 1000
             }
           ],
@@ -895,7 +895,7 @@
           "name": "Tortang Talong",
           "images": [
             {
-              "url": "/images/yellow fin tortang talong.webp",
+              "url": "/images/yellow-fin-tortang-talong.webp",
               "order": 1000
             }
           ],
@@ -906,7 +906,7 @@
           "name": "Tuna Laing",
           "images": [
             {
-              "url": "/images/yellow fin tuna laing.jpg",
+              "url": "/images/yellow-fin-tuna-laing.jpg",
               "order": 1000
             }
           ],
@@ -917,7 +917,7 @@
           "name": "Chicken Inasal",
           "images": [
             {
-              "url": "/images/yellow fin chicken inasal.jpg",
+              "url": "/images/yellow-fin-chicken-inasal.jpg",
               "order": 1000
             }
           ],
@@ -971,7 +971,7 @@
           "name": "Crab and Shrimps Bilao",
           "images": [
             {
-              "url": "/images/rd crab and shrimp.png",
+              "url": "/images/rd-crab-and-shrimp.png",
               "order": 1000
             }
           ],
@@ -982,7 +982,7 @@
           "name": "Crispy Pata",
           "images": [
             {
-              "url": "/images/rd crispy pata.jpg",
+              "url": "/images/rd-crispy-pata.jpg",
               "order": 1000
             }
           ],
@@ -993,7 +993,7 @@
           "name": "Buttered Chicken",
           "images": [
             {
-              "url": "/images/rd buttered chicken.jpg",
+              "url": "/images/rd-buttered-chicken.jpg",
               "order": 1000
             }
           ],
@@ -1004,7 +1004,7 @@
           "name": "Chopsuey",
           "images": [
             {
-              "url": "/images/rd chopsuey.jpg",
+              "url": "/images/rd-chopsuey.jpg",
               "order": 1000
             }
           ],
@@ -1050,19 +1050,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/shrabs gallery.jpg",
+          "url": "/images/shrabs-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs gallery1.jpg",
+          "url": "/images/shrabs-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs gallery3.jpg",
+          "url": "/images/shrabs-gallery3.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs gallery2.jpg",
+          "url": "/images/shrabs-gallery2.jpg",
           "order": 1000
         }
       ],
@@ -1120,7 +1120,7 @@
           "name": "Rice Toppings",
           "images": [
             {
-              "url": "/images/dimsum rice toppings.jpg",
+              "url": "/images/dimsum-rice-toppings.jpg",
               "order": 1000
             }
           ],
@@ -1131,7 +1131,7 @@
           "name": "Noodles",
           "images": [
             {
-              "url": "/images/dimsum noodles.png",
+              "url": "/images/dimsum-noodles.png",
               "order": 1000
             }
           ],
@@ -1142,7 +1142,7 @@
           "name": "Congee",
           "images": [
             {
-              "url": "/images/dimsum congee.png",
+              "url": "/images/dimsum-congee.png",
               "order": 1000
             }
           ],
@@ -1153,7 +1153,7 @@
           "name": "Dimsum",
           "images": [
             {
-              "url": "/images/dimsum dimsum.jpg",
+              "url": "/images/dimsum-dimsum.jpg",
               "order": 1000
             }
           ],
@@ -1198,19 +1198,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/mixed temptation gallery.jpg",
+          "url": "/images/mixed-temptation-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed temptation gallery1.jpg",
+          "url": "/images/mixed-temptation-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed temptation gallery2.jpg",
+          "url": "/images/mixed-temptation-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed temptation lanang.jpg",
+          "url": "/images/mixed-temptation-lanang.jpg",
           "order": 1000
         }
       ],
