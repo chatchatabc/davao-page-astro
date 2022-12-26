@@ -1,6 +1,7 @@
 ---
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 import { Img } from "astro-imagetools/components";
+import { fixUrl } from "../helpers/commonUtils";
 
 interface Props {
   data: ObjectInterface;
@@ -10,10 +11,7 @@ const { pathname, data } = Astro.props as Props;
 ---
 
 <a
-  href={`${pathname ? `${pathname}/` : ""}${data.slug}`.replace(
-    /([^:]\/)\/+/g,
-    "$1"
-  )}
+  href={fixUrl(`${pathname ? `${pathname}/` : ""}${data.slug}`)}
   class="hover:scale-105 duration-300"
 >
   <div

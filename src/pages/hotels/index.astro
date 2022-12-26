@@ -118,7 +118,7 @@ const { pathname } = Astro.url;
       <div class="grid gap-2 md:grid-cols-3 lg:gap-8">
         {
           hotels.map((hotel) => {
-            return <PoiCard data={hotel} />;
+            return <PoiCard data={hotel} pathname={pathname} />;
           })
         }
       </div>
