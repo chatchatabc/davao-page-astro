@@ -3,6 +3,7 @@ import { log } from "astro/dist/core/logger/core";
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 import Layout from "./Layout.astro";
 import { Icon } from "astro-icon";
+import { Img } from "astro-imagetools/components";
 
 interface Props {
   place: ObjectInterface;
@@ -21,10 +22,11 @@ const featuredFile = files.length ? files : [];
         class="bg-yellow-50 py-32 relative mx-2 rounded-lg overflow-hidden shadow-lg"
       >
         <div class="absolute inset-0">
-          <img
-            class="h-full w-full object-cover"
+          <Img
+            layout="fill"
             src={featuredFile[0]?.url ?? "/"}
             alt={place.name}
+            sizes="(min-width: 768px) 480px, 100vw"
           />
         </div>
       </section>
