@@ -46,10 +46,7 @@
         }
       ],
       "price": "",
-      "tags": [
-        "Park",
-        "Leisure"
-      ]
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "mount apo trek",
@@ -92,11 +89,7 @@
         }
       ],
       "price": "",
-      "tags": [
-        "Hiking",
-        "Mountains",
-        "Adventure"
-      ]
+      "tags": ["Hiking", "Mountains", "Adventure"]
     },
     {
       "name": "malagos garden resort and chocolate museum",
@@ -144,11 +137,7 @@
         }
       ],
       "price": "",
-      "tags": [
-        "Resort",
-        "Museum",
-        "Leisure"
-      ]
+      "tags": ["Resort", "Museum", "Leisure"]
     },
     {
       "name": "people's park",
@@ -196,10 +185,7 @@
         }
       ],
       "price": "Free",
-      "tags": [
-        "City Park",
-        "Leisure"
-      ]
+      "tags": ["City Park", "Leisure"]
     },
     {
       "name": "roxas night market",
@@ -247,11 +233,7 @@
         }
       ],
       "price": "$",
-      "tags": [
-        "Night Market",
-        "Food Stalls",
-        "Night Time"
-      ]
+      "tags": ["Night Market", "Food Stalls", "Night Time"]
     },
     {
       "name": "pearl farm beach resort",
@@ -299,11 +281,7 @@
         }
       ],
       "price": "$$~$$$",
-      "tags": [
-        "Beach",
-        "Resort",
-        "Leisure"
-      ]
+      "tags": ["Beach", "Resort", "Leisure"]
     },
     {
       "name": "eagle park",
@@ -351,10 +329,7 @@
         }
       ],
       "price": "Free",
-      "tags": [
-        "Park",
-        "Leisure"
-      ]
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "samal island",
@@ -402,11 +377,7 @@
         }
       ],
       "price": "$$",
-      "tags": [
-        "Beach",
-        "Vacation",
-        "Water Activities"
-      ]
+      "tags": ["Beach", "Vacation", "Water Activities"]
     },
     {
       "name": "crocodile park",
@@ -454,11 +425,7 @@
         }
       ],
       "price": "$",
-      "tags": [
-        "Zoo",
-        "Park",
-        "Leisure"
-      ]
+      "tags": ["Zoo", "Park", "Leisure"]
     },
     {
       "name": "waterworld beach resort",
@@ -506,12 +473,7 @@
         }
       ],
       "price": "$",
-      "tags": [
-        "Pool",
-        "Water Slides",
-        "Resort",
-        "Beach"
-      ]
+      "tags": ["Pool", "Water Slides", "Resort", "Beach"]
     }
   ]
 }
