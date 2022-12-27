@@ -63,7 +63,10 @@ const { files } = car;
                   car.pricePackages.map((pricePackage: ObjectInterface) => {
                     return (
                       <td class="whitespace-nowrap p-4 text-sm">
-                        ₱{pricePackage.price}
+                        {Intl.NumberFormat("en-PH", {
+                          style: "currency",
+                          currency: "PHP",
+                        }).format(pricePackage.price)}
                       </td>
                     );
                   })
@@ -77,9 +80,14 @@ const { files } = car;
           <div class="flex-1">
             <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
             <p class="font-extralight">
-              <span class="text-xl font-bold">₱{car.price.price}</span> / {
-                car.price.time
-              }
+              <span class="text-xl font-bold">
+                {
+                  Intl.NumberFormat("en-PH", {
+                    style: "currency",
+                    currency: "PHP",
+                  }).format(car.price.price)
+                }
+              </span> / {car.price.time}
             </p>
           </div>
           <a
