@@ -3,6 +3,7 @@ import Layout from "../../../layouts/Layout.astro";
 import dataCars from "../../../../data/cars.json";
 import { Img } from "astro-imagetools/components";
 import { Icon } from "astro-icon";
+import { fixUrl } from "../../../helpers/commonUtils";
 
 const cars = dataCars.data;
 const { pathname } = Astro.url;
@@ -49,7 +50,7 @@ const { pathname } = Astro.url;
                   </p>
                 </div>
                 <a
-                  href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
+                  href={fixUrl(`${pathname ? `${pathname}/` : ""}${car.slug}`)}
                   class="mt-5 ml-auto px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10"
                 >
                   View More &gt;&gt;
@@ -57,7 +58,7 @@ const { pathname } = Astro.url;
                 </a>
               </div>
               <a
-                href={`${pathname ? `${pathname}/` : ""}${car.slug}`}
+                href={fixUrl(`${pathname ? `${pathname}/` : ""}${car.slug}`)}
                 class="inset-0 absolute"
               />
             </div>
