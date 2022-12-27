@@ -24,52 +24,11 @@ const featured_places = [...dataRestaurants.data];
   <section
     class="relative overflow-hidden bg-white pb-16 pt-2 lg:pb-32 lg:pt-8"
   >
-    <div class="mx-auto container grid md:grid-cols-2">
-      <!-- Left -->
-      <div class="flex flex-col">
-        <div class="px-4">
-          <h1
-            class="font text-2xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl"
-          >
-            Restaurants
-          </h1>
-          <p class="mt-2 text-gray-500 md:text-xl">
-            Find and enjoy a wide variety of cuisines that is sure to satisfy
-            your taste buds during your stay here in Davao City!
-          </p>
-        </div>
-        <div
-          class="mt-8 grid grid-cols-2 md:grid-cols-4 lg:px-16 lg:mt-24 lg:gap-2"
-        >
-          {
-            subCatalogs.map((subCatalog) => {
-              return (
-                <a href={`#${subCatalog.slug}`}>
-                  <div class="text-sm p-2 text-center h-24 w-full flex items-center relative overflow-hidden shadow-lg lg:h-32 lg:text-lg lg:-skew-x-[30deg]">
-                    <div class="absolute inset-0 lg:skew-x-[30deg]">
-                      <div class="w-full h-full object-cover scale-[160%]">
-                        <Img
-                          src={subCatalog.files[0]?.url ?? "/"}
-                          alt="background"
-                          layout="fill"
-                          sizes="(min-width: 768px) 480px, 100vw"
-                        />
-                      </div>
-                    </div>
-                    <div class="bg-gray-500 mix-blend-multiply absolute inset-0" />
-                    <p class="relative mx-auto text-white font-bold capitalize lg:skew-x-[30deg]">
-                      {subCatalog.name}
-                    </p>
-                  </div>
-                </a>
-              );
-            })
-          }
-        </div>
-      </div>
-
+    <div class="mx-auto container relative">
       <!-- Right -->
-      <div class="hidden relative md:block">
+      <div
+        class="hidden absolute inset-y-0 w-[47%] max-w-xl left-[51%] md:block"
+      >
         <div class="grid grid-cols-3 absolute inset-0 gap-4">
           <div class="flex flex-col justify-center gap-4">
             {
@@ -119,6 +78,48 @@ const featured_places = [...dataRestaurants.data];
               })
             }
           </div>
+        </div>
+      </div>
+      <!-- Left -->
+      <div class="relative flex flex-col w-1/2">
+        <div class="px-4">
+          <h1
+            class="font text-2xl font-bold tracking-tight text-gray-900 md:text-4xl lg:text-6xl"
+          >
+            Restaurants
+          </h1>
+          <p class="mt-2 text-gray-500 md:text-xl">
+            Find and enjoy a wide variety of cuisines that is sure to satisfy
+            your taste buds during your stay here in Davao City!
+          </p>
+        </div>
+        <div
+          class="pl-4 gap-1 mt-8 grid grid-cols-2 md:grid-cols-4 lg:px-8 lg:mt-24 lg:gap-2"
+        >
+          {
+            subCatalogs.map((subCatalog) => {
+              return (
+                <a href={`#${subCatalog.slug}`}>
+                  <div class="text-sm p-2 text-center h-24 w-full flex items-center relative overflow-hidden shadow-lg lg:text-lg lg:-skew-x-[30deg] xl:h-28">
+                    <div class="absolute inset-0 lg:skew-x-[30deg]">
+                      <div class="w-full h-full object-cover scale-[160%]">
+                        <Img
+                          src={subCatalog.files[0]?.url ?? "/"}
+                          alt="background"
+                          layout="fill"
+                          sizes="(min-width: 768px) 480px, 100vw"
+                        />
+                      </div>
+                    </div>
+                    <div class="bg-gray-500 mix-blend-multiply absolute inset-0" />
+                    <p class="relative mx-auto text-white font-bold capitalize lg:skew-x-[30deg]">
+                      {subCatalog.name}
+                    </p>
+                  </div>
+                </a>
+              );
+            })
+          }
         </div>
       </div>
     </div>
