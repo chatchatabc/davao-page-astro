@@ -4,7 +4,7 @@
       "name": "Pontoon Boat",
       "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
       "price": {
-        "price": "14,000",
+        "price": "2500",
         "time": "day"
       },
       "pricePackages": [
@@ -25,7 +25,7 @@
         }
       ],
       "capacity": "18",
-      "captain_price": "8000",
+      "captain_price": "1000",
       "type": "pontoon",
       "slug": "pontoon",
       "files": [
@@ -52,34 +52,35 @@
       ],
       "length": "N/A",
       "toilet": true,
+      "top_speed": "50 mph",
       "phone": ""
     },
     {
       "name": "Jet Ski",
       "details": "The Jet Ski is a great way to get around the ocean. It's fast, comfortable, and affordable to rent. If you want to rent it for a few hours or overnight, it's also easy to do. The Jet Ski feels luxurious because it's designed to feel like an actual boat.",
       "price": {
-        "price": "5,572",
+        "price": "5572",
         "time": "hour"
       },
       "pricePackages": [
         {
           "totalTime": "1",
-          "price": "1000",
-          "time": "days"
+          "price": "5572",
+          "time": "hour"
         },
         {
           "totalTime": "2",
-          "price": "1000",
-          "time": "days"
+          "price": "11000",
+          "time": "hours"
         },
         {
           "totalTime": "3",
-          "price": "1000",
-          "time": "days"
+          "price": "16000",
+          "time": "hours"
         }
       ],
       "capacity": "3",
-      "captain_price": "8000",
+      "captain_price": "1000",
       "type": "jet ski",
       "slug": "jet-ski",
       "files": [
@@ -101,34 +102,35 @@
       ],
       "length": "11ft",
       "toilet": false,
+      "top_speed": "65 mph",
       "phone": ""
     },
     {
       "name": "Bowrider Boat",
       "details": "Bowriders are typically powered by outboard motors or inboard/outboard motors, and are made from materials such as fiberglass or composite materials. They usually have a flat bottom and a deep-V hull shape, which provides stability and a smooth ride in rough water.",
       "price": {
-        "price": "5,894",
+        "price": "5894",
         "time": "hour"
       },
       "pricePackages": [
         {
           "totalTime": "1",
-          "price": "1000",
+          "price": "5894",
           "time": "hours"
         },
         {
           "totalTime": "2",
-          "price": "2000",
+          "price": "11500",
           "time": "hours"
         },
         {
           "totalTime": "3",
-          "price": "3000",
+          "price": "16500",
           "time": "hours"
         }
       ],
       "capacity": "10",
-      "captain_price": "8000",
+      "captain_price": "1000",
       "type": "bowrider",
       "slug": "bowrider",
       "files": [
@@ -150,34 +152,35 @@
       ],
       "length": "26ft",
       "toilet": false,
+      "top_speed": "50 mph",
       "phone": ""
     },
     {
       "name": "Speed Boat",
       "details": "The Speed Boat is a fast and luxurious way to get around on the ocean. You can rent it for a couple of days if you want, or even longer if you need more time. We guarantee that you'll love the experience.",
       "price": {
-        "price": "5,894",
+        "price": "8000",
         "time": "hour"
       },
       "pricePackages": [
         {
           "totalTime": "1",
-          "price": "1000",
+          "price": "8000",
           "time": "hours"
         },
         {
           "totalTime": "2",
-          "price": "2000",
+          "price": "15000",
           "time": "hours"
         },
         {
           "totalTime": "3",
-          "price": "3000",
+          "price": "22000",
           "time": "hours"
         }
       ],
       "capacity": "10",
-      "captain_price": "8000",
+      "captain_price": "1000",
       "type": "bowrider",
       "slug": "bowrider",
       "files": [
@@ -199,6 +202,7 @@
       ],
       "length": "26ft",
       "toilet": false,
+      "top_speed": "120 mph",
       "phone": ""
     }
   ]

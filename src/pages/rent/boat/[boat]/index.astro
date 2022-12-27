@@ -63,7 +63,10 @@ const { files } = boat;
                   boat.pricePackages.map((pricePackage: ObjectInterface) => {
                     return (
                       <td class="whitespace-nowrap p-4 text-sm">
-                        ₱{pricePackage.price}
+                        {Intl.NumberFormat("en-PH", {
+                          style: "currency",
+                          currency: "PHP",
+                        }).format(pricePackage.price)}
                       </td>
                     );
                   })
@@ -77,9 +80,14 @@ const { files } = boat;
           <div class="flex-1">
             <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
             <p class="font-extralight">
-              <span class="text-xl font-bold">₱{boat.price.price}</span> / {
-                boat.price.time
-              }
+              <span class="text-xl font-bold">
+                {
+                  Intl.NumberFormat("en-PH", {
+                    style: "currency",
+                    currency: "PHP",
+                  }).format(boat.price.price)
+                }
+              </span> / {boat.price.time}
             </p>
           </div>
           <a
@@ -99,7 +107,14 @@ const { files } = boat;
       <div class="flex-1 flex justify-center gap-10">
         <div class="w-full max-w-[200px]">
           <h3 class="text-xl w-max font-bold">Need a Captain?</h3>
-          <h4>Additional ₱{boat.captain_price}</h4>
+          <h4>
+            Additional {
+              Intl.NumberFormat("en-PH", {
+                style: "currency",
+                currency: "PHP",
+              }).format(boat.captain_price)
+            }
+          </h4>
           <p class="text-xs text-gray-600 leading-4">*Optional*</p>
         </div>
         <div class="self-center">
