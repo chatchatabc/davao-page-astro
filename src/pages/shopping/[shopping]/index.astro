@@ -2,6 +2,7 @@
 import dataShoppings from "../../../../data/shoppings.json";
 import type { ObjectInterface } from "../../../helpers/commonInterfaces";
 import Layout from "../../../layouts/Layout.astro";
+import { Img } from "astro-imagetools/components";
 
 export function getStaticPaths() {
   return dataShoppings.data.map((shopping) => {
@@ -25,7 +26,7 @@ const { files } = shopping;
       class="container mx-auto px-5 pt-10 pb-20 relative overflow-hidden lg:rounded-md"
     >
       <div class="absolute inset-0">
-        <img class="object-cover w-full h-full" src={files[0]?.url ?? "/"} />
+        <Img layout="fill" src={files[0]?.url ?? "/"} alt={shopping.name} />
       </div>
       <div class="absolute inset-0 mix-blend-multiply bg-gray-400"></div>
       <div class="relative">
@@ -87,11 +88,13 @@ const { files } = shopping;
           return (
             <div class="shadow-lg rounded-lg overflow-hidden">
               <div class="aspect-w-1 aspect-h-1 relative">
-                <img
-                  class="absolute inset-0 object-cover"
-                  src={store.images[0].url}
-                  alt={store.images[0].url}
-                />
+                <div class="absolute inset-0">
+                  <Img
+                    layout="fill"
+                    src={store.images[0].url}
+                    alt={store.images[0].url}
+                  />
+                </div>
               </div>
               <div class="p-2">
                 <h4 class="text-lg leading-5 font-medium">{store.name}</h4>
@@ -115,11 +118,9 @@ const { files } = shopping;
           return (
             <div class="aspect-w-1 aspect-h-1 relative duration-500 group hover:scale-150 hover:z-10">
               <div class="absolute inset-0 rounded-lg overflow-hidden mx-auto group-hover:w-fit">
-                <img
-                  class="object-cover h-full w-full group-hover:object-contain"
-                  src={gallery.url}
-                  alt={gallery.url}
-                />
+                <div class="w-full h-full group-hover:object-contain">
+                  <Img layout="fill" src={gallery.url} alt={gallery.url} />
+                </div>
               </div>
             </div>
           );
