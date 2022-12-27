@@ -56,7 +56,7 @@
     },
     {
       "name": "Jet Ski",
-      "details": "Speed boats are known for their speed and maneuverability, but they can also be dangerous if operated carelessly or without proper training. It is important to follow all safety guidelines and regulations when operating a speed boat, and to always wear a personal flotation device (PFD) while on the water.",
+      "details": "The Jet Ski is a great way to get around the ocean. It's fast, comfortable, and affordable to rent. If you want to rent it for a few hours or overnight, it's also easy to do. The Jet Ski feels luxurious because it's designed to feel like an actual boat.",
       "price": {
         "price": "5,572",
         "time": "hour"
@@ -118,12 +118,12 @@
         },
         {
           "totalTime": "2",
-          "price": "1000",
+          "price": "2000",
           "time": "hours"
         },
         {
           "totalTime": "3",
-          "price": "1000",
+          "price": "3000",
           "time": "hours"
         }
       ],
@@ -144,6 +144,55 @@
         },
         {
           "url": "/images/bowrider.png",
+          "parent": "bowrider",
+          "order": 1000
+        }
+      ],
+      "length": "26ft",
+      "toilet": false,
+      "phone": ""
+    },
+    {
+      "name": "Speed Boat",
+      "details": "The Speed Boat is a fast and luxurious way to get around on the ocean. You can rent it for a couple of days if you want, or even longer if you need more time. We guarantee that you'll love the experience.",
+      "price": {
+        "price": "5,894",
+        "time": "hour"
+      },
+      "pricePackages": [
+        {
+          "totalTime": "1",
+          "price": "1000",
+          "time": "hours"
+        },
+        {
+          "totalTime": "2",
+          "price": "2000",
+          "time": "hours"
+        },
+        {
+          "totalTime": "3",
+          "price": "3000",
+          "time": "hours"
+        }
+      ],
+      "capacity": "10",
+      "captain_price": "8000",
+      "type": "bowrider",
+      "slug": "bowrider",
+      "files": [
+        {
+          "url": "/images/speed-boat.jpg",
+          "parent": "bowrider",
+          "order": 1000
+        },
+        {
+          "url": "/images/speed-boat1.jpg",
+          "parent": "bowrider",
+          "order": 1000
+        },
+        {
+          "url": "/images/speed-boat2.jpg",
           "parent": "bowrider",
           "order": 1000
         }
