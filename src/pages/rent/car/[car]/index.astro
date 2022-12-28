@@ -43,34 +43,52 @@ const { files } = car;
           <table class="min-w-full divide-y divide-gray-300">
             <thead class="bg-gray-50">
               <tr class="divide-x divide-gray-200">
-                {
-                  car.pricePackages.map((pricePackage: ObjectInterface) => {
-                    return (
-                      <th
-                        scope="col"
-                        class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
-                      >
-                        {pricePackage.totalTime} {pricePackage.time}
-                      </th>
-                    );
-                  })
-                }
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[0].totalTime}
+                  {car.pricePackages[0].time}
+                </th>
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[1].totalTime}
+                  {car.pricePackages[1].time}
+                </th>
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[2].totalTime}
+                  {car.pricePackages[2].time}
+                </th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-200 bg-white">
               <tr class="divide-x divide-gray-200">
-                {
-                  car.pricePackages.map((pricePackage: ObjectInterface) => {
-                    return (
-                      <td class="whitespace-nowrap p-4 text-sm">
-                        {Intl.NumberFormat("en-PH", {
-                          style: "currency",
-                          currency: "PHP",
-                        }).format(pricePackage.price)}
-                      </td>
-                    );
-                  })
-                }
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[0].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[1].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[2].price)
+                  }
+                </td>
               </tr>
             </tbody>
           </table>
@@ -136,15 +154,14 @@ const { files } = car;
       </div>
     </div>
   </section>
-
-  <style>
-    [astro-icon] {
-      height: 3em;
-      width: 3em;
-      display: inline-block;
-    }
-    #title {
-      text-shadow: 2px 2px aqua;
-    }
-  </style>
 </Layout>
+<style>
+  [astro-icon] {
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
+  }
+</style>

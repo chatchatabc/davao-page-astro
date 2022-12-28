@@ -43,34 +43,55 @@ const { files } = boat;
           <table class="min-w-full divide-y divide-gray-300">
             <thead class="bg-gray-50">
               <tr class="divide-x divide-gray-200">
-                {
-                  boat.pricePackages.map((pricePackage: ObjectInterface) => {
-                    return (
-                      <th
-                        scope="col"
-                        class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
-                      >
-                        {pricePackage.totalTime} {pricePackage.time}
-                      </th>
-                    );
-                  })
-                }
+                <th
+                  scope="col"
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {boat.pricePackages[0].totalTime}
+                  {boat.pricePackages[0].time}
+                </th>
+                <th
+                  scope="col"
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {boat.pricePackages[1].totalTime}
+                  {boat.pricePackages[1].time}
+                </th>
+                <th
+                  scope="col"
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {boat.pricePackages[2].totalTime}
+                  {boat.pricePackages[2].time}
+                </th>
               </tr>
             </thead>
             <tbody class="divide-y divide-gray-200 bg-white">
               <tr class="divide-x divide-gray-200">
-                {
-                  boat.pricePackages.map((pricePackage: ObjectInterface) => {
-                    return (
-                      <td class="whitespace-nowrap p-4 text-sm">
-                        {Intl.NumberFormat("en-PH", {
-                          style: "currency",
-                          currency: "PHP",
-                        }).format(pricePackage.price)}
-                      </td>
-                    );
-                  })
-                }
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(boat.pricePackages[0].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(boat.pricePackages[1].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(boat.pricePackages[2].price)
+                  }
+                </td>
               </tr>
             </tbody>
           </table>
