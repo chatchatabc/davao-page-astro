@@ -22,7 +22,11 @@ const catalogs = getItemFiles(data_catalogs.data);
     >
       {
         catalogs.map((catalog) => {
-          return <PoiCard data={catalog} />;
+          return (
+            <li>
+              <PoiCard data={catalog} />
+            </li>
+          );
         })
       }
     </ul>
