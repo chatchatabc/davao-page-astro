@@ -10,7 +10,7 @@
       "name": "Tourist Spot",
       "details": "Whether you're looking for a place to relax and enjoy the beauty of Davao, or if you want an adventure that will take your breath away, we've got you covered.",
       "slug": "tourist-spot",
-      "icon": "ic:baseline-mode-of-travel"
+      "icon": "mdi:place-outline"
     },
     {
       "name": "Hotels",
