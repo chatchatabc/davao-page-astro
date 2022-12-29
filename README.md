@@ -1,8 +1,6 @@
 # Welcome to [Davao Page Astro](https://davao.page)
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
-
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+Feel free to read the documentation if you have any problems or questions that you need to know about the project. The information here has been divided into multiple sections, in which explains all the necessary information that are needed for the project.
 
 Any static assets, like images, can be placed in the `public/` directory.
 
@@ -17,6 +15,7 @@ Here lies all the tools and libraries that are used to develop and build the Dav
 - Astro-Compress: https://github.com/astro-community/astro-compress
 - @astrojs/sitemap: https://docs.astro.build/en/guides/integrations-guide/sitemap/
 - Astro-Robots-Txt: https://github.com/alextim/astro-lib/tree/main/packages/astro-robots-txt
+- NodeJS: https://nodejs.org/en/
 - TypeScript and JavaScript
 
 # Project Structure
@@ -62,22 +61,22 @@ Here lies the structure of the project in which shall also be explained alongsid
 
 # Deployment
 
-- Cloudflare Pages: 
-- Headers: https://developers.cloudflare.com/pages/platform/headers/
+Here lies the tools and technologies that are essential for the deployment of Davao Page on Cloudflare.
 
-## 🧞 Commands
+- Cloudflare Pages: https://developers.cloudflare.com/pages/
+- Headers: https://developers.cloudflare.com/pages/platform/headers/
+- Wrangler: https://developers.cloudflare.com/workers/wrangler/commands/#pages
+
+# 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
 
-| Command                | Action                                             |
-| :--------------------- | :------------------------------------------------- |
-| `npm install`          | Installs dependencies                              |
-| `npm run dev`          | Starts local dev server at `localhost:3000`        |
-| `npm run build`        | Build your production site to `./dist/`            |
-| `npm run preview`      | Preview your build locally, before deploying       |
-| `npm run astro ...`    | Run CLI commands like `astro add`, `astro preview` |
-| `npm run astro --help` | Get help using the Astro CLI                       |
-
-```
-
-```
+| Command                       | Action                                             |
+| :---------------------------- | :------------------------------------------------- |
+| `npm install`                 | Installs dependencies                              |
+| `npm run dev`                 | Starts local dev server at `localhost:3000`        |
+| `npm run build`               | Build your production site to `./dist/`            |
+| `npm run preview`             | Preview your build locally, before deploying       |
+| `npm run astro ...`           | Run CLI commands like `astro add`, `astro preview` |
+| `npm run astro --help`        | Get help using the Astro CLI                       |
+| `wrangler pages publish dist` | Publish the dist folder to cloudflare pages        |
