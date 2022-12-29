@@ -21,7 +21,7 @@ const { boat } = Astro.props as Props;
 const { files } = boat;
 ---
 
-<Layout>
+<Layout title={boat.name}>
   <!-- Introduction -->
   <section class="pb-10">
     <div class="container mx-auto grid md:grid-cols-2 gap-5">
