@@ -118,6 +118,7 @@ const featuredFile = files.length ? files : [];
                       <Icon name="ic:baseline-facebook" />
                     )}
                     {link.type === "website" && <Icon name="mdi:web" />}
+                    {link.type === "instagram" && <Icon name="mdi:instagram" />}
                   </a>
                 </p>
               );
@@ -164,6 +165,10 @@ const featuredFile = files.length ? files : [];
     width: 2em;
   }
   [astro-icon="mdi:web"] {
+    height: 2em;
+    width: 2em;
+  }
+  [astro-icon="mdi:instagram"] {
     height: 2em;
     width: 2em;
   }
