@@ -6,6 +6,23 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
+# Tech Stack
+
+* Astro
+* TailwindCSS
+* CSS 3 Testing
+
+# Project structure
+
+* public
+* src
+* data
+
+# Deployment
+
+* Cloudflare Pages
+* Headers: https://developers.cloudflare.com/pages/platform/headers/
+
 ## 🧞 Commands
 
 All commands are run from the root of the project, from a terminal:
