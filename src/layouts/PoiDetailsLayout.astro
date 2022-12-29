@@ -21,8 +21,9 @@ const featuredFile = files.length ? files : [];
       <section
         class="bg-yellow-50 py-32 relative mx-2 rounded-lg overflow-hidden shadow-lg"
       >
-        <div class="absolute inset-0">
+        <div class="absolute h-full w-full top-0 left-0">
           <Img
+            format="webp"
             layout="fill"
             src={featuredFile[0]?.url ?? "/"}
             alt={place.name}
@@ -132,7 +133,7 @@ const featuredFile = files.length ? files : [];
   </div>
 </Layout>
 
-<style>
+<style is:global>
   [astro-icon] {
     height: 1em;
     width: 1em;

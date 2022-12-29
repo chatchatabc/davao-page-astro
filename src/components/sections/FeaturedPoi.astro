@@ -16,15 +16,16 @@ const { pathname } = Astro.url;
 <section id={slug} class="bg-white">
   <!-- Header -->
   <div class="relative bg-gray-800 pb-16">
-    <div class="absolute inset-0">
+    <div class="absolute h-full w-full top-0 left-0">
       <Img
+        format="webp"
         src={files[0]?.url ?? "/"}
         alt="background"
         layout="fill"
         sizes="(min-width: 768px) 768px, 100vw"
       />
       <div
-        class="absolute inset-0 bg-gray-800 mix-blend-multiply opacity-50"
+        class="absolute h-full w-full top-0 left-0 bg-gray-800 mix-blend-multiply opacity-50"
         aria-hidden="true"
       >
       </div>
@@ -56,7 +57,7 @@ const { pathname } = Astro.url;
             <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
               <img
                 src={"/"}
-                class="absolute inset-0 object-cover w-full h-full"
+                class="absolute top-0 left-0 object-cover w-full h-full"
                 alt={`No place`}
               />
             </div>

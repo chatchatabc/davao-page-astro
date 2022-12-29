@@ -29,13 +29,14 @@ const featured_places = [...dataRestaurants.data];
       <div
         class="hidden absolute inset-y-0 w-[47%] max-w-xl -top-[3%] left-[51%] md:block"
       >
-        <div class="grid grid-cols-3 absolute inset-0 gap-4">
+        <div class="grid grid-cols-3 absolute h-full w-full top-0 left-0 gap-4">
           <div class="flex flex-col justify-center gap-4">
             {
               featured_places.splice(0, 2).map((place) => {
                 return (
                   <div class="h-8 aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
                     <Img
+                      format="webp"
                       src={place.files[0].url}
                       alt={place.name}
                       layout="fill"
@@ -52,6 +53,7 @@ const featured_places = [...dataRestaurants.data];
                 return (
                   <div class="h-8 aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
                     <Img
+                      format="webp"
                       src={place.files[0].url}
                       alt={place.name}
                       layout="fill"
@@ -68,6 +70,7 @@ const featured_places = [...dataRestaurants.data];
                 return (
                   <div class="h-8 aspect-w-1 aspect-h-1 rounded-lg overflow-hidden shadow-lg">
                     <Img
+                      format="webp"
                       src={place.files[0].url}
                       alt={place.name}
                       layout="fill"
@@ -101,9 +104,10 @@ const featured_places = [...dataRestaurants.data];
               return (
                 <a href={`#${subCatalog.slug}`}>
                   <div class="text-sm p-2 text-center h-24 w-full flex items-center relative overflow-hidden shadow-lg lg:text-lg lg:-skew-x-[30deg] xl:h-28">
-                    <div class="absolute inset-0 lg:skew-x-[30deg]">
+                    <div class="absolute h-full w-full top-0 left-0 lg:skew-x-[30deg]">
                       <div class="w-full h-full object-cover scale-[160%]">
                         <Img
+                          format="webp"
                           src={subCatalog.files[0]?.url ?? "/"}
                           alt="background"
                           layout="fill"
@@ -111,7 +115,7 @@ const featured_places = [...dataRestaurants.data];
                         />
                       </div>
                     </div>
-                    <div class="bg-gray-500 mix-blend-multiply absolute inset-0" />
+                    <div class="bg-gray-500 mix-blend-multiply absolute h-full w-full top-0 left-0" />
                     <p class="relative mx-auto text-white font-bold capitalize lg:skew-x-[30deg]">
                       {subCatalog.name}
                     </p>

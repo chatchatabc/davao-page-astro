@@ -94,17 +94,18 @@ const { place, pathname } = Astro.props as Props;
   <div class="lg:flex lg:flex-shrink-0 lg:flex-col lg:justify-center">
     <div class="w-full h-56 relative lg:w-96 lg:h-full">
       <Img
+        format="webp"
         src={place.files[0]?.url ?? "/"}
         alt={place.name}
         layout="fill"
         sizes="(min-width: 768px) 480px, 100vw"
       />
       <div
-        class="absolute mix-blend-multiply inset-0 duration-500 group-hover:bg-gray-300"
+        class="absolute mix-blend-multiply h-full w-full top-0 left-0 duration-500 group-hover:bg-gray-300"
       >
       </div>
       <div
-        class="absolute inset-0 flex items-center justify-center duration-500 md:opacity-0 group-hover:opacity-100"
+        class="absolute h-full w-full top-0 left-0 flex items-center justify-center duration-500 md:opacity-0 group-hover:opacity-100"
       >
         <p class="text-white text-2xl font-bold animate-pulse">Click to View</p>
       </div>
@@ -112,11 +113,26 @@ const { place, pathname } = Astro.props as Props;
   </div>
   <a
     href={`${pathname ?? ""}/${place.slug}`.replace(/([^:]\/)\/+/g, "$1")}
-    class="absolute inset-0"></a>
+    class="absolute h-full w-full top-0 left-0"></a>
 </div>
 
-<style>
-  [astro-icon] {
+<style is:global>
+  [astro-icon="mdi:map-marker-radius"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:store-clock-outline"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:phone"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="icomoon-free:price-tags"] {
     height: 1.5em;
     width: 1.5em;
     display: inline-block;

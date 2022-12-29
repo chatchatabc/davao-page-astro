@@ -12,17 +12,22 @@ const { pathname } = Astro.url;
   <!-- Hero section -->
   <section class="relative">
     <!-- Background image and overlap -->
-    <div aria-hidden="true" class="absolute inset-0 hidden sm:flex sm:flex-col">
+    <div
+      aria-hidden="true"
+      class="absolute h-full w-full top-0 left-0 hidden sm:flex sm:flex-col"
+    >
       <div class="relative w-full flex-1 bg-gray-800">
-        <div class="absolute inset-0 overflow-hidden">
+        <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
           <Img
+            format="webp"
             src="/images/tourist-spot.jpg"
             alt="background"
             layout="fill"
             sizes="(min-width: 768px) 768px, 100vw"
           />
         </div>
-        <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
+        <div class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50">
+        </div>
       </div>
       <div class="h-32 w-full bg-white md:h-40 lg:h-48"></div>
     </div>
@@ -32,16 +37,23 @@ const { pathname } = Astro.url;
       class="relative mx-auto max-w-3xl px-4 pb-80 text-center sm:px-6 sm:pb-0 lg:px-8"
     >
       <!-- Background image and overlap -->
-      <div aria-hidden="true" class="absolute inset-0 flex flex-col sm:hidden">
+      <div
+        aria-hidden="true"
+        class="absolute h-full w-full top-0 left-0 flex flex-col sm:hidden"
+      >
         <div class="relative w-full flex-1 bg-gray-800">
-          <div class="absolute inset-0 overflow-hidden">
+          <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
             <Img
+              format="webp"
               src="/images/tourist-spot.jpg"
               alt="background"
               layout="fill"
             />
           </div>
-          <div class="absolute inset-0 bg-gray-900 opacity-50"></div>
+          <div
+            class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50"
+          >
+          </div>
         </div>
         <div class="h-48 w-full bg-white"></div>
       </div>
@@ -76,11 +88,12 @@ const { pathname } = Astro.url;
                   <div>
                     <div
                       aria-hidden="true"
-                      class="absolute inset-0 overflow-hidden rounded-lg"
+                      class="absolute h-full w-full top-0 left-0 overflow-hidden rounded-lg"
                     >
-                      <div class="absolute inset-0 overflow-hidden">
+                      <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
                         <div class="h-full w-full object-cover duration-500 group-hover:scale-105">
                           <Img
+                            format="webp"
                             src={touristSpot.files[0]?.url ?? "/"}
                             alt={touristSpot.name}
                             layout="fill"
@@ -88,16 +101,16 @@ const { pathname } = Astro.url;
                           />
                         </div>
                       </div>
-                      <div class="absolute inset-0 bg-gradient-to-b from-transparent to-black opacity-50" />
+                      <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-b from-transparent to-black opacity-50" />
                     </div>
-                    <div class="absolute inset-0 flex items-end rounded-lg p-6">
+                    <div class="absolute h-full w-full top-0 left-0 flex items-end rounded-lg p-6">
                       <div>
                         <h3 class="mt-1 font-semibold text-white">
                           <a
                             href={`${pathname}/${touristSpot.slug}`}
                             class="uppercase"
                           >
-                            <span class="absolute inset-0" />
+                            <span class="absolute h-full w-full top-0 left-0" />
                             {touristSpot.name}
                           </a>
                         </h3>

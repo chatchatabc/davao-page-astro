@@ -12,8 +12,13 @@ const { pathname } = Astro.url;
 <Layout>
   <!-- Hero Section -->
   <section class="py-10 relative h-96">
-    <div class="absolute inset-0">
-      <Img src="/images/boat-rental.jpg" alt="boat rental" layout="fill" />
+    <div class="absolute h-full w-full top-0 left-0">
+      <Img
+        format="webp"
+        src="/images/boat-rental.jpg"
+        alt="boat rental"
+        layout="fill"
+      />
     </div>
   </section>
   <section class="bg-blue-100 py-10">
@@ -25,6 +30,7 @@ const { pathname } = Astro.url;
             <div class="gap-x-5 relative rounded-xl p-1 md:grid md:grid-cols-2 hover:bg-blue-50">
               <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
                 <Img
+                  format="webp"
                   src={boat.files[0]?.url ?? "/"}
                   alt={boat.name}
                   layout="fill"
@@ -61,7 +67,7 @@ const { pathname } = Astro.url;
               </div>
               <a
                 href={fixUrl(`${pathname ? `${pathname}/` : ""}${boat.slug}`)}
-                class="inset-0 absolute"
+                class="h-full w-full top-0 left-0 absolute"
               />
             </div>
           );
@@ -71,8 +77,23 @@ const { pathname } = Astro.url;
   </section>
 </Layout>
 
-<style>
-  [astro-icon] {
+<style is:global>
+  [astro-icon="mdi:people-group"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ph:ruler"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ph:toilet"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ic:sharp-speed"] {
     height: 1.5em;
     width: 1.5em;
     display: inline-block;

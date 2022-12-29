@@ -12,8 +12,9 @@ const { pathname } = Astro.url;
 <Layout>
   <!-- Hero Section -->
   <section class="py-10 relative h-96">
-    <div class="absolute inset-0">
+    <div class="absolute h-full w-full top-0 left-0">
       <Img
+        format="webp"
         src="/images/car-rental.jpg"
         alt="car rental"
         layout="fill"
@@ -31,7 +32,12 @@ const { pathname } = Astro.url;
           return (
             <div class="relative hover:bg-blue-50 rounded-xl shadow-lg bg-white">
               <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
-                <Img src={car.files[0]?.url} alt={car.name} layout="fill" />
+                <Img
+                  format="webp"
+                  src={car.files[0]?.url}
+                  alt={car.name}
+                  layout="fill"
+                />
               </div>
               <div class="relative flex flex-col px-3 pb-3">
                 <h3 class="text-3xl font-bold py-2">{car.name}</h3>
@@ -59,7 +65,7 @@ const { pathname } = Astro.url;
               </div>
               <a
                 href={fixUrl(`${pathname ? `${pathname}/` : ""}${car.slug}`)}
-                class="inset-0 absolute"
+                class="h-full w-full top-0 left-0 absolute"
               />
             </div>
           );
@@ -69,8 +75,18 @@ const { pathname } = Astro.url;
   </section>
 </Layout>
 
-<style>
-  [astro-icon] {
+<style is:global>
+  [astro-icon="mdi:car-seat"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:car-door"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:car-shift-pattern"] {
     height: 1.5em;
     width: 1.5em;
     display: inline-block;

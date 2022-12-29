@@ -11,12 +11,12 @@ const { pathname } = Astro.url;
     <div
       class="overflow-hidden relative duration-300 shadow-lg group cursor-pointer md:hover:shadow-2xl"
     >
-      <div class="absolute inset-0">
+      <div class="absolute h-full w-full top-0 left-0">
         <div class="h-full w-full duration-1000 group-hover:scale-105">
           <Img src="/images/car-rental.jpg" alt="car" layout="fill" />
         </div>
         <div
-          class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
+          class="bg-gradient-to-t from-slate-700 to-transparent absolute h-full w-full top-0 left-0"
         >
         </div>
       </div>
@@ -34,17 +34,24 @@ const { pathname } = Astro.url;
           View More
         </a>
       </div>
-      <a href={fixUrl(`${pathname}/car`)} class="absolute inset-0"></a>
+      <a
+        href={fixUrl(`${pathname}/car`)}
+        class="absolute h-full w-full top-0 left-0"></a>
     </div>
     <div
       class="overflow-hidden relative group duration-300 shadow-lg cursor-pointer md:hover:shadow-2xl"
     >
-      <div class="absolute inset-0">
+      <div class="absolute h-full w-full top-0 left-0">
         <div class="h-full w-full duration-1000 group-hover:scale-105">
-          <Img src="/images/boat-rental.jpg" alt="boat" layout="fill" />
+          <Img
+            format="webp"
+            src="/images/boat-rental.jpg"
+            alt="boat"
+            layout="fill"
+          />
         </div>
         <div
-          class="bg-gradient-to-t from-slate-700 to-transparent absolute inset-0"
+          class="bg-gradient-to-t from-slate-700 to-transparent absolute h-full w-full top-0 left-0"
         >
         </div>
       </div>
@@ -60,7 +67,9 @@ const { pathname } = Astro.url;
           >View More</a
         >
       </div>
-      <a class="absolute inset-0" href={fixUrl(`${pathname}/boat`)}></a>
+      <a
+        class="absolute h-full w-full top-0 left-0"
+        href={fixUrl(`${pathname}/boat`)}></a>
     </div>
   </section>
 </Layout>

@@ -12,14 +12,18 @@ const { title, description } = Astro.props;
   <div class="relative">
     <div class="mx-auto container sm:px-6 lg:px-8">
       <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-        <div class="absolute inset-0">
+        <div class="absolute h-full w-full top-0 left-0">
           <Img
+            format="webp"
             src="/images/background3.jpg"
             alt="People working on laptops"
             layout="fill"
             sizes="(min-width: 768px) 768px, 100vw"
           />
-          <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+          <div
+            class="absolute h-full w-full top-0 left-0 bg-gray-500 mix-blend-multiply"
+          >
+          </div>
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-10 lg:px-8">
           <h1

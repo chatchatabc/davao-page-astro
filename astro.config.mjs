@@ -16,8 +16,14 @@ export default defineConfig({
     tailwind(),
     robotsTxt({ sitemapBaseFileName: "sitemap-0" }),
     sitemap(),
-    compress(),
     astroImageTools,
+    compress({
+      exclude: [
+        (file) => {
+          if (file.includes("./dist/images/")) return file;
+        },
+      ],
+    }),
   ],
   server: {
     port: 3000,

@@ -29,8 +29,9 @@ const { restaurant } = Astro.props as Props;
             return (
               <div class="shadow-lg rounded-lg overflow-hidden">
                 <div class="aspect-w-1 aspect-h-1 relative">
-                  <div class="absolute inset-0">
+                  <div class="absolute h-full w-full top-0 left-0">
                     <Img
+                      format="webp"
                       src={product.images[0].url}
                       alt={product.images[0].url}
                       layout="fill"
@@ -74,9 +75,14 @@ const { restaurant } = Astro.props as Props;
           {restaurant.gallery.map((gallery: ObjectInterface) => {
             return (
               <div class="aspect-w-1 aspect-h-1 relative duration-500 group hover:scale-150 hover:z-10">
-                <div class="absolute inset-0 rounded-lg overflow-hidden mx-auto group-hover:w-fit">
+                <div class="absolute h-full w-full top-0 left-0 rounded-lg overflow-hidden mx-auto group-hover:w-fit">
                   <div class="w-full h-full group-hover:object-contain">
-                    <Img layout="fill" src={gallery.url} alt={gallery.url} />
+                    <Img
+                      format="webp"
+                      layout="fill"
+                      src={gallery.url}
+                      alt={gallery.url}
+                    />
                   </div>
                 </div>
               </div>
