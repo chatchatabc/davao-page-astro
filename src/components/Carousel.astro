@@ -1,5 +1,6 @@
 ---
 import type { ObjectInterface } from "../helpers/commonInterfaces";
+import { Img } from "astro-imagetools/components";
 
 interface Props {
   files: ObjectInterface[];
@@ -13,8 +14,8 @@ const { files } = Astro.props as Props;
     files.map((file: ObjectInterface, index: number) => {
       return (
         <div class="min-w-full h-full border aspect-w-3 aspect-h-2">
-          <img
-            class="w-full h-full object-cover"
+          <Img
+            layout="fill"
             src={file.url}
             alt={`carousel-${index}`}
           />

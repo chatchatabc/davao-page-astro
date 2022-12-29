@@ -34,6 +34,7 @@ const { pathname } = Astro.url;
                   src={boat.files[0]?.url ?? "/"}
                   alt={boat.name}
                   layout="fill"
+                  sizes="(min-width: 480px) 480px, 100vw"
                 />
               </div>
               <div class="relative flex flex-col">
