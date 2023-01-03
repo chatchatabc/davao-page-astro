@@ -1,20 +1,19 @@
 ---
-import Section from "../components/sections/Section.astro";
-import BreadCrumbs from "../components/widgets/BreadCrumbs.astro";
 import Layout from "./Layout.astro";
-
 const { frontmatter } = Astro.props;
 const { title, author, date } = frontmatter;
 ---
 
 <Layout>
-  <Section>
+  <section class="container mx-auto text-center">
     <!-- <BreadCrumbs /> -->
     <h1 class="text-3xl font-bold">{title}</h1>
     <div class="text-sm mb-3">
       <h5 class="text-neutral-600">Date: {date}</h5>
       <h5 class="text-neutral-600">Author: {author}</h5>
     </div>
+  </section>
+  <section class="max-w-3xl container mx-auto">
     <slot />
-  </Section>
+  </section>
 </Layout>
