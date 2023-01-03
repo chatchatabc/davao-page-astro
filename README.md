@@ -25,7 +25,7 @@ Here lies the structure of the project in which shall also be explained alongsid
 - **public**
   - **`images:`** Used to store all the images that will be used for the development of Davao Page.
   - **`logo:`** Used to store the logo of the Davao Page, so that it will be separated from the main image folder.
-  - `_headers`
+  - **`_headers:`** Used to configure custom headers for the responses of Cloudflare Pages to the user's browser.
 - **src**
 
   - **components**
