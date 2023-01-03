@@ -2,8 +2,6 @@
 
 Feel free to read the documentation if you have any problems or questions that you need to know about the project. The information here has been divided into multiple sections, in which explains all the necessary information that are needed for the project.
 
-Any static assets, like images, can be placed in the `public/` directory.
-
 # Tech Stack
 
 Here lies all the tools and libraries that are used to develop and build the Davao Page website.
