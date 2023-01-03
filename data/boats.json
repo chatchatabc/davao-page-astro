@@ -30,11 +30,6 @@
       "slug": "pontoon",
       "files": [
         {
-          "url": "/images/pontoon.avif",
-          "parent": "pontoon",
-          "order": 1000
-        },
-        {
           "url": "/images/pontoon.jpg",
           "parent": "pontoon",
           "order": 1000
