@@ -1,27 +1,21 @@
 ---
-title: Gabriela urges authorities for fair investigation of killing of businesswoman
-excerpt: With the ongoing investigation of the killing of the 38-year-old, businesswoman, Yvonne Chua, alliance group Gabriela urged authorities for a neutral investigation claiming that a brigade commander may have been allegedly involved in the incident.
-author: KRIZZY S. DAUGDAUG
-date: January 03, 2023
+title: Davao Festival (Kadayawan Festival)
+excerpt: Davao City is known as one of the most celebrated tourist destinations here in our country. Aside from its natural wonders and structures of the city, the festivals that are celebrated here are even more exhilarating and fun.
+type: Event
+author: Bria House and Lot
+date: 3rd week of August
+tags: Events, Festivals
 layout: ../../layouts/NewsLayout.astro
 ---
 
-![alt text](https://cdn4.premiumread.com/?url=https://sunstar.com.ph/uploads/images/2023/01/03/405288.png&w=1000&q=100&f=webp&t=2)
+![alt text](https://www.bria.com.ph/wp-content/uploads/2021/12/philippines-kadayawan-festival.png)
 
-With the ongoing investigation of the killing of the 38-year-old, businesswoman, Yvonne Chua, alliance group Gabriela urged authorities for a neutral investigation claiming that a brigade commander may have been allegedly involved in the incident.
+Davao City is known as one of the most celebrated tourist destinations here in our country. Aside from its natural wonders and structures of the city, the festivals that are celebrated here are even more exhilarating and fun. Every year a lot of people flock from different places to experience the ceremonies and rituals of these festivals. As a tourist, you would feel the essence of the culture of Davao festivals and at the same time understand the way of life and history of the Davaoeños.
 
-“Gabriela calls for thorough and neutral investigation into the heinous killing of Yvonne Plaza Chua, fearing that it could be whitewashed after the news on social media identified Brigade Commander General Jess Durante of Davao was involved in her murder,” Gabriela said in an emailed statement to the media.
+### Facts about Davao City
 
-Gabriella added that the family of Chua must also be protected as they have been releasing evidence of the alleged suspect of the murder.
+Davao City is located in the Philippines which is the capital of Region XI or the Southern Mindanao region. It is considered to be the fastest-growing region in the country that consists of many provinces. Aside from the fact that the Philippines experiences several typhoons every year, Davao City is one of the places here in the country that is typhoon-free. The weather and climate here are perfect even when it experiences rainfall, temperature, and humidity all year round. Another interesting fact about Davao City is the smoke-free ordinance. Unlike most of the cities in the Philippines wherein you are allowed to smoke in public, In Davao city, you will be penalized once you get caught smoking in public places. When it comes to customs and traditions they have two main tribal festivals which are the Araw ng Dabaw which is celebrated every March and the Kadayawan Festival in August.
 
-Following the death of Chua, an alleged post of her on Facebook circulated online showing photos of her injured face and body. It is here where she allegedly claimed that Durante was the cause of her injuries.
+### Kadayawan Festival
 
-Durante was former President Duterte’s close-in security and was part of the Presidential Security Group (PSG).
-
-Gabriela said they are open to all the victims of violence against women for help.
-
-“Bukas ang pinto ng Gabriela sa pamilya at mga kaibigan ni Ms. Chua kung nais nilang idulog ang kaso nito (We are open to assist the family of Ms. Chua if they want to push this case),” Gabriela Secretary General Clarice Palce said in their press release.
-
-Palce added that they are calling for justice and fairness with the special investigation task group (SITG) that was created to investigate the case.
-
-“Nakikiramay ang Gabriela sa pamilya at mga kaibigan ni Ms. Yvonne Chua. Kailangan ang mabusisi at patas na imbestigasyon sa kaso lalo na’t isang mataas na opisyal ng gobyerno ang nasasangkot (We extend our condolences to the family of Ms. Yvonne Chua. We are hoping that this case will be investigated fairly especially that a high official from the government was involved),” Palce said. KSD
+Kadayawan sa Dabaw is the biggest and grandest festival in Davao City. Aside from the fact that it is celebrated every third week of August, the festival is a week-long celebration of the Davaoeños. The word ‘’Kadayawan’’ is derived from the Mandaya word ‘’madayaw’’ which means a greeting that is usually used to explain a thing that is good, beautiful, or valuable. The Kadayawan Festival is also known as a thanksgiving of Davaoeños for nature’s bountiful harvest. The festival also offers a lot of activities and some of the most mouth-watering delicacies which you can try during the festival. One of the main attractions of the festival is the floral float festival. Aside from that, the tourists are also attracted by the dance competitions around the area, food stalls, and street performers throughout the city of Davao. Below is the list of activities during the Kadayawan Festival.

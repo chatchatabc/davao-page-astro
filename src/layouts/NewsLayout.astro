@@ -3,7 +3,7 @@ import Layout from "./Layout.astro";
 import "../styles/markdown.css";
 
 const { frontmatter } = Astro.props;
-const { title, author, date } = frontmatter;
+const { title, author, date, tags } = frontmatter;
 ---
 
 <Layout>
@@ -16,6 +16,9 @@ const { title, author, date } = frontmatter;
         </h5>
         <h5 class="text-neutral-600 font-medium">
           Author: <span class="font-normal">{author}</span>
+        </h5>
+        <h5 class="text-neutral-600 font-medium">
+          Tags: <span class="font-normal">{tags}</span>
         </h5>
       </div>
     </section>

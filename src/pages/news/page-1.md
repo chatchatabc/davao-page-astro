@@ -1,9 +1,10 @@
 ---
 title: VP Sara encourages Filipinos to be resilient, carry “sense of nationhood” in 2023
 excerpt: As the entire Philippines enters the year New Year, Vice President Sara Duterte hoped that Filipinos would continue to be resilient and carry with them the sense of nationhood and Bayanihan spirit this year.
-
+type: News
 author: Ralph Lawrence G. Llemit
 date: January 03, 2023
+tags: News
 layout: ../../layouts/NewsLayout.astro
 ---
 
