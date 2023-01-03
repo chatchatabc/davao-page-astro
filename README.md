@@ -48,15 +48,15 @@ Here lies the structure of the project in which shall also be explained alongsid
 
 - **data**
   - **`boats.json:`** Used to store data of boats for Davao Page.
-  - **`cars:`** Used to store data of cars for Davao Page.
-  - **`catalogs:`** Used to store data of catalogs for Davao Page.
-  - **`entertainments:`** Used to store data of entertainment for Davao Page.
-  - **`hotels:`** Used to store data of hotels for Davao Page.
-  - **`restaurants:`** Used to store data of restaurants for Davao Page.
-  - **`shoppings:`** Used to store data of shoppings for Davao Page.
-  - **`site_info:`** Used to store basic information of Davao Page.
-  - **`sub_catalogs:`** Used to store data of sub catalogs for Davao Page.
-  - **`tourist_spots:`** Used to store data of tourist-spots for Davao Page.
+  - **`cars.json:`** Used to store data of cars for Davao Page.
+  - **`catalogs.json:`** Used to store data of catalogs for Davao Page.
+  - **`entertainments.json:`** Used to store data of entertainment for Davao Page.
+  - **`hotels.json:`** Used to store data of hotels for Davao Page.
+  - **`restaurants.json:`** Used to store data of restaurants for Davao Page.
+  - **`shoppings.json:`** Used to store data of shoppings for Davao Page.
+  - **`site_info.json:`** Used to store basic information of Davao Page.
+  - **`sub_catalogs.json:`** Used to store data of sub catalogs for Davao Page.
+  - **`tourist_spots.json:`** Used to store data of tourist-spots for Davao Page.
 
 # Deployment
 
