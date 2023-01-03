@@ -15,9 +15,6 @@ import react from "@astrojs/react";
 // https://astro.build/config
 export default defineConfig({
   site: "https://davao.page",
-<<<<<<< HEAD
-  integrations: [astroImageTools, tailwind(), sitemap(), react(), compress()],
-=======
   integrations: [
     tailwind(),
     robotsTxt({ sitemapBaseFileName: "sitemap-0" }),
@@ -31,7 +28,6 @@ export default defineConfig({
       ],
     }),
   ],
->>>>>>> ready-for-review
   server: {
     port: 3000,
     host: false,
