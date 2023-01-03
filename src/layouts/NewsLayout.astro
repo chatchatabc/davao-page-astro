@@ -8,9 +8,9 @@ const { title, author, date, tags } = frontmatter;
 
 <Layout>
   <div class="max-w-[768px] mx-auto">
-    <section class="border-b mb-4">
+    <section class="border-b px-2">
       <h1 class="text-3xl font-bold">{title}</h1>
-      <div class="text-sm mb-3 flex flex-wrap gap-4">
+      <div class="text-sm flex mb-3 flex-wrap gap-x-4">
         <h5 class="text-neutral-600 font-medium">
           Date: <span class="font-normal">{date}</span>
         </h5>
@@ -23,7 +23,7 @@ const { title, author, date, tags } = frontmatter;
       </div>
     </section>
 
-    <section class="markdown-body">
+    <section class="markdown-body p-2">
       <slot />
     </section>
   </div>
