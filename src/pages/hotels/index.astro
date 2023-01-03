@@ -1,0 +1,144 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import dataHotels from "../../../data/hotels.json";
+import PoiCard from "../../components/PoiCard.astro";
+import { Img } from "astro-imagetools/components";
+
+const hotels = [...dataHotels.data];
+const { pathname } = Astro.url;
+---
+
+<Layout title={"Hotels"}>
+  <!-- Hero section -->
+  <section class="relative">
+    <!-- Background image and overlap -->
+    <div
+      aria-hidden="true"
+      class="absolute h-full w-full top-0 left-0 hidden sm:flex sm:flex-col"
+    >
+      <div class="relative w-full flex-1 bg-gray-800">
+        <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+          <Img
+            format="webp"
+            src="/images/hotels.jpg"
+            alt="background"
+            layout="fill"
+            sizes="(min-width: 768px) 768px, 100vw"
+          />
+        </div>
+        <div class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50">
+        </div>
+      </div>
+      <div class="h-32 w-full bg-white md:h-40 lg:h-48"></div>
+    </div>
+
+    <!-- Mobile View -->
+    <div
+      class="relative mx-auto max-w-3xl px-4 pb-80 text-center sm:px-6 sm:pb-0 lg:px-8"
+    >
+      <!-- Background image and overlap -->
+      <div
+        aria-hidden="true"
+        class="absolute h-full w-full top-0 left-0 flex flex-col sm:hidden"
+      >
+        <div class="relative w-full flex-1 bg-gray-800">
+          <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+            <Img
+              format="webp"
+              src="/images/hotels.jpg"
+              alt="background"
+              layout="fill"
+            />
+          </div>
+          <div
+            class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50"
+          >
+          </div>
+        </div>
+        <div class="h-48 w-full bg-white"></div>
+      </div>
+      <div class="relative py-14 md:py-32">
+        <h1
+          class="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
+        >
+          Hotels in Davao
+        </h1>
+        <p class="hidden mt-4 text-xl text-gray-200 md:block">
+          Here, you can enjoy and relax in comfort while having fun with family
+          and friends. With a lot of selection, you can find a hotel that will
+          satisfy your budget and make your stay more enjoyable.
+        </p>
+      </div>
+    </div>
+
+    <!-- Overlapped Cards -->
+    <section
+      aria-labelledby="collection-heading"
+      class="relative -mt-80 md:-mt-16"
+    >
+      <h2 id="collection-heading" class="sr-only">Collections</h2>
+      <div class="overflow-x-auto">
+        <div
+          class="flex container mx-auto gap-2 px-5 justify-center min-w-min lg:gap-8 lg:min-w-0"
+        >
+          {
+            hotels.splice(0, 3).map((hotel) => {
+              return (
+                <div class="group relative h-48 w-[80vw] overflow-hidden md:h-96">
+                  <div>
+                    <div
+                      aria-hidden="true"
+                      class="absolute h-full w-full top-0 left-0 overflow-hidden rounded-lg"
+                    >
+                      <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+                        <div class="h-full w-full object-cover duration-500 group-hover:scale-105">
+                          <Img
+                            format="webp"
+                            src={hotel.files[0]?.url ?? "/"}
+                            alt={hotel.name}
+                            layout="fill"
+                            sizes="(min-width: 768px) 480px, 100vw"
+                          />
+                        </div>
+                      </div>
+                      <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-b from-transparent to-black opacity-50" />
+                    </div>
+                    <div class="absolute h-full w-full top-0 left-0 flex items-end rounded-lg p-6">
+                      <div>
+                        <h3 class="mt-1 font-semibold text-white">
+                          <a
+                            href={`${pathname}/${hotel.slug}`}
+                            class="uppercase"
+                          >
+                            <span class="absolute h-full w-full top-0 left-0" />
+                            {hotel.name}
+                          </a>
+                        </h3>
+                        <p class="hidden text-sm text-white max-h-10 overflow-hidden md:block">
+                          {hotel.details}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+          }
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section>
+    <div class="container mx-auto px-2">
+      <h2 class="text-2xl font-bold pb-4 pt-8">Discover more</h2>
+      <div class="grid gap-2 md:grid-cols-3 lg:gap-8">
+        {
+          hotels.map((hotel) => {
+            return <PoiCard data={hotel} pathname={pathname} />;
+          })
+        }
+      </div>
+    </div>
+  </section>
+</Layout>

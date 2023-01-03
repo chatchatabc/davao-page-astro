@@ -5,7 +5,7 @@
       "catalog": "entertainment",
       "sub_catalog": "bar",
       "slug": "club-echelon",
-      "details": "Details Details Details Details Details Details",
+      "details": "It's a nightclub that opens at night, so you can dance up a storm with your friends until the sun comes up. There will be lots of good music playing, and you'll be able to dance all night long without having to worry about waking up in the morning with a pounding headache. You'll have a great time!",
       "order": 1000,
       "address": "6th Floor The Peak gaisano mall, Davao City, 8000",
       "phone": "0960 605 6046",
@@ -20,36 +20,45 @@
       ],
       "files": [
         {
-          "url": "/images/club echelon.jpg",
+          "url": "/images/club-echelon.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/club echelon gallery.jpg",
+          "url": "/images/club-echelon-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/club echelon gallery1.jpg",
+          "url": "/images/club-echelon-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/club echelon gallery2.jpg",
+          "url": "/images/club-echelon-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/club echelon gallery3.jpg",
+          "url": "/images/club-echelon-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "It got everything you could ever want. It got drinks you can buy, so you can totally enjoy your night. The music they play are good too!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "the grid alley bar",
       "catalog": "entertainment",
       "sub_catalog": "bar",
       "slug": "the-grid-alley-bar",
-      "details": "Details Details Details Details Details Details",
+      "details": "You can come in and enjoy the music and atmosphere before the sun goes down. The club has a great atmosphere and is very fun to be at!",
       "order": 1000,
       "address": "3JJ7+M6H, Teodoro Palma Gil St, Bo. Obrero, Davao City, 8000 Davao del Sur",
       "phone": "0969 017 6081",
@@ -64,36 +73,45 @@
       ],
       "files": [
         {
-          "url": "/images/the grid at alley bar.jpg",
+          "url": "/images/the-grid-at-alley-bar.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/the grid at alley bar gallery.jpg",
+          "url": "/images/the-grid-at-alley-bar-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/the grid at alley bar gallery1.jpg",
+          "url": "/images/the-grid-at-alley-bar-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/the grid at alley bar gallery2.jpg",
+          "url": "/images/the-grid-at-alley-bar-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/the grid at alley bar gallery3.jpg",
+          "url": "/images/the-grid-at-alley-bar-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I have been to this bar a couple of times now and it is one of my favorite places to go. The drinks are great, the music is always good, and the staff is always polite. The only downside is that sometimes it can be hard to find parking, but otherwise I highly recommend this place!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "potions bar & lounge",
       "catalog": "entertainment",
       "sub_catalog": "bar",
       "slug": "potions-bar-and-lounge",
-      "details": "Details Details Details Details Details Details",
+      "details": "Opened at night, this club is always buzzing with excitement and energy. The music is incredible, the drinks are strong, and the atmosphere is one of friendly community. You'll feel right at home when you visit Potions Bar and Lounge!",
       "order": 1000,
       "address": "Plaza de Bole, F. Torres St., Davao City, Philippines",
       "phone": "0908 898 4855",
@@ -108,39 +126,48 @@
       ],
       "files": [
         {
-          "url": "/images/potions bar and lounge.jpg",
+          "url": "/images/potions-bar-and-lounge.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/potions bar and lounge gallery.jpg",
+          "url": "/images/potions-bar-and-lounge-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/potions bar and lounge gallery1.jpg",
+          "url": "/images/potions-bar-and-lounge-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/potions bar and lounge gallery2.jpg",
+          "url": "/images/potions-bar-and-lounge-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/potions bar and lounge gallery3.jpg",
+          "url": "/images/potions-bar-and-lounge-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I really enjoyed my time at the bar. It was a great place to go and have a drink with friends. The music they played was really good and I had a lot of fun dancing to it.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Bar"
+      ]
     },
     {
       "name": "rancho palos verdes golf & country club",
       "catalog": "entertainment",
       "sub_catalog": "golf",
       "slug": "rancho-palos-verdes-golf-and-country-club",
-      "details": "Details Details Details Details Details Details",
+      "details": "Rancho Palos Verdes Golf and Country Club is a beautiful, upscale golf course with a variety of options for play. The grass is always green, the weather is always comfortable, and the environment is clean and inviting.",
       "order": 1000,
       "address": "5H8P+H63, Barangay Mandug, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 301 2101",
+      "phone": "082 301 2101",
       "email": "",
       "business_hours": "",
       "links": [
@@ -152,36 +179,45 @@
       ],
       "files": [
         {
-          "url": "/images/rancho palos verdes golf and country club.webp",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club.webp",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/rancho palos verdes golf and country club gallery.jpg",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/rancho palos verdes golf and country club gallery1.jpg",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/rancho palos verdes golf and country club gallery2.jpg",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/rancho palos verdes golf and country club gallery3.jpg",
+          "url": "/images/rancho-palos-verdes-golf-and-country-club-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I have been to the golf club a couple times. The place is great. They have a lot of areas to play, and the grass are clean and green. The weather is good. It's also affordable.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "apo golf & country club",
       "catalog": "entertainment",
       "sub_catalog": "golf",
       "slug": "apo-golf-and-country-club",
-      "details": "Details Details Details Details Details Details",
+      "details": "The grass is lush and green, the terrain is level and forgiving, and there are plenty of bunkers to keep players on their toes. All in all, it's one of the best courses around\u2014so if you're looking for a place to get your game on without getting bogged down by traffic or bad weather, this may be just what you're looking for!",
       "order": 1000,
       "address": "3G3H+7RF, Talomo, Davao City, Davao del Sur",
       "phone": "0963 093 1546",
@@ -196,36 +232,45 @@
       ],
       "files": [
         {
-          "url": "/images/apo golf and country club.jpg",
+          "url": "/images/apo-golf-and-country-club.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/apo golf and country club gallery.jpg",
+          "url": "/images/apo-golf-and-country-club-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/apo golf and country club gallery1.jpg",
+          "url": "/images/apo-golf-and-country-club-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/apo golf and country club gallery2.jpg",
+          "url": "/images/apo-golf-and-country-club-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/apo golf and country club gallery3.jpg",
+          "url": "/images/apo-golf-and-country-club-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "There's so much to do here, and it's all right at your fingertips. There are four different areas where you can play golf: a range with targets, a practice area, a driving range, and a par 3 course.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "south pacific golf and country club",
       "catalog": "entertainment",
       "sub_catalog": "golf",
       "slug": "south-pacific-golf-and-country-club",
-      "details": "Details Details Details Details Details Details",
+      "details": "South Pacific Golf and Country Club is a golf course in Davao City, Philippines. It has everything you could want from a golf course\u2014a nice, clean environment, great weather, and great grass. It can be difficult to get to, but once you get there, it's worth the trip!",
       "order": 1000,
       "address": "3G77+VQG, Tugbok, Davao City, Davao del Sur",
       "phone": "0905 409 9023",
@@ -240,39 +285,48 @@
       ],
       "files": [
         {
-          "url": "/images/south pacific golf and country club.jpg",
+          "url": "/images/south-pacific-golf-and-country-club.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/south pacific golf and country club gallery.jpg",
+          "url": "/images/south-pacific-golf-and-country-club-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/south pacific golf and country club gallery1.jpg",
+          "url": "/images/south-pacific-golf-and-country-club-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/south pacific golf and country club gallery2.jpg",
+          "url": "/images/south-pacific-golf-and-country-club-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/south pacific golf and country club gallery3.jpg",
+          "url": "/images/south-pacific-golf-and-country-club-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "There are so many areas to play, and the grass is always clean and green! The weather is always good as well. And it's affordable!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Golf"
+      ]
     },
     {
       "name": "thai boran",
       "catalog": "entertainment",
       "sub_catalog": "massage",
       "slug": "thai-boran",
-      "details": "Details Details Details Details Details Details",
+      "details": "The Thai Boran massage is a relaxing treatment. It has great rooms and a tranquil environment to enjoy. The music is also enjoyable and clean. It is located in Davao City and will leave you feeling refreshed and relaxed after your treatment.",
       "order": 1000,
       "address": "Door No: 1, Tropicana Building, KM.7 J.P. Laurel Ave, Lanang, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 224 5520",
+      "phone": "082 224 5520",
       "email": "",
       "business_hours": "",
       "links": [
@@ -284,39 +338,49 @@
       ],
       "files": [
         {
-          "url": "/images/thai boran.png",
+          "url": "/images/thai-boran.png",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/thai boran gallery.png",
+          "url": "/images/thai-boran-gallery.png",
           "order": 1000
         },
         {
-          "url": "/images/thai boran gallery.jpg",
+          "url": "/images/thai-boran-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/thai boran gallery1.jpg",
+          "url": "/images/thai-boran-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/thai boran gallery2.jpg",
+          "url": "/images/thai-boran-gallery2.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I had a great massage at Thai Boran in Davao City, Philippines. It was very relaxing, and they have some nice rooms to relax in. They also have great music playing in the background so you can enjoy your massage while listening to it! The environment was very peaceful and quiet while I was there.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Massage",
+        "Thai"
+      ]
     },
     {
       "name": "heavens nest spa",
       "catalog": "entertainment",
       "sub_catalog": "massage",
       "slug": "heavens-nest-spa",
-      "details": "Details Details Details Details Details Details",
+      "details": "Whether you are visiting Davao for business or pleasure, our spa will help you relax and unwind. We offer a wide range of services that will enhance your experience. Our tranquil environment is designed to provide you with the ultimate relaxation experience.",
       "order": 1000,
       "address": "3JP6+R3M, J.P. Laurel Ave, Barangay 9-A, Bajada, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 235 0728",
+      "phone": "082 235 0728",
       "email": "",
       "business_hours": "",
       "links": [
@@ -328,39 +392,49 @@
       ],
       "files": [
         {
-          "url": "/images/heavens nest spa.jpg",
+          "url": "/images/heavens-nest-spa.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/heavens nest spa gallery.jpg",
+          "url": "/images/heavens-nest-spa-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/heavens nest spa gallery1.jpg",
+          "url": "/images/heavens-nest-spa-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/heavens nest spa gallery2.jpg",
+          "url": "/images/heavens-nest-spa-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/heavens nest spa gallery3.jpg",
+          "url": "/images/heavens-nest-spa-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I went to the spa to relax and have a massage. I really enjoyed my time there because they had good services. The place was very clean and the staff were friendly.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Spa",
+        "Massage"
+      ]
     },
     {
       "name": "opal jhane thai massage spa",
       "catalog": "entertainment",
       "sub_catalog": "massage",
       "slug": "opal-jhane-thai-massage-spa",
-      "details": "Details Details Details Details Details Details",
+      "details": "We use only the finest ingredients from around the world in our treatments, including coconut oil and shea butter. Our therapists are highly trained and experienced, so you can expect nothing less than top-notch service from them.",
       "order": 1000,
       "address": "3JP6+R3M, J.P. Laurel Ave, Barangay 9-A, Bajada, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 321 1975",
+      "phone": "082 321 1975",
       "email": "",
       "business_hours": "",
       "links": [
@@ -372,39 +446,49 @@
       ],
       "files": [
         {
-          "url": "/images/opal jhane thai massage spa.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/opal jhane thai massage spa gallery.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/opal jhane thai massage spa gallery1.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/opal jhane thai massage spa gallery2.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/opal jhane thai massage spa gallery3.jpg",
+          "url": "/images/opal-jhane-thai-massage-spa-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "The place made me feel relaxed and comfortable during my time over there. The prices are also affordable so it's a good deal for you to try out this spa!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Thai",
+        "Massage"
+      ]
     },
     {
       "name": "red dot sports house",
       "catalog": "entertainment",
       "sub_catalog": "shooting",
       "slug": "red-dot-sports-house",
-      "details": "Details Details Details Details Details Details",
+      "details": "Red Dot Sports House is a shooting range that offers equipment and training for the hobby and sport of firearms. They have a variety of guns to choose, including handguns, rifles and shotguns. Their packages are affordable and include ammunition. They are secure and safe, with no outside interference allowed. They also have a lot of shooting courses to choose from.",
       "order": 1000,
       "address": "Amsons Building, Lapu-Lapu St, Agdao, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 222 7810",
+      "phone": "082 222 7810",
       "email": "",
       "business_hours": "",
       "links": [
@@ -416,39 +500,48 @@
       ],
       "files": [
         {
-          "url": "/images/red dot sports house.jpg",
+          "url": "/images/red-dot-sports-house.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/red dot sports house gallery.jpg",
+          "url": "/images/red-dot-sports-house-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/red dot sports house gallery1.jpg",
+          "url": "/images/red-dot-sports-house-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/red dot sports house gallery2.jpg",
+          "url": "/images/red-dot-sports-house-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/red dot sports house gallery3.jpg",
+          "url": "/images/red-dot-sports-house-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "It's safe, clean, and has a lot of different guns to choose from. The employees are nice and helpful, and they're always willing to answer any questions you might have.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Shooting"
+      ]
     },
     {
       "name": "armscor shooting center inc., davao",
       "catalog": "entertainment",
       "sub_catalog": "shooting",
       "slug": "armscor-shooting-center",
-      "details": "Details Details Details Details Details Details",
+      "details": "Armscor Shooting Center Inc., Davao is the premier shooting range in Davao City. It has a lot of guns to choose from, and it provides affordable packages for you and your friends to enjoy. It is clean, safe, and secure. You can even go on any of the shooting courses that are offered by Armscor Shooting Center Inc., Davao.",
       "order": 1000,
       "address": "4JHP+FV3, C. P. Garcia Hwy, Buhangin, Davao City, Davao del Sur",
-      "phone": "(082) 287 5577",
+      "phone": "082 287 5577",
       "email": "",
       "business_hours": "",
       "links": [
@@ -460,36 +553,45 @@
       ],
       "files": [
         {
-          "url": "/images/armscor shooting center.jpg",
+          "url": "/images/armscor-shooting-center.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/armscor shooting center gallery.jpg",
+          "url": "/images/armscor-shooting-center-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/armscor shooting center gallery1.jpg",
+          "url": "/images/armscor-shooting-center-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/armscor shooting center gallery2.jpg",
+          "url": "/images/armscor-shooting-center-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/armscor shooting center gallery3.jpg",
+          "url": "/images/armscor-shooting-center-gallery3.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I went to a shooting range for the first time. It was a great experience! The staff were very welcoming and helpful, and they had a lot of different guns to choose from. I really enjoyed shooting all of the different types of guns\u2014it was fun and exciting!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Shooting"
+      ]
     },
     {
       "name": "target alpha shooting range",
       "catalog": "entertainment",
       "sub_catalog": "shooting",
       "slug": "target-alpha-shooting-range",
-      "details": "Details Details Details Details Details Details",
+      "details": "At Target Alpha Shooting Range, we offer affordable packages that will fit your budget and lifestyle. Whether you're an experienced shooter or a beginner, we have a package for you. You can choose from our wide range of guns or try out our shooting course. You can also bring your own gun and use it at our shooting range.",
       "order": 1000,
       "address": "Lower Mudiang, Purok 5, Bunawan, Davao City, 8000 Davao del Sur",
       "phone": "372 5660 4724",
@@ -504,29 +606,38 @@
       ],
       "files": [
         {
-          "url": "/images/target alpha shooting range.jpg",
+          "url": "/images/target-alpha-shooting-range.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/target alpha shooting range gallery.jpg",
+          "url": "/images/target-alpha-shooting-range-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/target alpha shooting range.jpg",
+          "url": "/images/target-alpha-shooting-range.jpg",
           "order": 1000
         },
         {
-          "url": "/images/target alpha shooting range gallery.jpg",
+          "url": "/images/target-alpha-shooting-range-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/target alpha shooting range gallery.jpg",
+          "url": "/images/target-alpha-shooting-range-gallery.jpg",
           "order": 1000
         }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "The employees are all very nice, which is probably why they have such good service. They have a safe environment so that you don't feel unsafe while you're there, and it's not just like any old place where you can just go shoot someplace random.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Shooting"
+      ]
     }
   ]
 }

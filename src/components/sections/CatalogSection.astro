@@ -13,17 +13,22 @@ const catalogs = getItemFiles(data_catalogs.data);
 ---
 
 <section class="bg-white">
-  <h2 class="text-5xl pt-10 pb-5 text-center font-bold tracking-wider">
-    Catalogs
-  </h2>
-  <ul
-    role="list"
-    class="grid grid-cols-1 gap-6 sm:grid-cols-2 md:grid-cols-3 container mx-auto"
-  >
-    {
-      catalogs.map((catalog) => {
-        return <PoiCard data={catalog} />;
-      })
-    }
-  </ul>
+  <div class="px-2 lg:px-10">
+    <h2 class="text-5xl pt-10 pb-5 text-center font-bold tracking-wider">
+      Catalogs
+    </h2>
+    <ul
+      class="grid grid-cols-1 gap-6 container mx-auto sm:grid-cols-2 md:grid-cols-3"
+    >
+      {
+        catalogs.map((catalog) => {
+          return (
+            <li>
+              <PoiCard data={catalog} />
+            </li>
+          );
+        })
+      }
+    </ul>
+  </div>
 </section>

@@ -1,0 +1,179 @@
+---
+import dataCars from "../../../../../data/cars.json";
+import type { ObjectInterface } from "../../../../helpers/commonInterfaces";
+import { Icon } from "astro-icon";
+import Layout from "../../../../layouts/Layout.astro";
+import Carousel from "../../../../components/Carousel.astro";
+
+export function getStaticPaths() {
+  return dataCars.data.map((car) => {
+    return {
+      params: { car: car.slug },
+      props: { car },
+    };
+  });
+}
+interface Props {
+  car: ObjectInterface;
+}
+
+const { car } = Astro.props as Props;
+const { files } = car;
+---
+
+<Layout title={car.name}>
+  <!-- Introduction -->
+  <section class="pb-10">
+    <div class="container mx-auto grid md:grid-cols-2 gap-5">
+      <!-- Gallery -->
+      <Carousel files={files} />
+
+      <!-- Right Side -->
+      <div class="flex flex-col px-2">
+        <h3 class="text-2xl font-bold">{car.name}</h3>
+        <p>
+          {car.details}
+        </p>
+
+        <!-- Boat Package -->
+        <h3 class="text-xl py-1 font-semibold mt-auto">
+          {car.name} Price Package
+        </h3>
+        <div class="overflow-hidden rounded-lg border">
+          <table class="min-w-full divide-y divide-gray-300">
+            <thead class="bg-gray-50">
+              <tr class="divide-x divide-gray-200">
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[0].totalTime}
+                  {car.pricePackages[0].time}
+                </th>
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[1].totalTime}
+                  {car.pricePackages[1].time}
+                </th>
+                <th
+                  class="py-3.5 pl-4 pr-4 text-left text-sm font-semibold text-gray-900 sm:pl-6"
+                >
+                  {car.pricePackages[2].totalTime}
+                  {car.pricePackages[2].time}
+                </th>
+              </tr>
+            </thead>
+            <tbody class="divide-y divide-gray-200 bg-white">
+              <tr class="divide-x divide-gray-200">
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[0].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[1].price)
+                  }
+                </td>
+                <td class="whitespace-nowrap p-4 text-sm">
+                  {
+                    Intl.NumberFormat("en-PH", {
+                      style: "currency",
+                      currency: "PHP",
+                    }).format(car.pricePackages[2].price)
+                  }
+                </td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+
+        <div class="p-2 flex items-center">
+          <div class="flex-1">
+            <p class="text-sm font-bold text-neutral-600">Estimated Price:</p>
+            <p class="font-extralight">
+              <span class="text-xl font-bold">
+                {
+                  Intl.NumberFormat("en-PH", {
+                    style: "currency",
+                    currency: "PHP",
+                  }).format(car.price.price)
+                }
+              </span> / {car.price.time}
+            </p>
+          </div>
+          <a
+            href={`tel:${car.phone}`}
+            class="hidden p-2 px-5 bg-blue-500 rounded-md text-white"
+          >
+            Inquire Now
+          </a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Features -->
+  <section class="pb-8">
+    <div
+      class="container flex justify-around mx-auto flex-wrap px-2 md:flex-nowrap"
+    >
+      <div class="flex w-full justify-center gap-10">
+        <div class="w-full md:max-w-[200px]">
+          <h3 class="text-xl w-max font-bold">Need a Driver?</h3>
+          <h4>Additional ₱{car.driver}</h4>
+          <p class="text-xs text-gray-600 leading-4">*Optional*</p>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:card-account-details-outline" />
+        </div>
+      </div>
+      <div class="flex w-full justify-center gap-10">
+        <div class="w-full md:max-w-[200px] capitalize">
+          <h3 class="text-xl w-max font-bold">Basic Information</h3>
+          <h4>
+            {car.doors} doors, {car.seats} seats
+          </h4>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:car-info" />
+        </div>
+      </div>
+      <div class="flex w-full justify-center gap-10 capitalize">
+        <div class="w-full md:max-w-[200px]">
+          <h3 class="text-xl w-max font-bold capitalize">{car.type}</h3>
+          <h4><b>{car.transmission}</b> transmission</h4>
+        </div>
+        <div class="self-center">
+          <Icon name="mdi:car-cog" />
+        </div>
+      </div>
+    </div>
+  </section>
+</Layout>
+<style is:global>
+  [astro-icon="mdi:car-cog"] {
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:car-info"] {
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:card-account-details-outline"] {
+    height: 3em;
+    width: 3em;
+    display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
+  }
+</style>

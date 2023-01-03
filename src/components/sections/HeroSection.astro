@@ -1,4 +1,5 @@
 ---
+import { Img } from "astro-imagetools/components";
 export interface Props {
   title?: string;
   description?: string;
@@ -9,30 +10,34 @@ const { title, description } = Astro.props;
 <section class="bg-white">
   <!-- Hero card -->
   <div class="relative">
-    <div class="mx-auto max-w-7xl sm:px-6 lg:px-8">
+    <div class="mx-auto container sm:px-6 lg:px-8">
       <div class="relative shadow-xl sm:overflow-hidden sm:rounded-2xl">
-        <div class="absolute inset-0">
-          <img
-            class="h-full w-full object-cover"
+        <div class="absolute h-full w-full top-0 left-0">
+          <Img
+            format="webp"
             src="/images/background3.jpg"
             alt="People working on laptops"
+            layout="fill"
+            sizes="(min-width: 768px) 768px, 100vw"
           />
-          <div class="absolute inset-0 bg-gray-500 mix-blend-multiply"></div>
+          <div
+            class="absolute h-full w-full top-0 left-0 bg-gray-500 mix-blend-multiply"
+          >
+          </div>
         </div>
         <div class="relative px-4 py-16 sm:px-6 sm:py-24 lg:py-10 lg:px-8">
           <h1
-            class="text-center text-4xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
+            class="text-center text-3xl font-bold tracking-tight sm:text-5xl lg:text-6xl"
           >
             <span class="block text-white">Welcome to Davao,</span>
             <span class="block text-indigo-200">Explore and Enjoy!</span>
           </h1>
           <p
-            class="mx-auto mt-6 max-w-lg text-center text-xl text-indigo-200 sm:max-w-3xl"
+            class="mx-auto mt-6 max-w-lg text-center text-indigo-200 sm:max-w-3xl md:text-xl"
           >
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident
-            aspernatur voluptate temporibus impedit veniam corrupti, minus quis
-            iure quibusdam officiis dolor praesentium, inventore eaque rem odio
-            optio, fuga enim dignissimos.
+            Enjoy a wide range of leisure activities such as shopping malls,
+            restaurants, hotels, parks and recreational areas suitable for both
+            locals and tourists alike.
           </p>
           <div
             class="mx-auto mt-10 max-w-sm sm:flex sm:max-w-none sm:justify-center"

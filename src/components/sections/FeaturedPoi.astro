@@ -1,5 +1,6 @@
 ---
 import type { ObjectInterface } from "../../helpers/commonInterfaces";
+import { Img } from "astro-imagetools/components";
 import PoiCard from "../PoiCard.astro";
 
 interface Props {
@@ -15,14 +16,16 @@ const { pathname } = Astro.url;
 <section id={slug} class="bg-white">
   <!-- Header -->
   <div class="relative bg-gray-800 pb-16">
-    <div class="absolute inset-0">
-      <img
-        class="h-full w-full object-cover"
+    <div class="absolute h-full w-full top-0 left-0">
+      <Img
+        format="webp"
         src={files[0]?.url ?? "/"}
         alt="background"
+        layout="fill"
+        sizes="(min-width: 768px) 768px, 100vw"
       />
       <div
-        class="absolute inset-0 bg-gray-800 mix-blend-multiply opacity-50"
+        class="absolute h-full w-full top-0 left-0 bg-gray-800 mix-blend-multiply opacity-50"
         aria-hidden="true"
       >
       </div>
@@ -40,8 +43,10 @@ const { pathname } = Astro.url;
     class="relative z-10 mx-auto -mt-10 max-w-7xl px-4 pb-32 sm:px-6 lg:px-8"
     aria-labelledby="contact-heading"
   >
-    <h2 class="sr-only" id="contact-heading">{name}</h2>
-    <div class="grid grid-cols-1 gap-y-20 lg:grid-cols-3 lg:gap-y-0 lg:gap-x-8">
+    <h2 class="sr-only" id={`${name}-heading`}>{name}</h2>
+    <div
+      class="grid grid-cols-1 gap-y-5 gap-x-2 md:grid-cols-3 lg:gap-y-0 lg:gap-x-8"
+    >
       {
         places.length ? (
           places.splice(0, 3).map((place: ObjectInterface) => {
@@ -52,7 +57,7 @@ const { pathname } = Astro.url;
             <div class="relative flex-1 px-6 pt-16 pb-8 md:px-8 overflow-hidden">
               <img
                 src={"/"}
-                class="absolute inset-0 object-cover w-full h-full"
+                class="absolute top-0 left-0 object-cover w-full h-full"
                 alt={`No place`}
               />
             </div>

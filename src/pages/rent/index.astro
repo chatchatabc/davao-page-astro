@@ -1,0 +1,75 @@
+---
+import { fixUrl } from "../../helpers/commonUtils";
+import Layout from "../../layouts/Layout.astro";
+import { Img } from "astro-imagetools/components";
+
+const { pathname } = Astro.url;
+---
+
+<Layout title={"Car and Boat Rental"}>
+  <section class="grid lg:grid-cols-2 min-h-[70vh]">
+    <div
+      class="overflow-hidden relative duration-300 shadow-lg group cursor-pointer md:hover:shadow-2xl"
+    >
+      <div class="absolute h-full w-full top-0 left-0">
+        <div class="h-full w-full duration-1000 group-hover:scale-105">
+          <Img src="/images/car-rental.jpg" alt="car" layout="fill" />
+        </div>
+        <div
+          class="bg-gradient-to-t from-slate-700 to-transparent absolute h-full w-full top-0 left-0"
+        >
+        </div>
+      </div>
+      <div class="relative px-4 pt-52 pb-10 text-white">
+        <h3 class="text-5xl font-bold">Car Rental Davao</h3>
+        <p class="pb-6">
+          We have a wide range of vehicles for rent. Whether you're traveling
+          for business or pleasure, we can help you find the perfect car for
+          your trip.
+        </p>
+        <a
+          href={fixUrl(`${pathname}/car`)}
+          class="ring-2 p-2 block w-fit duration-300 rounded-sm relative z-10 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500"
+        >
+          View More
+        </a>
+      </div>
+      <a
+        href={fixUrl(`${pathname}/car`)}
+        class="absolute h-full w-full top-0 left-0"></a>
+    </div>
+    <div
+      class="overflow-hidden relative group duration-300 shadow-lg cursor-pointer md:hover:shadow-2xl"
+    >
+      <div class="absolute h-full w-full top-0 left-0">
+        <div class="h-full w-full duration-1000 group-hover:scale-105">
+          <Img
+            format="webp"
+            src="/images/boat-rental.jpg"
+            alt="boat"
+            layout="fill"
+          />
+        </div>
+        <div
+          class="bg-gradient-to-t from-slate-700 to-transparent absolute h-full w-full top-0 left-0"
+        >
+        </div>
+      </div>
+      <div class="relative px-4 pt-52 pb-10 text-white">
+        <h3 class="text-5xl font-bold">Boat Rental Davao</h3>
+        <p class="pb-6">
+          Whether you want to rent a boat for an hour or for weeks at a time, we
+          can help you find the right one for your needs and budget.
+        </p>
+        <a
+          href={fixUrl(`${pathname}/boat`)}
+          class="relative ring-2 p-2 block w-fit duration-300 rounded-sm z-10 md:group-hover:px-10 md:group-hover:ring-4 md:hover:ring-blue-500"
+          >View More</a
+        >
+      </div>
+      <a
+        class="absolute h-full w-full top-0 left-0"
+        href={fixUrl(`${pathname}/boat`)}></a>
+    </div>
+  </section>
+</Layout>

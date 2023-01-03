@@ -1,0 +1,97 @@
+---
+import dataRestaurants from "../../../../data/restaurants.json";
+import type { ObjectInterface } from "../../../helpers/commonInterfaces";
+import PoiDetailsLayout from "../../../layouts/PoiDetailsLayout.astro";
+import { Img } from "astro-imagetools/components";
+
+export function getStaticPaths() {
+  return dataRestaurants.data.map((restaurant) => {
+    return {
+      params: { restaurant: restaurant.slug },
+      props: { restaurant },
+    };
+  });
+}
+interface Props {
+  restaurant: ObjectInterface;
+}
+
+const { restaurant } = Astro.props as Props;
+---
+
+<PoiDetailsLayout place={restaurant}>
+  {
+    restaurant.products.length > 1 ? (
+      <section class="px-2">
+        <h2 class="text-2xl font-bold pt-5">Featured Foods</h2>
+        <div class="py-2 grid gap-2 grid-cols-2 md:grid-cols-4">
+          {restaurant.products.map((product: ObjectInterface) => {
+            return (
+              <div class="shadow-lg rounded-lg overflow-hidden">
+                <div class="aspect-w-1 aspect-h-1 relative">
+                  <div class="absolute h-full w-full top-0 left-0">
+                    <Img
+                      format="webp"
+                      src={product.images[0].url}
+                      alt={product.images[0].url}
+                      layout="fill"
+                      sizes="(min-width: 480px) 480px, 100vw"
+                    />
+                  </div>
+                </div>
+                <div class="p-2">
+                  <h4 class="text-lg leading-5 font-medium">{product.name}</h4>
+                  <div class="text-sm text-gray-500">
+                    {product.description.length ? (
+                      <p>
+                        Food type:{" "}
+                        <span class="font-medium">{product.description}</span>
+                      </p>
+                    ) : null}
+                    <p>
+                      Price:{" "}
+                      <span class="font-medium">
+                        {product.price.length
+                          ? Intl.NumberFormat("en-PH", {
+                              style: "currency",
+                              currency: "PHP",
+                            }).format(product.price)
+                          : "₱₱"}
+                      </span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    ) : null
+  }
+  {
+    restaurant.gallery.length > 1 ? (
+      <section class="px-2">
+        <h2 class="text-2xl font-bold pt-5">More Photos</h2>
+        <div class="py-2 grid grid-cols-2 gap-4 md:grid-cols-4">
+          {restaurant.gallery.map((gallery: ObjectInterface) => {
+            return (
+              <div class="aspect-w-1 aspect-h-1 relative duration-500 group hover:scale-150 hover:z-10">
+                <div class="absolute h-full w-full top-0 left-0 rounded-lg overflow-hidden mx-auto group-hover:w-fit">
+                  <div class="w-full h-full group-hover:object-contain">
+                    <Img
+                      format="webp"
+                      layout="fill"
+                      src={gallery.url}
+                      alt={gallery.url}
+                      sizes="(min-width: 480px) 480px, 100vw"
+                    />
+                  </div>
+                </div>
+              </div>
+            );
+          })}
+        </div>
+      </section>
+    ) : null
+  }
+</PoiDetailsLayout>

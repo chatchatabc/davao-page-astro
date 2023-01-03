@@ -1,0 +1,79 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import dataSubCatalogs from "../../../data/sub_catalogs.json";
+import dataEntertainments from "../../../data/entertainments.json";
+import FeaturedPoi from "../../components/sections/FeaturedPoi.astro";
+import { Img } from "astro-imagetools/components";
+import type { ObjectInterface } from "../../helpers/commonInterfaces";
+
+const subCatalogs = dataSubCatalogs.data
+  .filter((subCatalog) => subCatalog.catalog === "entertainment")
+  .map((subCatalog) => {
+    const newObject: ObjectInterface = { ...subCatalog };
+    newObject.places = dataEntertainments.data.filter(
+      (entertainment) => entertainment.sub_catalog === subCatalog.slug
+    );
+    return newObject;
+  });
+---
+
+<Layout title={"Entertainment"}>
+  <section class="bg-white">
+    <div class="mx-auto max-w-7xl px-4 pb-6 md:pb-16 md:pt-6 lg:px-8">
+      <div class="space-y-2 lg:grid lg:grid-cols-3 lg:gap-8">
+        <div
+          class="space-y-5 sm:space-y-4 flex flex-col h-full relative p-2 rounded-lg overflow-hidden w-fit"
+        >
+          <div class="relative z-10">
+            <h2 class="text-3xl font-bold tracking-tight sm:text-5xl">
+              Entertainment
+            </h2>
+            <p class="text-gray-500 mt-2 md:text-xl">
+              You'll find everything you need to make your stay in Davao
+              unforgettable, from fun to relaxation to thrilling activities.
+            </p>
+          </div>
+          <img
+            src="/images/drinks.png"
+            class="hidden absolute bottom-0 left-0 lg:block"
+            alt="background drinks"
+          />
+        </div>
+        <div class="lg:col-span-2">
+          <ul
+            class="grid grid-cols-2 gap-2 md:grid-cols-4 lg:grid-cols-2 lg:gap-4"
+          >
+            {
+              subCatalogs.map((subCatalog) => {
+                return (
+                  <li class="space-y-4">
+                    <a href={`#${subCatalog.slug}`}>
+                      <div class="rounded-lg shadow-lg relative overflow-hidden aspect-w-3 aspect-h-2">
+                        <Img
+                          format="webp"
+                          src={subCatalog.files[0]?.url ?? "/"}
+                          alt={subCatalog.name}
+                          layout="fill"
+                          sizes="(min-width: 480px) 480px, 100vw"
+                        />
+                        <div class="absolute h-full w-full top-0 left-0 bg-gray-800 opacity-50" />
+                        <h3 class="absolute font-bold text-center text-white top-1/3 text-2xl md:text-3xl lg:text-5xl">
+                          {subCatalog.name}
+                        </h3>
+                      </div>
+                    </a>
+                  </li>
+                );
+              })
+            }
+          </ul>
+        </div>
+      </div>
+    </div>
+  </section>
+  {
+    subCatalogs.map((subCatalog) => {
+      return <FeaturedPoi sub_catalog={subCatalog} external_link={true} />;
+    })
+  }
+</Layout>

@@ -12,6 +12,11 @@ const {
   title = siteInfo.data.site_info.title ?? "No Title",
   description = siteInfo.data.site_info.description ?? "No Description",
 } = Astro.props as Props;
+
+const capitalizeTitle = title
+  .split(" ")
+  .map((word) => word.charAt(0).toUpperCase() + word.slice(1))
+  .join(" ");
 ---
 
 <!DOCTYPE html>
@@ -21,11 +26,26 @@ const {
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
-    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png" />
-    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png" />
-    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png" />
+    <meta name="robots" content="index" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="/logo/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="/logo/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="/logo/favicon-16x16.png"
+    />
     <link rel="manifest" href="/site.webmanifest" />
-    <title>{title}</title>
+    <title>{capitalizeTitle}</title>
   </head>
   <body class="relative flex flex-col min-h-[100vh] bg-white text-black">
     <Navbar />

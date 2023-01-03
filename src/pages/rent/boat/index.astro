@@ -1,0 +1,102 @@
+---
+import { Icon } from "astro-icon";
+import Layout from "../../../layouts/Layout.astro";
+import dataBoats from "../../../../data/boats.json";
+import { Img } from "astro-imagetools/components";
+import { fixUrl } from "../../../helpers/commonUtils";
+
+const boats = dataBoats.data;
+const { pathname } = Astro.url;
+---
+
+<Layout title={"Boat Rental"}>
+  <!-- Hero Section -->
+  <section class="py-10 relative h-96">
+    <div class="absolute h-full w-full top-0 left-0">
+      <Img
+        format="webp"
+        src="/images/boat-rental.jpg"
+        alt="boat rental"
+        layout="fill"
+      />
+    </div>
+  </section>
+  <section class="bg-blue-100 py-10">
+    <h2 class="text-5xl font-extrabold text-center">Our Boats</h2>
+    <div class="container grid mx-auto px-10 gap-4 py-5 lg:grid-cols-2">
+      {
+        boats.map((boat) => {
+          return (
+            <div class="gap-x-5 relative rounded-xl p-1 md:grid md:grid-cols-2 hover:bg-blue-50">
+              <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
+                <Img
+                  format="webp"
+                  src={boat.files[0]?.url ?? "/"}
+                  alt={boat.name}
+                  layout="fill"
+                  sizes="(min-width: 480px) 480px, 100vw"
+                />
+              </div>
+              <div class="relative flex flex-col">
+                <h3 class="text-3xl font-bold">{boat.name}</h3>
+                <p>
+                  <Icon name="mdi:people-group" />
+                  <span class="font-bold">Capacity:</span> {boat.capacity}{" "}
+                  passengers
+                </p>
+                <p>
+                  <Icon name="ph:ruler" />
+                  <span class="font-bold">Length:</span> {boat.length}
+                </p>
+                <p>
+                  <Icon name="ph:toilet" />
+                  <span class="font-bold">Toilet:</span>{" "}
+                  {boat.toilet ? "Available" : "N/A"}
+                </p>
+                <p class="pb-2">
+                  <Icon name="ic:sharp-speed" />
+                  <span class="font-bold">Top Speed:</span>{" "}
+                  {boat.top_speed ? boat.top_speed : "N/A"}
+                </p>
+                <a
+                  href={fixUrl(`${pathname ? `${pathname}/` : ""}${boat.slug}`)}
+                  class="mt-auto mx-auto px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10 md:mr-5 md:ml-auto"
+                >
+                  View More &gt;&gt;
+                  <div class="border border-black bg-black scale-x-0 transition-all group-hover:scale-x-100" />
+                </a>
+              </div>
+              <a
+                href={fixUrl(`${pathname ? `${pathname}/` : ""}${boat.slug}`)}
+                class="h-full w-full top-0 left-0 absolute"
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>
+
+<style is:global>
+  [astro-icon="mdi:people-group"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ph:ruler"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ph:toilet"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="ic:sharp-speed"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+</style>

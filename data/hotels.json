@@ -8,7 +8,7 @@
       "details": "Dusit Thani Residence is a luxurious serviced apartment complex located in Davao City, Philippines. It is situated in the heart of the city's central business district, making it a convenient choice for travelers who are visiting for business or pleasure. The complex features a range of spacious and modern apartments, all of which are equipped with a range of amenities to ensure a comfortable and enjoyable stay. These amenities include air conditioning, a flat-screen television, a fully equipped kitchen, and a private bathroom with a shower.",
       "order": 1000,
       "address": "Stella Hizon Reyes Drive, Bo. Pampanga, 2b Maryknoll Dr, Buhangin, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 272 7500",
+      "phone": "082 272 7500",
       "email": "",
       "business_hours": "",
       "links": [
@@ -19,17 +19,35 @@
       ],
       "files": [
         {
-          "url": "/images/dusit thani hotel.jpg",
+          "url": "/images/dusit-thani-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/dusit thani hotel gallery.jpg" },
-        { "url": "/images/dusit thani hotel gallery1.jpg" },
-        { "url": "/images/dusit thani hotel gallery2.jpg" },
-        { "url": "/images/dusit thani hotel gallery3.jpg" }
+        {
+          "url": "/images/dusit-thani-hotel-gallery.jpg"
+        },
+        {
+          "url": "/images/dusit-thani-hotel-gallery1.jpg"
+        },
+        {
+          "url": "/images/dusit-thani-hotel-gallery2.jpg"
+        },
+        {
+          "url": "/images/dusit-thani-hotel-gallery3.jpg"
+        }
       ],
-      "tags": ["thai hotel"]
+      "comments": [
+        {
+          "message": "My experience at the hotel was great, and I'd definitely recommend it to others! The place is very clean, and the food is really good. I also liked their pool. The room were well-conditioned, and they had a nice selection of pillows.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "thai hotel",
+        "Hotels"
+      ]
     },
     {
       "name": "Waterfront Insular Hotel Davao",
@@ -39,7 +57,7 @@
       "details": "The Waterfront Insular Hotel is a four-star hotel located in Davao City, Philippines. It is situated in the heart of the city's central business district, making it a convenient choice for travelers who are visiting for business or pleasure. The hotel features a range of guest rooms and suites, all of which are equipped with a range of amenities to ensure a comfortable and enjoyable stay. These amenities include air conditioning, a flat-screen television, a minibar, and a private bathroom with a shower.",
       "order": 1000,
       "address": "Davao-Agusan Highway Brgy. 12-B, Davao City, Mindanao 8000 Philippines",
-      "phone": "(082) 233 2881",
+      "phone": "082 233 2881",
       "email": "",
       "business_hours": "",
       "links": [
@@ -50,17 +68,35 @@
       ],
       "files": [
         {
-          "url": "/images/waterfront insular hotel.jpg",
+          "url": "/images/waterfront-insular-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/waterfront insular hotel gallery.jpg" },
-        { "url": "/images/waterfront insular hotel gallery1.jpg" },
-        { "url": "/images/waterfront insular hotel gallery2.jpg" },
-        { "url": "/images/waterfront insular hotel gallery3.jpg" }
+        {
+          "url": "/images/waterfront-insular-hotel-gallery.jpg"
+        },
+        {
+          "url": "/images/waterfront-insular-hotel-gallery1.jpg"
+        },
+        {
+          "url": "/images/waterfront-insular-hotel-gallery2.jpg"
+        },
+        {
+          "url": "/images/waterfront-insular-hotel-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I stayed at this hotel recently and I found it to be very clean, comfortable, and well-cared for. The room was very clean, and I loved the way it smelled when I walked in. The staff was also very friendly and helpful. They helped me check into my room promptly",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Hotels",
+        "relaxing"
+      ]
     },
     {
       "name": "Anavada Apartment Inn, Davao",
@@ -81,17 +117,34 @@
       ],
       "files": [
         {
-          "url": "/images/anavada apartment inn.jpg",
+          "url": "/images/anavada-apartment-inn.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/anavada apartment inn gallery.jpg" },
-        { "url": "/images/anavada apartment inn gallery1.jpg" },
-        { "url": "/images/anavada apartment inn gallery2.jpg" },
-        { "url": "/images/anavada apartment inn gallery3.jpg" }
+        {
+          "url": "/images/anavada-apartment-inn-gallery.jpg"
+        },
+        {
+          "url": "/images/anavada-apartment-inn-gallery1.jpg"
+        },
+        {
+          "url": "/images/anavada-apartment-inn-gallery2.jpg"
+        },
+        {
+          "url": "/images/anavada-apartment-inn-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "We had a great time at Anavada Apartment Inn, and we were impressed by how clean and well-kept it was. The room we stayed in was spacious, comfortable, and very well-lit. The bed was also very comfortable, and I slept well every night!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Inn"
+      ]
     },
     {
       "name": "Seda Abreeza",
@@ -112,17 +165,34 @@
       ],
       "files": [
         {
-          "url": "/images/seda abreeza.jpg",
+          "url": "/images/seda-abreeza.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/seda abreeza gallery.jpg" },
-        { "url": "/images/seda abreeza gallery1.jpg" },
-        { "url": "/images/seda abreeza gallery2.jpg" },
-        { "url": "/images/seda abreeza gallery3.jpg" }
+        {
+          "url": "/images/seda-abreeza-gallery.jpg"
+        },
+        {
+          "url": "/images/seda-abreeza-gallery1.jpg"
+        },
+        {
+          "url": "/images/seda-abreeza-gallery2.jpg"
+        },
+        {
+          "url": "/images/seda-abreeza-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "The food was delicious\u2014I especially loved the breakfast buffet they offered each morning! Their pool is beautiful, too\u2014it's very relaxing to sit by it and read a book while taking in the view.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Hotels"
+      ]
     },
     {
       "name": "Grand Regal Hotel",
@@ -143,17 +213,34 @@
       ],
       "files": [
         {
-          "url": "/images/grand regal hotel.jpg",
+          "url": "/images/grand-regal-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/grand regal hotel gallery.jpg" },
-        { "url": "/images/grand regal hotel gallery1.jpg" },
-        { "url": "/images/grand regal hotel gallery2.jpg" },
-        { "url": "/images/grand regal hotel gallery3.jpg" }
+        {
+          "url": "/images/grand-regal-hotel-gallery.jpg"
+        },
+        {
+          "url": "/images/grand-regal-hotel-gallery1.jpg"
+        },
+        {
+          "url": "/images/grand-regal-hotel-gallery2.jpg"
+        },
+        {
+          "url": "/images/grand-regal-hotel-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "The hotel also offers many amenities that make your stay more exciting: a pool with a waterfall running through it; a jacuzzi; and an awesome exercise room where you can work out in peace.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Hotels"
+      ]
     },
     {
       "name": "Marco Polo Davao",
@@ -163,7 +250,7 @@
       "details": "The Marco Polo Hotel is a luxurious five-star hotel located in Davao City, Philippines. It is situated in the heart of the city's central business district, making it a convenient choice for travelers who are visiting for business or pleasure. The hotel features a range of guest rooms and suites, all of which are equipped with a range of amenities to ensure a comfortable and enjoyable stay. These amenities include air conditioning, a flat-screen television, a minibar, and a private bathroom with a shower.",
       "order": 1000,
       "address": "C. M. Recto, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 221 0888",
+      "phone": "082 221 0888",
       "email": "",
       "business_hours": "",
       "links": [
@@ -174,17 +261,34 @@
       ],
       "files": [
         {
-          "url": "/images/marco polo hotel.jpg",
+          "url": "/images/marco-polo-hotel.jpg",
           "order": 1000
         }
       ],
       "gallery": [
-        { "url": "/images/marco polo hotel gallery.jpg" },
-        { "url": "/images/marco polo hotel gallery.jpeg" },
-        { "url": "/images/marco polo hotel gallery1.jpg" },
-        { "url": "/images/marco polo hotel gallery2.jpg" }
+        {
+          "url": "/images/marco-polo-hotel-gallery.jpg"
+        },
+        {
+          "url": "/images/marco-polo-hotel-gallery.jpeg"
+        },
+        {
+          "url": "/images/marco-polo-hotel-gallery1.jpg"
+        },
+        {
+          "url": "/images/marco-polo-hotel-gallery2.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I have to admit that I was very impressed by the hotel. I loved the pool and the room were well conditioned. The food is also good.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Hotels"
+      ]
     }
   ]
 }

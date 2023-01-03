@@ -1,20 +1,30 @@
 ---
-import Section from "../components/sections/Section.astro";
-import BreadCrumbs from "../components/widgets/BreadCrumbs.astro";
 import Layout from "./Layout.astro";
+import "../styles/markdown.css";
 
 const { frontmatter } = Astro.props;
-const { title, author, date } = frontmatter;
+const { title, author, date, tags } = frontmatter;
 ---
 
 <Layout>
-  <Section>
-    <!-- <BreadCrumbs /> -->
-    <h1 class="text-3xl font-bold">{title}</h1>
-    <div class="text-sm mb-3">
-      <h5 class="text-neutral-600">Date: {date}</h5>
-      <h5 class="text-neutral-600">Author: {author}</h5>
-    </div>
-    <slot />
-  </Section>
+  <div class="max-w-[768px] mx-auto">
+    <section class="border-b px-2">
+      <h1 class="text-3xl font-bold">{title}</h1>
+      <div class="text-sm flex mb-3 flex-wrap gap-x-4">
+        <h5 class="text-neutral-600 font-medium">
+          Date: <span class="font-normal">{date}</span>
+        </h5>
+        <h5 class="text-neutral-600 font-medium">
+          Author: <span class="font-normal">{author}</span>
+        </h5>
+        <h5 class="text-neutral-600 font-medium">
+          Tags: <span class="font-normal">{tags}</span>
+        </h5>
+      </div>
+    </section>
+
+    <section class="markdown-body p-2">
+      <slot />
+    </section>
+  </div>
 </Layout>

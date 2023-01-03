@@ -1,0 +1,97 @@
+---
+import Layout from "../../../layouts/Layout.astro";
+import dataCars from "../../../../data/cars.json";
+import { Img } from "astro-imagetools/components";
+import { Icon } from "astro-icon";
+import { fixUrl } from "../../../helpers/commonUtils";
+
+const cars = dataCars.data;
+const { pathname } = Astro.url;
+---
+
+<Layout title={"Car Rental"}>
+  <!-- Hero Section -->
+  <section class="py-10 relative h-96">
+    <div class="absolute h-full w-full top-0 left-0">
+      <Img
+        format="webp"
+        src="/images/car-rental.jpg"
+        alt="car rental"
+        layout="fill"
+      />
+    </div>
+  </section>
+  <section class="bg-blue-100 py-2 md:py-4">
+    <h2 class="text-5xl font-extrabold text-center">Our Cars</h2>
+    <div
+      class="container mx-auto gap-4 py-5 grid px-2 md:px-10 md:grid-cols-2 lg:grid-cols-3"
+    >
+      {
+        cars.map((car) => {
+          return (
+            <div class="relative hover:bg-blue-50 rounded-xl shadow-lg bg-white">
+              <div class="relative overflow-hidden aspect-w-2 aspect-h-1 rounded-xl">
+                <Img
+                  format="webp"
+                  src={car.files[0]?.url}
+                  alt={car.name}
+                  layout="fill"
+                  sizes="(min-width: 480px) 480px, 100vw"
+                />
+              </div>
+              <div class="relative flex flex-col px-3 pb-3">
+                <h3 class="text-3xl font-bold py-2">{car.name}</h3>
+                <div>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-seat" />
+                    {car.seats} seats
+                  </p>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-door" />
+                    {car.doors} doors
+                  </p>
+                  <p class="capitalize">
+                    <Icon name="mdi:car-shift-pattern" />
+                    <b>{car.transmission}</b> transmission
+                  </p>
+                </div>
+                <a
+                  href={fixUrl(`${pathname ? `${pathname}/` : ""}${car.slug}`)}
+                  class="mt-5 ml-auto px-5 py-2 border border-blue-500 rounded-lg block w-fit group z-10"
+                >
+                  View More &gt;&gt;
+                  <div class="border border-black bg-black scale-x-0 transition-all group-hover:scale-x-100" />
+                </a>
+              </div>
+              <a
+                href={fixUrl(`${pathname ? `${pathname}/` : ""}${car.slug}`)}
+                class="h-full w-full top-0 left-0 absolute"
+              />
+            </div>
+          );
+        })
+      }
+    </div>
+  </section>
+</Layout>
+
+<style is:global>
+  [astro-icon="mdi:car-seat"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:car-door"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:car-shift-pattern"] {
+    height: 1.5em;
+    width: 1.5em;
+    display: inline-block;
+  }
+  #title {
+    text-shadow: 2px 2px aqua;
+  }
+</style>

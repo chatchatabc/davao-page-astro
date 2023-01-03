@@ -3,6 +3,7 @@ import { log } from "astro/dist/core/logger/core";
 import type { ObjectInterface } from "../helpers/commonInterfaces";
 import Layout from "./Layout.astro";
 import { Icon } from "astro-icon";
+import { Img } from "astro-imagetools/components";
 
 interface Props {
   place: ObjectInterface;
@@ -12,17 +13,21 @@ const { files, links } = place;
 const featuredFile = files.length ? files : [];
 ---
 
-<Layout>
-  <div class="flex mx-auto container">
+<Layout title={place.name}>
+  <div class="flex flex-col-reverse lg:flex-row mx-auto container">
     <!-- Left Side (Showcase) -->
-    <div class="w-3/4">
+    <div class="lg:w-3/4">
       <!-- Restaurant Picture -->
-      <section class="bg-yellow-50 py-32 relative">
-        <div class="absolute inset-0">
-          <img
-            class="h-full w-full object-cover"
+      <section
+        class="bg-yellow-50 py-32 relative mx-2 rounded-lg overflow-hidden shadow-lg"
+      >
+        <div class="absolute h-full w-full top-0 left-0">
+          <Img
+            format="webp"
+            layout="fill"
             src={featuredFile[0]?.url ?? "/"}
             alt={place.name}
+            sizes="(min-width: 768px) 768px, 100vw"
           />
         </div>
       </section>
@@ -32,7 +37,7 @@ const featuredFile = files.length ? files : [];
     </div>
 
     <!-- Right Side (Details) -->
-    <div class="w-1/4 p-4">
+    <div class="flex flex-wrap gap-x-5 p-4 lg:block lg:w-1/4">
       <h3 id="title" class="text-3xl uppercase font-bold">
         {place.name}
       </h3>
@@ -79,9 +84,22 @@ const featuredFile = files.length ? files : [];
       <div class="pt-2">
         <h4 class="inline">Comments</h4>
         <Icon name="ic:baseline-comment" />
-        <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
-          Lorem ipsum dolor sit, amet consectetur adipisicing elit.
-        </p>
+        {
+          place.comments?.length ? (
+            place.comments.map((comment: ObjectInterface) => {
+              return (
+                <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 text-justify">
+                  "{comment.message}"{" "}
+                  <span class="font-medium whitespace-nowrap">-Anonymous</span>
+                </p>
+              );
+            })
+          ) : (
+            <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 text-justify">
+              No Comments
+            </p>
+          )
+        }
       </div>
       <div class="pt-2">
         <h4 class="inline">External Links</h4>
@@ -100,6 +118,7 @@ const featuredFile = files.length ? files : [];
                       <Icon name="ic:baseline-facebook" />
                     )}
                     {link.type === "website" && <Icon name="mdi:web" />}
+                    {link.type === "instagram" && <Icon name="mdi:instagram" />}
                   </a>
                 </p>
               );
@@ -115,8 +134,28 @@ const featuredFile = files.length ? files : [];
   </div>
 </Layout>
 
-<style>
-  [astro-icon] {
+<style is:global>
+  [astro-icon="ic:outline-link"] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+  [astro-icon="ic:baseline-comment"] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+  [astro-icon="ic:baseline-mode-of-travel"] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+  [astro-icon="mdi:telephone"] {
+    height: 1em;
+    width: 1em;
+    display: inline-block;
+  }
+  [astro-icon="ic:round-tag"] {
     height: 1em;
     width: 1em;
     display: inline-block;
@@ -126,6 +165,10 @@ const featuredFile = files.length ? files : [];
     width: 2em;
   }
   [astro-icon="mdi:web"] {
+    height: 2em;
+    width: 2em;
+  }
+  [astro-icon="mdi:instagram"] {
     height: 2em;
     width: 2em;
   }

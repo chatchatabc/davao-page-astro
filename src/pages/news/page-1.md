@@ -1,0 +1,25 @@
+---
+title: VP Sara encourages Filipinos to be resilient, carry “sense of nationhood” in 2023
+excerpt: As the entire Philippines enters the year New Year, Vice President Sara Duterte hoped that Filipinos would continue to be resilient and carry with them the sense of nationhood and Bayanihan spirit this year.
+type: News
+author: Ralph Lawrence G. Llemit
+date: January 03, 2023
+tags: News
+layout: ../../layouts/NewsLayout.astro
+---
+
+![alt text](https://cdn4.premiumread.com/?url=https://sunstar.com.ph/uploads/images/2023/01/03/405286.jpg&w=1000&q=100&f=webp&t=2)
+
+As the entire Philippines enters the year New Year, Vice President Sara Duterte hoped that Filipinos would continue to be resilient and carry with them the sense of nationhood and Bayanihan spirit this year.
+
+Duterte, in her message on New Year's Day, January 1, said that 2023 "marks a new and promising season of growth for every Filipino across diverse sectors and segments of society."
+
+"Let us unwaveringly embody our collective resolve and fortitude to begin anew amid the difficulties this past year may have brought our social, economic, and civic pursuits," the Vice President said.
+
+"May our sense of nationhood, enduring spirit of Bayanihan, and unshakeable resiliency remain our guideposts as we continue upholding reforms, policies, and programs for the improved welfare of our people in the education sector, uniformed services, civilian personnel, frontline duty, and in the most vulnerable communities," she added.
+
+Duterte, also the Education Secretary, said that though there may be more challenges in 2023, the new year also presents “another chapter of transformative opportunities, life-changing experiences, and innovative enterprises.”
+
+"I am hopeful that our tireless nation-building efforts will redound to the success of our undertakings in governance, the business arena, the agricultural sector, and in other viable industries so that we can conduct our development efforts with utmost regard to the greater good of the entire nation," she said.
+
+She also urged Filipinos to envision a "dynamic year ahead filled with purpose and steadfastness to build a better life not just for ourselves but also for our respective communities." RGL

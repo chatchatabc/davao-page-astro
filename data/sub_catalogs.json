@@ -5,7 +5,7 @@
       "slug": "chinese-foods",
       "files": [
         {
-          "url": "/images/chinese foods.jpg",
+          "url": "/images/chinese-foods.jpg",
           "parent": "chinese-foods",
           "order": 1000
         }
@@ -29,7 +29,7 @@
       "slug": "western-foods",
       "files": [
         {
-          "url": "/images/western foods.jpg",
+          "url": "/images/western-foods.jpg",
           "parent": "western-foods",
           "order": 1000
         }
@@ -41,7 +41,7 @@
       "slug": "local-foods",
       "files": [
         {
-          "url": "/images/local foods.jpg",
+          "url": "/images/local-foods.jpg",
           "parent": "local-foods",
           "order": 1000
         }

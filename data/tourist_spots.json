@@ -8,12 +8,12 @@
       "details": "Eden Nature Park is a popular tourist destination located in Davao City, Philippines. It is a mountain resort that offers a variety of activities and amenities for visitors, including hiking, bird watching, and swimming. The park is known for its beautiful scenery and natural surroundings, which include waterfalls, gardens, and forests.",
       "order": 1000,
       "address": "Brgy. Eden, Toril, Davao City",
-      "phone": "(082) 286-0383",
+      "phone": "082 286-0383",
       "email": "info@edennaturepark.com.ph",
       "business_hours": "9:00 AM - 5:00 PM",
       "files": [
         {
-          "url": "/images/eden park.jpg",
+          "url": "/images/eden-park.jpg",
           "parent": "eden-park",
           "order": 1000
         }
@@ -25,12 +25,28 @@
         }
       ],
       "gallery": [
-        { "url": "/images/eden park gallery.jpg" },
-        { "url": "/images/eden park gallery1.jpg" },
-        { "url": "/images/eden park gallery2.jpg" },
-        { "url": "/images/eden park gallery3.jpg" }
+        {
+          "url": "/images/eden-park-gallery.jpg"
+        },
+        {
+          "url": "/images/eden-park-gallery1.jpg"
+        },
+        {
+          "url": "/images/eden-park-gallery2.jpg"
+        },
+        {
+          "url": "/images/eden-park-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "It's very enjoyable staying here and I think it's very satisfying. The place is clean and well-kept, so it's a good place to stay.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "",
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "mount apo trek",
@@ -45,19 +61,35 @@
       "business_hours": "N/A",
       "files": [
         {
-          "url": "/images/mount apo trek.webp",
+          "url": "/images/mount-apo-trek.webp",
           "parent": "mount-apo-trek",
           "order": 1000
         }
       ],
       "links": [],
       "gallery": [
-        { "url": "/images/mount apo trek gallery.jpg" },
-        { "url": "/images/mount apo trek gallery1.jpg" },
-        { "url": "/images/mount apo trek gallery.webp" },
-        { "url": "/images/mount apo trek gallery2.jpg" }
+        {
+          "url": "/images/mount-apo-trek-gallery.jpg"
+        },
+        {
+          "url": "/images/mount-apo-trek-gallery1.jpg"
+        },
+        {
+          "url": "/images/mount-apo-trek-gallery.webp"
+        },
+        {
+          "url": "/images/mount-apo-trek-gallery2.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "It was a beautiful place. The view was amazing and I enjoyed it very much. The place was clean and the service was good. It is a good place to stay at.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "",
+      "tags": ["Hiking", "Mountains", "Adventure"]
     },
     {
       "name": "malagos garden resort and chocolate museum",
@@ -72,7 +104,7 @@
       "business_hours": "N/A",
       "files": [
         {
-          "url": "/images/malagos garden resort.jpg",
+          "url": "/images/malagos-garden-resort.jpg",
           "parent": "malagos-garden-resort-and-chocolate-museum",
           "order": 1000
         }
@@ -84,12 +116,28 @@
         }
       ],
       "gallery": [
-        { "url": "/images/malagos garden resort gallery.jpg" },
-        { "url": "/images/malagos garden resort gallery1.jpg" },
-        { "url": "/images/malagos garden resort gallery2.jpg" },
-        { "url": "/images/malagos garden resort gallery3.jpg" }
+        {
+          "url": "/images/malagos-garden-resort-gallery.jpg"
+        },
+        {
+          "url": "/images/malagos-garden-resort-gallery1.jpg"
+        },
+        {
+          "url": "/images/malagos-garden-resort-gallery2.jpg"
+        },
+        {
+          "url": "/images/malagos-garden-resort-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I really enjoyed staying at the place. The view is beautiful, and the atmosphere was very relaxing. It felt like home, which is perfect for me.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "",
+      "tags": ["Resort", "Museum", "Leisure"]
     },
     {
       "name": "people's park",
@@ -99,12 +147,12 @@
       "details": "The park features a variety of amenities and attractions, including a man-made lake, walking paths, landscaped gardens, playgrounds, and a stage for performances. It is also home to several sculptures and artwork, including a bronze statue of the late Philippine President and city mayor, Rodrigo Duterte.",
       "order": 1000,
       "address": "Uy Building, 49 Jln Palma Gil St, Poblacion District, Davao City, 8000 Davao del Su",
-      "phone": "(082) 302 1146",
+      "phone": "082 302 1146",
       "email": "",
       "business_hours": "1:00 PM -10:00 PM",
       "files": [
         {
-          "url": "/images/peoples park.jpg",
+          "url": "/images/peoples-park.jpg",
           "parent": "peoples-park",
           "order": 1000
         }
@@ -116,12 +164,28 @@
         }
       ],
       "gallery": [
-        { "url": "/images/peoples park gallery.jpg" },
-        { "url": "/images/peoples park gallery1.jpg" },
-        { "url": "/images/peoples park gallery.png" },
-        { "url": "/images/peoples park gallery1.png" }
+        {
+          "url": "/images/peoples-park-gallery.jpg"
+        },
+        {
+          "url": "/images/peoples-park-gallery1.jpg"
+        },
+        {
+          "url": "/images/peoples-park-gallery.png"
+        },
+        {
+          "url": "/images/peoples-park-gallery1.png"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I think this place is amazing. The view is outstanding, and the entire area is just beautiful. It's very relaxing to be here, and I can't wait to come back!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "Free",
+      "tags": ["City Park", "Leisure"]
     },
     {
       "name": "roxas night market",
@@ -136,7 +200,7 @@
       "business_hours": "6:00PM - 3:00AM",
       "files": [
         {
-          "url": "/images/roxas night market.jpg",
+          "url": "/images/roxas-night-market.jpg",
           "parent": "roxas-night-market",
           "order": 1000
         }
@@ -148,12 +212,28 @@
         }
       ],
       "gallery": [
-        { "url": "/images/roxas night market gallery.jpg" },
-        { "url": "/images/roxas night market gallery1.jpg" },
-        { "url": "/images/roxas night market gallery2.jpg" },
-        { "url": "/images/roxas night market gallery3.jpg" }
+        {
+          "url": "/images/roxas-night-market-gallery.jpg"
+        },
+        {
+          "url": "/images/roxas-night-market-gallery1.jpg"
+        },
+        {
+          "url": "/images/roxas-night-market-gallery2.jpg"
+        },
+        {
+          "url": "/images/roxas-night-market-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "When you're looking for a place to eat in the evening, you want it to be both delicious and affordable. And the best way to do this is with a food stall that serves up a wide variety of delicious dishes.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$",
+      "tags": ["Night Market", "Food Stalls", "Night Time"]
     },
     {
       "name": "pearl farm beach resort",
@@ -163,12 +243,12 @@
       "details": "If you're looking for a place to relax and enjoy, look no further than Pearl Farm Beach Resort. This beach resort is within easy reach of the city of Davao and has several places where you can enjoy the sand and surf.",
       "order": 1000,
       "address": "Island Garden City of Samal, Davao City Philippines 8105 Davao City, Philippines",
-      "phone": "(082) 285 0601",
+      "phone": "082 285 0601",
       "email": "",
       "business_hours": "Always open",
       "files": [
         {
-          "url": "/images/pearl farm beach resort.jpg",
+          "url": "/images/pearl-farm-beach-resort.jpg",
           "parent": "pearl-farm-beach-resort",
           "order": 1000
         }
@@ -180,27 +260,43 @@
         }
       ],
       "gallery": [
-        { "url": "/images/pearl farm beach resort gallery.jpg" },
-        { "url": "/images/pearl farm beach resort gallery.webp" },
-        { "url": "/images/pearl farm beach resort gallery1.jpg" },
-        { "url": "/images/pearl farm beach resort gallery2.jpg" }
+        {
+          "url": "/images/pearl-farm-beach-resort-gallery.jpg"
+        },
+        {
+          "url": "/images/pearl-farm-beach-resort-gallery.webp"
+        },
+        {
+          "url": "/images/pearl-farm-beach-resort-gallery1.jpg"
+        },
+        {
+          "url": "/images/pearl-farm-beach-resort-gallery2.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I visited this place and I can say that it is very beautiful. I like the view, it is beautiful. It's very enjoyable to spend the day there. The place is clean, I like it very much.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$~$$$",
+      "tags": ["Beach", "Resort", "Leisure"]
     },
     {
       "name": "eagle park",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "eagle-park",
-      "details": "Details Details Details Details Details Details",
+      "details": "Eagle Park is a beautiful place for relaxation and a great view. It's located in Davao City, and there are so many eagles that you'll want to take pictures with them! It's an amazing place to visit, whether you're looking for a place to relax or just want to see some beautiful birds.",
       "order": 1000,
       "address": "Malagos-Baguio Road, Brgy, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 324 1860",
+      "phone": "082 324 1860",
       "email": "",
       "business_hours": "8:30 AM - 4:30 PM",
       "files": [
         {
-          "url": "/images/eagle park gallery.jpg",
+          "url": "/images/eagle-park-gallery.jpg",
           "parent": "eagle-park",
           "order": 1000
         }
@@ -212,19 +308,35 @@
         }
       ],
       "gallery": [
-        { "url": "/images/eagle park.jpg" },
-        { "url": "/images/eagle park gallery1.jpg" },
-        { "url": "/images/eagle park gallery2.jpg" },
-        { "url": "/images/eagle park gallery3.jpg" }
+        {
+          "url": "/images/eagle-park.jpg"
+        },
+        {
+          "url": "/images/eagle-park-gallery1.jpg"
+        },
+        {
+          "url": "/images/eagle-park-gallery2.jpg"
+        },
+        {
+          "url": "/images/eagle-park-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "There are a lot of things to love about this park. I've seen and interacted with eagles in the park, which is a lot of fun. The place is also clean, which is always nice when you're lounging around. It's a great place to spend time with friends or family, and I recommend it for everyone!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "Free",
+      "tags": ["Park", "Leisure"]
     },
     {
       "name": "samal island",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "samal-island",
-      "details": "Details Details Details Details Details Details",
+      "details": "Samal Island is a beautiful and relaxing place to visit. The beach is clean, the breeze is cool, and you can even walk across the sand like a giant! Come visit this place\u2014you won't be disappointed.",
       "order": 1000,
       "address": "Samal, Island Garden City of Samal, Davao del Norte",
       "phone": "N/A",
@@ -232,7 +344,7 @@
       "business_hours": "Always open",
       "files": [
         {
-          "url": "/images/samal island.jpg",
+          "url": "/images/samal-island.jpg",
           "parent": "samal-island",
           "order": 1000
         }
@@ -244,27 +356,43 @@
         }
       ],
       "gallery": [
-        { "url": "/images/samal island gallery.jpg" },
-        { "url": "/images/samal island gallery.webp" },
-        { "url": "/images/samal island gallery1.webp" },
-        { "url": "/images/samal island gallery2.webp" }
+        {
+          "url": "/images/samal-island-gallery.jpg"
+        },
+        {
+          "url": "/images/samal-island-gallery.webp"
+        },
+        {
+          "url": "/images/samal-island-gallery1.webp"
+        },
+        {
+          "url": "/images/samal-island-gallery2.webp"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I really like the place. It is so beautiful and I really enjoy spending my time there. The place is very clean and organized. It is satisfying to stay in such a nice place.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
+      "tags": ["Beach", "Vacation", "Water Activities"]
     },
     {
       "name": "crocodile park",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "crocodile-park",
-      "details": "Details Details Details Details Details Details",
+      "details": "Crocodile Park is a place to go if you're looking for adventure and excitement. Here, you can get up close and personal with crocodiles, snakes, lizards, monkeys, and other wild animals. You'll also be able to enjoy the park's beautiful landscape.",
       "order": 1000,
-      "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway，Ma-a, Davao City 8000 Philippines",
+      "address": "Crocodile Park,Riverfront, Corporate City, Diversion Highway\uff0cMa-a, Davao City 8000 Philippines",
       "phone": "0917 702 5953",
       "email": "",
-      "business_hours": " 8:00 AM - 5:00 PM",
+      "business_hours": "8:00 AM - 5:00 PM",
       "files": [
         {
-          "url": "/images/crocodile park.jpg",
+          "url": "/images/crocodile-park.jpg",
           "parent": "crocodile-park",
           "order": 1000
         }
@@ -276,27 +404,43 @@
         }
       ],
       "gallery": [
-        { "url": "/images/crocodile park gallery.jpg" },
-        { "url": "/images/crocodile park gallery1.jpg" },
-        { "url": "/images/crocodile park gallery2.jpg" },
-        { "url": "/images/crocodile park gallery.webp" }
+        {
+          "url": "/images/crocodile-park-gallery.jpg"
+        },
+        {
+          "url": "/images/crocodile-park-gallery1.jpg"
+        },
+        {
+          "url": "/images/crocodile-park-gallery2.jpg"
+        },
+        {
+          "url": "/images/crocodile-park-gallery.webp"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "I have been spending time at the zoo park. I've seen and interacted with many animals. They are all very cute and interesting to watch. ",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$",
+      "tags": ["Zoo", "Park", "Leisure"]
     },
     {
       "name": "waterworld beach resort",
       "catalog": "tourist-spots",
       "sub_catalog": null,
       "slug": "waterworld-beach-resort",
-      "details": "Details Details Details Details Details Details",
+      "details": "The Waterworld Beach Resort in Davao City is a tropical paradise that's got everything you need to have a great time. It's got a huge swimming pool, waterslides galore, and an adventure park for when you're done playing around in the water!",
       "order": 1000,
       "address": "2GJG+6X4, Talomo, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 296 1216",
+      "phone": "082 296 1216",
       "email": "",
       "business_hours": "Always Open",
       "files": [
         {
-          "url": "/images/waterworld beach resort.jpg",
+          "url": "/images/waterworld-beach-resort.jpg",
           "parent": "waterworld-beach-resort",
           "order": 1000
         }
@@ -308,12 +452,28 @@
         }
       ],
       "gallery": [
-        { "url": "/images/waterworld beach resort gallery2.jpg" },
-        { "url": "/images/waterworld beach resort gallery.jpg" },
-        { "url": "/images/waterworld beach resort gallery1.jpg" },
-        { "url": "/images/waterworld beach resort gallery3.jpg" }
+        {
+          "url": "/images/waterworld-beach-resort-gallery2.jpg"
+        },
+        {
+          "url": "/images/waterworld-beach-resort-gallery.jpg"
+        },
+        {
+          "url": "/images/waterworld-beach-resort-gallery1.jpg"
+        },
+        {
+          "url": "/images/waterworld-beach-resort-gallery3.jpg"
+        }
       ],
-      "tags": []
+      "comments": [
+        {
+          "message": "The place is also clean, which is always a big plus for me. It's hard to find a place that keeps things tidy enough that you don't need to worry about germs or other nasty things.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$",
+      "tags": ["Pool", "Water Slides", "Resort", "Beach"]
     }
   ]
 }

@@ -11,12 +11,20 @@
       "phone": "",
       "email": "jacksridgedavao@yahoo.com.ph",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Pork Sisig",
           "images": [
-            { "url": "/images/jacks ridge pork sisig.webp", "order": 1000 }
+            {
+              "url": "/images/jacks-ridge-pork-sisig.webp",
+              "order": 1000
+            }
           ],
           "price": "240.00",
           "description": "Sizzlers"
@@ -24,7 +32,10 @@
         {
           "name": "Adobong Pusit",
           "images": [
-            { "url": "/images/jacks ridge adobong pusit.jpg", "order": 1000 }
+            {
+              "url": "/images/jacks-ridge-adobong-pusit.jpg",
+              "order": 1000
+            }
           ],
           "price": "226.00",
           "description": "Traditional Specialties"
@@ -32,7 +43,10 @@
         {
           "name": "Tinolang Imbao",
           "images": [
-            { "url": "/images/jacks ridge tinolang imbao.webp", "order": 1000 }
+            {
+              "url": "/images/jacks-ridge-tinolang-imbao.webp",
+              "order": 1000
+            }
           ],
           "price": "80.00",
           "description": "Soup"
@@ -40,23 +54,40 @@
         {
           "name": "Leche Flan",
           "images": [
-            { "url": "/images/jacks ridge leche flan.jpg", "order": 1000 }
+            {
+              "url": "/images/jacks-ridge-leche-flan.jpg",
+              "order": 1000
+            }
           ],
           "price": "240.00",
           "description": "Dessert"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/Jacksridge/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/Jacksridge/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/jacks ridge.jpg",
+          "url": "/images/jacks-ridge.jpg",
           "parent": "jacks-ridge",
           "order": 1000
         }
       ],
-      "tags": ["quiet", "rural area", "night view"]
+      "comments": [
+        {
+          "message": "I've been to Jack's Ridge many times. I love their food and their service is always excellent. The place is very clean and the employees are kind and attentive.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "quiet",
+        "rural area",
+        "night view"
+      ]
     },
     {
       "name": "Vistaview",
@@ -70,15 +101,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/vistaview gallery.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery1.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery2.jpg", "order": 1000 },
-        { "url": "/images/vistaview gallery3.jpg", "order": 1000 }
+        {
+          "url": "/images/vistaview-gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview-gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview-gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/vistaview-gallery3.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -96,7 +144,17 @@
           "order": 1000
         }
       ],
-      "tags": ["night view", "filipino restaurant"]
+      "comments": [
+        {
+          "message": "I love Vistaview! The food is always delicious, and it's so clean\u2014I feel like I'm eating in a restaurant that's been around forever. And the employees\u2014they're all so nice!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "night view",
+        "filipino restaurant"
+      ]
     },
     {
       "name": "Bondi & Bourke Davao",
@@ -109,13 +167,18 @@
       "phone": "0998 593 3763",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Apple and Blueberry Pie 4inch",
           "images": [
             {
-              "url": "/images/bondi apple and blueberry pie.jpg",
+              "url": "/images/bondi-apple-and-blueberry-pie.jpg",
               "order": 1000
             }
           ],
@@ -125,7 +188,10 @@
         {
           "name": "Cheese Ensaymada",
           "images": [
-            { "url": "/images/bondi cheese ensaymada.jpg", "order": 1000 }
+            {
+              "url": "/images/bondi-cheese-ensaymada.jpg",
+              "order": 1000
+            }
           ],
           "price": "1280.00",
           "description": "Fresh Bake"
@@ -133,7 +199,10 @@
         {
           "name": "Chicken Parm",
           "images": [
-            { "url": "/images/bondi chicken parm.webp", "order": 1000 }
+            {
+              "url": "/images/bondi-chicken-parm.webp",
+              "order": 1000
+            }
           ],
           "price": "795.00",
           "description": "Aussie Favourites"
@@ -141,41 +210,64 @@
         {
           "name": "Lapu-Lapu Fillet",
           "images": [
-            { "url": "/images/bondi lapu lapu fillet.jpg", "order": 1000 }
+            {
+              "url": "/images/bondi-lapu-lapu-fillet.jpg",
+              "order": 1000
+            }
           ],
           "price": "925.00",
           "description": "Seafood"
         }
       ],
       "links": [
-        { "url": "http://instagram.com/bondibourkeph", "type": "instagram" }
+        {
+          "url": "http://instagram.com/bondibourkeph",
+          "type": "instagram"
+        }
       ],
       "files": [
         {
-          "url": "/images/bondi bourke davao.jpg",
+          "url": "/images/bondi-bourke-davao.png",
           "parent": "bondi-bourke-davao",
           "order": 1000
         }
       ],
-      "tags": ["Aussie"]
+      "comments": [
+        {
+          "message": "I recommend this place to anyone who wants something delicious and healthy to eat!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Aussie"
+      ]
     },
     {
       "name": "Red Tomato Restaurant",
       "catalog": "restaurants",
       "sub_catalog": "western-foods",
       "slug": "red-tomato-restaurant",
-      "details": "At Red Tomato Restaurant, we believe that you shouldn't have to sacrifice flavor for convenience. That's why we offer a wide selection of western foods—with the same great taste you expect from your favorite restaurant.",
+      "details": "At Red Tomato Restaurant, we believe that you shouldn't have to sacrifice flavor for convenience. That's why we offer a wide selection of western foods\u2014with the same great taste you expect from your favorite restaurant.",
       "order": 1000,
       "address": "",
       "phone": "0927 069 3587",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Banana Berry",
           "images": [
-            { "url": "/images/red tomato banana berry.jpg", "order": 1000 }
+            {
+              "url": "/images/red-tomato-banana-berry.jpg",
+              "order": 1000
+            }
           ],
           "price": "195.00",
           "description": "Crepe"
@@ -183,7 +275,10 @@
         {
           "name": "Seafood Calamari",
           "images": [
-            { "url": "/images/red tomato seafood calamari.jpg", "order": 1000 }
+            {
+              "url": "/images/red-tomato-seafood-calamari.jpg",
+              "order": 1000
+            }
           ],
           "price": "390.00",
           "description": "Appetizer"
@@ -191,7 +286,10 @@
         {
           "name": "Italian Pepperoni",
           "images": [
-            { "url": "/images/red tomato italian pepperoni.jpg", "order": 1000 }
+            {
+              "url": "/images/red-tomato-italian-pepperoni.jpg",
+              "order": 1000
+            }
           ],
           "price": "375.00",
           "description": "Pizza"
@@ -199,23 +297,38 @@
         {
           "name": "Wagyu Burger",
           "images": [
-            { "url": "/images/red tomato wagyu burger.jpg", "order": 1000 }
+            {
+              "url": "/images/red-tomato-wagyu-burger.jpg",
+              "order": 1000
+            }
           ],
           "price": "250.00",
           "description": "Burger"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/RDTMT/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/RDTMT/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/red tomato.jpg",
+          "url": "/images/red-tomato.jpg",
           "parent": "red-tomato-restaurant",
           "order": 1000
         }
       ],
-      "tags": ["Italian"]
+      "comments": [
+        {
+          "message": "I went to Red Tomato Restaurant for the first time a few days ago, and let me just say: I was blown away.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Italian"
+      ]
     },
     {
       "name": "eskina",
@@ -228,18 +341,31 @@
       "phone": "0998 531 2492",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Bulalo",
-          "images": [{ "url": "/images/eskina bulalo.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/eskina-bulalo.webp",
+              "order": 1000
+            }
+          ],
           "price": "720.00",
           "description": "Soup"
         },
         {
           "name": "Fried Ice Cream",
           "images": [
-            { "url": "/images/eskina fried ice cream.jpg", "order": 1000 }
+            {
+              "url": "/images/eskina-fried-ice-cream.jpg",
+              "order": 1000
+            }
           ],
           "price": "180.00",
           "description": "Dessert"
@@ -247,14 +373,22 @@
         {
           "name": "Spaghetti Bolognese",
           "images": [
-            { "url": "/images/eskina spaghetti bolognese.jpg", "order": 1000 }
+            {
+              "url": "/images/eskina-spaghetti-bolognese.jpg",
+              "order": 1000
+            }
           ],
           "price": "350.00",
           "description": "Pasta"
         },
         {
           "name": "Beef Skank Kare Kare",
-          "images": [{ "url": "/images/eskina beef skank.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/eskina-beef-skank.jpg",
+              "order": 1000
+            }
+          ],
           "price": "610.00",
           "description": "Beef"
         }
@@ -272,7 +406,16 @@
           "order": 1000
         }
       ],
-      "tags": ["Music Restaurant"]
+      "comments": [
+        {
+          "message": "The food was incredible. The staff was incredibly friendly and helpful, and their service was top-notch.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Music Restaurant"
+      ]
     },
     {
       "name": "ahfat seafoods plaza",
@@ -285,18 +428,31 @@
       "phone": "0905 263 2875",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Ahfat Seafoods Cream Soup",
-          "images": [{ "url": "/images/ahfat cream soup.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/ahfat-cream-soup.webp",
+              "order": 1000
+            }
+          ],
           "price": "350",
           "description": "Soup"
         },
         {
           "name": "Sauteed Beef with Broccoli Flower",
           "images": [
-            { "url": "/images/ahfat sauteed beef.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat-sauteed-beef.jpg",
+              "order": 1000
+            }
           ],
           "price": "450",
           "description": "Beef"
@@ -304,7 +460,10 @@
         {
           "name": "Sate Beef Sotanghon",
           "images": [
-            { "url": "/images/ahfat sate beef sotanghon.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat-sate-beef-sotanghon.jpg",
+              "order": 1000
+            }
           ],
           "price": "400",
           "description": "Hot Pot"
@@ -312,7 +471,10 @@
         {
           "name": "Broccoli Flower with Oyster Sauce",
           "images": [
-            { "url": "/images/ahfat broccoli flower.jpg", "order": 1000 }
+            {
+              "url": "/images/ahfat-broccoli-flower.jpg",
+              "order": 1000
+            }
           ],
           "price": "320",
           "description": "Vegetables"
@@ -326,12 +488,21 @@
       ],
       "files": [
         {
-          "url": "/images/ahfat seafoods plaza.jpg",
+          "url": "/images/ahfat-seafoods-plaza.jpg",
           "parent": "ahfat-seafoods-plaza",
           "order": 1000
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "comments": [
+        {
+          "message": "I ordered the sea bass with cranberry bean puree and creamed spinach\u2014it was so good that I wanted to lick the plate clean! And then there were those side dishes: roasted cauliflower with white truffle oil and shaved Brussels sprouts with bacon crumbs? Holy moly, they were amazing too.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "de bonte koe",
@@ -344,12 +515,20 @@
       "phone": "0915 667 9184",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Greek Salad",
           "images": [
-            { "url": "/images/de bonte greek salad.jpeg", "order": 1000 }
+            {
+              "url": "/images/de-bonte-greek-salad.jpeg",
+              "order": 1000
+            }
           ],
           "price": "190.00",
           "description": "Salad"
@@ -357,35 +536,60 @@
         {
           "name": "Dutch Stew",
           "images": [
-            { "url": "/images/de bonte dutch stew.jpg", "order": 1000 }
+            {
+              "url": "/images/de-bonte-dutch-stew.jpg",
+              "order": 1000
+            }
           ],
           "price": "430.00",
           "description": "Dutch Table"
         },
         {
           "name": "Mussels (Mosselen)",
-          "images": [{ "url": "/images/de bonte mussels.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/de-bonte-mussels.jpg",
+              "order": 1000
+            }
+          ],
           "price": "200.00",
           "description": "European Delicacies"
         },
         {
           "name": "Pasta Pangritata",
           "images": [
-            { "url": "/images/de bonte pasta pangritata.jpeg", "order": 1000 }
+            {
+              "url": "/images/de-bonte-pasta-pangritata.jpeg",
+              "order": 1000
+            }
           ],
           "price": "225.00",
           "description": "Pasta"
         }
       ],
-      "links": [{ "url": "https://debontekoe.ph", "type": "website" }],
+      "links": [
+        {
+          "url": "https://debontekoe.ph",
+          "type": "website"
+        }
+      ],
       "files": [
         {
-          "url": "/images/de bonte koe.png",
+          "url": "/images/de-bonte-koe.png",
           "parent": "de-bonte-koe",
           "order": 1000
         }
       ],
-      "tags": ["European Restaurant"]
+      "comments": [
+        {
+          "message": "The food is delicious, and I love the atmosphere. The staff is also very nice, which is always a plus.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "European Restaurant"
+      ]
     },
     {
       "name": "belitos vineyard",
@@ -395,14 +599,24 @@
       "details": "There are many different foods that are considered delicious by different people. Some people may enjoy savory dishes such as pasta or pizza, while others may prefer sweet treats like cake or ice cream. The key to finding delicious food is to experiment with different flavors and cuisines and find what suits your taste buds best.",
       "order": 1000,
       "address": "Palm Dr, Bajada, Davao City, Davao del Sur",
-      "phone": "(082) 227 6726",
+      "phone": "082 227 6726",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -415,12 +629,21 @@
       ],
       "files": [
         {
-          "url": "/images/belitos vineyard.jpg",
+          "url": "/images/belitos-vineyard.jpg",
           "parent": "belitos-vineyard",
           "order": 1000
         }
       ],
-      "tags": ["outdoor restaurant"]
+      "comments": [
+        {
+          "message": "We had heard great things about their food, and we can't believe how delicious it was. The restaurant was clean and well-kept, with friendly employees who made us feel right at home. We will definitely be back again soon!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "outdoor restaurant"
+      ]
     },
     {
       "name": "the fat cow",
@@ -433,26 +656,48 @@
       "phone": "0917 888 8312",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/theFatCowDvo/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/theFatCowDvo/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/the fat cow.jpg",
+          "url": "/images/the-fat-cow.jpg",
           "parent": "the-fat-cow",
           "order": 1000
         }
       ],
-      "tags": ["Beef"]
+      "comments": [
+        {
+          "message": "I have been to this place twice. The first time I was there, the food was delicious and they served me in the nicest way. The second time I went there, the food was just as delicious and they even remembered me! They are very attentive at all times so it is easy to enjoy your meal here.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Beef"
+      ]
     },
     {
       "name": "garden bay resort and restaurant",
@@ -465,26 +710,48 @@
       "phone": "09190642619",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/gardenbay/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/gardenbay/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/garden bay resort.jpg",
+          "url": "/images/garden-bay-resort.jpg",
           "parent": "garden-bay-resort-and-restaurant",
           "order": 1000
         }
       ],
-      "tags": ["Philippines Restaurant"]
+      "comments": [
+        {
+          "message": "They have a nice atmosphere that makes you feel like you are in someones home rather than just going out for food.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "lachis",
@@ -494,20 +761,33 @@
       "details": "There are many different foods that are considered delicious by different people. Some people may enjoy savory dishes such as pasta or pizza, while others may prefer sweet treats like cake or ice cream. The key to finding delicious food is to experiment with different flavors and cuisines and find what suits your taste buds best.",
       "order": 1000,
       "address": "Values School, Door 1-H, Ruby St, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 224 5552",
+      "phone": "082 224 5552",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/lachisdavao/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/lachisdavao/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
@@ -516,7 +796,17 @@
           "order": 1000
         }
       ],
-      "tags": ["Family restaurant", "Philippines Restaurant"]
+      "comments": [
+        {
+          "message": "Their employees are very nice and really friendly. They make sure that any guest who comes in feels welcomed and cared for.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Family restaurant",
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "Paramount Coffee",
@@ -526,14 +816,24 @@
       "details": "There are many different foods that are considered delicious by different people. Some people may enjoy savory dishes such as pasta or pizza, while others may prefer sweet treats like cake or ice cream. The key to finding delicious food is to experiment with different flavors and cuisines and find what suits your taste buds best.",
       "order": 1000,
       "address": "Paramount Garden Complex, Riverfront Corporate Center, Ma-a, Davao City, Davao City, Philippines",
-      "phone": "(082) 225 1238",
+      "phone": "082 225 1238",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -546,12 +846,21 @@
       ],
       "files": [
         {
-          "url": "/images/paramount coffee.jpg",
+          "url": "/images/paramount-coffee.jpg",
           "parent": "paramount-coffee",
           "order": 1000
         }
       ],
-      "tags": ["outdoor restaurant"]
+      "comments": [
+        {
+          "message": "I was at Paramount Coffee last night with a friend. We were enjoying some of their delicious food, and talking about how much we love their place. The employees are always so friendly and helpful, the food is amazing, and it's always clean and cozy. I would definitely recommend this place to anyone looking for a fun night out!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "outdoor restaurant"
+      ]
     },
     {
       "name": "yellow fin seafood restaurant",
@@ -561,16 +870,21 @@
       "details": "Yellow Fin Seafood is a restaurant that serves up some of the best seafood in Davao City. The menu has all sorts of amazing options, so you can find something new and exciting every time you go!",
       "order": 1000,
       "address": "Sandawa Plaza, Quimpo Blvd, Davao City, 8000",
-      "phone": "(082) 297 8777",
+      "phone": "082 297 8777",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Sinigang na Salmon Head",
           "images": [
             {
-              "url": "/images/yellow fin sinigang na salmon head.webp",
+              "url": "/images/yellow-fin-sinigang-na-salmon-head.webp",
               "order": 1000
             }
           ],
@@ -580,7 +894,10 @@
         {
           "name": "Tortang Talong",
           "images": [
-            { "url": "/images/yellow fin tortang talong.webp", "order": 1000 }
+            {
+              "url": "/images/yellow-fin-tortang-talong.webp",
+              "order": 1000
+            }
           ],
           "price": "85.00",
           "description": "Vegetables"
@@ -588,7 +905,10 @@
         {
           "name": "Tuna Laing",
           "images": [
-            { "url": "/images/yellow fin tuna laing.jpg", "order": 1000 }
+            {
+              "url": "/images/yellow-fin-tuna-laing.jpg",
+              "order": 1000
+            }
           ],
           "price": "65.00",
           "description": "Fish"
@@ -596,7 +916,10 @@
         {
           "name": "Chicken Inasal",
           "images": [
-            { "url": "/images/yellow fin chicken inasal.jpg", "order": 1000 }
+            {
+              "url": "/images/yellow-fin-chicken-inasal.jpg",
+              "order": 1000
+            }
           ],
           "price": "135.00",
           "description": "Chicken"
@@ -610,12 +933,21 @@
       ],
       "files": [
         {
-          "url": "/images/yellow fin seafood restaurant.jpg",
+          "url": "/images/yellow-fin-seafood-restaurant.jpg",
           "parent": "yellow-fin-seafood-restaurant",
           "order": 1000
         }
       ],
-      "tags": ["seafood"]
+      "comments": [
+        {
+          "message": "I was so excited to try this new place. My friends and I went there last Friday, and it was delicious. The food was cooked well and tasted great, and the employees were all very friendly. I recommend this place to everyone!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "seafood"
+      ]
     },
     {
       "name": "RD Crab Shack",
@@ -625,51 +957,85 @@
       "details": "If you're looking for a seafood restaurant in Davao, look no further than RD Crab Shacks. We serve up crab and shrimp that are sure to please even the pickiest of eaters.",
       "order": 1000,
       "address": "Bellevue Square, Davao City Diversion Rd, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 286 0226",
+      "phone": "082 286 0226",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "Crab and Shrimps Bilao",
           "images": [
-            { "url": "/images/rd crab and shrimp.png", "order": 1000 }
+            {
+              "url": "/images/rd-crab-and-shrimp.png",
+              "order": 1000
+            }
           ],
           "price": "1499.00",
           "description": "Seafood"
         },
         {
           "name": "Crispy Pata",
-          "images": [{ "url": "/images/rd crispy pata.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/rd-crispy-pata.jpg",
+              "order": 1000
+            }
+          ],
           "price": "599.00",
           "description": "Pork"
         },
         {
           "name": "Buttered Chicken",
           "images": [
-            { "url": "/images/rd buttered chicken.jpg", "order": 1000 }
+            {
+              "url": "/images/rd-buttered-chicken.jpg",
+              "order": 1000
+            }
           ],
           "price": "450.00",
           "description": "Chicken"
         },
         {
           "name": "Chopsuey",
-          "images": [{ "url": "/images/rd chopsuey.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/rd-chopsuey.jpg",
+              "order": 1000
+            }
+          ],
           "price": "350.00",
           "description": "Vegetables"
         }
       ],
       "links": [
-        { "url": "https://www.facebook.com/RDCRABSHACKDC/", "type": "facebook" }
+        {
+          "url": "https://www.facebook.com/RDCRABSHACKDC/",
+          "type": "facebook"
+        }
       ],
       "files": [
         {
-          "url": "/images/rd crabshack.jpg",
+          "url": "/images/rd-crabshack.jpg",
           "parent": "rd-crab-shack",
           "order": 1000
         }
       ],
-      "tags": ["seafood", "Philippines Restaurant"]
+      "comments": [
+        {
+          "message": "I came here with my girlfriend to try out their new lunch special. We both ordered the same thing, and I have to say we were pleasantly surprised. The food was delicious, and it was very reasonably priced.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "seafood",
+        "Philippines Restaurant"
+      ]
     },
     {
       "name": "Shrabs boiling shrimps and crabs",
@@ -683,15 +1049,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/shrabs gallery.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery1.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery3.jpg", "order": 1000 },
-        { "url": "/images/shrabs gallery2.jpg", "order": 1000 }
+        {
+          "url": "/images/shrabs-gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs-gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs-gallery3.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/shrabs-gallery2.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -704,12 +1087,21 @@
       ],
       "files": [
         {
-          "url": "/images/shrabs boiling shrimps and crabs.jpg",
+          "url": "/images/shrabs-boiling-shrimps-and-crabs.jpg",
           "parent": "shrabs-boiling-shrimps-and-crabs",
           "order": 1000
         }
       ],
-      "tags": ["seafood"]
+      "comments": [
+        {
+          "message": "I definitely recommend this place for anyone looking for a good meal at a great price!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "seafood"
+      ]
     },
     {
       "name": "Dimsum Diner",
@@ -727,26 +1119,44 @@
         {
           "name": "Rice Toppings",
           "images": [
-            { "url": "/images/dimsum rice toppings.jpg", "order": 1000 }
+            {
+              "url": "/images/dimsum-rice-toppings.jpg",
+              "order": 1000
+            }
           ],
           "price": "",
           "description": ""
         },
         {
           "name": "Noodles",
-          "images": [{ "url": "/images/dimsum noodles.png", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum-noodles.png",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         },
         {
           "name": "Congee",
-          "images": [{ "url": "/images/dimsum congee.png", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum-congee.png",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         },
         {
           "name": "Dimsum",
-          "images": [{ "url": "/images/dimsum dimsum.jpg", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/dimsum-dimsum.jpg",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -759,12 +1169,21 @@
       ],
       "files": [
         {
-          "url": "/images/dimsum dinner.jpg",
+          "url": "/images/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "comments": [
+        {
+          "message": "There are a lot of good restaurants in this area, but I think Dimsum Diner is one of the best. They cook delicious food and their employees are super nice. I'd recommend it to anyone!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "Mixed temptation lanang",
@@ -778,15 +1197,32 @@
       "email": "",
       "business_hours": "",
       "gallery": [
-        { "url": "/images/mixed temptation gallery.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation gallery1.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation gallery2.jpg", "order": 1000 },
-        { "url": "/images/mixed temptation lanang.jpg", "order": 1000 }
+        {
+          "url": "/images/mixed-temptation-gallery.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed-temptation-gallery1.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed-temptation-gallery2.jpg",
+          "order": 1000
+        },
+        {
+          "url": "/images/mixed-temptation-lanang.jpg",
+          "order": 1000
+        }
       ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
@@ -799,12 +1235,21 @@
       ],
       "files": [
         {
-          "url": "/images/mixed temptation lanang.jpg",
+          "url": "/images/mixed-temptation-lanang.jpg",
           "parent": "mixed-temptation-lanang",
           "order": 1000
         }
       ],
-      "tags": ["Chinese Restaurant"]
+      "comments": [
+        {
+          "message": "I've been here a lot and I love the food. It's always so delicious, and I'm always able to find something new to try. The employees are always nice, too.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "Chinese Restaurant"
+      ]
     },
     {
       "name": "Marina Tuna",
@@ -817,24 +1262,49 @@
       "phone": "0925 714 1434",
       "email": "",
       "business_hours": "",
-      "gallery": [{ "url": "/images/", "order": 1000 }],
+      "gallery": [
+        {
+          "url": "/images/",
+          "order": 1000
+        }
+      ],
       "products": [
         {
           "name": "",
-          "images": [{ "url": "/images/", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/",
+              "order": 1000
+            }
+          ],
           "price": "",
           "description": ""
         }
       ],
-      "links": [{ "url": "", "type": "" }],
+      "links": [
+        {
+          "url": "",
+          "type": ""
+        }
+      ],
       "files": [
         {
-          "url": "/images/dimsum dinner.jpg",
+          "url": "/images/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
       ],
-      "tags": ["tuna", "japanese restaurant"]
+      "comments": [
+        {
+          "message": "",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "tags": [
+        "tuna",
+        "japanese restaurant"
+      ]
     }
   ]
 }

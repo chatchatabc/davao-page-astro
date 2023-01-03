@@ -5,10 +5,10 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "abreeza-mall",
-      "details": "Details Details Details Details Details Details",
+      "details": "The mall is located in the city center, which means you'll be able to shop for your favorite products without having to travel far. It's also close to a lot of restaurants and other stores, so you can get everything you need all in one place!",
       "order": 1000,
       "address": "Abreeza Mall, J.P. Laurel Ave, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 295 3301",
+      "phone": "082 295 3301",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
@@ -19,46 +19,75 @@
       ],
       "files": [
         {
-          "url": "/images/abreeza mall.jpg",
+          "url": "/images/abreeza-mall.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/abreeza mall1.jpg",
+          "url": "/images/abreeza-mall1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/abreeza mall2.jpg",
+          "url": "/images/abreeza-mall2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/abreeza mall3.jpg",
+          "url": "/images/abreeza-mall3.jpg",
           "order": 1000
         },
         {
-          "url": "/images/abreeza mall gallery.jpg",
+          "url": "/images/abreeza-mall-gallery.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "The mall is so big and there are so many stores. You can find anything you want to buy. There are also restaurants that you can eat. The place is very beautiful and new.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -66,10 +95,10 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "sm-lanang-premier",
-      "details": "Details Details Details Details Details Details",
+      "details": "If you're looking for the best shopping experience in Davao City, look no further. SM Lanang Premier is your go-to destination for shopping.",
       "order": 1000,
       "address": "J.P. Laurel Ave, Agdao, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 285 0943",
+      "phone": "082 285 0943",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
@@ -80,46 +109,75 @@
       ],
       "files": [
         {
-          "url": "/images/sm lanang premier.jpg",
+          "url": "/images/sm-lanang-premier.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/sm lanang premier gallery.jpg",
+          "url": "/images/sm-lanang-premier-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/sm lanang premier gallery1.jpg",
+          "url": "/images/sm-lanang-premier-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/sm lanang premier gallery2.jpg",
+          "url": "/images/sm-lanang-premier-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/sm lanang premier gallery3.jpg",
+          "url": "/images/sm-lanang-premier-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "The shopping mall is a great place to visit. When you go there, you can find anything you want to buy. There are also restaurants that you can eat at. The mall is located in Davao City, so if you're ever in the area, it's worth checking out!",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -127,10 +185,10 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "gaisano-grand-citimall-illustre",
-      "details": "Details Details Details Details Details Details",
+      "details": "Gaisano Grand Citimall Illustre is a mall located in Davao City. It has various stores and restaurants, including those that cater to different cultures. The mall also has a food court, which has a variety of foods that you can try.",
       "order": 1000,
       "address": " Ilustre St, Poblacion District, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 224 0811",
+      "phone": "082 224 0811",
       "email": "",
       "business_hours": "10:00am-7:00pm",
       "links": [
@@ -141,46 +199,75 @@
       ],
       "files": [
         {
-          "url": "/images/gaisano grand citimall.jpg",
+          "url": "/images/gaisano-grand-citimall.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/gaisano grand citimall gallery.jpg",
+          "url": "/images/gaisano-grand-citimall-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citimall gallery1.jpg",
+          "url": "/images/gaisano-grand-citimall-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citimall gallery2.jpg",
+          "url": "/images/gaisano-grand-citimall-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citimall gallery3.jpg",
+          "url": "/images/gaisano-grand-citimall-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "The shopping mall is a place that everyone should enjoy. You can find everything you want to buy, and even more! There are also restaurants that you can eat at.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -188,7 +275,7 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "nccc-mall-vp",
-      "details": "Details Details Details Details Details Details",
+      "details": "It has a lot of stores that you can shop from, such as a grocery and other places to shop. The parking space are near at the groceries and it is also near from other restaurants, so you can go to other restaurants if you feel like doing so.",
       "order": 1000,
       "address": "J.P. Laurel Avenue Bajada, J.P. Laurel Ave, Poblacion District, Davao City, Davao del Sur",
       "phone": "0915 182 2889",
@@ -202,46 +289,75 @@
       ],
       "files": [
         {
-          "url": "/images/nccc mall vp.jpg",
+          "url": "/images/nccc-mall-vp.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/nccc mall vp gallery.jpg",
+          "url": "/images/nccc-mall-vp-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/nccc mall vp gallery1.jpg",
+          "url": "/images/nccc-mall-vp-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/nccc mall vp gallery2.jpg",
+          "url": "/images/nccc-mall-vp-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/nccc mall vp gallery3.jpg",
+          "url": "/images/nccc-mall-vp-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "This mall has been around for many years, so it's safe to say that it's a popular place for people to visit. It's also important to note that the mall is well-maintained, which means there won't be any problems with your shopping experience at this location.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -249,7 +365,7 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "felcris-centrale-mall",
-      "details": "Details Details Details Details Details Details",
+      "details": "We all know what it's like to be in a mall, but not everyone loves their malls. The Felcris Centrale Mall is a new mall in Davao City, and it's still getting its footing. But don't let that fool you: there are already enough shops to keep you busy for hours on end.",
       "order": 1000,
       "address": "Quimpo Boulevard, Davao City, Philippines",
       "phone": "0922 825 2893",
@@ -263,46 +379,75 @@
       ],
       "files": [
         {
-          "url": "/images/felcris centrale mall.jpg",
+          "url": "/images/felcris-centrale-mall.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/felcris centrale mall gallery.jpg",
+          "url": "/images/felcris-centrale-mall-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/felcris centrale mall gallery1.jpg",
+          "url": "/images/felcris-centrale-mall-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/felcris centrale mall gallery2.jpg",
+          "url": "/images/felcris-centrale-mall-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/felcris centrale mall gallery3.jpg",
+          "url": "/images/felcris-centrale-mall-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "The atmosphere at this mall is great because it gives off a feeling of being relaxed while still being busy; this makes it easy for anyone who visits this place to feel comfortable no matter what they're doing there.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -310,10 +455,10 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "gaisano-grand-citygate-mall-davao",
-      "details": "Details Details Details Details Details Details",
+      "details": "Gaisano Grand Citygate Mall is one of the best places to shop! In this mall you'll find an abundance of shops and stores, so if you're looking for something specific, you're sure to find it here. And don't forget about their grocery store\u2014they have everything from fresh produce to snacks and drinks!",
       "order": 1000,
       "address": "Buhangin, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 221 6222",
+      "phone": "082 221 6222",
       "email": "",
       "business_hours": "10:00am-8:00pm",
       "links": [
@@ -324,46 +469,75 @@
       ],
       "files": [
         {
-          "url": "/images/gaisano grand citygate.jpg",
+          "url": "/images/gaisano-grand-citygate.jpg",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/gaisano grand citygate gallery.jpg",
+          "url": "/images/gaisano-grand-citygate-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citygate gallery1.jpeg",
+          "url": "/images/gaisano-grand-citygate-gallery1.jpeg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citygate gallery2.jpg",
+          "url": "/images/gaisano-grand-citygate-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/gaisano grand citygate gallery3.jpg",
+          "url": "/images/gaisano-grand-citygate-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "I went to the mall and I saw a lot of people. The place is very big and there are many stores. You can buy anything you want to buy. There are also restaurants that you can eat.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     },
     {
@@ -371,10 +545,10 @@
       "catalog": "shopping",
       "sub_catalog": null,
       "slug": "robinsons-cybergate-davao",
-      "details": "Details Details Details Details Details Details",
+      "details": "One of the greatest locations to shop in Davao city. If you're looking for a certain item, you're likely to find it at this mall, which has a ton of shops and businesses. They also feature a grocery shop with everything you might want, including fresh fruit, snacks, and drinks.",
       "order": 1000,
       "address": "Robinsons Cybergate, J.P. Laurel Ave, Buhangin, Davao City, 8000 Davao del Sur",
-      "phone": "(082) 282 1088",
+      "phone": "082 282 1088",
       "email": "",
       "business_hours": "10:00am-9:00pm",
       "links": [
@@ -385,46 +559,75 @@
       ],
       "files": [
         {
-          "url": "/images/robinsons cybergate davao.webp",
+          "url": "/images/robinsons-cybergate-davao.webp",
           "order": 1000
         }
       ],
       "gallery": [
         {
-          "url": "/images/robinsons cybergate davao gallery.jpg",
+          "url": "/images/robinsons-cybergate-davao-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/robinsons cybergate davao gallery1.jpg",
+          "url": "/images/robinsons-cybergate-davao-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/robinsons cybergate davao gallery2.jpg",
+          "url": "/images/robinsons-cybergate-davao-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/robinsons cybergate davao gallery3.jpg",
+          "url": "/images/robinsons-cybergate-davao-gallery3.jpg",
           "order": 1000
         }
       ],
       "stores": [
         {
           "name": "Nike",
-          "images": [{ "url": "/images/nike.webp", "order": 1000 }],
+          "images": [
+            {
+              "url": "/images/nike.webp",
+              "order": 1000
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Addidas",
-          "images": [{ "url": "/images/addidas.webp" }],
+          "images": [
+            {
+              "url": "/images/addidas.webp"
+            }
+          ],
           "type": "Clothing Store"
         },
         {
           "name": "Bench",
-          "images": [{ "url": "/images/bench.jpg" }],
+          "images": [
+            {
+              "url": "/images/bench.jpg"
+            }
+          ],
           "type": "Clothing Store"
         },
-        { "name": "McDonalds", "images": [{ "url": "/images/mcdonalds.jpg" }], "type": "Food" }
+        {
+          "name": "McDonalds",
+          "images": [
+            {
+              "url": "/images/mcdonalds.jpg"
+            }
+          ],
+          "type": "Food"
+        }
       ],
+      "comments": [
+        {
+          "message": "This place has everything you need. There are stores that sell everything from clothes to electronics to food\u2014it's a great place to shop. And if you're hungry after shopping, there are restaurants that serve up delicious meals.",
+          "author": "",
+          "image": ""
+        }
+      ],
+      "price": "$$",
       "tags": []
     }
   ]

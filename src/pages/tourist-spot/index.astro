@@ -1,0 +1,140 @@
+---
+import Layout from "../../layouts/Layout.astro";
+import dataTouristSpots from "../../../data/tourist_spots.json";
+import PoiListCard from "../../components/PoiListCard.astro";
+import { Img } from "astro-imagetools/components";
+
+const touristSpots = [...dataTouristSpots.data];
+const { pathname } = Astro.url;
+---
+
+<Layout title="Tourist Spot">
+  <!-- Hero section -->
+  <section class="relative">
+    <!-- Background image and overlap -->
+    <div
+      aria-hidden="true"
+      class="absolute h-full w-full top-0 left-0 hidden sm:flex sm:flex-col"
+    >
+      <div class="relative w-full flex-1 bg-gray-800">
+        <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+          <Img
+            format="webp"
+            src="/images/tourist-spot.jpg"
+            alt="background"
+            layout="fill"
+            sizes="(min-width: 768px) 768px, 100vw"
+          />
+        </div>
+        <div class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50">
+        </div>
+      </div>
+      <div class="h-32 w-full bg-white md:h-40 lg:h-48"></div>
+    </div>
+
+    <!-- Mobile View -->
+    <div
+      class="relative mx-auto max-w-3xl px-4 pb-80 text-center sm:px-6 sm:pb-0 lg:px-8"
+    >
+      <!-- Background image and overlap -->
+      <div
+        aria-hidden="true"
+        class="absolute h-full w-full top-0 left-0 flex flex-col sm:hidden"
+      >
+        <div class="relative w-full flex-1 bg-gray-800">
+          <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+            <Img
+              format="webp"
+              src="/images/tourist-spot.jpg"
+              alt="background"
+              layout="fill"
+            />
+          </div>
+          <div
+            class="absolute h-full w-full top-0 left-0 bg-gray-900 opacity-50"
+          >
+          </div>
+        </div>
+        <div class="h-48 w-full bg-white"></div>
+      </div>
+      <div class="relative py-14 md:py-32">
+        <h1
+          class="text-4xl font-bold tracking-tight text-white sm:text-5xl md:text-6xl"
+        >
+          Davao Tourist Spots
+        </h1>
+        <p class="hidden mt-4 text-xl text-gray-200 md:block">
+          Whether you're looking for a place to relax and enjoy the beauty of
+          Davao, or if you want an adventure that will take your breath away,
+          we've got you covered.
+        </p>
+      </div>
+    </div>
+
+    <!-- Overlapped Cards -->
+    <section
+      aria-labelledby="collection-heading"
+      class="relative -mt-80 md:-mt-16"
+    >
+      <h2 id="collection-heading" class="sr-only">Collections</h2>
+      <div class="overflow-x-auto">
+        <div
+          class="flex container mx-auto gap-2 px-5 justify-center min-w-min lg:gap-8 lg:min-w-0"
+        >
+          {
+            touristSpots.splice(0, 3).map((touristSpot) => {
+              return (
+                <div class="group relative h-48 w-[80vw] overflow-hidden md:h-96">
+                  <div>
+                    <div
+                      aria-hidden="true"
+                      class="absolute h-full w-full top-0 left-0 overflow-hidden rounded-lg"
+                    >
+                      <div class="absolute h-full w-full top-0 left-0 overflow-hidden">
+                        <div class="h-full w-full object-cover duration-500 group-hover:scale-105">
+                          <Img
+                            format="webp"
+                            src={touristSpot.files[0]?.url ?? "/"}
+                            alt={touristSpot.name}
+                            layout="fill"
+                            sizes="(min-width: 768px) 480px, 100vw"
+                          />
+                        </div>
+                      </div>
+                      <div class="absolute h-full w-full top-0 left-0 bg-gradient-to-b from-transparent to-black opacity-50" />
+                    </div>
+                    <div class="absolute h-full w-full top-0 left-0 flex items-end rounded-lg p-6">
+                      <div>
+                        <h3 class="mt-1 font-semibold text-white">
+                          <a
+                            href={`${pathname}/${touristSpot.slug}`}
+                            class="uppercase"
+                          >
+                            <span class="absolute h-full w-full top-0 left-0" />
+                            {touristSpot.name}
+                          </a>
+                        </h3>
+                        <p class="hidden text-sm text-white max-h-10 overflow-hidden md:block">
+                          {touristSpot.details}
+                        </p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              );
+            })
+          }
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <!-- Tourist Spot List -->
+  <div class="relative mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
+    {
+      touristSpots.map((touristSpot) => {
+        return <PoiListCard place={touristSpot} pathname={pathname} />;
+      })
+    }
+  </div>
+</Layout>
