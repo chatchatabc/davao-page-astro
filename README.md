@@ -46,6 +46,7 @@ Here lies the structure of the project in which shall also be explained alongsid
     - **`shopping:`** Contains all pages for shopping, such as POI page and POI list.
     - **`tourist-spot:`** Contains all pages for tourist-spot, such as POI page and POI list.
     - **`index.astro:`** Homepage of Davao Page
+  - **`styles:`** Utilize to store independent css styles for a specific use case or component.
 
 - **data**
   - **`boats.json:`** Used to store data of boats for Davao Page.
