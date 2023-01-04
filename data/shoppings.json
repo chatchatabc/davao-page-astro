@@ -53,31 +53,31 @@
           "type": "Clothing Store"
         },
         {
-          "name": "Addidas",
+          "name": "World Balance",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/world-balance.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Shoes"
         },
         {
-          "name": "Bench",
+          "name": "KFC",
           "images": [
             {
-              "url": "/images/bench.jpg"
-            }
-          ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "McDonalds",
-          "images": [
-            {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/kfc.jpg"
             }
           ],
           "type": "Food"
+        },
+        {
+          "name": "JB Sports",
+          "images": [
+            {
+              "url": "/images/jb-sports.jpg"
+            }
+          ],
+          "type": "Sports Equipment"
         }
       ],
       "comments": [
@@ -133,41 +133,41 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "Smart",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/smart.jpg",
               "order": 1000
             }
           ],
-          "type": "Clothing Store"
+          "type": "Telecom"
         },
         {
-          "name": "Addidas",
+          "name": "Jollibee",
           "images": [
             {
-              "url": "/images/addidas.webp"
-            }
-          ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "Bench",
-          "images": [
-            {
-              "url": "/images/bench.jpg"
-            }
-          ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "McDonalds",
-          "images": [
-            {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/jollibee.jpg"
             }
           ],
           "type": "Food"
+        },
+        {
+          "name": "SM Supermarket",
+          "images": [
+            {
+              "url": "/images/sm-supermarket.jpg"
+            }
+          ],
+          "type": "Grocery"
+        },
+        {
+          "name": "Uniqlo",
+          "images": [
+            {
+              "url": "/images/uniqlo.webp"
+            }
+          ],
+          "type": "Clothing Store"
         }
       ],
       "comments": [
@@ -223,23 +223,23 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "Food Court",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/gaisano-grand-citimall-food-court.jpg",
               "order": 1000
             }
           ],
-          "type": "Clothing Store"
+          "type": "Food"
         },
         {
-          "name": "Addidas",
+          "name": "Department Store",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/gaisano-grand-citimall-department-store.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "General Lifestyle"
         },
         {
           "name": "Bench",
@@ -251,10 +251,10 @@
           "type": "Clothing Store"
         },
         {
-          "name": "McDonalds",
+          "name": "Greenwich",
           "images": [
             {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/greenwich.jpg"
             }
           ],
           "type": "Food"
@@ -313,41 +313,41 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "NCCC Supermarket",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/nccc-supermarket.jpg",
               "order": 1000
             }
           ],
-          "type": "Clothing Store"
+          "type": "Groceries"
         },
         {
-          "name": "Addidas",
+          "name": "Philippine Airlines",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/philippine-airlines.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Traveling"
         },
         {
-          "name": "Bench",
+          "name": "Victoria Food Plaza",
           "images": [
             {
-              "url": "/images/bench.jpg"
-            }
-          ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "McDonalds",
-          "images": [
-            {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/victoria-food-plaza.jpg"
             }
           ],
           "type": "Food"
+        },
+        {
+          "name": "Hardware Max",
+          "images": [
+            {
+              "url": "/images/hardware-max.jpg"
+            }
+          ],
+          "type": "Hardwares"
         }
       ],
       "comments": [
@@ -403,29 +403,29 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "Felcris Superstore",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/felcris-superstore.jpg",
               "order": 1000
             }
           ],
-          "type": "Clothing Store"
+          "type": "Groceries"
         },
         {
-          "name": "Addidas",
+          "name": "Ace Hardware",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/ace-hardware.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Hardwares"
         },
         {
-          "name": "Bench",
+          "name": "Oxygen",
           "images": [
             {
-              "url": "/images/bench.jpg"
+              "url": "/images/oxygen.jpg"
             }
           ],
           "type": "Clothing Store"
@@ -493,11 +493,29 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "Globe",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/globe.jpg",
               "order": 1000
+            }
+          ],
+          "type": "Telecom"
+        },
+        {
+          "name": "Forever 21",
+          "images": [
+            {
+              "url": "/images/forever-21.webp"
+            }
+          ],
+          "type": "Clothing Store"
+        },
+        {
+          "name": "Dencios",
+          "images": [
+            {
+              "url": "/images/dencios.jpg"
             }
           ],
           "type": "Clothing Store"
@@ -509,25 +527,7 @@
               "url": "/images/addidas.webp"
             }
           ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "Bench",
-          "images": [
-            {
-              "url": "/images/bench.jpg"
-            }
-          ],
-          "type": "Clothing Store"
-        },
-        {
-          "name": "McDonalds",
-          "images": [
-            {
-              "url": "/images/mcdonalds.jpg"
-            }
-          ],
-          "type": "Food"
+          "type": "Shoes"
         }
       ],
       "comments": [
@@ -583,38 +583,38 @@
       ],
       "stores": [
         {
-          "name": "Nike",
+          "name": "Handyman",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/handyman.jpg",
               "order": 1000
             }
           ],
-          "type": "Clothing Store"
+          "type": "Hardwares"
         },
         {
-          "name": "Addidas",
+          "name": "Robinsons Department Store",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/robinsons-cybergate-davao-department-store.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Department Store"
         },
         {
-          "name": "Bench",
+          "name": "Octagon",
           "images": [
             {
-              "url": "/images/bench.jpg"
+              "url": "/images/octagon.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Technology"
         },
         {
-          "name": "McDonalds",
+          "name": "Chowking",
           "images": [
             {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/chowking.jpg"
             }
           ],
           "type": "Food"
