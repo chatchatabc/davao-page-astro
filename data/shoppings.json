@@ -239,7 +239,7 @@
               "url": "/images/gaisano-grand-citimall-department-store.jpg"
             }
           ],
-          "type": "General Lifestyle"
+          "type": "Department Store"
         },
         {
           "name": "Bench",
@@ -518,7 +518,7 @@
               "url": "/images/dencios.jpg"
             }
           ],
-          "type": "Clothing Store"
+          "type": "Food"
         },
         {
           "name": "Addidas",
@@ -527,7 +527,7 @@
               "url": "/images/addidas.webp"
             }
           ],
-          "type": "Shoes"
+          "type": "Clothing Store"
         }
       ],
       "comments": [
