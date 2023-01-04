@@ -27,6 +27,8 @@ const capitalizeTitle = title
     <meta name="generator" content={Astro.generator} />
     <meta name="description" content={description} />
     <meta name="robots" content="index" />
+
+    <!-- Logo icon -->
     <link
       rel="apple-touch-icon"
       sizes="180x180"
@@ -44,7 +46,8 @@ const capitalizeTitle = title
       sizes="16x16"
       href="/logo/favicon-16x16.png"
     />
-    <link rel="manifest" href="/site.webmanifest" />
+    <link rel="manifest" href="/logo/site.webmanifest" />
+
     <title>{capitalizeTitle}</title>
   </head>
   <body class="relative flex flex-col min-h-[100vh] bg-white text-black">
