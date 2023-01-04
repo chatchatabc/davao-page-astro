@@ -4,23 +4,23 @@
       "name": "Sedan",
       "details": "Our sedan is affordable because of its four doors and 5 seats. It's affordable because it comes with an automatic transmission, so you won't have to spend hours learning how to drive. And it's affordable because it has a lot of room in the backseat\u2014so if you do have to haul anything, this car will be able to accommodate it!",
       "price": {
-        "price": "2500",
+        "price": "1800",
         "time": "day"
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "1700",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "1500",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "1300",
           "time": "days"
         }
       ],
@@ -46,23 +46,23 @@
       "name": "Truck",
       "details": "We have a lot of vehicles in our fleet, but I wanted to introduce you to one that's especially unique: the pickup truck. We all know that cars are important, but this one is just different. The pickup truck has four doors and five seats. It has an automatic transmission and can go up to 60 miles per hour. And if all that weren't enough, we also offer a driver for you\u2014we're not just about the vehicles here; we do everything for you so you can focus on getting where you need to go.",
       "price": {
-        "price": "2500",
+        "price": "3100",
         "time": "day"
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "3000",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "2800",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "2600",
           "time": "days"
         }
       ],
@@ -92,23 +92,23 @@
       "name": "SUV",
       "details": "The SUV is perfect for the family because it can carry up to seven people and still have room for gear in the back. The SUV is also great for those who like to go on long trips or like to travel in style without breaking the bank! It has five doors. It has seven seats. It has an automatic transmission. We also offer a driver if you need one.",
       "price": {
-        "price": "2500",
+        "price": "3100",
         "time": "day"
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "3000",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "2800",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "2600",
           "time": "days"
         }
       ],
@@ -138,23 +138,23 @@
       "name": "Van",
       "details": "As a new vehicle, the van is very safe and reliable. It has four doors, fifteen seats, an automatic transmission, and we also offer a driver if you need one. In addition to being safe, the car comes with an advanced system that helps prevent accidents on the road. The car is also equipped with an airbag system that protects the driver during an accident.",
       "price": {
-        "price": "2500",
+        "price": "4000",
         "time": "day"
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "3900",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "3700",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "3500",
           "time": "days"
         }
       ],
@@ -176,23 +176,23 @@
       "name": "Motorcycle",
       "details": "The Venom x18r is the best thing to have when you're in Davao City. It's a 200cc motorcycle, so it'll get you there fast, and it's efficient with its gas consumption. It also comes at an affordable price!",
       "price": {
-        "price": "2500",
+        "price": "1300",
         "time": "day"
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "1200",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "1000",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "800",
           "time": "days"
         }
       ],
@@ -223,18 +223,18 @@
       },
       "pricePackages": [
         {
-          "totalTime": "1",
-          "price": "2500",
+          "totalTime": "1 to 6",
+          "price": "2400",
           "time": "days"
         },
         {
-          "totalTime": "2",
-          "price": "4500",
+          "totalTime": "7 to 21",
+          "price": "2200",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "22 and above",
+          "price": "2000",
           "time": "days"
         }
       ],
