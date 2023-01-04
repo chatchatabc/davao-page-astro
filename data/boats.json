@@ -4,23 +4,23 @@
       "name": "Pontoon Boat",
       "details": "A pontoon boat is a flattish boat that relies on floats to remain buoyant. These pontoons contain much reserve buoyancy and allow designers to create large deck plans fitted with a variety of accommodations including expansive lounge areas, stand-up bars, and sun pads.",
       "price": {
-        "price": "2500",
+        "price": "3000",
         "time": "day"
       },
       "pricePackages": [
         {
           "totalTime": "1",
-          "price": "2500",
+          "price": "3000",
           "time": "days"
         },
         {
           "totalTime": "2",
-          "price": "4500",
+          "price": "2800",
           "time": "days"
         },
         {
-          "totalTime": "3",
-          "price": "6000",
+          "totalTime": "3 and above",
+          "price": "2600",
           "time": "days"
         }
       ],
@@ -65,12 +65,12 @@
         },
         {
           "totalTime": "2",
-          "price": "11000",
+          "price": "5200",
           "time": "hours"
         },
         {
-          "totalTime": "3",
-          "price": "16000",
+          "totalTime": "3 and above",
+          "price": "5000",
           "time": "hours"
         }
       ],
@@ -115,12 +115,12 @@
         },
         {
           "totalTime": "2",
-          "price": "11500",
+          "price": "5600",
           "time": "hours"
         },
         {
-          "totalTime": "3",
-          "price": "16500",
+          "totalTime": "3 and above",
+          "price": "5400",
           "time": "hours"
         }
       ],
@@ -165,19 +165,19 @@
         },
         {
           "totalTime": "2",
-          "price": "15000",
+          "price": "7800",
           "time": "hours"
         },
         {
-          "totalTime": "3",
-          "price": "22000",
+          "totalTime": "3 and above",
+          "price": "7600",
           "time": "hours"
         }
       ],
       "capacity": "10",
       "captain_price": "1000",
-      "type": "bowrider",
-      "slug": "bowrider",
+      "type": "speedboat",
+      "slug": "speedboat",
       "files": [
         {
           "url": "/images/speed-boat.jpg",
