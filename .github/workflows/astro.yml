@@ -39,9 +39,10 @@ jobs:
     runs-on: ubuntu-latest
     name: Deploy to Cloudflare Pages
     steps:
-      - name: Deploy to Cloudflare Pages with Wrangler
-        uses: cloudflare/wrangler-action@2.0.0
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1.3.0
         with:
-          accountId: "{{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
           apiToken: "{{ secrets.CLOUDFLARE_API_TOKEN }}"
-          command: "pages publish dist"
+          accountId: "{{ secrets.CLOUDFLARE_ACCOUNT_ID }}"
+          projectName: "davao-page"
+          directory: "dist"
