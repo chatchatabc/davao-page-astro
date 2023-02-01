@@ -1,0 +1,48 @@
+# Workflow for building and deploying an Astro site to Cloudflare Pages
+# To get started with Astro see: https://docs.astro.build/en/getting-started/
+name: Deploy Astro site to Pages
+
+on:
+  push:
+    branches: ["main"]
+    
+  workflow_dispatch:
+
+# Allow one concurrent deployment
+concurrency:
+  group: "astro-deployment"
+  cancel-in-progress: true
+
+env:
+  BUILD_PATH: "."
+
+jobs:
+  build:
+    name: Build Astro static pages
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          node-version: "18"
+      - name: Install npm dependencies
+        run: "npm install"
+        working-directory: ${{ env.BUILD_PATH }}
+      - name: Build Astro project
+        run: "npm run build"
+        working-directory: ${{ env.BUILD_PATH }}
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    name: Deploy to Cloudflare Pages
+    steps:
+      - name: Deploy to Cloudflare Pages
+        uses: cloudflare/pages-action@v1.3.0
+        with:
+          apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          accountId: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          projectName: davao-page
+          directory: dist
