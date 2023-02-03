@@ -27,7 +27,9 @@ const currentCatalog = pathname.split("/")[1];
                   currentCatalog === object.slug && "font-bold text-black"
                 } md:text-center md:flex-1 lg:flex-[unset] hover:text-gray-900`}
               >
-                {object.icon && <Icon name={object.icon} />}
+                {object.icon && (
+                  <Icon class="h-4 w-4 inline-block" name={object.icon} />
+                )}
                 <span
                   class={` md:block md:text-xs lg:mt-0 lg:text-base lg:inline`}
                 >
@@ -43,7 +45,10 @@ const currentCatalog = pathname.split("/")[1];
             currentCatalog === "news" && "font-bold text-black"
           } inline-block md:text-center md:flex-1 lg:flex-[unset] lg:hidden`}
         >
-          <Icon name="mdi:newspaper-variant-outline" />
+          <Icon
+            class="h-4 w-4 inline-block"
+            name="mdi:newspaper-variant-outline"
+          />
           <span
             class={`
             md:block md:text-xs lg:mt-0 lg:text-base lg:inline`}
@@ -52,13 +57,18 @@ const currentCatalog = pathname.split("/")[1];
           </span>
         </a>
       </div>
+
+      <!-- Desktop Additional Icon -->
       <a
         href="/news"
         class={`text-base font-medium text-gray-500 hover:text-gray-900 capitalize ${
           currentCatalog === "news" && "font-bold text-black"
         } hidden lg:inline-block`}
       >
-        <Icon name="mdi:newspaper-variant-outline" />
+        <Icon
+          class="h-4 w-4 inline-block"
+          name="mdi:newspaper-variant-outline"
+        />
         News
       </a>
     </nav>
@@ -67,11 +77,6 @@ const currentCatalog = pathname.split("/")[1];
 </header>
 
 <style is:global>
-  [astro-icon] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
   .show-links {
     max-height: 1000px;
     padding: 1rem;
@@ -84,18 +89,6 @@ const currentCatalog = pathname.split("/")[1];
       max-height: 1000px;
       pointer-events: all;
       padding: 0;
-    }
-    [astro-icon] {
-      height: 1.5em;
-      width: 1.5em;
-      display: inline-block;
-    }
-  }
-  @media (min-width: 1024px) {
-    [astro-icon] {
-      height: 1em;
-      width: 1em;
-      display: inline-block;
     }
   }
 </style>

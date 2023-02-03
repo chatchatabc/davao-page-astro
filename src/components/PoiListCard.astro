@@ -39,7 +39,7 @@ const { place, pathname } = Astro.props as Props;
         <li class="flex items-start lg:col-span-1">
           <div class="flex-shrink-0">
             <!-- Heroicon name: mini/check-circle -->
-            <Icon name="mdi:map-marker-radius" />
+            <Icon class="h-6 w-6" name="mdi:map-marker-radius" />
           </div>
           <p class="z-10 ml-3 text-sm">
             <b>Location:</b>
@@ -58,7 +58,7 @@ const { place, pathname } = Astro.props as Props;
         <li class="flex items-start lg:col-span-1">
           <div class="flex-shrink-0">
             <!-- Heroicon name: mini/check-circle -->
-            <Icon name="mdi:store-clock-outline" />
+            <Icon class="h-6 w-6" name="mdi:store-clock-outline" />
           </div>
           <p class="ml-3 text-sm text-gray-700">
             <b>Business Hours:</b>
@@ -69,7 +69,7 @@ const { place, pathname } = Astro.props as Props;
         <li class="flex items-start lg:col-span-1">
           <div class="flex-shrink-0">
             <!-- Heroicon name: mini/check-circle -->
-            <Icon name="mdi:phone" />
+            <Icon class="h-6 w-6" name="mdi:phone" />
           </div>
           <p class="ml-3 text-sm text-gray-700">
             <b>Telephone:</b>
@@ -79,7 +79,7 @@ const { place, pathname } = Astro.props as Props;
         <li class="flex items-start lg:col-span-1">
           <div class="flex-shrink-0">
             <!-- Heroicon name: mini/check-circle -->
-            <Icon name="icomoon-free:price-tags" />
+            <Icon class="h-6 w-6" name="icomoon-free:price-tags" />
           </div>
           <p class="ml-3 text-sm text-gray-700">
             <b>Price Range:</b>
@@ -115,26 +115,3 @@ const { place, pathname } = Astro.props as Props;
     href={`${pathname ?? ""}/${place.slug}`.replace(/([^:]\/)\/+/g, "$1")}
     class="absolute h-full w-full top-0 left-0"></a>
 </div>
-
-<style is:global>
-  [astro-icon="mdi:map-marker-radius"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:store-clock-outline"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:phone"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="icomoon-free:price-tags"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-</style>

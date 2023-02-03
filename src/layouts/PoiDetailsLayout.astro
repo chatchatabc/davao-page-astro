@@ -46,7 +46,7 @@ const featuredFile = files.length ? files : [];
       </p>
       <div class="pt-2">
         <h4 class="inline">Tags</h4>
-        <Icon name="ic:round-tag" />
+        <Icon class="h-4 w-4 inline-block" name="ic:round-tag" />
         <p
           class="ml-3 leading-tight tracking-tight text-sm text-neutral-600 capitalize"
         >
@@ -55,14 +55,14 @@ const featuredFile = files.length ? files : [];
       </div>
       <div class="pt-2">
         <h4 class="inline">Contacts</h4>
-        <Icon name="mdi:telephone" />
+        <Icon class="h-4 w-4 inline-block" name="mdi:telephone" />
         <p class="ml-3 leading-tight tracking-tight text-sm text-neutral-600">
           {place.phone.length ? place.phone : "Not Available"}
         </p>
       </div>
       <div class="pt-2">
         <h4 class="inline">Location</h4>
-        <Icon name="ic:baseline-mode-of-travel" />
+        <Icon class="h-4 w-4 inline-block" name="ic:baseline-mode-of-travel" />
         {
           place.address.length ? (
             <a
@@ -83,7 +83,7 @@ const featuredFile = files.length ? files : [];
       </div>
       <div class="pt-2">
         <h4 class="inline">Comments</h4>
-        <Icon name="ic:baseline-comment" />
+        <Icon class="h-4 w-4 inline-block" name="ic:baseline-comment" />
         {
           place.comments?.length ? (
             place.comments.map((comment: ObjectInterface) => {
@@ -103,7 +103,7 @@ const featuredFile = files.length ? files : [];
       </div>
       <div class="pt-2">
         <h4 class="inline">External Links</h4>
-        <Icon name="ic:outline-link" />
+        <Icon class="h-4 w-4 inline-block" name="ic:outline-link" />
         {
           links.length ? (
             links.map((link: ObjectInterface) => {
@@ -115,10 +115,20 @@ const featuredFile = files.length ? files : [];
                     href={link.url}
                   >
                     {link.type === "facebook" && (
-                      <Icon name="ic:baseline-facebook" />
+                      <Icon
+                        class="h-10 w-10 inline-block"
+                        name="ic:baseline-facebook"
+                      />
                     )}
-                    {link.type === "website" && <Icon name="mdi:web" />}
-                    {link.type === "instagram" && <Icon name="mdi:instagram" />}
+                    {link.type === "website" && (
+                      <Icon class="h-10 w-10 inline-block" name="mdi:web" />
+                    )}
+                    {link.type === "instagram" && (
+                      <Icon
+                        class="h-10 w-10 inline-block"
+                        name="mdi:instagram"
+                      />
+                    )}
                   </a>
                 </p>
               );
@@ -135,43 +145,6 @@ const featuredFile = files.length ? files : [];
 </Layout>
 
 <style is:global>
-  [astro-icon="ic:outline-link"] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
-  [astro-icon="ic:baseline-comment"] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
-  [astro-icon="ic:baseline-mode-of-travel"] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:telephone"] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
-  [astro-icon="ic:round-tag"] {
-    height: 1em;
-    width: 1em;
-    display: inline-block;
-  }
-  [astro-icon="ic:baseline-facebook"] {
-    height: 2em;
-    width: 2em;
-  }
-  [astro-icon="mdi:web"] {
-    height: 2em;
-    width: 2em;
-  }
-  [astro-icon="mdi:instagram"] {
-    height: 2em;
-    width: 2em;
-  }
   #title {
     text-shadow: 2px 2px aqua;
   }

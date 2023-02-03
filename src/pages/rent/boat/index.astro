@@ -40,21 +40,21 @@ const { pathname } = Astro.url;
               <div class="relative flex flex-col">
                 <h3 class="text-3xl font-bold">{boat.name}</h3>
                 <p>
-                  <Icon name="mdi:people-group" />
+                  <Icon class="h-6 w-6 inline-block" name="mdi:people-group" />
                   <span class="font-bold">Capacity:</span> {boat.capacity}{" "}
                   passengers
                 </p>
                 <p>
-                  <Icon name="ph:ruler" />
+                  <Icon class="h-6 w-6 inline-block" name="ph:ruler" />
                   <span class="font-bold">Length:</span> {boat.length}
                 </p>
                 <p>
-                  <Icon name="ph:toilet" />
+                  <Icon class="h-6 w-6 inline-block" name="ph:toilet" />
                   <span class="font-bold">Toilet:</span>{" "}
                   {boat.toilet ? "Available" : "N/A"}
                 </p>
                 <p class="pb-2">
-                  <Icon name="ic:sharp-speed" />
+                  <Icon class="h-6 w-6 inline-block" name="ic:sharp-speed" />
                   <span class="font-bold">Top Speed:</span>{" "}
                   {boat.top_speed ? boat.top_speed : "N/A"}
                 </p>
@@ -77,26 +77,3 @@ const { pathname } = Astro.url;
     </div>
   </section>
 </Layout>
-
-<style is:global>
-  [astro-icon="mdi:people-group"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="ph:ruler"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="ph:toilet"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="ic:sharp-speed"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-</style>

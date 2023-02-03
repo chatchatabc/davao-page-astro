@@ -43,15 +43,18 @@ const { pathname } = Astro.url;
                 <h3 class="text-3xl font-bold py-2">{car.name}</h3>
                 <div>
                   <p class="capitalize">
-                    <Icon name="mdi:car-seat" />
+                    <Icon class="h-6 w-6 inline-block" name="mdi:car-seat" />
                     {car.seats} seats
                   </p>
                   <p class="capitalize">
-                    <Icon name="mdi:car-door" />
+                    <Icon class="h-6 w-6 inline-block" name="mdi:car-door" />
                     {car.doors} doors
                   </p>
                   <p class="capitalize">
-                    <Icon name="mdi:car-shift-pattern" />
+                    <Icon
+                      class="h-6 w-6 inline-block"
+                      name="mdi:car-shift-pattern"
+                    />
                     <b>{car.transmission}</b> transmission
                   </p>
                 </div>
@@ -76,21 +79,6 @@ const { pathname } = Astro.url;
 </Layout>
 
 <style is:global>
-  [astro-icon="mdi:car-seat"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:car-door"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:car-shift-pattern"] {
-    height: 1.5em;
-    width: 1.5em;
-    display: inline-block;
-  }
   #title {
     text-shadow: 2px 2px aqua;
   }

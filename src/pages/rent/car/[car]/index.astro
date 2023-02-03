@@ -131,7 +131,10 @@ const { files } = car;
           <p class="text-xs text-gray-600 leading-4">*Optional*</p>
         </div>
         <div class="self-center">
-          <Icon name="mdi:card-account-details-outline" />
+          <Icon
+            class="h-8 w-8 inline-block"
+            name="mdi:card-account-details-outline"
+          />
         </div>
       </div>
       <div class="flex w-full justify-center gap-10">
@@ -142,7 +145,7 @@ const { files } = car;
           </h4>
         </div>
         <div class="self-center">
-          <Icon name="mdi:car-info" />
+          <Icon class="h-8 w-8 inline-block" name="mdi:car-info" />
         </div>
       </div>
       <div class="flex w-full justify-center gap-10 capitalize">
@@ -151,28 +154,14 @@ const { files } = car;
           <h4><b>{car.transmission}</b> transmission</h4>
         </div>
         <div class="self-center">
-          <Icon name="mdi:car-cog" />
+          <Icon class="h-8 w-8 inline-block" name="mdi:car-cog" />
         </div>
       </div>
     </div>
   </section>
 </Layout>
+
 <style is:global>
-  [astro-icon="mdi:car-cog"] {
-    height: 3em;
-    width: 3em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:car-info"] {
-    height: 3em;
-    width: 3em;
-    display: inline-block;
-  }
-  [astro-icon="mdi:card-account-details-outline"] {
-    height: 3em;
-    width: 3em;
-    display: inline-block;
-  }
   #title {
     text-shadow: 2px 2px aqua;
   }
