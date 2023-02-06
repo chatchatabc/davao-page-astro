@@ -1,13 +1,17 @@
 ---
-import Layout from "../layouts/Layout.astro";
+import Markdown from "@components/widgets/Markdown.astro";
+import Section from "@components/sections/Section.astro";
+import { getEntryBySlug } from "astro:content";
+import Layout from "@layouts/Layout.astro";
+
+const mdFile = await getEntryBySlug("misc", "terms-and-conditions");
+const { Content } = await mdFile.render();
 ---
 
 <Layout>
-  <section class="py-10">
-    <div class="container mx-auto px-2">
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut libero, quos
-      assumenda, cum animi laborum est tempore, ipsum commodi atque error
-      cupiditate alias illum aliquid quas ipsa nam iure. Consequatur!
-    </div>
-  </section>
+  <Section>
+    <Markdown>
+      <Content />
+    </Markdown>
+  </Section>
 </Layout>
