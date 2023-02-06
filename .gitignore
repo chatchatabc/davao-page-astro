@@ -251,3 +251,5 @@ dist
 
 # End of https://www.toptal.com/developers/gitignore/api/node,visualstudiocode,jetbrains+all
 
+# Astro V2.0
+.astro
