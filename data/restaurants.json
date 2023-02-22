@@ -22,7 +22,7 @@
           "name": "Pork Sisig",
           "images": [
             {
-              "url": "/images/jacks-ridge-pork-sisig.webp",
+              "url": "/images/restaurants/jacks-ridge-pork-sisig.webp",
               "order": 1000
             }
           ],
@@ -33,7 +33,7 @@
           "name": "Adobong Pusit",
           "images": [
             {
-              "url": "/images/jacks-ridge-adobong-pusit.jpg",
+              "url": "/images/restaurants/jacks-ridge-adobong-pusit.jpg",
               "order": 1000
             }
           ],
@@ -44,7 +44,7 @@
           "name": "Tinolang Imbao",
           "images": [
             {
-              "url": "/images/jacks-ridge-tinolang-imbao.webp",
+              "url": "/images/restaurants/jacks-ridge-tinolang-imbao.webp",
               "order": 1000
             }
           ],
@@ -55,7 +55,7 @@
           "name": "Leche Flan",
           "images": [
             {
-              "url": "/images/jacks-ridge-leche-flan.jpg",
+              "url": "/images/restaurants/jacks-ridge-leche-flan.jpg",
               "order": 1000
             }
           ],
@@ -71,7 +71,7 @@
       ],
       "files": [
         {
-          "url": "/images/jacks-ridge.jpg",
+          "url": "/images/restaurants/jacks-ridge.jpg",
           "parent": "jacks-ridge",
           "order": 1000
         }
@@ -83,11 +83,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "quiet",
-        "rural area",
-        "night view"
-      ]
+      "tags": ["quiet", "rural area", "night view"]
     },
     {
       "name": "Vistaview",
@@ -102,19 +98,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/vistaview-gallery.jpg",
+          "url": "/images/restaurants/vistaview-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview-gallery1.jpg",
+          "url": "/images/restaurants/vistaview-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview-gallery2.jpg",
+          "url": "/images/restaurants/vistaview-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/vistaview-gallery3.jpg",
+          "url": "/images/restaurants/vistaview-gallery3.jpg",
           "order": 1000
         }
       ],
@@ -139,7 +135,7 @@
       ],
       "files": [
         {
-          "url": "/images/vistaview.jpg",
+          "url": "/images/restaurants/vistaview.jpg",
           "parent": "vistaview",
           "order": 1000
         }
@@ -151,10 +147,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "night view",
-        "filipino restaurant"
-      ]
+      "tags": ["night view", "filipino restaurant"]
     },
     {
       "name": "Bondi & Bourke Davao",
@@ -178,7 +171,7 @@
           "name": "Apple and Blueberry Pie 4inch",
           "images": [
             {
-              "url": "/images/bondi-apple-and-blueberry-pie.jpg",
+              "url": "/images/restaurants/bondi-apple-and-blueberry-pie.jpg",
               "order": 1000
             }
           ],
@@ -189,7 +182,7 @@
           "name": "Cheese Ensaymada",
           "images": [
             {
-              "url": "/images/bondi-cheese-ensaymada.jpg",
+              "url": "/images/restaurants/bondi-cheese-ensaymada.jpg",
               "order": 1000
             }
           ],
@@ -200,7 +193,7 @@
           "name": "Chicken Parm",
           "images": [
             {
-              "url": "/images/bondi-chicken-parm.webp",
+              "url": "/images/restaurants/bondi-chicken-parm.webp",
               "order": 1000
             }
           ],
@@ -211,7 +204,7 @@
           "name": "Lapu-Lapu Fillet",
           "images": [
             {
-              "url": "/images/bondi-lapu-lapu-fillet.jpg",
+              "url": "/images/restaurants/bondi-lapu-lapu-fillet.jpg",
               "order": 1000
             }
           ],
@@ -227,7 +220,7 @@
       ],
       "files": [
         {
-          "url": "/images/bondi-bourke-davao.png",
+          "url": "/images/restaurants/bondi-bourke-davao.png",
           "parent": "bondi-bourke-davao",
           "order": 1000
         }
@@ -239,9 +232,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Aussie"
-      ]
+      "tags": ["Aussie"]
     },
     {
       "name": "Red Tomato Restaurant",
@@ -265,7 +256,7 @@
           "name": "Banana Berry",
           "images": [
             {
-              "url": "/images/red-tomato-banana-berry.jpg",
+              "url": "/images/restaurants/red-tomato-banana-berry.jpg",
               "order": 1000
             }
           ],
@@ -276,7 +267,7 @@
           "name": "Seafood Calamari",
           "images": [
             {
-              "url": "/images/red-tomato-seafood-calamari.jpg",
+              "url": "/images/restaurants/red-tomato-seafood-calamari.jpg",
               "order": 1000
             }
           ],
@@ -287,7 +278,7 @@
           "name": "Italian Pepperoni",
           "images": [
             {
-              "url": "/images/red-tomato-italian-pepperoni.jpg",
+              "url": "/images/restaurants/red-tomato-italian-pepperoni.jpg",
               "order": 1000
             }
           ],
@@ -298,7 +289,7 @@
           "name": "Wagyu Burger",
           "images": [
             {
-              "url": "/images/red-tomato-wagyu-burger.jpg",
+              "url": "/images/restaurants/red-tomato-wagyu-burger.jpg",
               "order": 1000
             }
           ],
@@ -314,7 +305,7 @@
       ],
       "files": [
         {
-          "url": "/images/red-tomato.jpg",
+          "url": "/images/restaurants/red-tomato.jpg",
           "parent": "red-tomato-restaurant",
           "order": 1000
         }
@@ -326,9 +317,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Italian"
-      ]
+      "tags": ["Italian"]
     },
     {
       "name": "eskina",
@@ -352,7 +341,7 @@
           "name": "Bulalo",
           "images": [
             {
-              "url": "/images/eskina-bulalo.webp",
+              "url": "/images/restaurants/eskina-bulalo.webp",
               "order": 1000
             }
           ],
@@ -363,7 +352,7 @@
           "name": "Fried Ice Cream",
           "images": [
             {
-              "url": "/images/eskina-fried-ice-cream.jpg",
+              "url": "/images/restaurants/eskina-fried-ice-cream.jpg",
               "order": 1000
             }
           ],
@@ -374,7 +363,7 @@
           "name": "Spaghetti Bolognese",
           "images": [
             {
-              "url": "/images/eskina-spaghetti-bolognese.jpg",
+              "url": "/images/restaurants/eskina-spaghetti-bolognese.jpg",
               "order": 1000
             }
           ],
@@ -385,7 +374,7 @@
           "name": "Beef Skank Kare Kare",
           "images": [
             {
-              "url": "/images/eskina-beef-skank.jpg",
+              "url": "/images/restaurants/eskina-beef-skank.jpg",
               "order": 1000
             }
           ],
@@ -401,7 +390,7 @@
       ],
       "files": [
         {
-          "url": "/images/eskina.jpg",
+          "url": "/images/restaurants/eskina.jpg",
           "parent": "eskina",
           "order": 1000
         }
@@ -413,9 +402,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Music Restaurant"
-      ]
+      "tags": ["Music Restaurant"]
     },
     {
       "name": "ahfat seafoods plaza",
@@ -439,7 +426,7 @@
           "name": "Ahfat Seafoods Cream Soup",
           "images": [
             {
-              "url": "/images/ahfat-cream-soup.webp",
+              "url": "/images/restaurants/ahfat-cream-soup.webp",
               "order": 1000
             }
           ],
@@ -450,7 +437,7 @@
           "name": "Sauteed Beef with Broccoli Flower",
           "images": [
             {
-              "url": "/images/ahfat-sauteed-beef.jpg",
+              "url": "/images/restaurants/ahfat-sauteed-beef.jpg",
               "order": 1000
             }
           ],
@@ -461,7 +448,7 @@
           "name": "Sate Beef Sotanghon",
           "images": [
             {
-              "url": "/images/ahfat-sate-beef-sotanghon.jpg",
+              "url": "/images/restaurants/ahfat-sate-beef-sotanghon.jpg",
               "order": 1000
             }
           ],
@@ -472,7 +459,7 @@
           "name": "Broccoli Flower with Oyster Sauce",
           "images": [
             {
-              "url": "/images/ahfat-broccoli-flower.jpg",
+              "url": "/images/restaurants/ahfat-broccoli-flower.jpg",
               "order": 1000
             }
           ],
@@ -488,7 +475,7 @@
       ],
       "files": [
         {
-          "url": "/images/ahfat-seafoods-plaza.jpg",
+          "url": "/images/restaurants/ahfat-seafoods-plaza.jpg",
           "parent": "ahfat-seafoods-plaza",
           "order": 1000
         }
@@ -500,9 +487,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Chinese Restaurant"
-      ]
+      "tags": ["Chinese Restaurant"]
     },
     {
       "name": "de bonte koe",
@@ -526,7 +511,7 @@
           "name": "Greek Salad",
           "images": [
             {
-              "url": "/images/de-bonte-greek-salad.jpeg",
+              "url": "/images/restaurants/de-bonte-greek-salad.jpeg",
               "order": 1000
             }
           ],
@@ -537,7 +522,7 @@
           "name": "Dutch Stew",
           "images": [
             {
-              "url": "/images/de-bonte-dutch-stew.jpg",
+              "url": "/images/restaurants/de-bonte-dutch-stew.jpg",
               "order": 1000
             }
           ],
@@ -548,7 +533,7 @@
           "name": "Mussels (Mosselen)",
           "images": [
             {
-              "url": "/images/de-bonte-mussels.jpg",
+              "url": "/images/restaurants/de-bonte-mussels.jpg",
               "order": 1000
             }
           ],
@@ -559,7 +544,7 @@
           "name": "Pasta Pangritata",
           "images": [
             {
-              "url": "/images/de-bonte-pasta-pangritata.jpeg",
+              "url": "/images/restaurants/de-bonte-pasta-pangritata.jpeg",
               "order": 1000
             }
           ],
@@ -575,7 +560,7 @@
       ],
       "files": [
         {
-          "url": "/images/de-bonte-koe.png",
+          "url": "/images/restaurants/de-bonte-koe.png",
           "parent": "de-bonte-koe",
           "order": 1000
         }
@@ -587,9 +572,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "European Restaurant"
-      ]
+      "tags": ["European Restaurant"]
     },
     {
       "name": "belitos vineyard",
@@ -641,9 +624,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "outdoor restaurant"
-      ]
+      "tags": ["outdoor restaurant"]
     },
     {
       "name": "the fat cow",
@@ -695,9 +676,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Beef"
-      ]
+      "tags": ["Beef"]
     },
     {
       "name": "garden bay resort and restaurant",
@@ -749,9 +728,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Philippines Restaurant"
-      ]
+      "tags": ["Philippines Restaurant"]
     },
     {
       "name": "lachis",
@@ -803,10 +780,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Family restaurant",
-        "Philippines Restaurant"
-      ]
+      "tags": ["Family restaurant", "Philippines Restaurant"]
     },
     {
       "name": "Paramount Coffee",
@@ -858,9 +832,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "outdoor restaurant"
-      ]
+      "tags": ["outdoor restaurant"]
     },
     {
       "name": "yellow fin seafood restaurant",
@@ -884,7 +856,7 @@
           "name": "Sinigang na Salmon Head",
           "images": [
             {
-              "url": "/images/yellow-fin-sinigang-na-salmon-head.webp",
+              "url": "/images/restaurants/yellow-fin-sinigang-na-salmon-head.webp",
               "order": 1000
             }
           ],
@@ -895,7 +867,7 @@
           "name": "Tortang Talong",
           "images": [
             {
-              "url": "/images/yellow-fin-tortang-talong.webp",
+              "url": "/images/restaurants/yellow-fin-tortang-talong.webp",
               "order": 1000
             }
           ],
@@ -906,7 +878,7 @@
           "name": "Tuna Laing",
           "images": [
             {
-              "url": "/images/yellow-fin-tuna-laing.jpg",
+              "url": "/images/restaurants/yellow-fin-tuna-laing.jpg",
               "order": 1000
             }
           ],
@@ -917,7 +889,7 @@
           "name": "Chicken Inasal",
           "images": [
             {
-              "url": "/images/yellow-fin-chicken-inasal.jpg",
+              "url": "/images/restaurants/yellow-fin-chicken-inasal.jpg",
               "order": 1000
             }
           ],
@@ -933,7 +905,7 @@
       ],
       "files": [
         {
-          "url": "/images/yellow-fin-seafood-restaurant.jpg",
+          "url": "/images/restaurants/yellow-fin-seafood-restaurant.jpg",
           "parent": "yellow-fin-seafood-restaurant",
           "order": 1000
         }
@@ -945,9 +917,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "seafood"
-      ]
+      "tags": ["seafood"]
     },
     {
       "name": "RD Crab Shack",
@@ -971,7 +941,7 @@
           "name": "Crab and Shrimps Bilao",
           "images": [
             {
-              "url": "/images/rd-crab-and-shrimp.png",
+              "url": "/images/restaurants/rd-crab-and-shrimp.png",
               "order": 1000
             }
           ],
@@ -982,7 +952,7 @@
           "name": "Crispy Pata",
           "images": [
             {
-              "url": "/images/rd-crispy-pata.jpg",
+              "url": "/images/restaurants/rd-crispy-pata.jpg",
               "order": 1000
             }
           ],
@@ -993,7 +963,7 @@
           "name": "Buttered Chicken",
           "images": [
             {
-              "url": "/images/rd-buttered-chicken.jpg",
+              "url": "/images/restaurants/rd-buttered-chicken.jpg",
               "order": 1000
             }
           ],
@@ -1004,7 +974,7 @@
           "name": "Chopsuey",
           "images": [
             {
-              "url": "/images/rd-chopsuey.jpg",
+              "url": "/images/restaurants/rd-chopsuey.jpg",
               "order": 1000
             }
           ],
@@ -1020,7 +990,7 @@
       ],
       "files": [
         {
-          "url": "/images/rd-crabshack.jpg",
+          "url": "/images/restaurants/rd-crabshack.jpg",
           "parent": "rd-crab-shack",
           "order": 1000
         }
@@ -1032,10 +1002,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "seafood",
-        "Philippines Restaurant"
-      ]
+      "tags": ["seafood", "Philippines Restaurant"]
     },
     {
       "name": "Shrabs boiling shrimps and crabs",
@@ -1050,19 +1017,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/shrabs-gallery.jpg",
+          "url": "/images/restaurants/shrabs-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs-gallery1.jpg",
+          "url": "/images/restaurants/shrabs-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs-gallery3.jpg",
+          "url": "/images/restaurants/shrabs-gallery3.jpg",
           "order": 1000
         },
         {
-          "url": "/images/shrabs-gallery2.jpg",
+          "url": "/images/restaurants/shrabs-gallery2.jpg",
           "order": 1000
         }
       ],
@@ -1087,7 +1054,7 @@
       ],
       "files": [
         {
-          "url": "/images/shrabs-boiling-shrimps-and-crabs.jpg",
+          "url": "/images/restaurants/shrabs-boiling-shrimps-and-crabs.jpg",
           "parent": "shrabs-boiling-shrimps-and-crabs",
           "order": 1000
         }
@@ -1099,9 +1066,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "seafood"
-      ]
+      "tags": ["seafood"]
     },
     {
       "name": "Dimsum Diner",
@@ -1120,7 +1085,7 @@
           "name": "Rice Toppings",
           "images": [
             {
-              "url": "/images/dimsum-rice-toppings.jpg",
+              "url": "/images/restaurants/dimsum-rice-toppings.jpg",
               "order": 1000
             }
           ],
@@ -1131,7 +1096,7 @@
           "name": "Noodles",
           "images": [
             {
-              "url": "/images/dimsum-noodles.png",
+              "url": "/images/restaurants/dimsum-noodles.png",
               "order": 1000
             }
           ],
@@ -1142,7 +1107,7 @@
           "name": "Congee",
           "images": [
             {
-              "url": "/images/dimsum-congee.png",
+              "url": "/images/restaurants/dimsum-congee.png",
               "order": 1000
             }
           ],
@@ -1153,7 +1118,7 @@
           "name": "Dimsum",
           "images": [
             {
-              "url": "/images/dimsum-dimsum.jpg",
+              "url": "/images/restaurants/dimsum-dimsum.jpg",
               "order": 1000
             }
           ],
@@ -1169,7 +1134,7 @@
       ],
       "files": [
         {
-          "url": "/images/dimsum-dinner.jpg",
+          "url": "/images/restaurants/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
@@ -1181,9 +1146,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Chinese Restaurant"
-      ]
+      "tags": ["Chinese Restaurant"]
     },
     {
       "name": "Mixed temptation lanang",
@@ -1198,19 +1161,19 @@
       "business_hours": "",
       "gallery": [
         {
-          "url": "/images/mixed-temptation-gallery.jpg",
+          "url": "/images/restaurants/mixed-temptation-gallery.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed-temptation-gallery1.jpg",
+          "url": "/images/restaurants/mixed-temptation-gallery1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed-temptation-gallery2.jpg",
+          "url": "/images/restaurants/mixed-temptation-gallery2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mixed-temptation-lanang.jpg",
+          "url": "/images/restaurants/mixed-temptation-lanang.jpg",
           "order": 1000
         }
       ],
@@ -1235,7 +1198,7 @@
       ],
       "files": [
         {
-          "url": "/images/mixed-temptation-lanang.jpg",
+          "url": "/images/restaurants/mixed-temptation-lanang.jpg",
           "parent": "mixed-temptation-lanang",
           "order": 1000
         }
@@ -1247,9 +1210,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "Chinese Restaurant"
-      ]
+      "tags": ["Chinese Restaurant"]
     },
     {
       "name": "Marina Tuna",
@@ -1289,7 +1250,7 @@
       ],
       "files": [
         {
-          "url": "/images/dimsum-dinner.jpg",
+          "url": "/images/restaurants/dimsum-dinner.jpg",
           "parent": "dimsum-diner",
           "order": 1000
         }
@@ -1301,10 +1262,7 @@
           "image": ""
         }
       ],
-      "tags": [
-        "tuna",
-        "japanese restaurant"
-      ]
+      "tags": ["tuna", "japanese restaurant"]
     }
   ]
 }
