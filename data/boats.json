@@ -30,17 +30,17 @@
       "slug": "pontoon",
       "files": [
         {
-          "url": "/images/pontoon.jpg",
+          "url": "/images/boats/pontoon.jpg",
           "parent": "pontoon",
           "order": 1000
         },
         {
-          "url": "/images/pontoon1.jpg",
+          "url": "/images/boats/pontoon1.jpg",
           "parent": "pontoon",
           "order": 1000
         },
         {
-          "url": "/images/pontoon2.jpg",
+          "url": "/images/boats/pontoon2.jpg",
           "parent": "pontoon",
           "order": 1000
         }
@@ -80,17 +80,17 @@
       "slug": "jet-ski",
       "files": [
         {
-          "url": "/images/jet-ski.jpg",
+          "url": "/images/boats/jet-ski.jpg",
           "parent": "jet-ski",
           "order": 1000
         },
         {
-          "url": "/images/jet-ski1.jpg",
+          "url": "/images/boats/jet-ski1.jpg",
           "parent": "jet-ski",
           "order": 1000
         },
         {
-          "url": "/images/jet-ski2.jpg",
+          "url": "/images/boats/jet-ski2.jpg",
           "parent": "jet-ski",
           "order": 1000
         }
@@ -130,17 +130,17 @@
       "slug": "bowrider",
       "files": [
         {
-          "url": "/images/bowrider.jpg",
+          "url": "/images/boats/bowrider.jpg",
           "parent": "bowrider",
           "order": 1000
         },
         {
-          "url": "/images/bowrider1.jpg",
+          "url": "/images/boats/bowrider1.jpg",
           "parent": "bowrider",
           "order": 1000
         },
         {
-          "url": "/images/bowrider.png",
+          "url": "/images/boats/bowrider.png",
           "parent": "bowrider",
           "order": 1000
         }
@@ -180,17 +180,17 @@
       "slug": "speedboat",
       "files": [
         {
-          "url": "/images/speed-boat.jpg",
+          "url": "/images/boats/speed-boat.jpg",
           "parent": "bowrider",
           "order": 1000
         },
         {
-          "url": "/images/speed-boat1.jpg",
+          "url": "/images/boats/speed-boat1.jpg",
           "parent": "bowrider",
           "order": 1000
         },
         {
-          "url": "/images/speed-boat2.jpg",
+          "url": "/images/boats/speed-boat2.jpg",
           "parent": "bowrider",
           "order": 1000
         }

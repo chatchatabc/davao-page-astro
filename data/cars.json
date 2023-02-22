@@ -32,11 +32,11 @@
       "slug": "sedan",
       "files": [
         {
-          "url": "/images/sedan.jpg",
+          "url": "/images/cars/sedan.jpg",
           "order": 1000
         },
         {
-          "url": "/images/sedan1.jpg",
+          "url": "/images/cars/sedan1.jpg",
           "order": 1000
         }
       ],
@@ -74,15 +74,15 @@
       "slug": "truck",
       "files": [
         {
-          "url": "/images/truck.webp",
+          "url": "/images/cars/truck.webp",
           "order": 1000
         },
         {
-          "url": "/images/truck1.jpg",
+          "url": "/images/cars/truck1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/truck.jpg",
+          "url": "/images/cars/truck.jpg",
           "order": 1000
         }
       ],
@@ -120,15 +120,15 @@
       "slug": "suv",
       "files": [
         {
-          "url": "/images/suv.jpg",
+          "url": "/images/cars/suv.jpg",
           "order": 1000
         },
         {
-          "url": "/images/suv1.jpg",
+          "url": "/images/cars/suv1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/suv.avif",
+          "url": "/images/cars/suv.avif",
           "order": 1000
         }
       ],
@@ -166,7 +166,7 @@
       "slug": "van",
       "files": [
         {
-          "url": "/images/van.jpg",
+          "url": "/images/cars/van.jpg",
           "order": 1000
         }
       ],
@@ -204,11 +204,11 @@
       "slug": "motorcycle",
       "files": [
         {
-          "url": "/images/motor.jpg",
+          "url": "/images/cars/motor.jpg",
           "order": 1000
         },
         {
-          "url": "/images/motor.webp",
+          "url": "/images/cars/motor.webp",
           "order": 1000
         }
       ],
@@ -246,19 +246,19 @@
       "slug": "mpv",
       "files": [
         {
-          "url": "/images/mpv2.jpg",
+          "url": "/images/cars/mpv2.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mpv.jpg",
+          "url": "/images/cars/mpv.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mpv1.jpg",
+          "url": "/images/cars/mpv1.jpg",
           "order": 1000
         },
         {
-          "url": "/images/mpv.webp",
+          "url": "/images/cars/mpv.webp",
           "order": 1000
         }
       ],
