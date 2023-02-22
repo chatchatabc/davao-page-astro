@@ -6,4 +6,14 @@ export const collections = {
       title: z.string(),
     }),
   }),
+  news: defineCollection({
+    schema: z.object({
+      title: z.string(),
+      excerpt: z.string(),
+      type: z.string(),
+      author: z.string(),
+      date: z.date(),
+      tags: z.string().array(),
+    }),
+  }),
 };

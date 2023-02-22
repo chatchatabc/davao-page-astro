@@ -1,0 +1,54 @@
+---
+import Layout from "@layouts/Layout.astro";
+import "@styles/markdown.css";
+import { getCollection, CollectionEntry } from "astro:content";
+
+export async function getStaticPaths() {
+  const newsCollection = await getCollection("news");
+  return newsCollection.map((news) => {
+    return {
+      params: { content: news.slug },
+      props: { news },
+    };
+  });
+}
+
+interface Props {
+  news: CollectionEntry<"news">;
+}
+
+const { news } = Astro.props as Props;
+const { data, render } = news;
+const { Content } = await render();
+const { title, author, date, tags } = data;
+---
+
+<Layout>
+  <div class="max-w-[768px] mx-auto">
+    <section class="border-b px-2">
+      <h1 class="text-3xl font-bold">{title}</h1>
+      <div class="text-sm flex mb-3 flex-wrap gap-x-4">
+        <h5 class="text-neutral-600 font-medium">
+          Date:
+          <time class="font-normal" datetime={date.toISOString().split("T")[0]}>
+            {
+              new Intl.DateTimeFormat("en", { dateStyle: "medium" }).format(
+                date
+              )
+            }
+          </time>
+        </h5>
+        <h5 class="text-neutral-600 font-medium">
+          Author: <span class="font-normal">{author}</span>
+        </h5>
+        <h5 class="text-neutral-600 font-medium">
+          Tags: <span class="font-normal">{tags.join(", ")}</span>
+        </h5>
+      </div>
+    </section>
+
+    <section class="markdown-body p-2">
+      <Content />
+    </section>
+  </div>
+</Layout>
