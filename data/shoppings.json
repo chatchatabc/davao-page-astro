@@ -46,7 +46,7 @@
           "name": "Nike",
           "images": [
             {
-              "url": "/images/nike.webp",
+              "url": "/images/stores/nike.webp",
               "order": 1000
             }
           ],
@@ -56,7 +56,7 @@
           "name": "World Balance",
           "images": [
             {
-              "url": "/images/world-balance.jpg"
+              "url": "/images/stores/world-balance.jpg"
             }
           ],
           "type": "Shoes"
@@ -65,7 +65,7 @@
           "name": "KFC",
           "images": [
             {
-              "url": "/images/kfc.jpg"
+              "url": "/images/stores/kfc.jpg"
             }
           ],
           "type": "Food"
@@ -74,7 +74,7 @@
           "name": "JB Sports",
           "images": [
             {
-              "url": "/images/jb-sports.jpg"
+              "url": "/images/stores/jb-sports.jpg"
             }
           ],
           "type": "Sports Equipment"
@@ -136,7 +136,7 @@
           "name": "Smart",
           "images": [
             {
-              "url": "/images/smart.jpg",
+              "url": "/images/stores/smart.jpg",
               "order": 1000
             }
           ],
@@ -146,7 +146,7 @@
           "name": "Jollibee",
           "images": [
             {
-              "url": "/images/jollibee.jpg"
+              "url": "/images/stores/jollibee.jpg"
             }
           ],
           "type": "Food"
@@ -155,7 +155,7 @@
           "name": "SM Supermarket",
           "images": [
             {
-              "url": "/images/sm-supermarket.jpg"
+              "url": "/images/stores/sm-supermarket.jpg"
             }
           ],
           "type": "Grocery"
@@ -164,7 +164,7 @@
           "name": "Uniqlo",
           "images": [
             {
-              "url": "/images/uniqlo.webp"
+              "url": "/images/stores/uniqlo.webp"
             }
           ],
           "type": "Clothing Store"
@@ -226,7 +226,7 @@
           "name": "Food Court",
           "images": [
             {
-              "url": "/images/gaisano-grand-citimall-food-court.jpg",
+              "url": "/images/stores/gaisano-grand-citimall-food-court.jpg",
               "order": 1000
             }
           ],
@@ -236,7 +236,7 @@
           "name": "Department Store",
           "images": [
             {
-              "url": "/images/gaisano-grand-citimall-department-store.jpg"
+              "url": "/images/stores/gaisano-grand-citimall-department-store.jpg"
             }
           ],
           "type": "Department Store"
@@ -245,7 +245,7 @@
           "name": "Bench",
           "images": [
             {
-              "url": "/images/bench.jpg"
+              "url": "/images/stores/bench.jpg"
             }
           ],
           "type": "Clothing Store"
@@ -254,7 +254,7 @@
           "name": "Greenwich",
           "images": [
             {
-              "url": "/images/greenwich.jpg"
+              "url": "/images/stores/greenwich.jpg"
             }
           ],
           "type": "Food"
@@ -316,7 +316,7 @@
           "name": "NCCC Supermarket",
           "images": [
             {
-              "url": "/images/nccc-supermarket.jpg",
+              "url": "/images/stores/nccc-supermarket.jpg",
               "order": 1000
             }
           ],
@@ -326,7 +326,7 @@
           "name": "Philippine Airlines",
           "images": [
             {
-              "url": "/images/philippine-airlines.jpg"
+              "url": "/images/stores/philippine-airlines.jpg"
             }
           ],
           "type": "Traveling"
@@ -335,7 +335,7 @@
           "name": "Victoria Food Plaza",
           "images": [
             {
-              "url": "/images/victoria-food-plaza.jpg"
+              "url": "/images/stores/victoria-food-plaza.jpg"
             }
           ],
           "type": "Food"
@@ -344,7 +344,7 @@
           "name": "Hardware Max",
           "images": [
             {
-              "url": "/images/hardware-max.jpg"
+              "url": "/images/stores/hardware-max.jpg"
             }
           ],
           "type": "Hardwares"
@@ -406,7 +406,7 @@
           "name": "Felcris Superstore",
           "images": [
             {
-              "url": "/images/felcris-superstore.jpg",
+              "url": "/images/stores/felcris-superstore.jpg",
               "order": 1000
             }
           ],
@@ -416,7 +416,7 @@
           "name": "Ace Hardware",
           "images": [
             {
-              "url": "/images/ace-hardware.jpg"
+              "url": "/images/stores/ace-hardware.jpg"
             }
           ],
           "type": "Hardwares"
@@ -425,7 +425,7 @@
           "name": "Oxygen",
           "images": [
             {
-              "url": "/images/oxygen.jpg"
+              "url": "/images/stores/oxygen.jpg"
             }
           ],
           "type": "Clothing Store"
@@ -434,7 +434,7 @@
           "name": "McDonalds",
           "images": [
             {
-              "url": "/images/mcdonalds.jpg"
+              "url": "/images/stores/mcdonalds.jpg"
             }
           ],
           "type": "Food"
@@ -496,7 +496,7 @@
           "name": "Globe",
           "images": [
             {
-              "url": "/images/globe.jpg",
+              "url": "/images/stores/globe.jpg",
               "order": 1000
             }
           ],
@@ -506,7 +506,7 @@
           "name": "Forever 21",
           "images": [
             {
-              "url": "/images/forever-21.webp"
+              "url": "/images/stores/forever-21.webp"
             }
           ],
           "type": "Clothing Store"
@@ -515,7 +515,7 @@
           "name": "Dencios",
           "images": [
             {
-              "url": "/images/dencios.jpg"
+              "url": "/images/stores/dencios.jpg"
             }
           ],
           "type": "Food"
@@ -524,7 +524,7 @@
           "name": "Addidas",
           "images": [
             {
-              "url": "/images/addidas.webp"
+              "url": "/images/stores/addidas.webp"
             }
           ],
           "type": "Clothing Store"
@@ -586,7 +586,7 @@
           "name": "Handyman",
           "images": [
             {
-              "url": "/images/handyman.jpg",
+              "url": "/images/stores/handyman.jpg",
               "order": 1000
             }
           ],
@@ -596,7 +596,7 @@
           "name": "Robinsons Department Store",
           "images": [
             {
-              "url": "/images/robinsons-cybergate-davao-department-store.jpg"
+              "url": "/images/stores/robinsons-cybergate-davao-department-store.jpg"
             }
           ],
           "type": "Department Store"
@@ -605,7 +605,7 @@
           "name": "Octagon",
           "images": [
             {
-              "url": "/images/octagon.jpg"
+              "url": "/images/stores/octagon.jpg"
             }
           ],
           "type": "Technology"
@@ -614,7 +614,7 @@
           "name": "Chowking",
           "images": [
             {
-              "url": "/images/chowking.jpg"
+              "url": "/images/stores/chowking.jpg"
             }
           ],
           "type": "Food"
