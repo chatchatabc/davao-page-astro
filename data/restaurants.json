@@ -716,7 +716,7 @@
       ],
       "files": [
         {
-          "url": "/images/garden-bay-resort.jpg",
+          "url": "/images/restaurants/garden-bay-resort.jpg",
           "parent": "garden-bay-resort-and-restaurant",
           "order": 1000
         }
@@ -768,7 +768,7 @@
       ],
       "files": [
         {
-          "url": "/images/lachis.jpg",
+          "url": "/images/restaurants/ahfat-broccoli-flower.jpg",
           "parent": "lachis",
           "order": 1000
         }
