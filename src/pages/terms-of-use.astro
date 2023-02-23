@@ -4,7 +4,7 @@ import Section from "@components/sections/Section.astro";
 import { getEntryBySlug } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 
-const mdFile = await getEntryBySlug("misc", "terms-and-conditions");
+const mdFile = await getEntryBySlug("misc", "terms-of-use");
 const { Content } = await mdFile.render();
 ---
 

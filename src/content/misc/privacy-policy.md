@@ -5,29 +5,35 @@ slug: privacy-policy
 
 ## Privacy Policy for Davao.Page
 
-**Last updated: February 16, 2023**
+**Last updated: February 23, 2023**
 
-Davao.Page is committed to protecting the privacy of our website visitors. This Privacy Policy explains how we collect, use, and protect personal information that you provide to us.
+Davao.Page respects your privacy and does not collect any personal information from users. This Privacy Policy explains how we handle the limited data we collect in connection with Davao.Page (the "Website").
 
-## Information we collect
+## Data Collected
 
-We do not collect any personal information from visitors to our website.
+We may collect non-personal information, such as your IP address, browser type, and device type, when you visit the Website. This data is used to analyze Website traffic and to improve the Website.
 
-## Use of Cookies
+## Use of Data
 
-We do not use cookies on our website.
+We use non-personal data to:
 
-## Links to Third-Party Websites
+- Analyze Website traffic
+- Improve the Website
+- Provide relevant content to visitors
+- Sharing of Data
+- We do not share data with any third parties.
 
-Our website may contain links to third-party websites. We are not responsible for the content or privacy practices of these websites. We encourage you to review the privacy policies of these websites before providing any personal information.
+## Security Measures
 
-## Data Security
+We have implemented measures to protect the security of the limited data we collect, including using encryption and access controls.
 
-We use industry-standard security measures to protect your personal information from unauthorized access, disclosure, alteration, or destruction.
+## User Rights
 
-## Changes to this Privacy Policy
+As we do not collect personal information, there are no rights for users to access, modify, or delete their data.
 
-We reserve the right to update this Privacy Policy at any time. We encourage you to review this page regularly to stay informed about any changes.
+## Changes to the Privacy Policy
+
+We reserve the right to modify this Privacy Policy at any time. We will notify you of any material changes to the Privacy Policy by posting the new Privacy Policy on the Website.
 
 ## Contact Us
 
