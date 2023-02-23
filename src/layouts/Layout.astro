@@ -1,16 +1,20 @@
 ---
-import Footer from "../components/widgets/Footer.astro";
-import Navbar from "../components/widgets/Navbar.astro";
-import siteInfo from "../../data/site_info.json";
+import Footer from "@components/widgets/Footer.astro";
+import Navbar from "@components/widgets/Navbar.astro";
+import siteInfoJson from "@data/site-info.json";
 
 export interface Props {
   title?: string;
   description?: string;
+  author?: string;
+  keywords?: string;
 }
 
 const {
-  title = siteInfo.data.site_info.title ?? "No Title",
-  description = siteInfo.data.site_info.description ?? "No Description",
+  title = siteInfoJson.title,
+  description = siteInfoJson.description,
+  author = siteInfoJson.author,
+  keywords = siteInfoJson.keywords,
 } = Astro.props as Props;
 
 const capitalizeTitle = title
@@ -25,7 +29,6 @@ const capitalizeTitle = title
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width" />
     <meta name="generator" content={Astro.generator} />
-    <meta name="description" content={description} />
     <meta name="robots" content="index" />
 
     <!-- Logo icon -->
@@ -46,8 +49,14 @@ const capitalizeTitle = title
       sizes="16x16"
       href="/logo/favicon-16x16.png"
     />
-    <link rel="manifest" href="/logo/site.webmanifest" />
 
+    <!-- Site Web Manifest -->
+    <link rel="manifest" href="/site.webmanifest" />
+
+    <!-- Site Information -->
+    <meta name="author" content={author} />
+    <meta name="keywords" content={keywords} />
+    <meta name="description" content={description} />
     <title>{capitalizeTitle}</title>
   </head>
   <body class="relative flex flex-col min-h-[100vh] bg-white text-black">
