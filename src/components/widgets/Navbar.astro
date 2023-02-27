@@ -1,5 +1,5 @@
 ---
-import catalogs from "../../../data/catalogs.json";
+import catalogs from "@data/catalogs.json";
 import { Icon } from "astro-icon";
 
 const { pathname } = Astro.url;
@@ -9,7 +9,7 @@ const currentCatalog = pathname.split("/")[1];
 <header>
   <div class="flex p-2">
     <nav
-      class="relative container mx-auto justify-between items-center gap-10 md:static md:flex"
+      class="relative container mx-auto justify-between items-center gap-10 px-4 md:static md:flex"
     >
       <a href="/" class="block w-14 md:w-20">
         <img src="/images/logo.png" class="w-full" alt="logo" />
