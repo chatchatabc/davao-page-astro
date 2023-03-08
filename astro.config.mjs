@@ -9,15 +9,24 @@ import mdx from "@astrojs/mdx";
 // https://astro.build/config
 export default defineConfig({
   site: "https://davao.page",
-  integrations: [tailwind(), robotsTxt({
-    sitemapBaseFileName: "sitemap-0"
-  }), sitemap(), compress({
-    exclude: [file => {
-      if (file.includes("./dist/images/")) return file;
-    }]
-  }), astroImageTools, mdx()],
+  integrations: [
+    tailwind(),
+    robotsTxt({
+      sitemapBaseFileName: "sitemap-0",
+    }),
+    sitemap(),
+    compress({
+      exclude: [
+        (file) => {
+          if (file.includes("./dist/images/")) return file;
+        },
+      ],
+    }),
+    astroImageTools,
+    mdx(),
+  ],
   server: {
     port: 3000,
-    host: false
-  }
+    host: false,
+  },
 });
