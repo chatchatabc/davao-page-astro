@@ -13,21 +13,20 @@
     "deploy": "wrangler pages publish --project-name www-davao-page dist"
   },
   "dependencies": {
-    "@astrojs/mdx": "^0.17.0",
-    "@astrojs/sitemap": "^1.0.0",
-    "@astrojs/tailwind": "^3.0.1",
+    "@astrojs/mdx": "^0.18.0",
+    "@astrojs/sitemap": "^1.2.0",
+    "@astrojs/tailwind": "^3.1.0",
     "@tailwindcss/aspect-ratio": "^0.4.2",
     "@tailwindcss/forms": "^0.5.3",
     "@tailwindcss/line-clamp": "^0.4.2",
-    "@tailwindcss/typography": "^0.5.8",
-    "astro": "^2.0.6",
+    "@tailwindcss/typography": "^0.5.9",
+    "astro": "^2.1.2",
     "astro-icon": "^0.8.0",
-    "astro-imagetools": "^0.6.17",
+    "astro-imagetools": "^0.8.1",
     "sharp": "^0.31.3",
-    "tailwindcss": "^3.2.4"
+    "tailwindcss": "^3.2.7"
   },
   "devDependencies": {
-    "astro-compress": "1.1.23",
-    "astro-robots-txt": "^0.3.10"
+    "astro-robots-txt": "^0.4.0"
   }
 }
