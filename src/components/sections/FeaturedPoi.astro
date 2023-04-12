@@ -8,7 +8,7 @@ interface Props {
   css?: string;
   external_link?: boolean;
 }
-const { sub_catalog, css, external_link } = Astro.props as Props;
+const { sub_catalog } = Astro.props as Props;
 const { name, slug, files, places } = sub_catalog;
 const { pathname } = Astro.url;
 ---
